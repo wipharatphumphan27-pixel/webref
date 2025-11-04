@@ -6016,8 +6016,8 @@
       "links": []
     },
     {
-      "id": "dfn-relevant-name-to-cache-map",
-      "href": "https://w3c.github.io/ServiceWorker/#dfn-relevant-name-to-cache-map",
+      "id": "relevant-name-to-cache-map",
+      "href": "https://w3c.github.io/ServiceWorker/#relevant-name-to-cache-map",
       "linkingText": [
         "relevant name to cache map"
       ],
@@ -6879,28 +6879,6 @@
         "number": "5.5"
       },
       "definedIn": "pre",
-      "links": []
-    },
-    {
-      "id": "cachestorage-global-object",
-      "href": "https://w3c.github.io/ServiceWorker/#cachestorage-global-object",
-      "linkingText": [
-        "global object"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [
-        "CacheStorage"
-      ],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "cachestorage-interface",
-        "href": "https://w3c.github.io/ServiceWorker/#cachestorage-interface",
-        "title": "CacheStorage",
-        "number": "5.5"
-      },
-      "definedIn": "prose",
       "links": []
     },
     {

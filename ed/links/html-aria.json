@@ -32,7 +32,10 @@
       "https://github.com/w3c/html-aria/pull/489": {},
       "https://github.com/w3c/html-aria/pull/507": {},
       "https://github.com/w3c/html-aria/pull/525": {},
+      "https://github.com/w3c/html-aria/pull/528": {},
       "https://github.com/w3c/html-aria/pull/533": {},
+      "https://github.com/w3c/html-aria/pull/550": {},
+      "https://github.com/w3c/html-aria/pull/556": {},
       "https://html.spec.whatwg.org/multipage/": {},
       "https://html.spec.whatwg.org/multipage/dom.html": {
         "anchors": [
@@ -50,6 +53,11 @@
       "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html": {
         "anchors": [
           "concept-fe-checked"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/forms.html": {
+        "anchors": [
+          "category-label"
         ]
       },
       "https://html.spec.whatwg.org/multipage/images.html": {
@@ -278,15 +286,15 @@
         ]
       },
       "https://www.w3.org/TR/wai-aria-practices-1.2/": {},
-      "https://www.w3.org/groups/wg/webapps": {},
-      "https://www.w3.org/groups/wg/webapps/ipr": {},
+      "https://www.w3.org/groups/wg/aria": {},
+      "https://www.w3.org/groups/wg/aria/ipr": {},
       "https://www.w3.org/policies/patent-policy/": {
         "anchors": [
           "def-essential",
           "sec-Disclosure"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {
+      "https://www.w3.org/policies/process/20250818/": {
         "anchors": [
           "allow-new-features"
         ]
@@ -348,6 +356,7 @@
           "the-output-element",
           "the-progress-element",
           "the-select-element",
+          "the-selectedcontent-element",
           "the-textarea-element",
           "attr-option-disabled",
           "attr-optgroup-disabled",

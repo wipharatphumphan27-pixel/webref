@@ -20,6 +20,15 @@
       ]
     },
     {
+      "id": "specifications",
+      "href": "https://w3c.github.io/data-shapes/shacl12-sparql/#specifications",
+      "level": 2,
+      "title": "SHACL Specifications",
+      "alternateIds": [
+        "shacl-specifications"
+      ]
+    },
+    {
       "id": "introduction",
       "href": "https://w3c.github.io/data-shapes/shacl12-sparql/#introduction",
       "level": 2,
@@ -113,9 +122,9 @@
       "id": "sparql-constraints-prebound",
       "href": "https://w3c.github.io/data-shapes/shacl12-sparql/#sparql-constraints-prebound",
       "level": 4,
-      "title": "Pre-bound Variables in SPARQL Constraints ($this, $shapesGraph, $currentShape)",
+      "title": "Pre-bound variable $this in SPARQL Constraints",
       "alternateIds": [
-        "x2-3-1-pre-bound-variables-in-sparql-constraints-this-shapesgraph-currentshape"
+        "x2-3-1-pre-bound-variable-this-in-sparql-constraints"
       ],
       "number": "2.3.1"
     },
@@ -416,16 +425,6 @@
       "number": "C.12"
     },
     {
-      "id": "sparql-definition-in",
-      "href": "https://w3c.github.io/data-shapes/shacl12-sparql/#sparql-definition-in",
-      "level": 3,
-      "title": "sh:in",
-      "alternateIds": [
-        "c-13-sh-in"
-      ],
-      "number": "C.13"
-    },
-    {
       "id": "security",
       "href": "https://w3c.github.io/data-shapes/shacl12-sparql/#security",
       "level": 2,
@@ -459,9 +458,9 @@
       "id": "changes-12",
       "href": "https://w3c.github.io/data-shapes/shacl12-sparql/#changes-12",
       "level": 2,
-      "title": "Changes between SHACL 1.0 SPARQL and SHACL 1.2 SPARQL Extensions",
+      "title": "Changes between the original SHACL specifications and SHACL 1.2 SPARQL",
       "alternateIds": [
-        "g-changes-between-shacl-1-0-sparql-and-shacl-1-2-sparql-extensions"
+        "g-changes-between-the-original-shacl-specifications-and-shacl-1-2-sparql"
       ],
       "number": "G"
     },

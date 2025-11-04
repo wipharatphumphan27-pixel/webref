@@ -13,11 +13,15 @@
       "https://fetch.spec.whatwg.org/": {},
       "https://github.com/privacycg/storage-partitioning": {},
       "https://html.spec.whatwg.org/multipage/": {},
-      "https://httpwg.org/http-extensions/draft-ietf-httpbis-no-vary-search.html": {
+      "https://html.spec.whatwg.org/multipage/document-lifecycle.html": {
         "anchors": [
-          "section-6",
-          "name-security-considerations",
-          "name-privacy-considerations"
+          "note-sl-candidate-redundant-with-nvs-strictness"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/speculative-loading.html": {
+        "anchors": [
+          "speculative-loading-security",
+          "speculative-loading-privacy"
         ]
       },
       "https://httpwg.org/specs/rfc6265.html": {},
@@ -36,9 +40,10 @@
       "https://w3c.github.io/webappsec-csp/": {},
       "https://w3c.github.io/webappsec-referrer-policy/": {},
       "https://w3c.github.io/webappsec-secure-contexts/": {},
+      "https://w3c.github.io/webdriver-bidi/": {},
       "https://wicg.github.io/nav-speculation/prerendering.html": {},
-      "https://wicg.github.io/nav-speculation/speculation-rules.html": {},
       "https://www.ietf.org/archive/id/draft-geohash-hint-00.html": {},
+      "https://www.rfc-editor.org/rfc/rfc8610": {},
       "https://www.rfc-editor.org/rfc/rfc9651": {},
       "https://www.w3.org/TR/navigation-timing/": {},
       "https://www.w3.org/community/about/agreements/cla/": {},
@@ -66,12 +71,14 @@
           "determine-the-network-partition-key",
           "credentials",
           "concept-request",
+          "concept-request-clone",
+          "concept-request-referrer",
+          "concept-request-body",
           "fetch-controller",
           "fetch-controller-abort",
           "concept-network-error",
           "concept-request-url",
           "concept-request-reserved-client",
-          "concept-request-referrer",
           "concept-request-url-list",
           "concept-response-clone",
           "concept-request-policy-container",
@@ -83,7 +90,6 @@
           "concept-request-mode",
           "concept-request-referrer-policy",
           "concept-request-method",
-          "concept-request-body",
           "concept-header-list-set",
           "concept-request-header-list",
           "concept-request-reload-navigation-flag",
@@ -108,6 +114,7 @@
           "http-scheme",
           "non-subresource-request",
           "dom-requestdestination-report",
+          "http-cross-origin-resource-policy",
           "concept-response-status",
           "redirect-status",
           "ok-status"
@@ -124,8 +131,8 @@
           "coop-enforce",
           "coop-struct-value",
           "determining-navigation-params-policy-container",
-          "concept-origin",
           "same-origin",
+          "concept-origin",
           "coop-enforcement-result",
           "coop-enforcement-url",
           "coop-enforcement-origin",
@@ -136,6 +143,7 @@
           "clone-a-policy-container",
           "obtain-browsing-context-navigation",
           "policy-container-referrer-policy",
+          "cross-origin-opener-policy-2",
           "obtain-a-site",
           "concept-origin-tuple"
         ]
@@ -187,7 +195,8 @@
           "document-state-nav-target-name",
           "non-fetch-scheme-navigation-params",
           "non-fetch-scheme-params-initiator-origin",
-          "snapshotting-target-snapshot-params"
+          "snapshotting-target-snapshot-params",
+          "navigate"
         ]
       },
       "https://html.spec.whatwg.org/multipage/document-lifecycle.html": {
@@ -201,6 +210,7 @@
           "valid-navigable-target-name-or-keyword",
           "traversable-navigable",
           "destroy-a-top-level-traversable",
+          "node-navigable",
           "fully-active",
           "top-level-traversable",
           "nav-document",
@@ -215,7 +225,6 @@
           "nav-top",
           "top-level-traversable-set",
           "inclusive-descendant-navigables",
-          "node-navigable",
           "top-level-browsing-context"
         ]
       },
@@ -236,6 +245,20 @@
           "process-early-hint-headers"
         ]
       },
+      "https://html.spec.whatwg.org/multipage/speculative-loading.html": {
+        "anchors": [
+          "speculation-rule-tag",
+          "prefetch-ip-anonymization-policy",
+          "speculation-rule-eagerness",
+          "speculative-load-candidate",
+          "sl-candidate-url",
+          "prefetch-candidate",
+          "sl-candidate-anonymization-policy",
+          "cross-origin-prefetch-ip-anonymization-policy",
+          "copiap-origin",
+          "sec-speculation-tags"
+        ]
+      },
       "https://html.spec.whatwg.org/multipage/structured-data.html": {
         "anchors": [
           "structuredserializeforstorage"
@@ -254,6 +277,7 @@
           "concept-environment-target-browsing-context",
           "concept-environment-creation-url",
           "environment-discarding-steps",
+          "concept-environment-execution-ready-flag",
           "queue-a-global-task",
           "networking-task-source"
         ]
@@ -274,7 +298,6 @@
       },
       "https://infra.spec.whatwg.org/": {
         "anchors": [
-          "list-contain",
           "struct",
           "struct-item",
           "list",
@@ -289,11 +312,13 @@
           "list-iterate",
           "iteration-continue",
           "iteration-break",
+          "abort-when",
           "list-append",
           "set-union",
           "list-item",
           "list-size",
-          "list-clone"
+          "list-clone",
+          "ordered-map"
         ]
       },
       "https://url.spec.whatwg.org/": {
@@ -317,7 +342,8 @@
       "https://w3c.github.io/hr-time/": {
         "anchors": [
           "dom-domhighrestimestamp",
-          "dfn-current-high-resolution-time"
+          "dfn-current-high-resolution-time",
+          "dfn-unsafe-shared-current-time"
         ]
       },
       "https://w3c.github.io/navigation-timing/": {
@@ -354,10 +380,22 @@
           "potentially-trustworthy-url"
         ]
       },
+      "https://w3c.github.io/webdriver-bidi/": {
+        "anchors": [
+          "cddl-module-local-end-definition",
+          "navigable-id",
+          "set-of-sessions-for-which-an-event-is-enabled",
+          "emit-an-event"
+        ]
+      },
       "https://wicg.github.io/nav-speculation/prerendering.html": {
         "anchors": [
-          "http-headerdef-supports-loading-mode",
           "prerendering-traversable-update-the-successor-for-activation"
+        ]
+      },
+      "https://www.rfc-editor.org/rfc/rfc8610": {
+        "anchors": [
+          "appendix-D"
         ]
       },
       "https://www.rfc-editor.org/rfc/rfc9651.html": {

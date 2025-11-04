@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "RDF 1.2 Concepts and Abstract Syntax",
+    "title": "RDF 1.2 Concepts and Abstract Data Model",
     "url": "https://w3c.github.io/rdf-concepts/spec/"
   },
   "links": {
@@ -21,15 +21,14 @@
         ]
       },
       "https://en.wikipedia.org/wiki/Robustness_principle": {},
+      "https://en.wikipedia.org/wiki/Set_(mathematics)": {},
+      "https://en.wikipedia.org/wiki/Tuple": {},
       "https://gdpr.eu/": {},
-      "https://github.com/w3c/rdf-concepts/issues/116": {},
       "https://github.com/w3c/rdf-concepts/issues/118": {},
-      "https://github.com/w3c/rdf-concepts/issues/129": {},
       "https://github.com/w3c/rdf-concepts/issues/92": {},
       "https://github.com/w3c/rdf-concepts/issues/?q=is%3Aissue+is%3Aopen+label%3A%22ms%3ACR%22": {},
-      "https://github.com/w3c/rdf-concepts/issues/?q=is%3Aissue+is%3Aopen+label%3A%22spec%3Abug%22": {},
+      "https://github.com/w3c/rdf-concepts/issues/?q=is%3Aissue+is%3Aopen+label%3A%22needs+discussion%22": {},
       "https://github.com/w3c/rdf-concepts/issues/?q=is%3Aissue+is%3Aopen+label%3A%22spec%3Aeditorial%22": {},
-      "https://github.com/w3c/rdf-concepts/issues/?q=is%3Aissue+is%3Aopen+label%3A%22spec%3Asubstantive%22": {},
       "https://html.spec.whatwg.org/multipage/": {},
       "https://html.spec.whatwg.org/multipage/dom.html": {
         "anchors": [
@@ -38,28 +37,27 @@
       },
       "https://httpwg.org/specs/rfc7230.html": {
         "anchors": [
-          "section-2.7.1"
+          "section-2.7.1",
+          "http-URI",
+          "section-2.7"
         ]
       },
       "https://infra.spec.whatwg.org/": {
         "anchors": [
-          "ordered-map",
-          "map-entry",
           "list",
           "boolean",
           "nulls",
-          "list-item",
-          "list-size",
+          "map-entry",
           "map-key",
           "map-value",
-          "map-size"
+          "ordered-map"
         ]
       },
       "https://oag.ca.gov/privacy/ccpa": {},
       "https://termly.io/resources/infographics/privacy-laws-around-the-world/": {},
       "https://url.spec.whatwg.org/": {},
+      "https://w3c.github.io/rdf-interop/spec/": {},
       "https://w3c.github.io/rdf-new/spec/": {},
-      "https://w3c.github.io/rdf-primer/spec/": {},
       "https://w3c.github.io/sparql-concepts/spec/": {},
       "https://w3c.github.io/sparql-new/spec/": {},
       "https://www.rfc-editor.org/info/bcp14": {},
@@ -72,6 +70,7 @@
           "section-4.2",
           "section-3.5",
           "section-3.1",
+          "section-3.3",
           "section-5.2",
           "section-5.1",
           "appendix-A"
@@ -154,12 +153,15 @@
       "https://www.w3.org/TR/rdf11-testcases/": {},
       "https://www.w3.org/TR/rdf12-n-quads/": {},
       "https://www.w3.org/TR/rdf12-n-triples/": {},
+      "https://www.w3.org/TR/rdf12-primer/": {},
       "https://www.w3.org/TR/rdf12-schema/": {},
       "https://www.w3.org/TR/rdf12-semantics/": {
         "anchors": [
+          "dfn-interpretation",
           "dfn-entailment-regime",
           "dfn-recognize",
-          "dfn-semantic-extension"
+          "dfn-semantic-extension",
+          "skolemization"
         ]
       },
       "https://www.w3.org/TR/rdf12-trig/": {},
@@ -270,7 +272,7 @@
           "sec-Disclosure"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {
+      "https://www.w3.org/policies/process/20250818/": {
         "anchors": [
           "allow-new-features"
         ]

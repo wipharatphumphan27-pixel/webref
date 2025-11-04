@@ -92,14 +92,8 @@
       "https://github.com/whatwg/html/issues/6424": {},
       "https://github.com/whatwg/infra/issues/201": {},
       "https://html.spec.whatwg.org/multipage/": {},
+      "https://httpwg.org/http-extensions/draft-ietf-httpbis-layered-cookies.html": {},
       "https://httpwg.org/specs/rfc5861.html": {},
-      "https://httpwg.org/specs/rfc6265.html": {
-        "anchors": [
-          "privacy-considerations",
-          "cookie",
-          "set-cookie"
-        ]
-      },
       "https://httpwg.org/specs/rfc8470.html": {},
       "https://httpwg.org/specs/rfc9110.html": {},
       "https://httpwg.org/specs/rfc9111.html": {},
@@ -130,9 +124,12 @@
       },
       "https://w3c.github.io/webappsec-fetch-metadata/": {},
       "https://w3c.github.io/webappsec-mixed-content/": {},
+      "https://w3c.github.io/webappsec-permissions-policy/": {},
       "https://w3c.github.io/webappsec-referrer-policy/": {},
+      "https://w3c.github.io/webappsec-secure-contexts/": {},
       "https://w3c.github.io/webappsec-subresource-integrity/": {},
       "https://w3c.github.io/webappsec-upgrade-insecure-requests/": {},
+      "https://w3c.github.io/webdriver-bidi/": {},
       "https://webidl.spec.whatwg.org/": {},
       "https://websockets.spec.whatwg.org/": {},
       "https://www.apple.com/": {},
@@ -169,16 +166,27 @@
       "https://xhr.spec.whatwg.org/": {}
     },
     "autolinks": {
+      "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-layered-cookies": {
+        "anchors": [
+          "name-retrieve-cookies",
+          "name-serialize-cookies",
+          "name-parse-and-store-a-cookie",
+          "name-garbage-collect-cookies",
+          "name-cookie-default-path"
+        ]
+      },
       "https://dom.spec.whatwg.org/": {
         "anchors": [
           "concept-document-origin",
+          "concept-document",
+          "concept-shadow-including-inclusive-descendant",
+          "concept-node-document",
           "abortsignal",
           "create-a-dependent-abort-signal",
           "abortsignal-aborted",
           "abortsignal-abort-reason",
           "abortsignal-add",
           "concept-element",
-          "concept-node-document",
           "document"
         ]
       },
@@ -201,6 +209,7 @@
         "anchors": [
           "concept-origin",
           "policy-container",
+          "same-site",
           "same-origin",
           "ascii-serialisation-of-an-origin",
           "policy-container-embedder-policy",
@@ -234,7 +243,15 @@
           "nav-document",
           "traversable-navigable",
           "ancestor-navigables",
-          "nav-traversable"
+          "fully-active",
+          "nav-traversable",
+          "top-level-traversable",
+          "navigable-container",
+          "node-navigable",
+          "inclusive-descendant-navigables",
+          "navigable",
+          "descendant-navigables",
+          "nav-container-document"
         ]
       },
       "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html": {
@@ -249,12 +266,22 @@
           "the-form-element"
         ]
       },
+      "https://html.spec.whatwg.org/multipage/iframe-embed-object.html": {
+        "anchors": [
+          "allowed-to-use"
+        ]
+      },
       "https://html.spec.whatwg.org/multipage/infrastructure.html": {
         "anchors": [
           "parallel-queue",
           "enqueue-the-following-steps",
           "starting-a-new-parallel-queue",
           "in-parallel"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/interaction.html": {
+        "anchors": [
+          "visibility-state"
         ]
       },
       "https://html.spec.whatwg.org/multipage/links.html": {
@@ -300,12 +327,15 @@
           "concept-settings-object-policy-container",
           "concept-environment-top-level-origin",
           "concept-environment-top-level-creation-url",
+          "concept-settings-object-has-cross-site-ancestor",
           "concept-settings-object-cross-origin-isolated-capability",
           "concept-settings-object-origin",
           "secure-context",
+          "task-source",
+          "dom-manipulation-task-source",
+          "relevant-settings-object",
           "concept-relevant-global",
           "concept-relevant-realm",
-          "relevant-settings-object",
           "api-base-url",
           "current-settings-object",
           "windoworworkerglobalscope",
@@ -398,6 +428,7 @@
           "abort-when",
           "if-aborted",
           "list-size",
+          "string-length",
           "map-iterate",
           "scalar-value-string",
           "parse-json-bytes-to-a-javascript-value",
@@ -480,9 +511,11 @@
           "concept-host",
           "concept-ipv6",
           "concept-url-port",
-          "concept-url-path",
           "concept-url-host",
+          "concept-url-path",
+          "url-path-serializer",
           "concept-domain",
+          "host-registrable-domain",
           "concept-url-blob-entry",
           "include-credentials",
           "urlsearchparams",
@@ -556,12 +589,24 @@
           "should-block-response"
         ]
       },
+      "https://w3c.github.io/webappsec-permissions-policy/": {
+        "anchors": [
+          "policy-controlled-feature",
+          "policy-controlled-feature-default-allowlist",
+          "algo-define-inherited-policy-in-container"
+        ]
+      },
       "https://w3c.github.io/webappsec-referrer-policy/": {
         "anchors": [
           "referrer-policy",
           "determine-requests-referrer",
           "set-requests-referrer-policy-on-redirect",
           "enumdef-referrerpolicy"
+        ]
+      },
+      "https://w3c.github.io/webappsec-secure-contexts/": {
+        "anchors": [
+          "potentially-trustworthy-url"
         ]
       },
       "https://w3c.github.io/webappsec-subresource-integrity/": {
@@ -573,6 +618,12 @@
       "https://w3c.github.io/webappsec-upgrade-insecure-requests/": {
         "anchors": [
           "upgrade-request"
+        ]
+      },
+      "https://w3c.github.io/webdriver-bidi/": {
+        "anchors": [
+          "webdriver-bidi-network-is-offline",
+          "webdriver-bidi-emulated-user-agent"
         ]
       },
       "https://webidl.spec.whatwg.org/": {
@@ -610,6 +661,8 @@
           "SameObject",
           "idl-DOMString",
           "idl-unsigned-short",
+          "SecureContext",
+          "quotaexceedederror",
           "dfn-interface"
         ]
       },

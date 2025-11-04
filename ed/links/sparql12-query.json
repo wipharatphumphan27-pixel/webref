@@ -29,6 +29,15 @@
       "https://github.com/w3c/sparql-query/issues/229": {},
       "https://github.com/w3c/sparql-query/issues/230": {},
       "https://github.com/w3c/sparql-query/issues/231": {},
+      "https://github.com/w3c/sparql-query/issues/246": {},
+      "https://github.com/w3c/sparql-query/issues/247": {},
+      "https://github.com/w3c/sparql-query/issues/248": {},
+      "https://github.com/w3c/sparql-query/issues/254": {},
+      "https://github.com/w3c/sparql-query/issues/266": {},
+      "https://github.com/w3c/sparql-query/issues/267": {},
+      "https://github.com/w3c/sparql-query/issues/?q=is%3Aissue+is%3Aopen+label%3A%22spec%3Abug%22": {},
+      "https://github.com/w3c/sparql-query/issues/?q=is%3Aissue+is%3Aopen+label%3A%22spec%3Aeditorial%22": {},
+      "https://github.com/w3c/sparql-query/issues/?q=is%3Aissue+is%3Aopen+label%3A%22spec%3Aenhancement%22": {},
       "https://w3c.github.io/sparql-concepts/spec/": {},
       "https://w3c.github.io/sparql-new/spec/": {},
       "https://www.rfc-editor.org/info/bcp14": {},
@@ -40,7 +49,7 @@
       "https://www.rfc-editor.org/rfc/rfc4647": {},
       "https://www.rfc-editor.org/rfc/rfc5646": {},
       "https://www.rfc-editor.org/rfc/rfc8174": {},
-      "https://www.unicode.org/reports/tr31/tr31-41.html": {},
+      "https://www.unicode.org/reports/tr31/tr31-43.html": {},
       "https://www.unicode.org/reports/tr36/tr36-15.html": {},
       "https://www.unicode.org/versions/latest/": {},
       "https://www.w3.org/2013/sparql-errata": {
@@ -201,8 +210,6 @@
       "https://www.w3.org/TR/xpath-functions-31/": {
         "anchors": [
           "regex-syntax",
-          "func-not",
-          "func-boolean",
           "collations",
           "func-numeric-unary-plus",
           "func-numeric-unary-minus",
@@ -210,6 +217,7 @@
           "func-compare",
           "func-boolean-equal",
           "func-dateTime-equal",
+          "func-not",
           "func-numeric-less-than",
           "func-boolean-less-than",
           "func-dateTime-less-than",
@@ -247,14 +255,6 @@
           "casting-from-primitive-to-primitive"
         ]
       },
-      "https://www.w3.org/TR/xquery-31/": {
-        "anchors": [
-          "dt-type-error",
-          "mapping",
-          "id-expression-processing",
-          "id-ebv"
-        ]
-      },
       "https://www.w3.org/groups/wg/rdf-star": {},
       "https://www.w3.org/groups/wg/rdf-star/ipr": {},
       "https://www.w3.org/policies/patent-policy/": {
@@ -263,18 +263,12 @@
           "sec-Disclosure"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {
+      "https://www.w3.org/policies/process/20250818/": {
         "anchors": [
           "allow-new-features"
         ]
       }
     },
-    "autolinks": {
-      "https://www.w3.org/TR/i18n-glossary/": {
-        "anchors": [
-          "dfn-base-direction"
-        ]
-      }
-    }
+    "autolinks": {}
   }
 }

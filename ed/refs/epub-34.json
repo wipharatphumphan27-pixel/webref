@@ -6,24 +6,24 @@
   "refs": {
     "normative": [
       {
+        "name": "av1-avif",
+        "url": "https://aomediacodec.github.io/av1-avif/"
+      },
+      {
         "name": "bcp47",
         "url": "https://www.rfc-editor.org/rfc/rfc5646"
       },
       {
         "name": "bidi",
-        "url": "https://www.unicode.org/reports/tr9/tr9-50.html"
+        "url": "https://www.unicode.org/reports/tr9/tr9-51.html"
       },
       {
         "name": "charmod-norm",
         "url": "https://www.w3.org/TR/charmod-norm/"
       },
       {
-        "name": "css-text-3",
-        "url": "https://www.w3.org/TR/css-text-3/"
-      },
-      {
-        "name": "css-text-decor-3",
-        "url": "https://www.w3.org/TR/css-text-decor-3/"
+        "name": "css-values",
+        "url": "https://www.w3.org/TR/css-values-3/"
       },
       {
         "name": "css-writing-modes-3",
@@ -58,8 +58,8 @@
         "url": "https://www.w3.org/TR/epub-33/"
       },
       {
-        "name": "epub-a11y-111",
-        "url": "https://www.w3.org/TR/epub-a11y-111/"
+        "name": "epub-a11y-12",
+        "url": "https://www.w3.org/TR/epub-a11y-12/"
       },
       {
         "name": "epub-rs-34",
@@ -202,6 +202,10 @@
         "url": "https://www.rfc-editor.org/rfc/rfc9649"
       },
       {
+        "name": "schema-org",
+        "url": "https://schema.org/"
+      },
+      {
         "name": "smil3",
         "url": "https://www.w3.org/TR/SMIL3/"
       },
@@ -215,7 +219,7 @@
       },
       {
         "name": "uax15",
-        "url": "https://www.unicode.org/reports/tr15/tr15-56.html"
+        "url": "https://www.unicode.org/reports/tr15/tr15-57.html"
       },
       {
         "name": "unicode",
@@ -283,10 +287,6 @@
         "url": "https://www.w3.org/TR/audiobooks/"
       },
       {
-        "name": "css-values",
-        "url": "https://www.w3.org/TR/css-values-3/"
-      },
-      {
         "name": "css-viewport-1",
         "url": "https://drafts.csswg.org/css-viewport/"
       },
@@ -317,6 +317,10 @@
       {
         "name": "h264",
         "url": "https://www.itu.int/ITU-T/recommendations/rec.aspx?rec=13189"
+      },
+      {
+        "name": "html-aria",
+        "url": "https://www.w3.org/TR/html-aria/"
       },
       {
         "name": "international-specs",
@@ -372,7 +376,7 @@
       },
       {
         "name": "uax44",
-        "url": "https://www.unicode.org/reports/tr44/tr44-34.html"
+        "url": "https://www.unicode.org/reports/tr44/tr44-36.html"
       },
       {
         "name": "wasm-core-2",

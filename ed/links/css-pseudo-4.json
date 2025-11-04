@@ -365,6 +365,12 @@
       "https://github.com/w3c/csswg-drafts/issues/1097": {},
       "https://github.com/w3c/csswg-drafts/issues/11317": {},
       "https://github.com/w3c/csswg-drafts/issues/11949": {},
+      "https://github.com/w3c/csswg-drafts/issues/12158": {},
+      "https://github.com/w3c/csswg-drafts/issues/12159": {
+        "anchors": [
+          "issuecomment-3005238286"
+        ]
+      },
       "https://github.com/w3c/csswg-drafts/issues/1384": {},
       "https://github.com/w3c/csswg-drafts/issues/1793": {},
       "https://github.com/w3c/csswg-drafts/issues/2040": {},
@@ -956,8 +962,8 @@
       "https://wpt.fyi/results/css/css-pseudo/target-text-shadow-vertical.html": {},
       "https://wpt.fyi/results/css/css-pseudo/target-text-text-decoration-001.html": {},
       "https://wpt.fyi/results/css/css-pseudo/textpath-selection-011.html": {},
-      "https://www.unicode.org/reports/tr29/tr29-45.html": {},
-      "https://www.unicode.org/reports/tr44/tr44-34.html": {},
+      "https://www.unicode.org/reports/tr29/tr29-47.html": {},
+      "https://www.unicode.org/reports/tr44/tr44-36.html": {},
       "https://www.w3.org/TR/2016/WD-css-pseudo-4-20160607/": {},
       "https://www.w3.org/TR/2019/WD-css-pseudo-4-20190225/": {},
       "https://www.w3.org/TR/2020/WD-css-pseudo-4-20201231/": {},
@@ -985,7 +991,7 @@
         ]
       },
       "https://www.w3.org/TR/html5/": {},
-      "https://www.w3.org/policies/process/20231103/": {}
+      "https://www.w3.org/policies/process/20250818/": {}
     },
     "autolinks": {
       "https://compat.spec.whatwg.org/": {
@@ -1067,9 +1073,9 @@
           "block-formatting-context",
           "inline-level-box",
           "containing-block",
+          "out-of-flow",
           "inline-box",
           "root-element",
-          "out-of-flow",
           "inline-block",
           "propdef-display",
           "valdef-display-inline",

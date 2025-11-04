@@ -20,9 +20,9 @@
         "href": "https://w3c.github.io/did-resolution/#conformance",
         "title": "Conformance",
         "alternateIds": [
-          "x1-1-conformance"
+          "x1-2-conformance"
         ],
-        "number": "1.1"
+        "number": "1.2"
       },
       "definedIn": "prose",
       "links": []
@@ -43,9 +43,9 @@
         "href": "https://w3c.github.io/did-resolution/#conformance",
         "title": "Conformance",
         "alternateIds": [
-          "x1-1-conformance"
+          "x1-2-conformance"
         ],
-        "number": "1.1"
+        "number": "1.2"
       },
       "definedIn": "prose",
       "links": []
@@ -927,6 +927,98 @@
         "number": "4.3"
       },
       "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-dereferencingmetadata",
+      "href": "https://w3c.github.io/did-resolution/#dfn-dereferencingmetadata",
+      "linkingText": [
+        "dereferencingMetadata"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "dereferencing",
+        "href": "https://w3c.github.io/did-resolution/#dereferencing",
+        "title": "DID URL Dereferencing",
+        "alternateIds": [
+          "x5-did-url-dereferencing"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-contentstream",
+      "href": "https://w3c.github.io/did-resolution/#dfn-contentstream",
+      "linkingText": [
+        "contentStream"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "dereferencing",
+        "href": "https://w3c.github.io/did-resolution/#dereferencing",
+        "title": "DID URL Dereferencing",
+        "alternateIds": [
+          "x5-did-url-dereferencing"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-contentmetadata",
+      "href": "https://w3c.github.io/did-resolution/#dfn-contentmetadata",
+      "linkingText": [
+        "contentMetadata"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "dereferencing",
+        "href": "https://w3c.github.io/did-resolution/#dereferencing",
+        "title": "DID URL Dereferencing",
+        "alternateIds": [
+          "x5-did-url-dereferencing"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-resolution-cycle",
+      "href": "https://w3c.github.io/did-resolution/#dfn-resolution-cycle",
+      "linkingText": [
+        "resolution cycle"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": true,
+      "heading": {
+        "id": "dereferencing-algorithm-resource",
+        "href": "https://w3c.github.io/did-resolution/#dereferencing-algorithm-resource",
+        "title": "Dereferencing the Resource",
+        "alternateIds": [
+          "x5-4-1-dereferencing-the-resource"
+        ],
+        "number": "5.4.1"
+      },
+      "definedIn": "note",
       "links": []
     }
   ]

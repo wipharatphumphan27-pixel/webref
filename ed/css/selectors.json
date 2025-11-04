@@ -114,6 +114,18 @@
       "value": ":focus-within"
     },
     {
+      "name": ":interest-source",
+      "prose": "The :interest-source pseudo-class applies to an interest source element that the user is currently \"showing interest\" in, and the :interest-target pseudo-class applies to the associated interest target of an element matching :interest-source.",
+      "href": "https://drafts.csswg.org/selectors-4/#selectordef-interest-source",
+      "value": ":interest-source"
+    },
+    {
+      "name": ":interest-target",
+      "prose": "The :interest-source pseudo-class applies to an interest source element that the user is currently \"showing interest\" in, and the :interest-target pseudo-class applies to the associated interest target of an element matching :interest-source.",
+      "href": "https://drafts.csswg.org/selectors-4/#selectordef-interest-target",
+      "value": ":interest-target"
+    },
+    {
       "name": ":current",
       "prose": "The :current pseudo-class represents the element, or an ancestor of the element, that is currently being displayed.",
       "href": "https://drafts.csswg.org/selectors-4/#current-pseudo",
@@ -346,7 +358,7 @@
     },
     {
       "name": ":first-child",
-      "prose": "The :first-child pseudo-class represents an element that if first among its inclusive siblings. Same as :nth-child(1).",
+      "prose": "The :first-child pseudo-class represents an element that is first among its inclusive siblings. Same as :nth-child(1).",
       "href": "https://drafts.csswg.org/selectors-4/#first-child-pseudo",
       "value": ":first-child"
     },

@@ -523,88 +523,88 @@
       "number": "5.2"
     },
     {
+      "id": "sec-evaluation-order",
+      "href": "https://tc39.es/ecma262/multipage/notational-conventions.html#sec-evaluation-order",
+      "title": "Evaluation Order",
+      "level": 3,
+      "number": "5.2.1"
+    },
+    {
       "id": "sec-algorithm-conventions-abstract-operations",
       "href": "https://tc39.es/ecma262/multipage/notational-conventions.html#sec-algorithm-conventions-abstract-operations",
       "title": "Abstract Operations",
       "level": 3,
-      "number": "5.2.1"
+      "number": "5.2.2"
     },
     {
       "id": "sec-algorithm-conventions-syntax-directed-operations",
       "href": "https://tc39.es/ecma262/multipage/notational-conventions.html#sec-algorithm-conventions-syntax-directed-operations",
       "title": "Syntax-Directed Operations",
       "level": 3,
-      "number": "5.2.2"
+      "number": "5.2.3"
     },
     {
       "id": "sec-runtime-semantics",
       "href": "https://tc39.es/ecma262/multipage/notational-conventions.html#sec-runtime-semantics",
       "title": "Runtime Semantics",
       "level": 3,
-      "number": "5.2.3"
+      "number": "5.2.4"
     },
     {
       "id": "sec-completion-ao",
       "href": "https://tc39.es/ecma262/multipage/notational-conventions.html#sec-completion-ao",
       "title": "Completion ( completionRecord )",
       "level": 4,
-      "number": "5.2.3.1"
+      "number": "5.2.4.1"
     },
     {
       "id": "sec-throw-an-exception",
       "href": "https://tc39.es/ecma262/multipage/notational-conventions.html#sec-throw-an-exception",
       "title": "Throw an Exception",
       "level": 4,
-      "number": "5.2.3.2"
+      "number": "5.2.4.2"
     },
     {
-      "id": "sec-returnifabrupt",
-      "href": "https://tc39.es/ecma262/multipage/notational-conventions.html#sec-returnifabrupt",
-      "title": "ReturnIfAbrupt",
+      "id": "sec-shorthands-for-unwrapping-completion-records",
+      "href": "https://tc39.es/ecma262/multipage/notational-conventions.html#sec-shorthands-for-unwrapping-completion-records",
+      "title": "Shorthands for Unwrapping Completion Records",
       "level": 4,
-      "number": "5.2.3.3"
-    },
-    {
-      "id": "sec-returnifabrupt-shorthands",
-      "href": "https://tc39.es/ecma262/multipage/notational-conventions.html#sec-returnifabrupt-shorthands",
-      "title": "ReturnIfAbrupt Shorthands",
-      "level": 4,
-      "number": "5.2.3.4"
+      "number": "5.2.4.3"
     },
     {
       "id": "sec-implicit-normal-completion",
       "href": "https://tc39.es/ecma262/multipage/notational-conventions.html#sec-implicit-normal-completion",
       "title": "Implicit Normal Completion",
       "level": 4,
-      "number": "5.2.3.5"
+      "number": "5.2.4.4"
     },
     {
       "id": "sec-static-semantic-rules",
       "href": "https://tc39.es/ecma262/multipage/notational-conventions.html#sec-static-semantic-rules",
       "title": "Static Semantics",
       "level": 3,
-      "number": "5.2.4"
+      "number": "5.2.5"
     },
     {
       "id": "sec-mathematical-operations",
       "href": "https://tc39.es/ecma262/multipage/notational-conventions.html#sec-mathematical-operations",
       "title": "Mathematical Operations",
       "level": 3,
-      "number": "5.2.5"
+      "number": "5.2.6"
     },
     {
       "id": "sec-value-notation",
       "href": "https://tc39.es/ecma262/multipage/notational-conventions.html#sec-value-notation",
       "title": "Value Notation",
       "level": 3,
-      "number": "5.2.6"
+      "number": "5.2.7"
     },
     {
       "id": "sec-identity",
       "href": "https://tc39.es/ecma262/multipage/notational-conventions.html#sec-identity",
       "title": "Identity",
       "level": 3,
-      "number": "5.2.7"
+      "number": "5.2.8"
     },
     {
       "id": "sec-ecmascript-data-types-and-values",
@@ -1846,11 +1846,18 @@
       "number": "7.3.35"
     },
     {
+      "id": "sec-getoptionsobject",
+      "href": "https://tc39.es/ecma262/multipage/abstract-operations.html#sec-getoptionsobject",
+      "title": "GetOptionsObject ( options )",
+      "level": 3,
+      "number": "7.3.36"
+    },
+    {
       "id": "sec-SetterThatIgnoresPrototypeProperties",
       "href": "https://tc39.es/ecma262/multipage/abstract-operations.html#sec-SetterThatIgnoresPrototypeProperties",
       "title": "SetterThatIgnoresPrototypeProperties ( thisValue, home, p, v )",
       "level": 3,
-      "number": "7.3.36"
+      "number": "7.3.37"
     },
     {
       "id": "sec-operations-on-iterator-objects",
@@ -7117,8 +7124,8 @@
       "number": "19.3.34"
     },
     {
-      "id": "sec-uint8array",
-      "href": "https://tc39.es/ecma262/multipage/global-object.html#sec-uint8array",
+      "id": "sec-constructor-properties-of-the-global-object-uint8array",
+      "href": "https://tc39.es/ecma262/multipage/global-object.html#sec-constructor-properties-of-the-global-object-uint8array",
       "title": "Uint8Array ( . . . )",
       "level": 3,
       "number": "19.3.35"
@@ -8895,25 +8902,32 @@
       "number": "21.3.2.33"
     },
     {
+      "id": "sec-math.sumprecise",
+      "href": "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.sumprecise",
+      "title": "Math.sumPrecise ( items )",
+      "level": 4,
+      "number": "21.3.2.34"
+    },
+    {
       "id": "sec-math.tan",
       "href": "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.tan",
       "title": "Math.tan ( x )",
       "level": 4,
-      "number": "21.3.2.34"
+      "number": "21.3.2.35"
     },
     {
       "id": "sec-math.tanh",
       "href": "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.tanh",
       "title": "Math.tanh ( x )",
       "level": 4,
-      "number": "21.3.2.35"
+      "number": "21.3.2.36"
     },
     {
       "id": "sec-math.trunc",
       "href": "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.trunc",
       "title": "Math.trunc ( x )",
       "level": 4,
-      "number": "21.3.2.36"
+      "number": "21.3.2.37"
     },
     {
       "id": "sec-date-objects",
@@ -11466,7 +11480,7 @@
     {
       "id": "sec-typedarray-create-same-type",
       "href": "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-typedarray-create-same-type",
-      "title": "TypedArrayCreateSameType ( exemplar, argumentList )",
+      "title": "TypedArrayCreateSameType ( exemplar, length )",
       "level": 4,
       "number": "23.2.4.2"
     },
@@ -11609,6 +11623,132 @@
       "title": "Properties of TypedArray Instances",
       "level": 3,
       "number": "23.2.8"
+    },
+    {
+      "id": "sec-uint8array",
+      "href": "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-uint8array",
+      "title": "Uint8Array Objects",
+      "level": 2,
+      "number": "23.3"
+    },
+    {
+      "id": "sec-additional-properties-of-the-uint8array-constructor",
+      "href": "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-additional-properties-of-the-uint8array-constructor",
+      "title": "Additional Properties of the Uint8Array Constructor",
+      "level": 3,
+      "number": "23.3.1"
+    },
+    {
+      "id": "sec-uint8array.frombase64",
+      "href": "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-uint8array.frombase64",
+      "title": "Uint8Array.fromBase64 ( string [ , options ] )",
+      "level": 4,
+      "number": "23.3.1.1"
+    },
+    {
+      "id": "sec-uint8array.fromhex",
+      "href": "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-uint8array.fromhex",
+      "title": "Uint8Array.fromHex ( string )",
+      "level": 4,
+      "number": "23.3.1.2"
+    },
+    {
+      "id": "sec-additional-properties-of-the-uint8array-prototype-object",
+      "href": "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-additional-properties-of-the-uint8array-prototype-object",
+      "title": "Additional Properties of the Uint8Array Prototype Object",
+      "level": 3,
+      "number": "23.3.2"
+    },
+    {
+      "id": "sec-uint8array.prototype.setfrombase64",
+      "href": "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-uint8array.prototype.setfrombase64",
+      "title": "Uint8Array.prototype.setFromBase64 ( string [ , options ] )",
+      "level": 4,
+      "number": "23.3.2.1"
+    },
+    {
+      "id": "sec-uint8array.prototype.setfromhex",
+      "href": "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-uint8array.prototype.setfromhex",
+      "title": "Uint8Array.prototype.setFromHex ( string )",
+      "level": 4,
+      "number": "23.3.2.2"
+    },
+    {
+      "id": "sec-uint8array.prototype.tobase64",
+      "href": "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-uint8array.prototype.tobase64",
+      "title": "Uint8Array.prototype.toBase64 ( [ options ] )",
+      "level": 4,
+      "number": "23.3.2.3"
+    },
+    {
+      "id": "sec-uint8array.prototype.tohex",
+      "href": "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-uint8array.prototype.tohex",
+      "title": "Uint8Array.prototype.toHex ( )",
+      "level": 4,
+      "number": "23.3.2.4"
+    },
+    {
+      "id": "sec-abstract-operations-for-uint8array-objects",
+      "href": "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-abstract-operations-for-uint8array-objects",
+      "title": "Abstract Operations for Uint8Array Objects",
+      "level": 3,
+      "number": "23.3.3"
+    },
+    {
+      "id": "sec-validateuint8array",
+      "href": "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-validateuint8array",
+      "title": "ValidateUint8Array ( ta )",
+      "level": 4,
+      "number": "23.3.3.1"
+    },
+    {
+      "id": "sec-getuint8arraybytes",
+      "href": "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-getuint8arraybytes",
+      "title": "GetUint8ArrayBytes ( ta )",
+      "level": 4,
+      "number": "23.3.3.2"
+    },
+    {
+      "id": "sec-setuint8arraybytes",
+      "href": "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-setuint8arraybytes",
+      "title": "SetUint8ArrayBytes ( into, bytes )",
+      "level": 4,
+      "number": "23.3.3.3"
+    },
+    {
+      "id": "sec-skipasciiwhitespace",
+      "href": "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-skipasciiwhitespace",
+      "title": "SkipAsciiWhitespace ( string, index )",
+      "level": 4,
+      "number": "23.3.3.4"
+    },
+    {
+      "id": "sec-decodefinalbase64chunk",
+      "href": "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-decodefinalbase64chunk",
+      "title": "DecodeFinalBase64Chunk ( chunk, throwOnExtraBits )",
+      "level": 4,
+      "number": "23.3.3.5"
+    },
+    {
+      "id": "sec-decodefulllengthbase64chunk",
+      "href": "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-decodefulllengthbase64chunk",
+      "title": "DecodeFullLengthBase64Chunk ( chunk )",
+      "level": 4,
+      "number": "23.3.3.6"
+    },
+    {
+      "id": "sec-frombase64",
+      "href": "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-frombase64",
+      "title": "FromBase64 ( string, alphabet, lastChunkHandling [ , maxLength ] )",
+      "level": 4,
+      "number": "23.3.3.7"
+    },
+    {
+      "id": "sec-fromhex",
+      "href": "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-fromhex",
+      "title": "FromHex ( string [ , maxLength ] )",
+      "level": 4,
+      "number": "23.3.3.8"
     },
     {
       "id": "sec-keyed-collections",
@@ -12605,11 +12745,18 @@
       "number": "25.2.2.2"
     },
     {
+      "id": "sec-isgrowablesharedarraybuffer",
+      "href": "https://tc39.es/ecma262/multipage/structured-data.html#sec-isgrowablesharedarraybuffer",
+      "title": "IsGrowableSharedArrayBuffer ( obj )",
+      "level": 4,
+      "number": "25.2.2.3"
+    },
+    {
       "id": "sec-hostgrowsharedarraybuffer",
       "href": "https://tc39.es/ecma262/multipage/structured-data.html#sec-hostgrowsharedarraybuffer",
       "title": "HostGrowSharedArrayBuffer ( buffer, newByteLength )",
       "level": 4,
-      "number": "25.2.2.3"
+      "number": "25.2.2.4"
     },
     {
       "id": "sec-sharedarraybuffer-constructor",
@@ -13672,204 +13819,204 @@
       "id": "sec-%iterator.prototype%-object",
       "href": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-%25iterator.prototype%25-object",
       "title": "Properties of the Iterator Prototype Object",
-      "level": 3,
-      "number": "27.1.4"
+      "level": 4,
+      "number": "27.1.3.3"
     },
     {
       "id": "sec-iterator.prototype.constructor",
       "href": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-iterator.prototype.constructor",
       "title": "Iterator.prototype.constructor",
-      "level": 4,
-      "number": "27.1.4.1"
+      "level": 5,
+      "number": "27.1.3.3.1"
     },
     {
       "id": "sec-get-iterator.prototype.constructor",
       "href": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-get-iterator.prototype.constructor",
       "title": "get Iterator.prototype.constructor",
-      "level": 5,
-      "number": "27.1.4.1.1"
+      "level": 6,
+      "number": "27.1.3.3.1.1"
     },
     {
       "id": "sec-set-iterator.prototype.constructor",
       "href": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-set-iterator.prototype.constructor",
       "title": "set Iterator.prototype.constructor",
-      "level": 5,
-      "number": "27.1.4.1.2"
+      "level": 6,
+      "number": "27.1.3.3.1.2"
     },
     {
       "id": "sec-iterator.prototype.drop",
       "href": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-iterator.prototype.drop",
       "title": "Iterator.prototype.drop ( limit )",
-      "level": 4,
-      "number": "27.1.4.2"
+      "level": 5,
+      "number": "27.1.3.3.2"
     },
     {
       "id": "sec-iterator.prototype.every",
       "href": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-iterator.prototype.every",
       "title": "Iterator.prototype.every ( predicate )",
-      "level": 4,
-      "number": "27.1.4.3"
+      "level": 5,
+      "number": "27.1.3.3.3"
     },
     {
       "id": "sec-iterator.prototype.filter",
       "href": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-iterator.prototype.filter",
       "title": "Iterator.prototype.filter ( predicate )",
-      "level": 4,
-      "number": "27.1.4.4"
+      "level": 5,
+      "number": "27.1.3.3.4"
     },
     {
       "id": "sec-iterator.prototype.find",
       "href": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-iterator.prototype.find",
       "title": "Iterator.prototype.find ( predicate )",
-      "level": 4,
-      "number": "27.1.4.5"
+      "level": 5,
+      "number": "27.1.3.3.5"
     },
     {
       "id": "sec-iterator.prototype.flatmap",
       "href": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-iterator.prototype.flatmap",
       "title": "Iterator.prototype.flatMap ( mapper )",
-      "level": 4,
-      "number": "27.1.4.6"
+      "level": 5,
+      "number": "27.1.3.3.6"
     },
     {
       "id": "sec-iterator.prototype.foreach",
       "href": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-iterator.prototype.foreach",
       "title": "Iterator.prototype.forEach ( procedure )",
-      "level": 4,
-      "number": "27.1.4.7"
+      "level": 5,
+      "number": "27.1.3.3.7"
     },
     {
       "id": "sec-iterator.prototype.map",
       "href": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-iterator.prototype.map",
       "title": "Iterator.prototype.map ( mapper )",
-      "level": 4,
-      "number": "27.1.4.8"
+      "level": 5,
+      "number": "27.1.3.3.8"
     },
     {
       "id": "sec-iterator.prototype.reduce",
       "href": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-iterator.prototype.reduce",
       "title": "Iterator.prototype.reduce ( reducer [ , initialValue ] )",
-      "level": 4,
-      "number": "27.1.4.9"
+      "level": 5,
+      "number": "27.1.3.3.9"
     },
     {
       "id": "sec-iterator.prototype.some",
       "href": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-iterator.prototype.some",
       "title": "Iterator.prototype.some ( predicate )",
-      "level": 4,
-      "number": "27.1.4.10"
+      "level": 5,
+      "number": "27.1.3.3.10"
     },
     {
       "id": "sec-iterator.prototype.take",
       "href": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-iterator.prototype.take",
       "title": "Iterator.prototype.take ( limit )",
-      "level": 4,
-      "number": "27.1.4.11"
+      "level": 5,
+      "number": "27.1.3.3.11"
     },
     {
       "id": "sec-iterator.prototype.toarray",
       "href": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-iterator.prototype.toarray",
       "title": "Iterator.prototype.toArray ( )",
-      "level": 4,
-      "number": "27.1.4.12"
+      "level": 5,
+      "number": "27.1.3.3.12"
     },
     {
       "id": "sec-iterator.prototype-%symbol.iterator%",
       "href": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-iterator.prototype-%25symbol.iterator%25",
       "title": "Iterator.prototype [ %Symbol.iterator% ] ( )",
-      "level": 4,
-      "number": "27.1.4.13"
+      "level": 5,
+      "number": "27.1.3.3.13"
     },
     {
       "id": "sec-iterator.prototype-%symbol.tostringtag%",
       "href": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-iterator.prototype-%25symbol.tostringtag%25",
       "title": "Iterator.prototype [ %Symbol.toStringTag% ]",
-      "level": 4,
-      "number": "27.1.4.14"
+      "level": 5,
+      "number": "27.1.3.3.14"
     },
     {
       "id": "sec-get-iterator.prototype-%symbol.tostringtag%",
       "href": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-get-iterator.prototype-%25symbol.tostringtag%25",
       "title": "get Iterator.prototype [ %Symbol.toStringTag% ]",
-      "level": 5,
-      "number": "27.1.4.14.1"
+      "level": 6,
+      "number": "27.1.3.3.14.1"
     },
     {
       "id": "sec-set-iterator.prototype-%symbol.tostringtag%",
       "href": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-set-iterator.prototype-%25symbol.tostringtag%25",
       "title": "set Iterator.prototype [ %Symbol.toStringTag% ]",
-      "level": 5,
-      "number": "27.1.4.14.2"
+      "level": 6,
+      "number": "27.1.3.3.14.2"
     },
     {
       "id": "sec-asynciteratorprototype",
       "href": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-asynciteratorprototype",
       "title": "The %AsyncIteratorPrototype% Object",
       "level": 3,
-      "number": "27.1.5"
+      "number": "27.1.4"
     },
     {
       "id": "sec-%asynciteratorprototype%-%symbol.asynciterator%",
       "href": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-%25asynciteratorprototype%25-%25symbol.asynciterator%25",
       "title": "%AsyncIteratorPrototype% [ %Symbol.asyncIterator% ] ( )",
       "level": 4,
-      "number": "27.1.5.1"
+      "number": "27.1.4.1"
     },
     {
       "id": "sec-async-from-sync-iterator-objects",
       "href": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-async-from-sync-iterator-objects",
       "title": "Async-from-Sync Iterator Objects",
       "level": 3,
-      "number": "27.1.6"
+      "number": "27.1.5"
     },
     {
       "id": "sec-createasyncfromsynciterator",
       "href": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-createasyncfromsynciterator",
       "title": "CreateAsyncFromSyncIterator ( syncIteratorRecord )",
       "level": 4,
-      "number": "27.1.6.1"
+      "number": "27.1.5.1"
     },
     {
       "id": "sec-%asyncfromsynciteratorprototype%-object",
       "href": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-%25asyncfromsynciteratorprototype%25-object",
       "title": "The %AsyncFromSyncIteratorPrototype% Object",
       "level": 4,
-      "number": "27.1.6.2"
+      "number": "27.1.5.2"
     },
     {
       "id": "sec-%asyncfromsynciteratorprototype%.next",
       "href": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-%25asyncfromsynciteratorprototype%25.next",
       "title": "%AsyncFromSyncIteratorPrototype%.next ( [ value ] )",
       "level": 5,
-      "number": "27.1.6.2.1"
+      "number": "27.1.5.2.1"
     },
     {
       "id": "sec-%asyncfromsynciteratorprototype%.return",
       "href": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-%25asyncfromsynciteratorprototype%25.return",
       "title": "%AsyncFromSyncIteratorPrototype%.return ( [ value ] )",
       "level": 5,
-      "number": "27.1.6.2.2"
+      "number": "27.1.5.2.2"
     },
     {
       "id": "sec-%asyncfromsynciteratorprototype%.throw",
       "href": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-%25asyncfromsynciteratorprototype%25.throw",
       "title": "%AsyncFromSyncIteratorPrototype%.throw ( [ value ] )",
       "level": 5,
-      "number": "27.1.6.2.3"
+      "number": "27.1.5.2.3"
     },
     {
       "id": "sec-properties-of-async-from-sync-iterator-instances",
       "href": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-properties-of-async-from-sync-iterator-instances",
       "title": "Properties of Async-from-Sync Iterator Instances",
       "level": 4,
-      "number": "27.1.6.3"
+      "number": "27.1.5.3"
     },
     {
       "id": "sec-asyncfromsynciteratorcontinuation",
       "href": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-asyncfromsynciteratorcontinuation",
       "title": "AsyncFromSyncIteratorContinuation ( result, promiseCapability, syncIteratorRecord, closeOnRejection )",
       "level": 4,
-      "number": "27.1.6.4"
+      "number": "27.1.5.4"
     },
     {
       "id": "sec-promise-objects",
@@ -14640,13 +14787,6 @@
       "title": "AsyncGeneratorDrainQueue ( generator )",
       "level": 4,
       "number": "27.6.3.10"
-    },
-    {
-      "id": "sec-createasynciteratorfromclosure",
-      "href": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-createasynciteratorfromclosure",
-      "title": "CreateAsyncIteratorFromClosure ( closure, generatorBrand, generatorPrototype )",
-      "level": 4,
-      "number": "27.6.3.11"
     },
     {
       "id": "sec-async-function-objects",

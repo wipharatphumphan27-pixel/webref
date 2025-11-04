@@ -7,10 +7,6 @@
     "normative": [],
     "informative": [
       {
-        "name": "BATTERY-STATUS",
-        "url": "https://www.w3.org/TR/battery-status/"
-      },
-      {
         "name": "BEAUTY-BEAST",
         "url": "https://inria.hal.science/hal-01285470v2/"
       },
@@ -21,6 +17,18 @@
       {
         "name": "dap-privacy-reqs",
         "url": "https://www.w3.org/TR/dap-privacy-reqs/"
+      },
+      {
+        "name": "device-posture",
+        "url": "https://www.w3.org/TR/device-posture/"
+      },
+      {
+        "name": "dom",
+        "url": "https://dom.spec.whatwg.org/"
+      },
+      {
+        "name": "EPHEMERAL-FINGERPRINTING",
+        "url": "https://github.com/asankah/ephemeral-fingerprinting"
       },
       {
         "name": "EVERCOOKIE",
@@ -63,8 +71,8 @@
         "url": "https://www.microsoft.com/en-us/research/publication/host-fingerprinting-and-tracking-on-the-webprivacy-and-security-implications/"
       },
       {
-        "name": "PROXIMITY",
-        "url": "https://www.w3.org/TR/proximity/"
+        "name": "RENDERING-CONTENTION",
+        "url": "https://www.usenix.org/system/files/sec22summer_wu.pdf"
       },
       {
         "name": "RFC6265",

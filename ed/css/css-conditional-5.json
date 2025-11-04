@@ -398,9 +398,116 @@
               "value": "inline"
             }
           ]
+        },
+        {
+          "name": "scrolled",
+          "href": "https://drafts.csswg.org/css-conditional-5/#descdef-container-scrolled",
+          "for": "@container",
+          "value": "none | top | right | bottom | left | block-start | inline-start | block-end | inline-end | x | y | block | inline",
+          "type": "discrete",
+          "values": [
+            {
+              "name": "none",
+              "prose": "The query container has not had a relative scroll yet.",
+              "href": "https://drafts.csswg.org/css-conditional-5/#valdef-container-scrolled-none",
+              "type": "value",
+              "value": "none"
+            },
+            {
+              "name": "top",
+              "prose": "The most recent relative scroll was upwards.",
+              "href": "https://drafts.csswg.org/css-conditional-5/#valdef-container-scrolled-top",
+              "type": "value",
+              "value": "top"
+            },
+            {
+              "name": "right",
+              "prose": "The most recent relative scroll was to the right.",
+              "href": "https://drafts.csswg.org/css-conditional-5/#valdef-container-scrolled-right",
+              "type": "value",
+              "value": "right"
+            },
+            {
+              "name": "bottom",
+              "prose": "The most recent relative scroll was downwards.",
+              "href": "https://drafts.csswg.org/css-conditional-5/#valdef-container-scrolled-bottom",
+              "type": "value",
+              "value": "bottom"
+            },
+            {
+              "name": "left",
+              "prose": "The most recent relative scroll was to the left.",
+              "href": "https://drafts.csswg.org/css-conditional-5/#valdef-container-scrolled-left",
+              "type": "value",
+              "value": "left"
+            },
+            {
+              "name": "block-start",
+              "prose": "The most recent relative scroll was towards the block-start direction.",
+              "href": "https://drafts.csswg.org/css-conditional-5/#valdef-container-scrolled-block-start",
+              "type": "value",
+              "value": "block-start"
+            },
+            {
+              "name": "inline-start",
+              "prose": "The most recent relative scroll was towards the inline-start direction.",
+              "href": "https://drafts.csswg.org/css-conditional-5/#valdef-container-scrolled-inline-start",
+              "type": "value",
+              "value": "inline-start"
+            },
+            {
+              "name": "block-end",
+              "prose": "The most recent relative scroll was towards the block-end direction.",
+              "href": "https://drafts.csswg.org/css-conditional-5/#valdef-container-scrolled-block-end",
+              "type": "value",
+              "value": "block-end"
+            },
+            {
+              "name": "inline-end",
+              "prose": "The most recent relative scroll was towards the inline-end direction.",
+              "href": "https://drafts.csswg.org/css-conditional-5/#valdef-container-scrolled-inline-end",
+              "type": "value",
+              "value": "inline-end"
+            },
+            {
+              "name": "x",
+              "prose": "The most recent relative scroll was in the horizontal direction.",
+              "href": "https://drafts.csswg.org/css-conditional-5/#valdef-container-scrolled-x",
+              "type": "value",
+              "value": "x"
+            },
+            {
+              "name": "y",
+              "prose": "The most recent relative scroll was in the vertical direction.",
+              "href": "https://drafts.csswg.org/css-conditional-5/#valdef-container-scrolled-y",
+              "type": "value",
+              "value": "y"
+            },
+            {
+              "name": "block",
+              "prose": "The most recent relative scroll was in the block direction.",
+              "href": "https://drafts.csswg.org/css-conditional-5/#valdef-container-scrolled-block",
+              "type": "value",
+              "value": "block"
+            },
+            {
+              "name": "inline",
+              "prose": "The most recent relative scroll was in the inline direction.",
+              "href": "https://drafts.csswg.org/css-conditional-5/#valdef-container-scrolled-inline",
+              "type": "value",
+              "value": "inline"
+            }
+          ]
         }
       ],
       "value": "@container <container-condition># { <block-contents> }"
+    },
+    {
+      "name": "@supports-condition",
+      "prose": "The @supports-condition at-rule is a conditional group rule that allows authors to define and name a supports query for later reuse, creating a named supports condition. This enables complex or frequently-used feature queries to be referenced by name, improving maintainability and readability.",
+      "href": "https://drafts.csswg.org/css-conditional-5/#at-ruledef-supports-condition",
+      "descriptors": [],
+      "value": "@supports-condition <supports-condition-name> { <block-contents> }"
     }
   ],
   "selectors": [],
@@ -409,7 +516,13 @@
       "name": "<supports-feature>",
       "href": "https://drafts.csswg.org/css-conditional-5/#typedef-supports-feature",
       "type": "type",
-      "value": "<supports-selector-fn> | <supports-font-tech-fn> | <supports-font-format-fn> | <supports-decl>"
+      "value": "<supports-selector-fn> | <supports-font-tech-fn> | <supports-font-format-fn> | <supports-at-rule-fn> | <supports-decl>"
+    },
+    {
+      "name": "<supports-decl>",
+      "href": "https://drafts.csswg.org/css-conditional-5/#typedef-supports-decl",
+      "type": "type",
+      "value": "( [ <declaration> | <supports-condition-name> ] )"
     },
     {
       "name": "<supports-font-tech-fn>",
@@ -424,16 +537,28 @@
       "value": "font-format( <font-format> )"
     },
     {
+      "name": "<supports-at-rule-fn>",
+      "href": "https://drafts.csswg.org/css-conditional-5/#typedef-supports-at-rule-fn",
+      "type": "type",
+      "value": "at-rule( <at-keyword-token> )"
+    },
+    {
+      "name": "<boolean-condition>",
+      "prose": "Where <boolean-condition> is a boolean algebra a la Media Queries 4 § 3 Syntax, but with media() and supports() functions as leaves.",
+      "href": "https://drafts.csswg.org/css-conditional-5/#typedef-boolean-condition",
+      "type": "type"
+    },
+    {
       "name": "media()",
+      "value": "media( [ <mf-plain> | <mf-boolean> | <mf-range> ] )",
       "href": "https://drafts.csswg.org/css-conditional-5/#funcdef-media",
-      "type": "function",
-      "value": "media( [ <mf-plain> | <mf-boolean> | <mf-range> ] )"
+      "type": "function"
     },
     {
       "name": "supports()",
+      "value": "supports( <declaration> )",
       "href": "https://drafts.csswg.org/css-conditional-5/#funcdef-supports",
-      "type": "function",
-      "value": "supports( <declaration> )"
+      "type": "function"
     },
     {
       "name": "<container-condition>",
@@ -535,6 +660,12 @@
       "name": "<scroll-state-feature>",
       "prose": "A container scroll-state query allows querying a container for state that depends on scroll position. It is a boolean combination of individual scroll-state features (<scroll-state-feature>) that each query a single feature of the query container. The syntax of a <scroll-state-feature> is the same as for a media feature: a feature name, a comparator, and a value.",
       "href": "https://drafts.csswg.org/css-conditional-5/#typedef-scroll-state-feature",
+      "type": "type"
+    },
+    {
+      "name": "<supports-condition-name>",
+      "prose": "Where <supports-condition-name> is an <extension-name> that defines the name of the supports query.",
+      "href": "https://drafts.csswg.org/css-conditional-5/#typedef-supports-condition-name",
       "type": "type"
     }
   ]

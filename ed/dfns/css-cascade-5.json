@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "CSS Cascading and Inheritance Level 5",
+    "title": "CSS Cascading and Inheritance Module Level 5",
     "url": "https://drafts.csswg.org/css-cascade-5/"
   },
   "dfns": [
@@ -930,6 +930,28 @@
         "href": "https://drafts.csswg.org/css-cascade-5/#revert-layer",
         "title": "Rolling Back Cascade Layers: the revert-layer keyword",
         "number": "7.3.5"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "valdef-all-revert-rule",
+      "href": "https://drafts.csswg.org/css-cascade-5/#valdef-all-revert-rule",
+      "linkingText": [
+        "revert-rule"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "all"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "revert-rule-keyword",
+        "href": "https://drafts.csswg.org/css-cascade-5/#revert-rule-keyword",
+        "title": "Rolling Back Rules: the revert-rule keyword",
+        "number": "7.3.6"
       },
       "definedIn": "prose",
       "links": []

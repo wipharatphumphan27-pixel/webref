@@ -238,8 +238,7 @@
       "id": "dfn-identify",
       "href": "https://w3c.github.io/rdf-semantics/spec/#dfn-identify",
       "linkingText": [
-        "identify",
-        "identified"
+        "identify"
       ],
       "localLinkingText": [
         "identified"
@@ -481,7 +480,7 @@
       "heading": {
         "id": "unions_merges",
         "href": "https://w3c.github.io/rdf-semantics/spec/#unions_merges",
-        "title": "Shared blank nodes, unions and merges",
+        "title": "Shared blank nodes, unions, and merges",
         "alternateIds": [
           "x4-1-shared-blank-nodes-unions-and-merges"
         ],
@@ -504,7 +503,7 @@
       "heading": {
         "id": "unions_merges",
         "href": "https://w3c.github.io/rdf-semantics/spec/#unions_merges",
-        "title": "Shared blank nodes, unions and merges",
+        "title": "Shared blank nodes, unions, and merges",
         "alternateIds": [
           "x4-1-shared-blank-nodes-unions-and-merges"
         ],
@@ -528,7 +527,7 @@
       "heading": {
         "id": "unions_merges",
         "href": "https://w3c.github.io/rdf-semantics/spec/#unions_merges",
-        "title": "Shared blank nodes, unions and merges",
+        "title": "Shared blank nodes, unions, and merges",
         "alternateIds": [
           "x4-1-shared-blank-nodes-unions-and-merges"
         ],
@@ -792,29 +791,6 @@
       "links": []
     },
     {
-      "id": "dfn-general-definition-of-satisfiability",
-      "href": "https://w3c.github.io/rdf-semantics/spec/#dfn-general-definition-of-satisfiability",
-      "linkingText": [
-        "general definition of satisfiability"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": true,
-      "heading": {
-        "id": "simple_entailment_properties",
-        "href": "https://w3c.github.io/rdf-semantics/spec/#simple_entailment_properties",
-        "title": "Properties of simple entailment and satisfiability",
-        "alternateIds": [
-          "x5-3-properties-of-simple-entailment-and-satisfiability"
-        ],
-        "number": "5.3"
-      },
-      "definedIn": "prose",
-      "links": []
-    },
-    {
       "id": "dfn-skolemization",
       "href": "https://w3c.github.io/rdf-semantics/spec/#dfn-skolemization",
       "linkingText": [
@@ -841,8 +817,7 @@
       "id": "dfn-recognize",
       "href": "https://w3c.github.io/rdf-semantics/spec/#dfn-recognize",
       "linkingText": [
-        "recognize",
-        "recognized"
+        "recognize"
       ],
       "localLinkingText": [
         "recognized"
@@ -1692,52 +1667,6 @@
       "links": []
     },
     {
-      "id": "dfn-pre-interpretation",
-      "href": "https://w3c.github.io/rdf-semantics/spec/#dfn-pre-interpretation",
-      "linkingText": [
-        "pre-interpretation"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": true,
-      "heading": {
-        "id": "finite_interpretations",
-        "href": "https://w3c.github.io/rdf-semantics/spec/#finite_interpretations",
-        "title": "Finite interpretations",
-        "alternateIds": [
-          "b-finite-interpretations"
-        ],
-        "number": "B"
-      },
-      "definedIn": "prose",
-      "links": []
-    },
-    {
-      "id": "dfn-reification",
-      "href": "https://w3c.github.io/rdf-semantics/spec/#dfn-reification",
-      "linkingText": [
-        "reification"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": true,
-      "heading": {
-        "id": "Reif",
-        "href": "https://w3c.github.io/rdf-semantics/spec/#Reif",
-        "title": "Reification",
-        "alternateIds": [
-          "d-1-reification"
-        ],
-        "number": "D.1"
-      },
-      "definedIn": "prose",
-      "links": []
-    },
-    {
       "id": "dfn-datatype-map",
       "href": "https://w3c.github.io/rdf-semantics/spec/#dfn-datatype-map",
       "linkingText": [
@@ -1753,9 +1682,9 @@
         "href": "https://w3c.github.io/rdf-semantics/spec/#ChangeLog-11",
         "title": "Substantive changes between RDF 1.0 and RDF 1.1",
         "alternateIds": [
-          "h-1-substantive-changes-between-rdf-1-0-and-rdf-1-1"
+          "f-1-substantive-changes-between-rdf-1-0-and-rdf-1-1"
         ],
-        "number": "H.1"
+        "number": "F.1"
       },
       "definedIn": "prose",
       "links": []

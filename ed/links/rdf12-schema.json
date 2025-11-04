@@ -5,10 +5,15 @@
   },
   "links": {
     "rawlinks": {
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns": {},
+      "http://www.w3.org/2000/01/rdf-schema": {},
+      "https://w3c.github.io/rdf-interop/spec/": {},
       "https://w3c.github.io/rdf-new/spec/": {},
-      "https://w3c.github.io/rdf-primer/spec/": {},
       "https://w3c.github.io/sparql-concepts/spec/": {},
       "https://w3c.github.io/sparql-new/spec/": {},
+      "https://www.w3.org/1999/02/22-rdf-syntax-ns": {},
+      "https://www.w3.org/2000/01/rdf-schema": {},
+      "https://www.w3.org/2001/XMLSchema": {},
       "https://www.w3.org/2001/sw/RDFCore/": {
         "anchors": [
           "Membership"
@@ -20,6 +25,7 @@
       "https://www.w3.org/TR/": {},
       "https://www.w3.org/TR/json-ld11/": {},
       "https://www.w3.org/TR/owl2-overview/": {},
+      "https://www.w3.org/TR/rdf-plain-literal/": {},
       "https://www.w3.org/TR/rdf-schema/": {},
       "https://www.w3.org/TR/rdf12-concepts/": {
         "anchors": [
@@ -30,11 +36,15 @@
           "dfn-dir-lang-string",
           "section-html",
           "section-XMLLiteral",
-          "section-json"
+          "section-json",
+          "dfn-reifying-triple",
+          "dfn-reifier",
+          "dfn-triple-annotation"
         ]
       },
       "https://www.w3.org/TR/rdf12-n-quads/": {},
       "https://www.w3.org/TR/rdf12-n-triples/": {},
+      "https://www.w3.org/TR/rdf12-primer/": {},
       "https://www.w3.org/TR/rdf12-semantics/": {
         "anchors": [
           "semantic-extensions-and-entailment-regimes"
@@ -57,6 +67,7 @@
       "https://www.w3.org/TR/sparql12-results-xml/": {},
       "https://www.w3.org/TR/sparql12-service-description/": {},
       "https://www.w3.org/TR/sparql12-update/": {},
+      "https://www.w3.org/TR/xmlschema11-2/": {},
       "https://www.w3.org/groups/wg/rdf-star": {},
       "https://www.w3.org/groups/wg/rdf-star/ipr": {},
       "https://www.w3.org/policies/patent-policy/": {
@@ -65,7 +76,12 @@
           "sec-Disclosure"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {
+      "https://www.w3.org/policies/process/": {
+        "anchors": [
+          "registries"
+        ]
+      },
+      "https://www.w3.org/policies/process/20250818/": {
         "anchors": [
           "allow-new-features"
         ]

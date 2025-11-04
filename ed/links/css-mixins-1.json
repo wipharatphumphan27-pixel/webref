@@ -30,6 +30,7 @@
       },
       "https://drafts.csswg.org/css-animations/": {},
       "https://drafts.csswg.org/css-cascade-5/": {},
+      "https://drafts.csswg.org/css-color-5/": {},
       "https://drafts.csswg.org/css-conditional-3/": {
         "anchors": [
           "processing"
@@ -52,7 +53,7 @@
       "https://lists.w3.org/Archives/Public/www-style/": {},
       "https://webidl.spec.whatwg.org/": {},
       "https://www.w3.org/TR/CSS/": {},
-      "https://www.w3.org/policies/process/20231103/": {}
+      "https://www.w3.org/policies/process/20250818/": {}
     },
     "autolinks": {
       "https://drafts.css-houdini.org/css-properties-values-api-1/": {
@@ -76,6 +77,11 @@
           "computed-value",
           "specified-value",
           "inherited-value"
+        ]
+      },
+      "https://drafts.csswg.org/css-color-5/": {
+        "anchors": [
+          "typedef-color"
         ]
       },
       "https://drafts.csswg.org/css-conditional-3/": {
@@ -105,7 +111,7 @@
         "anchors": [
           "nested-group-rules",
           "nested-style-rule",
-          "nested-declarations-rule%E2%91%A0",
+          "nested-declarations-rule",
           "cssnesteddeclarations"
         ]
       },

@@ -1182,6 +1182,86 @@
       "links": []
     },
     {
+      "id": "interest-source",
+      "href": "https://drafts.csswg.org/selectors-4/#interest-source",
+      "linkingText": [
+        "interest source"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "interest-pseudos",
+        "href": "https://drafts.csswg.org/selectors-4/#interest-pseudos",
+        "title": "The Interest Pseudo-classes: :interest-source and :interest-target",
+        "number": "9.6"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "interest-target",
+      "href": "https://drafts.csswg.org/selectors-4/#interest-target",
+      "linkingText": [
+        "interest target"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "interest-pseudos",
+        "href": "https://drafts.csswg.org/selectors-4/#interest-pseudos",
+        "title": "The Interest Pseudo-classes: :interest-source and :interest-target",
+        "number": "9.6"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "selectordef-interest-source",
+      "href": "https://drafts.csswg.org/selectors-4/#selectordef-interest-source",
+      "linkingText": [
+        ":interest-source"
+      ],
+      "localLinkingText": [],
+      "type": "selector",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "interest-pseudos",
+        "href": "https://drafts.csswg.org/selectors-4/#interest-pseudos",
+        "title": "The Interest Pseudo-classes: :interest-source and :interest-target",
+        "number": "9.6"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "selectordef-interest-target",
+      "href": "https://drafts.csswg.org/selectors-4/#selectordef-interest-target",
+      "linkingText": [
+        ":interest-target"
+      ],
+      "localLinkingText": [],
+      "type": "selector",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "interest-pseudos",
+        "href": "https://drafts.csswg.org/selectors-4/#interest-pseudos",
+        "title": "The Interest Pseudo-classes: :interest-source and :interest-target",
+        "number": "9.6"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
       "id": "current-pseudo",
       "href": "https://drafts.csswg.org/selectors-4/#current-pseudo",
       "linkingText": [
@@ -3126,7 +3206,7 @@
         "id": "changes-2013",
         "href": "https://drafts.csswg.org/selectors-4/#changes-2013",
         "title": "Changes since the 2 May 2013 Working Draft",
-        "number": "20.4"
+        "number": "20.5"
       },
       "definedIn": "prose",
       "links": []

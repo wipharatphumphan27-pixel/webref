@@ -1579,7 +1579,7 @@
           ]
         },
         {
-          "html": "<p>Let <var>realm</var> be <a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#this\" id=\"ref-for-this⑤⑦\">this</a>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-relevant-realm\" id=\"ref-for-concept-relevant-realm④\">relevant realm</a>.</p>"
+          "html": "<p>Let <var>realm</var> be <a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#this\" id=\"ref-for-this⑤⑥\">this</a>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-relevant-realm\" id=\"ref-for-concept-relevant-realm④\">relevant realm</a>.</p>"
         },
         {
           "html": "<p>Let <var>promise</var> be <a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#a-new-promise\" id=\"ref-for-a-new-promise⑨\">a new promise</a>.</p>"
@@ -1629,12 +1629,12 @@
               "rationale": "if",
               "steps": [
                 {
-                  "html": "<p>If <var>response</var>’s <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#concept-response-type\" id=\"ref-for-concept-response-type\">type</a> is \"<code>opaque</code>\" and <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#cross-origin-resource-policy-check\" id=\"ref-for-cross-origin-resource-policy-check\">cross-origin resource policy check</a> with <var>promise</var>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#relevant-settings-object\" id=\"ref-for-relevant-settings-object②⓪\">relevant settings object</a>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-settings-object-origin\" id=\"ref-for-concept-settings-object-origin⑧\">origin</a>, <var>promise</var>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#relevant-settings-object\" id=\"ref-for-relevant-settings-object②①\">relevant settings object</a>, \"\", and <var>response</var>’s <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#concept-internal-response\" id=\"ref-for-concept-internal-response\">internal response</a> returns <b>blocked</b>, then reject <var>promise</var> with a <code>TypeError</code> and abort these steps.</p>"
+                  "html": "<p>If <var>response</var>’s <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#concept-response-type\" id=\"ref-for-concept-response-type\">type</a> is \"<code>opaque</code>\" and <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#cross-origin-resource-policy-check\" id=\"ref-for-cross-origin-resource-policy-check\">cross-origin resource policy check</a> with <var>promise</var>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#relevant-settings-object\" id=\"ref-for-relevant-settings-object②①\">relevant settings object</a>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-settings-object-origin\" id=\"ref-for-concept-settings-object-origin⑧\">origin</a>, <var>promise</var>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#relevant-settings-object\" id=\"ref-for-relevant-settings-object②②\">relevant settings object</a>, \"\", and <var>response</var>’s <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#concept-internal-response\" id=\"ref-for-concept-internal-response\">internal response</a> returns <b>blocked</b>, then reject <var>promise</var> with a <code>TypeError</code> and abort these steps.</p>"
                 }
               ]
             },
             {
-              "html": "<a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task\" id=\"ref-for-queue-a-task①⑦\">Queue a task</a>, on <var>promise</var>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#relevant-settings-object\" id=\"ref-for-relevant-settings-object②②\">relevant settings object</a>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#responsible-event-loop\" id=\"ref-for-responsible-event-loop⑥\">responsible event loop</a> using the <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#dom-manipulation-task-source\" id=\"ref-for-dom-manipulation-task-source①①\">DOM manipulation task source</a>, to perform the following steps:",
+              "html": "<a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task\" id=\"ref-for-queue-a-task①⑦\">Queue a task</a>, on <var>promise</var>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#relevant-settings-object\" id=\"ref-for-relevant-settings-object②③\">relevant settings object</a>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#responsible-event-loop\" id=\"ref-for-responsible-event-loop⑥\">responsible event loop</a> using the <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#dom-manipulation-task-source\" id=\"ref-for-dom-manipulation-task-source①①\">DOM manipulation task source</a>, to perform the following steps:",
               "rationale": "let",
               "steps": [
                 {
@@ -1832,7 +1832,7 @@
               ]
             },
             {
-              "html": "<p>Let <var>realm</var> be <a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#this\" id=\"ref-for-this⑤⑧\">this</a>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-relevant-realm\" id=\"ref-for-concept-relevant-realm⑤\">relevant realm</a>.</p>"
+              "html": "<p>Let <var>realm</var> be <a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#this\" id=\"ref-for-this⑤⑦\">this</a>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-relevant-realm\" id=\"ref-for-concept-relevant-realm⑤\">relevant realm</a>.</p>"
             },
             {
               "html": "<p>Let <var>cacheJobPromise</var> be <a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#a-new-promise\" id=\"ref-for-a-new-promise①①\">a new promise</a>.</p>"
@@ -1848,7 +1848,7 @@
                   "html": "<p>Invoke <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#batch-cache-operations\" id=\"ref-for-batch-cache-operations\">Batch Cache Operations</a> with <var>operations</var>. If this <a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#dfn-throw\" id=\"ref-for-dfn-throw⑧\">throws</a> an exception, set <var>errorData</var> to the exception.</p>"
                 },
                 {
-                  "html": "<a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task\" id=\"ref-for-queue-a-task①⑧\">Queue a task</a>, on <var>cacheJobPromise</var>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#relevant-settings-object\" id=\"ref-for-relevant-settings-object②③\">relevant settings object</a>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#responsible-event-loop\" id=\"ref-for-responsible-event-loop⑦\">responsible event loop</a> using the <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#dom-manipulation-task-source\" id=\"ref-for-dom-manipulation-task-source①②\">DOM manipulation task source</a>, to perform the following substeps:",
+                  "html": "<a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task\" id=\"ref-for-queue-a-task①⑧\">Queue a task</a>, on <var>cacheJobPromise</var>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#relevant-settings-object\" id=\"ref-for-relevant-settings-object②④\">relevant settings object</a>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#responsible-event-loop\" id=\"ref-for-responsible-event-loop⑦\">responsible event loop</a> using the <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#dom-manipulation-task-source\" id=\"ref-for-dom-manipulation-task-source①②\">DOM manipulation task source</a>, to perform the following substeps:",
                   "rationale": "if",
                   "steps": [
                     {
@@ -1962,7 +1962,7 @@
           "html": "<p><a data-link-type=\"dfn\" href=\"https://infra.spec.whatwg.org/#list-append\" id=\"ref-for-list-append⑥\">Append</a> <var>operation</var> to <var>operations</var>.</p>"
         },
         {
-          "html": "<p>Let <var>realm</var> be <a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#this\" id=\"ref-for-this⑤⑨\">this</a>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-relevant-realm\" id=\"ref-for-concept-relevant-realm⑥\">relevant realm</a>.</p>"
+          "html": "<p>Let <var>realm</var> be <a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#this\" id=\"ref-for-this⑤⑧\">this</a>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-relevant-realm\" id=\"ref-for-concept-relevant-realm⑥\">relevant realm</a>.</p>"
         },
         {
           "html": "Return the result of the <a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#upon-fulfillment\" id=\"ref-for-upon-fulfillment③\">fulfillment</a> of <var>bodyReadPromise</var>:",
@@ -1982,7 +1982,7 @@
                   "html": "<p>Invoke <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#batch-cache-operations\" id=\"ref-for-batch-cache-operations①\">Batch Cache Operations</a> with <var>operations</var>. If this <a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#dfn-throw\" id=\"ref-for-dfn-throw①⓪\">throws</a> an exception, set <var>errorData</var> to the exception.</p>"
                 },
                 {
-                  "html": "<a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task\" id=\"ref-for-queue-a-task①⑨\">Queue a task</a>, on <var>cacheJobPromise</var>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#relevant-settings-object\" id=\"ref-for-relevant-settings-object②④\">relevant settings object</a>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#responsible-event-loop\" id=\"ref-for-responsible-event-loop⑧\">responsible event loop</a> using the <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#dom-manipulation-task-source\" id=\"ref-for-dom-manipulation-task-source①③\">DOM manipulation task source</a>, to perform the following substeps:",
+                  "html": "<a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task\" id=\"ref-for-queue-a-task①⑨\">Queue a task</a>, on <var>cacheJobPromise</var>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#relevant-settings-object\" id=\"ref-for-relevant-settings-object②⑤\">relevant settings object</a>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#responsible-event-loop\" id=\"ref-for-responsible-event-loop⑧\">responsible event loop</a> using the <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#dom-manipulation-task-source\" id=\"ref-for-dom-manipulation-task-source①③\">DOM manipulation task source</a>, to perform the following substeps:",
                   "rationale": "if",
                   "steps": [
                     {
@@ -2048,7 +2048,7 @@
           "html": "<p><a data-link-type=\"dfn\" href=\"https://infra.spec.whatwg.org/#list-append\" id=\"ref-for-list-append⑦\">Append</a> <var>operation</var> to <var>operations</var>.</p>"
         },
         {
-          "html": "<p>Let <var>realm</var> be <a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#this\" id=\"ref-for-this⑥⓪\">this</a>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-relevant-realm\" id=\"ref-for-concept-relevant-realm⑦\">relevant realm</a>.</p>"
+          "html": "<p>Let <var>realm</var> be <a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#this\" id=\"ref-for-this⑤⑨\">this</a>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-relevant-realm\" id=\"ref-for-concept-relevant-realm⑦\">relevant realm</a>.</p>"
         },
         {
           "html": "<p>Let <var>cacheJobPromise</var> be <a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#a-new-promise\" id=\"ref-for-a-new-promise①③\">a new promise</a>.</p>"
@@ -2064,7 +2064,7 @@
               "html": "<p>Let <var>requestResponses</var> be the result of running <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#batch-cache-operations\" id=\"ref-for-batch-cache-operations②\">Batch Cache Operations</a> with <var>operations</var>. If this <a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#dfn-throw\" id=\"ref-for-dfn-throw①②\">throws</a> an exception, set <var>errorData</var> to the exception.</p>"
             },
             {
-              "html": "<a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task\" id=\"ref-for-queue-a-task②⓪\">Queue a task</a>, on <var>cacheJobPromise</var>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#relevant-settings-object\" id=\"ref-for-relevant-settings-object②⑤\">relevant settings object</a>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#responsible-event-loop\" id=\"ref-for-responsible-event-loop⑨\">responsible event loop</a> using the <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#dom-manipulation-task-source\" id=\"ref-for-dom-manipulation-task-source①④\">DOM manipulation task source</a>, to perform the following substeps:",
+              "html": "<a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task\" id=\"ref-for-queue-a-task②⓪\">Queue a task</a>, on <var>cacheJobPromise</var>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#relevant-settings-object\" id=\"ref-for-relevant-settings-object②⑥\">relevant settings object</a>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#responsible-event-loop\" id=\"ref-for-responsible-event-loop⑨\">responsible event loop</a> using the <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#dom-manipulation-task-source\" id=\"ref-for-dom-manipulation-task-source①④\">DOM manipulation task source</a>, to perform the following substeps:",
               "rationale": "if",
               "steps": [
                 {
@@ -2128,7 +2128,7 @@
           ]
         },
         {
-          "html": "<p>Let <var>realm</var> be <a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#this\" id=\"ref-for-this⑥①\">this</a>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-relevant-realm\" id=\"ref-for-concept-relevant-realm⑧\">relevant realm</a>.</p>"
+          "html": "<p>Let <var>realm</var> be <a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#this\" id=\"ref-for-this⑥⓪\">this</a>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-relevant-realm\" id=\"ref-for-concept-relevant-realm⑧\">relevant realm</a>.</p>"
         },
         {
           "html": "<p>Let <var>promise</var> be <a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#a-new-promise\" id=\"ref-for-a-new-promise①④\">a new promise</a>.</p>"
@@ -2174,7 +2174,7 @@
               ]
             },
             {
-              "html": "<a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task\" id=\"ref-for-queue-a-task②①\">Queue a task</a>, on <var>promise</var>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#relevant-settings-object\" id=\"ref-for-relevant-settings-object②⑥\">relevant settings object</a>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#responsible-event-loop\" id=\"ref-for-responsible-event-loop①⓪\">responsible event loop</a> using the <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#dom-manipulation-task-source\" id=\"ref-for-dom-manipulation-task-source①⑤\">DOM manipulation task source</a>, to perform the following steps:",
+              "html": "<a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task\" id=\"ref-for-queue-a-task②①\">Queue a task</a>, on <var>promise</var>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#relevant-settings-object\" id=\"ref-for-relevant-settings-object②⑦\">relevant settings object</a>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#responsible-event-loop\" id=\"ref-for-responsible-event-loop①⓪\">responsible event loop</a> using the <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#dom-manipulation-task-source\" id=\"ref-for-dom-manipulation-task-source①⑤\">DOM manipulation task source</a>, to perform the following steps:",
               "rationale": "let",
               "steps": [
                 {
@@ -2216,7 +2216,7 @@
               "rationale": "for",
               "steps": [
                 {
-                  "html": "<a data-link-type=\"dfn\" href=\"https://infra.spec.whatwg.org/#map-iterate\" id=\"ref-for-map-iterate\">For each</a> <var>cacheName</var> → <var>cache</var> of the <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-relevant-name-to-cache-map\" id=\"ref-for-dfn-relevant-name-to-cache-map\">relevant name to cache map</a>:",
+                  "html": "<a data-link-type=\"dfn\" href=\"https://infra.spec.whatwg.org/#map-iterate\" id=\"ref-for-map-iterate\">For each</a> <var>cacheName</var> → <var>cache</var> of the <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#relevant-name-to-cache-map\" id=\"ref-for-relevant-name-to-cache-map\">relevant name to cache map</a>:",
                   "rationale": "if",
                   "steps": [
                     {
@@ -2248,7 +2248,7 @@
               "html": "<p>Let <var>promise</var> be <a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#a-promise-resolved-with\" id=\"ref-for-a-promise-resolved-with⑤\">a promise resolved with</a> undefined.</p>"
             },
             {
-              "html": "<a data-link-type=\"dfn\" href=\"https://infra.spec.whatwg.org/#map-iterate\" id=\"ref-for-map-iterate①\">For each</a> <var>cacheName</var> → <var>cache</var> of the <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-relevant-name-to-cache-map\" id=\"ref-for-dfn-relevant-name-to-cache-map①\">relevant name to cache map</a>:",
+              "html": "<a data-link-type=\"dfn\" href=\"https://infra.spec.whatwg.org/#map-iterate\" id=\"ref-for-map-iterate①\">For each</a> <var>cacheName</var> → <var>cache</var> of the <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#relevant-name-to-cache-map\" id=\"ref-for-relevant-name-to-cache-map①\">relevant name to cache map</a>:",
               "rationale": "set",
               "steps": [
                 {
@@ -2286,7 +2286,7 @@
           "rationale": "for",
           "steps": [
             {
-              "html": "<a data-link-type=\"dfn\" href=\"https://infra.spec.whatwg.org/#map-iterate\" id=\"ref-for-map-iterate②\">For each</a> <var>key</var> → <var>value</var> of the <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-relevant-name-to-cache-map\" id=\"ref-for-dfn-relevant-name-to-cache-map②\">relevant name to cache map</a>:",
+              "html": "<a data-link-type=\"dfn\" href=\"https://infra.spec.whatwg.org/#map-iterate\" id=\"ref-for-map-iterate②\">For each</a> <var>key</var> → <var>value</var> of the <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#relevant-name-to-cache-map\" id=\"ref-for-relevant-name-to-cache-map②\">relevant name to cache map</a>:",
               "rationale": "if",
               "steps": [
                 {
@@ -2318,7 +2318,7 @@
           "rationale": "for",
           "steps": [
             {
-              "html": "<a data-link-type=\"dfn\" href=\"https://infra.spec.whatwg.org/#map-iterate\" id=\"ref-for-map-iterate③\">For each</a> <var>key</var> → <var>value</var> of the <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-relevant-name-to-cache-map\" id=\"ref-for-dfn-relevant-name-to-cache-map③\">relevant name to cache map</a>:",
+              "html": "<a data-link-type=\"dfn\" href=\"https://infra.spec.whatwg.org/#map-iterate\" id=\"ref-for-map-iterate③\">For each</a> <var>key</var> → <var>value</var> of the <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#relevant-name-to-cache-map\" id=\"ref-for-relevant-name-to-cache-map③\">relevant name to cache map</a>:",
               "rationale": "if",
               "steps": [
                 {
@@ -2339,7 +2339,7 @@
               "html": "<p>Let <var>cache</var> be a new <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-request-response-list\" id=\"ref-for-dfn-request-response-list④\">request response list</a>.</p>"
             },
             {
-              "html": "<p><a data-link-type=\"dfn\" href=\"https://infra.spec.whatwg.org/#map-set\" id=\"ref-for-map-set\">Set</a> the <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-relevant-name-to-cache-map\" id=\"ref-for-dfn-relevant-name-to-cache-map④\">relevant name to cache map</a>[<var>cacheName</var>] to <var>cache</var>. If this cache write operation failed due to exceeding the granted quota limit, reject <var>promise</var> with a \"<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#quotaexceedederror\" id=\"ref-for-quotaexceedederror\">QuotaExceededError</a></code>\" <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#idl-DOMException\" id=\"ref-for-idl-DOMException①④\">DOMException</a></code> and abort these steps.</p>"
+              "html": "<p><a data-link-type=\"dfn\" href=\"https://infra.spec.whatwg.org/#map-set\" id=\"ref-for-map-set\">Set</a> the <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#relevant-name-to-cache-map\" id=\"ref-for-relevant-name-to-cache-map④\">relevant name to cache map</a>[<var>cacheName</var>] to <var>cache</var>. If this cache write operation failed due to exceeding the granted quota limit, reject <var>promise</var> with a <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#quotaexceedederror\" id=\"ref-for-quotaexceedederror\">QuotaExceededError</a></code> and abort these steps.</p>"
             },
             {
               "html": "<p>Resolve <var>promise</var> with a new <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/ServiceWorker/#cache\" id=\"ref-for-cache①⑤\">Cache</a></code> object that represents <var>cache</var>.</p>"
@@ -2381,7 +2381,7 @@
               "rationale": "remove",
               "steps": [
                 {
-                  "html": "<p><a data-link-type=\"dfn\" href=\"https://infra.spec.whatwg.org/#map-remove\" id=\"ref-for-map-remove\">Remove</a> the <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-relevant-name-to-cache-map\" id=\"ref-for-dfn-relevant-name-to-cache-map⑤\">relevant name to cache map</a>[<var>cacheName</var>].</p>"
+                  "html": "<p><a data-link-type=\"dfn\" href=\"https://infra.spec.whatwg.org/#map-remove\" id=\"ref-for-map-remove\">Remove</a> the <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#relevant-name-to-cache-map\" id=\"ref-for-relevant-name-to-cache-map⑤\">relevant name to cache map</a>[<var>cacheName</var>].</p>"
                 },
                 {
                   "html": "<p>Resolve <var>cacheJobPromise</var> with true.</p>"
@@ -2409,7 +2409,7 @@
           "rationale": "let",
           "steps": [
             {
-              "html": "<p>Let <var>cacheKeys</var> be the result of <a data-link-type=\"dfn\" href=\"https://infra.spec.whatwg.org/#map-getting-the-keys\" id=\"ref-for-map-getting-the-keys③\">getting the keys</a> of the <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-relevant-name-to-cache-map\" id=\"ref-for-dfn-relevant-name-to-cache-map⑥\">relevant name to cache map</a>.</p>"
+              "html": "<p>Let <var>cacheKeys</var> be the result of <a data-link-type=\"dfn\" href=\"https://infra.spec.whatwg.org/#map-getting-the-keys\" id=\"ref-for-map-getting-the-keys③\">getting the keys</a> of the <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#relevant-name-to-cache-map\" id=\"ref-for-relevant-name-to-cache-map⑥\">relevant name to cache map</a>.</p>"
             },
             {
               "html": "<p>Resolve <var>promise</var> with <var>cacheKeys</var>.</p>"
@@ -2723,7 +2723,7 @@
           "html": "<p>If any of the strings in <var>scopeURL</var>’s <a data-link-type=\"dfn\" href=\"https://url.spec.whatwg.org/#concept-url-path\" id=\"ref-for-concept-url-path②\">path</a> contains either <a data-link-type=\"dfn\" href=\"https://infra.spec.whatwg.org/#ascii-case-insensitive\" id=\"ref-for-ascii-case-insensitive②\">ASCII case-insensitive</a> \"<code>%2f</code>\" or <a data-link-type=\"dfn\" href=\"https://infra.spec.whatwg.org/#ascii-case-insensitive\" id=\"ref-for-ascii-case-insensitive③\">ASCII case-insensitive</a> \"<code>%5c</code>\", reject <var>promise</var> with a <code>TypeError</code> and abort these steps.</p>"
         },
         {
-          "html": "<p>Let <var>storage key</var> be the result of running <a data-link-type=\"dfn\" href=\"https://storage.spec.whatwg.org/#obtain-a-storage-key\" id=\"ref-for-obtain-a-storage-key⑨\">obtain a storage key</a> given <var>client</var>.</p>"
+          "html": "<p>Let <var>storage key</var> be the result of running <a data-link-type=\"dfn\" href=\"https://storage.spec.whatwg.org/#obtain-a-storage-key\" id=\"ref-for-obtain-a-storage-key⑧\">obtain a storage key</a> given <var>client</var>.</p>"
         },
         {
           "html": "<p>Let <var>job</var> be the result of running <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#create-job\" id=\"ref-for-create-job②\">Create Job</a> with <em>register</em>, <var>storage key</var>, <var>scopeURL</var>, <var>scriptURL</var>, <var>promise</var>, and <var>client</var>.</p>"
@@ -2748,11 +2748,11 @@
       "rationale": ".algorithm",
       "steps": [
         {
-          "html": "If the result of running <a data-link-type=\"dfn\" href=\"https://w3c.github.io/webappsec-secure-contexts/#potentially-trustworthy-origin\" id=\"ref-for-potentially-trustworthy-origin\">potentially trustworthy origin</a> with the <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-settings-object-origin\" id=\"ref-for-concept-settings-object-origin①③\">origin</a> of <var>job</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-job-script-url\" id=\"ref-for-dfn-job-script-url②\">script url</a> as the argument is <code>Not Trusted</code>, then:",
+          "html": "If the result of running <a data-link-type=\"dfn\" href=\"https://w3c.github.io/webappsec-secure-contexts/#potentially-trustworthy-origin\" id=\"ref-for-potentially-trustworthy-origin\">potentially trustworthy origin</a> with the <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-settings-object-origin\" id=\"ref-for-concept-settings-object-origin①②\">origin</a> of <var>job</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-job-script-url\" id=\"ref-for-dfn-job-script-url②\">script url</a> as the argument is <code>Not Trusted</code>, then:",
           "rationale": "invoke",
           "steps": [
             {
-              "html": "<p>Invoke <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#reject-job-promise\" id=\"ref-for-reject-job-promise\">Reject Job Promise</a> with <var>job</var> and \"<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#securityerror\" id=\"ref-for-securityerror①\">SecurityError</a></code>\" <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#idl-DOMException\" id=\"ref-for-idl-DOMException①⑤\">DOMException</a></code>.</p>"
+              "html": "<p>Invoke <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#reject-job-promise\" id=\"ref-for-reject-job-promise\">Reject Job Promise</a> with <var>job</var> and \"<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#securityerror\" id=\"ref-for-securityerror①\">SecurityError</a></code>\" <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#idl-DOMException\" id=\"ref-for-idl-DOMException①④\">DOMException</a></code>.</p>"
             },
             {
               "html": "<p>Invoke <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#finish-job\" id=\"ref-for-finish-job\">Finish Job</a> with <var>job</var> and abort these steps.</p>"
@@ -2764,7 +2764,7 @@
           "rationale": "invoke",
           "steps": [
             {
-              "html": "<p>Invoke <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#reject-job-promise\" id=\"ref-for-reject-job-promise①\">Reject Job Promise</a> with <var>job</var> and \"<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#securityerror\" id=\"ref-for-securityerror②\">SecurityError</a></code>\" <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#idl-DOMException\" id=\"ref-for-idl-DOMException①⑥\">DOMException</a></code>.</p>"
+              "html": "<p>Invoke <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#reject-job-promise\" id=\"ref-for-reject-job-promise①\">Reject Job Promise</a> with <var>job</var> and \"<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#securityerror\" id=\"ref-for-securityerror②\">SecurityError</a></code>\" <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#idl-DOMException\" id=\"ref-for-idl-DOMException①⑤\">DOMException</a></code>.</p>"
             },
             {
               "html": "<p>Invoke <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#finish-job\" id=\"ref-for-finish-job①\">Finish Job</a> with <var>job</var> and abort these steps.</p>"
@@ -2776,7 +2776,7 @@
           "rationale": "invoke",
           "steps": [
             {
-              "html": "<p>Invoke <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#reject-job-promise\" id=\"ref-for-reject-job-promise②\">Reject Job Promise</a> with <var>job</var> and \"<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#securityerror\" id=\"ref-for-securityerror③\">SecurityError</a></code>\" <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#idl-DOMException\" id=\"ref-for-idl-DOMException①⑦\">DOMException</a></code>.</p>"
+              "html": "<p>Invoke <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#reject-job-promise\" id=\"ref-for-reject-job-promise②\">Reject Job Promise</a> with <var>job</var> and \"<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#securityerror\" id=\"ref-for-securityerror③\">SecurityError</a></code>\" <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#idl-DOMException\" id=\"ref-for-idl-DOMException①⑥\">DOMException</a></code>.</p>"
             },
             {
               "html": "<p>Invoke <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#finish-job\" id=\"ref-for-finish-job②\">Finish Job</a> with <var>job</var> and abort these steps.</p>"
@@ -2889,7 +2889,7 @@
               "rationale": "invoke",
               "steps": [
                 {
-                  "html": "<p>Invoke <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#reject-job-promise\" id=\"ref-for-reject-job-promise⑤\">Reject Job Promise</a> with <var>job</var> and \"<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#securityerror\" id=\"ref-for-securityerror④\">SecurityError</a></code>\" <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#idl-DOMException\" id=\"ref-for-idl-DOMException①⑧\">DOMException</a></code>.</p>"
+                  "html": "<p>Invoke <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#reject-job-promise\" id=\"ref-for-reject-job-promise⑤\">Reject Job Promise</a> with <var>job</var> and \"<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#securityerror\" id=\"ref-for-securityerror④\">SecurityError</a></code>\" <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#idl-DOMException\" id=\"ref-for-idl-DOMException①⑦\">DOMException</a></code>.</p>"
                 },
                 {
                   "html": "<p>Asynchronously complete these steps with a <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#concept-network-error\" id=\"ref-for-concept-network-error④\">network error</a>.</p>"
@@ -2952,7 +2952,7 @@
               "rationale": "invoke",
               "steps": [
                 {
-                  "html": "<p>Invoke <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#reject-job-promise\" id=\"ref-for-reject-job-promise⑥\">Reject Job Promise</a> with <var>job</var> and \"<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#securityerror\" id=\"ref-for-securityerror⑤\">SecurityError</a></code>\" <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#idl-DOMException\" id=\"ref-for-idl-DOMException①⑨\">DOMException</a></code>.</p>"
+                  "html": "<p>Invoke <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#reject-job-promise\" id=\"ref-for-reject-job-promise⑥\">Reject Job Promise</a> with <var>job</var> and \"<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#securityerror\" id=\"ref-for-securityerror⑤\">SecurityError</a></code>\" <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#idl-DOMException\" id=\"ref-for-idl-DOMException①⑧\">DOMException</a></code>.</p>"
                 },
                 {
                   "html": "<p>Asynchronously complete these steps with a <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#concept-network-error\" id=\"ref-for-concept-network-error⑥\">network error</a>.</p>"
@@ -3136,7 +3136,7 @@
           "html": "<p>Invoke <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#resolve-job-promise\" id=\"ref-for-resolve-job-promise②\">Resolve Job Promise</a> with <var>job</var> and <var>registration</var>.</p>"
         },
         {
-          "html": "<p>Let <var>settingsObjects</var> be all <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#environment-settings-object\" id=\"ref-for-environment-settings-object②⓪\">environment settings objects</a> whose <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-settings-object-origin\" id=\"ref-for-concept-settings-object-origin①④\">origin</a> is <var>registration</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-scope-url\" id=\"ref-for-dfn-scope-url①⑤\">scope url</a>’s <a data-link-type=\"dfn\" href=\"https://url.spec.whatwg.org/#concept-url-origin\" id=\"ref-for-concept-url-origin⑧\">origin</a>.</p>"
+          "html": "<p>Let <var>settingsObjects</var> be all <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#environment-settings-object\" id=\"ref-for-environment-settings-object①⑧\">environment settings objects</a> whose <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-settings-object-origin\" id=\"ref-for-concept-settings-object-origin①③\">origin</a> is <var>registration</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-scope-url\" id=\"ref-for-dfn-scope-url①⑤\">scope url</a>’s <a data-link-type=\"dfn\" href=\"https://url.spec.whatwg.org/#concept-url-origin\" id=\"ref-for-concept-url-origin⑧\">origin</a>.</p>"
         },
         {
           "html": "For each <var>settingsObject</var> of <var>settingsObjects</var>, <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task\" id=\"ref-for-queue-a-task②⑦\">queue a task</a> on <var>settingsObject</var>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#responsible-event-loop\" id=\"ref-for-responsible-event-loop①⑤\">responsible event loop</a> in the <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#dom-manipulation-task-source\" id=\"ref-for-dom-manipulation-task-source②⓪\">DOM manipulation task source</a> to run the following steps:",
@@ -3324,7 +3324,7 @@
               "html": "<p>If <var>readyPromise</var> is null, then <a data-link-type=\"dfn\" href=\"https://infra.spec.whatwg.org/#iteration-continue\" id=\"ref-for-iteration-continue⑧\">continue</a>.</p>"
             },
             {
-              "html": "<p><span id=\"activate-resolve-ready-step\">If <var>readyPromise</var> is pending, resolve <var>readyPromise</var> with the the result of <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#get-the-service-worker-registration-object\" id=\"ref-for-get-the-service-worker-registration-object⑥\">getting the service worker registration object</a> that represents <var>registration</var> in <var>readyPromise</var>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#relevant-settings-object\" id=\"ref-for-relevant-settings-object②⑦\">relevant settings object</a></span>.</p>"
+              "html": "<p><span id=\"activate-resolve-ready-step\">If <var>readyPromise</var> is pending, resolve <var>readyPromise</var> with the the result of <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#get-the-service-worker-registration-object\" id=\"ref-for-get-the-service-worker-registration-object⑥\">getting the service worker registration object</a> that represents <var>registration</var> in <var>readyPromise</var>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#relevant-settings-object\" id=\"ref-for-relevant-settings-object②⑨\">relevant settings object</a></span>.</p>"
             }
           ]
         },
@@ -3434,7 +3434,7 @@
               "html": "<p>Let <var>realmExecutionContext</var> be the result of <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#creating-a-new-javascript-realm\" id=\"ref-for-creating-a-new-javascript-realm\">creating a new realm</a> given <var>agent</var> and the following customizations:</p>\n         <ul>\n          <li data-md=\"\">\n           <p>For the global object, create a new <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/ServiceWorker/#serviceworkerglobalscope\" id=\"ref-for-serviceworkerglobalscope②①\">ServiceWorkerGlobalScope</a></code> object. Let <var>workerGlobalScope</var> be the created object.</p>\n         </li></ul>"
             },
             {
-              "html": "<p>Let <var>settingsObject</var> be a new <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#environment-settings-object\" id=\"ref-for-environment-settings-object②①\">environment settings object</a> whose algorithms are defined as follows:</p>\n         <dl>\n          <dt data-md=\"\">The <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#realm-execution-context\" id=\"ref-for-realm-execution-context\">realm execution context</a>\n          </dt><dd data-md=\"\">\n           <p>Return <var>realmExecutionContext</var>.</p>\n          </dd><dt data-md=\"\">The <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-settings-object-module-map\" id=\"ref-for-concept-settings-object-module-map\">module map</a>\n          </dt><dd data-md=\"\">\n           <p>Return <var>workerGlobalScope</var>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/workers.html#concept-workerglobalscope-module-map\" id=\"ref-for-concept-workerglobalscope-module-map\">module map</a>.</p>\n          </dd><dt data-md=\"\">The <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#api-base-url\" id=\"ref-for-api-base-url⑤\">API base URL</a>\n          </dt><dd data-md=\"\">\n           <p>Return <var>serviceWorker</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-script-url\" id=\"ref-for-dfn-script-url⑦\">script url</a>.</p>\n          </dd><dt data-md=\"\">The <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-settings-object-origin\" id=\"ref-for-concept-settings-object-origin①⑤\">origin</a>\n          </dt><dd data-md=\"\">\n           <p>Return its registering <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-service-worker-client\" id=\"ref-for-dfn-service-worker-client④②\">service worker client</a>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-settings-object-origin\" id=\"ref-for-concept-settings-object-origin①⑥\">origin</a>.</p>\n          </dd><dt data-md=\"\">The <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-settings-object-policy-container\" id=\"ref-for-concept-settings-object-policy-container\">policy container</a>\n          </dt><dd data-md=\"\">\n           <p>Return <var>workerGlobalScope</var>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/workers.html#concept-workerglobalscope-policy-container\" id=\"ref-for-concept-workerglobalscope-policy-container\">policy container</a>.</p>\n          </dd><dt data-md=\"\">The <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-settings-object-time-origin\" id=\"ref-for-concept-settings-object-time-origin\">time origin</a>\n          </dt><dd data-md=\"\">\n           <p>Return the result of <a data-link-type=\"dfn\" href=\"https://w3c.github.io/hr-time/#dfn-coarsen-time\" id=\"ref-for-dfn-coarsen-time\">coarsening</a> <var>unsafeCreationTime</var> given <var>workerGlobalScope</var>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/workers.html#concept-workerglobalscope-cross-origin-isolated-capability\" id=\"ref-for-concept-workerglobalscope-cross-origin-isolated-capability\">cross-origin isolated capability</a>.</p>\n         </dd></dl>"
+              "html": "<p>Let <var>settingsObject</var> be a new <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#environment-settings-object\" id=\"ref-for-environment-settings-object①⑨\">environment settings object</a> whose algorithms are defined as follows:</p>\n         <dl>\n          <dt data-md=\"\">The <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#realm-execution-context\" id=\"ref-for-realm-execution-context\">realm execution context</a>\n          </dt><dd data-md=\"\">\n           <p>Return <var>realmExecutionContext</var>.</p>\n          </dd><dt data-md=\"\">The <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-settings-object-module-map\" id=\"ref-for-concept-settings-object-module-map\">module map</a>\n          </dt><dd data-md=\"\">\n           <p>Return <var>workerGlobalScope</var>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/workers.html#concept-workerglobalscope-module-map\" id=\"ref-for-concept-workerglobalscope-module-map\">module map</a>.</p>\n          </dd><dt data-md=\"\">The <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#api-base-url\" id=\"ref-for-api-base-url⑤\">API base URL</a>\n          </dt><dd data-md=\"\">\n           <p>Return <var>serviceWorker</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-script-url\" id=\"ref-for-dfn-script-url⑦\">script url</a>.</p>\n          </dd><dt data-md=\"\">The <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-settings-object-origin\" id=\"ref-for-concept-settings-object-origin①④\">origin</a>\n          </dt><dd data-md=\"\">\n           <p>Return its registering <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-service-worker-client\" id=\"ref-for-dfn-service-worker-client④②\">service worker client</a>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-settings-object-origin\" id=\"ref-for-concept-settings-object-origin①⑤\">origin</a>.</p>\n          </dd><dt data-md=\"\">The <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-settings-object-has-cross-site-ancestor\" id=\"ref-for-concept-settings-object-has-cross-site-ancestor\">has cross-site ancestor</a>\n          </dt><dd data-md=\"\">\n           <p>Return its registering <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-service-worker-client\" id=\"ref-for-dfn-service-worker-client④③\">service worker client</a>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-settings-object-has-cross-site-ancestor\" id=\"ref-for-concept-settings-object-has-cross-site-ancestor①\">has cross-site ancestor</a>.</p>\n          </dd><dt data-md=\"\">The <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-settings-object-policy-container\" id=\"ref-for-concept-settings-object-policy-container\">policy container</a>\n          </dt><dd data-md=\"\">\n           <p>Return <var>workerGlobalScope</var>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/workers.html#concept-workerglobalscope-policy-container\" id=\"ref-for-concept-workerglobalscope-policy-container\">policy container</a>.</p>\n          </dd><dt data-md=\"\">The <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-settings-object-time-origin\" id=\"ref-for-concept-settings-object-time-origin\">time origin</a>\n          </dt><dd data-md=\"\">\n           <p>Return the result of <a data-link-type=\"dfn\" href=\"https://w3c.github.io/hr-time/#dfn-coarsen-time\" id=\"ref-for-dfn-coarsen-time\">coarsening</a> <var>unsafeCreationTime</var> given <var>workerGlobalScope</var>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/workers.html#concept-workerglobalscope-cross-origin-isolated-capability\" id=\"ref-for-concept-workerglobalscope-cross-origin-isolated-capability\">cross-origin isolated capability</a>.</p>\n         </dd></dl>"
             },
             {
               "html": "<p>Set <var>settingsObject</var>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-environment-id\" id=\"ref-for-concept-environment-id②\">id</a> to a new unique opaque string, <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-environment-creation-url\" id=\"ref-for-concept-environment-creation-url⑧\">creation URL</a> to <var>serviceWorker</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-script-url\" id=\"ref-for-dfn-script-url⑧\">script url</a>, <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-environment-top-level-creation-url\" id=\"ref-for-concept-environment-top-level-creation-url\">top-level creation URL</a> to null, <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-environment-top-level-origin\" id=\"ref-for-concept-environment-top-level-origin\">top-level origin</a> to an <a data-link-type=\"dfn\" href=\"https://infra.spec.whatwg.org/#implementation-defined\" id=\"ref-for-implementation-defined\">implementation-defined</a> value, <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-environment-target-browsing-context\" id=\"ref-for-concept-environment-target-browsing-context①\">target browsing context</a> to null, and <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-environment-active-service-worker\" id=\"ref-for-concept-environment-active-service-worker②⑤\">active service worker</a> to null.</p>"
@@ -3727,7 +3727,7 @@
           "rationale": "if",
           "steps": [
             {
-              "html": "If <var>reservedClient</var> is not null and is an <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#environment-settings-object\" id=\"ref-for-environment-settings-object②②\">environment settings object</a>, then:",
+              "html": "If <var>reservedClient</var> is not null and is an <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#environment-settings-object\" id=\"ref-for-environment-settings-object②⓪\">environment settings object</a>, then:",
               "rationale": "if",
               "steps": [
                 {
@@ -3751,7 +3751,7 @@
               "html": "<p><a data-link-type=\"dfn\" href=\"https://tc39.es/ecma262/#sec-algorithm-conventions\" id=\"ref-for-sec-algorithm-conventions\">Assert</a> <var>reservedClient</var> is not null.</p>"
             },
             {
-              "html": "<p>Let <var>storage key</var> be the result of running <a data-link-type=\"dfn\" href=\"https://storage.spec.whatwg.org/#obtain-a-storage-key\" id=\"ref-for-obtain-a-storage-key①⓪\">obtain a storage key</a> given <var>reservedClient</var>.</p>"
+              "html": "<p>Let <var>storage key</var> be the result of running <a data-link-type=\"dfn\" href=\"https://storage.spec.whatwg.org/#obtain-a-storage-key\" id=\"ref-for-obtain-a-storage-key⑨\">obtain a storage key</a> given <var>reservedClient</var>.</p>"
             },
             {
               "html": "<p>Set <var>registration</var> to the result of running <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#match-service-worker-registration\" id=\"ref-for-match-service-worker-registration⑦\">Match Service Worker Registration</a> given <var>storage key</var> and <var>request</var>’s <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#concept-request-url\" id=\"ref-for-concept-request-url⑨\">url</a>.</p>"
@@ -3822,7 +3822,31 @@
                       "html": "<p>Set <var>timingInfo</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#service-worker-timing-info-worker-cache-lookup-start\" id=\"ref-for-service-worker-timing-info-worker-cache-lookup-start\">worker cache lookup start</a> to the <a data-link-type=\"dfn\" href=\"https://w3c.github.io/hr-time/#dfn-coarsened-shared-current-time\" id=\"ref-for-dfn-coarsened-shared-current-time①\">coarsened shared current time</a> given <var>useHighResPerformanceTimers</var>.</p>"
                     },
                     {
-                      "html": "<a data-link-type=\"dfn\" href=\"https://infra.spec.whatwg.org/#map-iterate\" id=\"ref-for-map-iterate⑥\">For each</a> <var>cacheName</var> → <var>cache</var> of the <var>registration</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#service-worker-registration-storage-key\" id=\"ref-for-service-worker-registration-storage-key①③\">storage key</a>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-name-to-cache-map\" id=\"ref-for-dfn-name-to-cache-map⑥\">name to cache map</a>.",
+                      "html": "<p>Let <var>environment</var> be null.</p>"
+                    },
+                    {
+                      "html": "If <var>request</var> is a <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#non-subresource-request\" id=\"ref-for-non-subresource-request②\">non-subresource request</a>, then:",
+                      "rationale": "set",
+                      "steps": [
+                        {
+                          "html": "<p>Set <var>environment</var> to <var>reservedClient</var>.</p>"
+                        }
+                      ]
+                    },
+                    {
+                      "html": "Else:",
+                      "rationale": "set",
+                      "steps": [
+                        {
+                          "html": "<p>Set <var>environment</var> to <var>client</var>.</p>"
+                        }
+                      ]
+                    },
+                    {
+                      "html": "<p>Let <var>caches</var> be the result of running <a data-link-type=\"dfn\" href=\"https://storage.spec.whatwg.org/#obtain-a-local-storage-bottle-map\" id=\"ref-for-obtain-a-local-storage-bottle-map②\">obtain a local storage bottle map</a> with <var>environment</var> and \"<code>caches</code>\".</p>"
+                    },
+                    {
+                      "html": "<a data-link-type=\"dfn\" href=\"https://infra.spec.whatwg.org/#map-iterate\" id=\"ref-for-map-iterate⑥\">For each</a> <var>cacheName</var> → <var>cache</var> of <var>caches</var>.",
                       "rationale": "if",
                       "steps": [
                         {
@@ -3866,7 +3890,7 @@
                               "rationale": "if",
                               "steps": [
                                 {
-                                  "html": "<p>If <var>response</var>’s <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#concept-response-type\" id=\"ref-for-concept-response-type③\">type</a> is \"<code>opaque</code>\", and <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#cross-origin-resource-policy-check\" id=\"ref-for-cross-origin-resource-policy-check①\">cross-origin resource policy check</a> with <var>globalObject</var>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-settings-object-origin\" id=\"ref-for-concept-settings-object-origin①⑦\">origin</a>, <var>globalObject</var>, \"\", and <var>response</var>’s <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#concept-internal-response\" id=\"ref-for-concept-internal-response①\">internal response</a> returns <b>blocked</b>, then return <var>timingInfo</var>.</p>"
+                                  "html": "<p>If <var>response</var>’s <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#concept-response-type\" id=\"ref-for-concept-response-type③\">type</a> is \"<code>opaque</code>\", and <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#cross-origin-resource-policy-check\" id=\"ref-for-cross-origin-resource-policy-check①\">cross-origin resource policy check</a> with <var>globalObject</var>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-settings-object-origin\" id=\"ref-for-concept-settings-object-origin①⑥\">origin</a>, <var>globalObject</var>, \"\", and <var>response</var>’s <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#concept-internal-response\" id=\"ref-for-concept-internal-response①\">internal response</a> returns <b>blocked</b>, then return <var>timingInfo</var>.</p>"
                                 },
                                 {
                                   "html": "<p>Set <var>timingInfo</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#service-worker-timing-info-worker-final-router-source\" id=\"ref-for-service-worker-timing-info-worker-final-router-source①\">worker final router source</a> be set to <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/ServiceWorker/#dom-routersourceenum-cache\" id=\"ref-for-dom-routersourceenum-cache①\">\"cache\"</a></code>.</p>"
@@ -4016,57 +4040,111 @@
           ]
         },
         {
-          "html": "If <var>request</var> is a <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#navigation-request\" id=\"ref-for-navigation-request①\">navigation request</a>, <var>registration</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#service-worker-registration-navigation-preload-enabled-flag\" id=\"ref-for-service-worker-registration-navigation-preload-enabled-flag③\">navigation preload enabled flag</a> is set, <var>request</var>’s <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#concept-request-method\" id=\"ref-for-concept-request-method⑥\">method</a> is `<code>GET</code>`, <var>registration</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-active-worker\" id=\"ref-for-dfn-active-worker③⑨\">active worker</a>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-set-of-event-types-to-handle\" id=\"ref-for-dfn-set-of-event-types-to-handle④\">set of event types to handle</a> <a data-link-type=\"dfn\" href=\"https://infra.spec.whatwg.org/#list-contain\" id=\"ref-for-list-contain③\">contains</a> <code>fetch</code>, and <var>registration</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-active-worker\" id=\"ref-for-dfn-active-worker④⓪\">active worker</a>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#service-worker-all-fetch-listeners-are-empty-flag\" id=\"ref-for-service-worker-all-fetch-listeners-are-empty-flag②\">all fetch listeners are empty flag</a> is not set then:",
-          "rationale": "let",
+          "html": "<p>Let <var>responseForAutoPreload</var> be null.</p>"
+        },
+        {
+          "html": "If <var>request</var> is a <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#navigation-request\" id=\"ref-for-navigation-request①\">navigation request</a>, <var>request</var>’s <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#concept-request-method\" id=\"ref-for-concept-request-method⑥\">method</a> is `<code>GET</code>`, <var>registration</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-active-worker\" id=\"ref-for-dfn-active-worker③⑨\">active worker</a>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-set-of-event-types-to-handle\" id=\"ref-for-dfn-set-of-event-types-to-handle④\">set of event types to handle</a> <a data-link-type=\"dfn\" href=\"https://infra.spec.whatwg.org/#list-contain\" id=\"ref-for-list-contain③\">contains</a> <code>fetch</code>, and <var>registration</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-active-worker\" id=\"ref-for-dfn-active-worker④⓪\">active worker</a>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#service-worker-all-fetch-listeners-are-empty-flag\" id=\"ref-for-service-worker-all-fetch-listeners-are-empty-flag②\">all fetch listeners are empty flag</a> is not set then:",
+          "rationale": "if",
           "steps": [
             {
-              "html": "<p>Let <var>preloadRequest</var> be the result of <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#concept-request-clone\" id=\"ref-for-concept-request-clone\">cloning</a> the request <var>request</var>.</p>"
-            },
-            {
-              "html": "<p>Let <var>preloadRequestHeaders</var> be <var>preloadRequest</var>’s <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#concept-request-header-list\" id=\"ref-for-concept-request-header-list①\">header list</a>.</p>"
-            },
-            {
-              "html": "<p>Let <var>preloadResponseObject</var> be a new <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://fetch.spec.whatwg.org/#response\" id=\"ref-for-response①④\">Response</a></code> object associated with a new <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://fetch.spec.whatwg.org/#headers\" id=\"ref-for-headers②\">Headers</a></code> object whose <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#concept-headers-guard\" id=\"ref-for-concept-headers-guard②\">guard</a> is \"<code>immutable</code>\".</p>"
-            },
-            {
-              "html": "<p><a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#concept-header-list-append\" id=\"ref-for-concept-header-list-append\">Append</a> to <var>preloadRequestHeaders</var> a new <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#concept-header\" id=\"ref-for-concept-header②\">header</a> whose <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#concept-header-name\" id=\"ref-for-concept-header-name②\">name</a> is `<code>Service-Worker-Navigation-Preload</code>` and <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#concept-header-value\" id=\"ref-for-concept-header-value\">value</a> is <var>registration</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#service-worker-registration-navigation-preload-header-value\" id=\"ref-for-service-worker-registration-navigation-preload-header-value②\">navigation preload header value</a>.</p>"
-            },
-            {
-              "html": "<p>Set <var>preloadRequest</var>’s <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#request-service-workers-mode\" id=\"ref-for-request-service-workers-mode③\">service-workers mode</a> to \"<code>none</code>\".</p>"
-            },
-            {
-              "html": "<p>Let <var>preloadFetchController</var> be null.</p>"
-            },
-            {
-              "html": "Run the following substeps <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/infrastructure.html#in-parallel\" id=\"ref-for-in-parallel③⑧\">in parallel</a>, but <a data-link-type=\"dfn\" href=\"https://infra.spec.whatwg.org/#abort-when\" id=\"ref-for-abort-when①\">abort when</a> <var>fetchController</var>’s <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#fetch-controller-state\" id=\"ref-for-fetch-controller-state②\">state</a> is \"<code>terminated</code>\" or \"<code>aborted</code>\":",
-              "rationale": "set",
+              "html": "If <var>registration</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#service-worker-registration-navigation-preload-enabled-flag\" id=\"ref-for-service-worker-registration-navigation-preload-enabled-flag③\">navigation preload enabled flag</a> is set then:",
+              "rationale": "let",
               "steps": [
                 {
-                  "html": "To <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#process-response\" id=\"ref-for-process-response③\">processResponse</a> for <var>navigationPreloadResponse</var>, run these substeps:",
-                  "rationale": "if",
+                  "html": "<p>Let <var>preloadRequest</var> be the result of <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#concept-request-clone\" id=\"ref-for-concept-request-clone\">cloning</a> the request <var>request</var>.</p>"
+                },
+                {
+                  "html": "<p>Let <var>preloadRequestHeaders</var> be <var>preloadRequest</var>’s <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#concept-request-header-list\" id=\"ref-for-concept-request-header-list①\">header list</a>.</p>"
+                },
+                {
+                  "html": "<p>Let <var>preloadResponseObject</var> be a new <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://fetch.spec.whatwg.org/#response\" id=\"ref-for-response①④\">Response</a></code> object associated with a new <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://fetch.spec.whatwg.org/#headers\" id=\"ref-for-headers②\">Headers</a></code> object whose <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#concept-headers-guard\" id=\"ref-for-concept-headers-guard②\">guard</a> is \"<code>immutable</code>\".</p>"
+                },
+                {
+                  "html": "<p><a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#concept-header-list-append\" id=\"ref-for-concept-header-list-append\">Append</a> to <var>preloadRequestHeaders</var> a new <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#concept-header\" id=\"ref-for-concept-header②\">header</a> whose <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#concept-header-name\" id=\"ref-for-concept-header-name②\">name</a> is `<code>Service-Worker-Navigation-Preload</code>` and <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#concept-header-value\" id=\"ref-for-concept-header-value\">value</a> is <var>registration</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#service-worker-registration-navigation-preload-header-value\" id=\"ref-for-service-worker-registration-navigation-preload-header-value②\">navigation preload header value</a>.</p>"
+                },
+                {
+                  "html": "<p>Set <var>preloadRequest</var>’s <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#request-service-workers-mode\" id=\"ref-for-request-service-workers-mode③\">service-workers mode</a> to \"<code>none</code>\".</p>"
+                },
+                {
+                  "html": "<p>Let <var>preloadFetchController</var> be null.</p>"
+                },
+                {
+                  "html": "Run the following substeps <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/infrastructure.html#in-parallel\" id=\"ref-for-in-parallel③⑧\">in parallel</a>, but <a data-link-type=\"dfn\" href=\"https://infra.spec.whatwg.org/#abort-when\" id=\"ref-for-abort-when①\">abort when</a> <var>fetchController</var>’s <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#fetch-controller-state\" id=\"ref-for-fetch-controller-state②\">state</a> is \"<code>terminated</code>\" or \"<code>aborted</code>\":",
+                  "rationale": "set",
                   "steps": [
                     {
-                      "html": "<p>If <var>navigationPreloadResponse</var>’s <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#concept-response-type\" id=\"ref-for-concept-response-type④\">type</a> is \"<code>error</code>\", reject <var>preloadResponse</var> with a <code>TypeError</code> and terminate these substeps.</p>"
+                      "html": "To <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#process-response\" id=\"ref-for-process-response③\">processResponse</a> for <var>navigationPreloadResponse</var>, run these substeps:",
+                      "rationale": "if",
+                      "steps": [
+                        {
+                          "html": "<p>If <var>navigationPreloadResponse</var>’s <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#concept-response-type\" id=\"ref-for-concept-response-type④\">type</a> is \"<code>error</code>\", reject <var>preloadResponse</var> with a <code>TypeError</code> and terminate these substeps.</p>"
+                        },
+                        {
+                          "html": "<p>Associate <var>preloadResponseObject</var> with <var>navigationPreloadResponse</var>.</p>"
+                        },
+                        {
+                          "html": "<p>Resolve <var>preloadResponse</var> with <var>preloadResponseObject</var>.</p>"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "html": "<a data-link-type=\"dfn\" href=\"https://infra.spec.whatwg.org/#if-aborted\" id=\"ref-for-if-aborted①\">If aborted</a>, then:",
+                  "rationale": "let",
+                  "steps": [
+                    {
+                      "html": "<p>Let <var>deserializedError</var> be the result of <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#deserialize-a-serialized-abort-reason\" id=\"ref-for-deserialize-a-serialized-abort-reason\">deserialize a serialized abort reason</a> given null and <var>workerRealm</var>.</p>"
                     },
                     {
-                      "html": "<p>Associate <var>preloadResponseObject</var> with <var>navigationPreloadResponse</var>.</p>"
-                    },
-                    {
-                      "html": "<p>Resolve <var>preloadResponse</var> with <var>preloadResponseObject</var>.</p>"
+                      "html": "<p><a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#fetch-controller-abort\" id=\"ref-for-fetch-controller-abort④\">Abort</a> <var>preloadFetchController</var> with <var>deserializedError</var>.</p>"
                     }
                   ]
                 }
               ]
             },
             {
-              "html": "<a data-link-type=\"dfn\" href=\"https://infra.spec.whatwg.org/#if-aborted\" id=\"ref-for-if-aborted①\">If aborted</a>, then:",
-              "rationale": "let",
+              "html": "Else if <var>timingInfo</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#service-worker-timing-info-worker-matched-router-source\" id=\"ref-for-service-worker-timing-info-worker-matched-router-source①\">worker matched router source</a> is not \"<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/ServiceWorker/#dom-routersourceenum-fetch-event\" id=\"ref-for-dom-routersourceenum-fetch-event③\">fetch-event</a></code>\", a user agent may run the following substeps:",
+              "rationale": "assert",
               "steps": [
                 {
-                  "html": "<p>Let <var>deserializedError</var> be the result of <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#deserialize-a-serialized-abort-reason\" id=\"ref-for-deserialize-a-serialized-abort-reason\">deserialize a serialized abort reason</a> given null and <var>workerRealm</var>.</p>"
+                  "html": "<p class=\"assertion\">Assert: <var>timingInfo</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#service-worker-timing-info-worker-matched-router-source\" id=\"ref-for-service-worker-timing-info-worker-matched-router-source②\">worker matched router source</a> is null.</p>"
                 },
                 {
-                  "html": "<p><a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#fetch-controller-abort\" id=\"ref-for-fetch-controller-abort④\">Abort</a> <var>preloadFetchController</var> with <var>deserializedError</var>.</p>"
+                  "html": "<p>Let <var>autoPreloadFetchController</var> be null.</p>"
+                },
+                {
+                  "html": "<p>Set <var>responseForAutoPreload</var> to be a <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-race-response\" id=\"ref-for-dfn-race-response④\">race response</a> whose <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#race-response-value\" id=\"ref-for-race-response-value④\">value</a> is \"<code>pending</code>\".</p>"
+                },
+                {
+                  "html": "Run the following substeps <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/infrastructure.html#in-parallel\" id=\"ref-for-in-parallel③⑨\">in parallel</a>, but <a data-link-type=\"dfn\" href=\"https://infra.spec.whatwg.org/#abort-when\" id=\"ref-for-abort-when②\">abort when</a> <var>fetchController</var>’s <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#fetch-controller-state\" id=\"ref-for-fetch-controller-state③\">state</a> is \"<code>terminated</code>\" or \"<code>aborted</code>\":",
+                  "rationale": "set",
+                  "steps": [
+                    {
+                      "html": "Set <var>autoPreloadFetchController</var> to the result of calling <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#concept-fetch\" id=\"ref-for-concept-fetch①⑥\">fetch</a> given <var>request</var>, with <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#process-response\" id=\"ref-for-process-response④\">processResponse</a> set to the following steps given a <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#concept-response\" id=\"ref-for-concept-response①③\">response</a> <var>autoPreloadRequestResponse</var>:",
+                      "rationale": "set",
+                      "steps": [
+                        {
+                          "html": "<p>Set <var>responseForAutoPreload</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#race-response-value\" id=\"ref-for-race-response-value⑤\">value</a> to <var>autoPreloadRequestResponse</var>.</p>"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "html": "<a data-link-type=\"dfn\" href=\"https://infra.spec.whatwg.org/#if-aborted\" id=\"ref-for-if-aborted②\">If aborted</a> and <var>autoPreloadFetchController</var> is not null, then:",
+                  "rationale": "abort",
+                  "steps": [
+                    {
+                      "html": "<p><a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#fetch-controller-abort\" id=\"ref-for-fetch-controller-abort⑤\">Abort</a> <var>autoPreloadFetchController</var>.</p>"
+                    },
+                    {
+                      "html": "<p>Set <var>responseForAutoPreload</var> to a <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-race-response\" id=\"ref-for-dfn-race-response⑤\">race response</a> whose <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#race-response-value\" id=\"ref-for-race-response-value⑥\">value</a> is null.</p>"
+                    }
+                  ]
+                },
+                {
+                  "html": "<p>Resolve <var>preloadResponse</var> with undefined.</p>"
                 }
               ]
             }
@@ -4076,7 +4154,7 @@
           "html": "<p>Else, resolve <var>preloadResponse</var> with undefined.</p>"
         },
         {
-          "html": "<p>Let <var>fetchResult</var> be the result of <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#create-fetch-event-and-dispatch\" id=\"ref-for-create-fetch-event-and-dispatch①\">Create Fetch Event and Dispatch</a> with <var>request</var>, <var>registration</var>, <var>useHighResPerformanceTimers</var>, <var>timingInfo</var>, <var>workerRealm</var>, <var>reservedClient</var>, <var>preloadResponse</var>, and null.</p>"
+          "html": "<p>Let <var>fetchResult</var> be the result of <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#create-fetch-event-and-dispatch\" id=\"ref-for-create-fetch-event-and-dispatch①\">Create Fetch Event and Dispatch</a> with <var>request</var>, <var>registration</var>, <var>useHighResPerformanceTimers</var>, <var>timingInfo</var>, <var>workerRealm</var>, <var>reservedClient</var>, <var>preloadResponse</var>, and <var>responseForAutoPreload</var>.</p>"
         },
         {
           "html": "If <var>timingInfo</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#service-worker-timing-info-worker-final-router-source\" id=\"ref-for-service-worker-timing-info-worker-final-router-source③\">worker final router source</a> is not an empty string:",
@@ -4096,7 +4174,7 @@
                   "html": "<p>Assert <var>fetchResult</var>’s <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#response-service-worker-timing-info\" id=\"ref-for-response-service-worker-timing-info\">service worker timing info</a>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#service-worker-timing-info-worker-final-router-source\" id=\"ref-for-service-worker-timing-info-worker-final-router-source⑤\">worker final router source</a> is <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/ServiceWorker/#dom-routersourceenum-network\" id=\"ref-for-dom-routersourceenum-network⑤\">\"network\"</a></code>.</p>"
                 },
                 {
-                  "html": "<p>Set <var>fetchResult</var>’s <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#response-service-worker-timing-info\" id=\"ref-for-response-service-worker-timing-info①\">service worker timing info</a>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#service-worker-timing-info-worker-final-router-source\" id=\"ref-for-service-worker-timing-info-worker-final-router-source⑥\">worker final router source</a> to <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/ServiceWorker/#dom-routersourceenum-fetch-event\" id=\"ref-for-dom-routersourceenum-fetch-event③\">\"fetch-event\"</a></code>.</p>"
+                  "html": "<p>Set <var>fetchResult</var>’s <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#response-service-worker-timing-info\" id=\"ref-for-response-service-worker-timing-info①\">service worker timing info</a>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#service-worker-timing-info-worker-final-router-source\" id=\"ref-for-service-worker-timing-info-worker-final-router-source⑥\">worker final router source</a> to <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/ServiceWorker/#dom-routersourceenum-fetch-event\" id=\"ref-for-dom-routersourceenum-fetch-event④\">\"fetch-event\"</a></code>.</p>"
                 }
               ]
             }
@@ -4146,14 +4224,14 @@
           ]
         },
         {
-          "html": "<p>Let <var>shouldSoftUpdate</var> be true if any of the following are true, and false otherwise:</p>\n       <ul>\n        <li data-md=\"\">\n         <p><var>request</var> is a <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#non-subresource-request\" id=\"ref-for-non-subresource-request②\">non-subresource request</a>.</p>\n        </li><li data-md=\"\">\n         <p><var>request</var> is a <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#subresource-request\" id=\"ref-for-subresource-request②\">subresource request</a> and <var>registration</var> is <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#service-worker-registration-stale\" id=\"ref-for-service-worker-registration-stale④\">stale</a>.</p>\n       </li></ul>"
+          "html": "<p>Let <var>shouldSoftUpdate</var> be true if any of the following are true, and false otherwise:</p>\n       <ul>\n        <li data-md=\"\">\n         <p><var>request</var> is a <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#non-subresource-request\" id=\"ref-for-non-subresource-request③\">non-subresource request</a>.</p>\n        </li><li data-md=\"\">\n         <p><var>request</var> is a <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#subresource-request\" id=\"ref-for-subresource-request②\">subresource request</a> and <var>registration</var> is <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#service-worker-registration-stale\" id=\"ref-for-service-worker-registration-stale④\">stale</a>.</p>\n       </li></ul>"
         },
         {
           "html": "If the result of running the <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#should-skip-event\" id=\"ref-for-should-skip-event③\">Should Skip Event</a> algorithm with \"fetch\" and <var>activeWorker</var> is true, then:",
           "rationale": "if",
           "steps": [
             {
-              "html": "<p>If <var>shouldSoftUpdate</var> is true, then <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/infrastructure.html#in-parallel\" id=\"ref-for-in-parallel③⑨\">in parallel</a> run the <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#soft-update\" id=\"ref-for-soft-update④\">Soft Update</a> algorithm with <var>registration</var>.</p>"
+              "html": "<p>If <var>shouldSoftUpdate</var> is true, then <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/infrastructure.html#in-parallel\" id=\"ref-for-in-parallel④⓪\">in parallel</a> run the <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#soft-update\" id=\"ref-for-soft-update④\">Soft Update</a> algorithm with <var>registration</var>.</p>"
             },
             {
               "html": "<p>Return null.</p>"
@@ -4165,7 +4243,7 @@
           "rationale": "in parallel",
           "steps": [
             {
-              "html": "<a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/infrastructure.html#in-parallel\" id=\"ref-for-in-parallel④⓪\">In parallel</a>:",
+              "html": "<a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/infrastructure.html#in-parallel\" id=\"ref-for-in-parallel④①\">In parallel</a>:",
               "rationale": "if",
               "steps": [
                 {
@@ -4238,7 +4316,7 @@
                   "html": "<p>Initialize <var>e</var>’s <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/ServiceWorker/#dom-fetchevent-clientid\" id=\"ref-for-dom-fetchevent-clientid②\">clientId</a></code> attribute to <var>client</var>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-environment-id\" id=\"ref-for-concept-environment-id③\">id</a>.</p>"
                 },
                 {
-                  "html": "<p>If <var>request</var> is a <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#non-subresource-request\" id=\"ref-for-non-subresource-request③\">non-subresource request</a> and <var>request</var>’s <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#concept-request-destination\" id=\"ref-for-concept-request-destination⑤\">destination</a> is not <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://fetch.spec.whatwg.org/#dom-requestdestination-report\" id=\"ref-for-dom-requestdestination-report①\">\"report\"</a></code>, initialize <var>e</var>’s <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/ServiceWorker/#dom-fetchevent-resultingclientid\" id=\"ref-for-dom-fetchevent-resultingclientid②\">resultingClientId</a></code> attribute to <var>reservedClient</var>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-environment-id\" id=\"ref-for-concept-environment-id④\">id</a>, and to the empty string otherwise.</p>"
+                  "html": "<p>If <var>request</var> is a <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#non-subresource-request\" id=\"ref-for-non-subresource-request④\">non-subresource request</a> and <var>request</var>’s <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#concept-request-destination\" id=\"ref-for-concept-request-destination⑤\">destination</a> is not <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://fetch.spec.whatwg.org/#dom-requestdestination-report\" id=\"ref-for-dom-requestdestination-report①\">\"report\"</a></code>, initialize <var>e</var>’s <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/ServiceWorker/#dom-fetchevent-resultingclientid\" id=\"ref-for-dom-fetchevent-resultingclientid②\">resultingClientId</a></code> attribute to <var>reservedClient</var>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-environment-id\" id=\"ref-for-concept-environment-id④\">id</a>, and to the empty string otherwise.</p>"
                 },
                 {
                   "html": "<p>If <var>request</var> is a <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#navigation-request\" id=\"ref-for-navigation-request②\">navigation request</a>, initialize <var>e</var>’s <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/ServiceWorker/#dom-fetchevent-replacesclientid\" id=\"ref-for-dom-fetchevent-replacesclientid②\">replacesClientId</a></code> attribute to <var>request</var>’s <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#concept-request-replaces-client-id\" id=\"ref-for-concept-request-replaces-client-id\">replaces client id</a>, and to the empty string otherwise.</p>"
@@ -4292,7 +4370,7 @@
                   "html": "<p>If <var>e</var>’s <a data-link-type=\"dfn\" href=\"https://dom.spec.whatwg.org/#canceled-flag\" id=\"ref-for-canceled-flag\">canceled flag</a> is set, set <var>eventCanceled</var> to true.</p>"
                 },
                 {
-                  "html": "If <var>fetchController</var> <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#fetch-controller-state\" id=\"ref-for-fetch-controller-state③\">state</a> is \"<code>terminated</code>\" or \"<code>aborted</code>\", then:",
+                  "html": "If <var>fetchController</var> <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#fetch-controller-state\" id=\"ref-for-fetch-controller-state④\">state</a> is \"<code>terminated</code>\" or \"<code>aborted</code>\", then:",
                   "rationale": "let",
                   "steps": [
                     {
@@ -4311,7 +4389,7 @@
           "html": "<p>Wait for <var>task</var> to have executed or for <var>handleFetchFailed</var> to be true.</p>"
         },
         {
-          "html": "<p>If <var>shouldSoftUpdate</var> is true, then <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/infrastructure.html#in-parallel\" id=\"ref-for-in-parallel④①\">in parallel</a> run the <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#soft-update\" id=\"ref-for-soft-update⑥\">Soft Update</a> algorithm with <var>registration</var>.</p>"
+          "html": "<p>If <var>shouldSoftUpdate</var> is true, then <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/infrastructure.html#in-parallel\" id=\"ref-for-in-parallel④②\">in parallel</a> run the <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#soft-update\" id=\"ref-for-soft-update⑥\">Soft Update</a> algorithm with <var>registration</var>.</p>"
         },
         {
           "html": "<p>If <var>activeWorker</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-service-worker-global-object\" id=\"ref-for-dfn-service-worker-global-object①⑥\">global object</a>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#serviceworkerglobalscope-race-response-map\" id=\"ref-for-serviceworkerglobalscope-race-response-map①\">race response map</a>[<var>request</var>] <a data-link-type=\"dfn\" href=\"https://infra.spec.whatwg.org/#map-exists\" id=\"ref-for-map-exists⑨\">exists</a>, <a data-link-type=\"dfn\" href=\"https://infra.spec.whatwg.org/#map-remove\" id=\"ref-for-map-remove⑤\">remove</a> <var>activeWorker</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-service-worker-global-object\" id=\"ref-for-dfn-service-worker-global-object①⑦\">global object</a>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#serviceworkerglobalscope-race-response-map\" id=\"ref-for-serviceworkerglobalscope-race-response-map②\">race response map</a>[<var>request</var>].</p>"
@@ -4325,7 +4403,7 @@
               "rationale": "if",
               "steps": [
                 {
-                  "html": "<p>If <var>eventHandled</var> is not null, then <a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#reject\" id=\"ref-for-reject③\">reject</a> <var>eventHandled</var> with a \"<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#networkerror\" id=\"ref-for-networkerror\">NetworkError</a></code>\" <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#idl-DOMException\" id=\"ref-for-idl-DOMException②①\">DOMException</a></code> in <var>workerRealm</var>.</p>"
+                  "html": "<p>If <var>eventHandled</var> is not null, then <a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#reject\" id=\"ref-for-reject③\">reject</a> <var>eventHandled</var> with a \"<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#networkerror\" id=\"ref-for-networkerror\">NetworkError</a></code>\" <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#idl-DOMException\" id=\"ref-for-idl-DOMException②⓪\">DOMException</a></code> in <var>workerRealm</var>.</p>"
                 },
                 {
                   "html": "<p>Return <var>networkError</var>.</p>"
@@ -4336,14 +4414,14 @@
               "html": "<p>If <var>eventHandled</var> is not null, then <a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#resolve\" id=\"ref-for-resolve\">resolve</a> <var>eventHandled</var>.</p>"
             },
             {
-              "html": "If <var>raceResponse</var> is not null, and <var>raceResponse</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#race-response-value\" id=\"ref-for-race-response-value④\">value</a> is not null, then:",
+              "html": "If <var>raceResponse</var> is not null, and <var>raceResponse</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#race-response-value\" id=\"ref-for-race-response-value⑦\">value</a> is not null, then:",
               "rationale": "wait",
               "steps": [
                 {
-                  "html": "<p>Wait until <var>raceResponse</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#race-response-value\" id=\"ref-for-race-response-value⑤\">value</a> is not \"<code>pending</code>\".</p>"
+                  "html": "<p>Wait until <var>raceResponse</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#race-response-value\" id=\"ref-for-race-response-value⑧\">value</a> is not \"<code>pending</code>\".</p>"
                 },
                 {
-                  "html": "<p>If <var>raceResponse</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#race-response-value\" id=\"ref-for-race-response-value⑥\">value</a> is a <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#concept-response\" id=\"ref-for-concept-response①④\">response</a>, return <var>raceResponse</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#race-response-value\" id=\"ref-for-race-response-value⑦\">value</a>.</p>"
+                  "html": "<p>If <var>raceResponse</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#race-response-value\" id=\"ref-for-race-response-value⑨\">value</a> is a <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#concept-response\" id=\"ref-for-concept-response①⑤\">response</a>, return <var>raceResponse</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#race-response-value\" id=\"ref-for-race-response-value①⓪\">value</a>.</p>"
                 }
               ]
             },
@@ -4357,7 +4435,7 @@
           "rationale": "if",
           "steps": [
             {
-              "html": "<p>If <var>eventHandled</var> is not null, then <a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#reject\" id=\"ref-for-reject④\">reject</a> <var>eventHandled</var> with a \"<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#networkerror\" id=\"ref-for-networkerror①\">NetworkError</a></code>\" <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#idl-DOMException\" id=\"ref-for-idl-DOMException②②\">DOMException</a></code> in <var>workerRealm</var>.</p>"
+              "html": "<p>If <var>eventHandled</var> is not null, then <a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#reject\" id=\"ref-for-reject④\">reject</a> <var>eventHandled</var> with a \"<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#networkerror\" id=\"ref-for-networkerror①\">NetworkError</a></code>\" <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#idl-DOMException\" id=\"ref-for-idl-DOMException②①\">DOMException</a></code> in <var>workerRealm</var>.</p>"
             },
             {
               "html": "<p>Return <var>networkError</var>.</p>"
@@ -4740,7 +4818,7 @@
           "rationale": "if",
           "steps": [
             {
-              "html": "<p>If <var>registration</var> is <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#service-worker-registration-stale\" id=\"ref-for-service-worker-registration-stale⑤\">stale</a>, then <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/infrastructure.html#in-parallel\" id=\"ref-for-in-parallel④②\">in parallel</a> run the <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#soft-update\" id=\"ref-for-soft-update⑦\">Soft Update</a> algorithm with <var>registration</var>.</p>"
+              "html": "<p>If <var>registration</var> is <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#service-worker-registration-stale\" id=\"ref-for-service-worker-registration-stale⑤\">stale</a>, then <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/infrastructure.html#in-parallel\" id=\"ref-for-in-parallel④③\">in parallel</a> run the <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#soft-update\" id=\"ref-for-soft-update⑦\">Soft Update</a> algorithm with <var>registration</var>.</p>"
             },
             {
               "html": "<p>Return.</p>"
@@ -4755,7 +4833,7 @@
           "rationale": "if",
           "steps": [
             {
-              "html": "<p>If <var>registration</var> is <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#service-worker-registration-stale\" id=\"ref-for-service-worker-registration-stale⑥\">stale</a>, then <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/infrastructure.html#in-parallel\" id=\"ref-for-in-parallel④③\">in parallel</a> run the <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#soft-update\" id=\"ref-for-soft-update⑧\">Soft Update</a> algorithm with <var>registration</var>.</p>"
+              "html": "<p>If <var>registration</var> is <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#service-worker-registration-stale\" id=\"ref-for-service-worker-registration-stale⑥\">stale</a>, then <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/infrastructure.html#in-parallel\" id=\"ref-for-in-parallel④④\">in parallel</a> run the <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#soft-update\" id=\"ref-for-soft-update⑧\">Soft Update</a> algorithm with <var>registration</var>.</p>"
             },
             {
               "html": "<p>Return.</p>"
@@ -4787,14 +4865,14 @@
           "html": "<p>Wait for <var>task</var> to have executed or been discarded.</p>"
         },
         {
-          "html": "<p>If <var>registration</var> is <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#service-worker-registration-stale\" id=\"ref-for-service-worker-registration-stale⑦\">stale</a>, then <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/infrastructure.html#in-parallel\" id=\"ref-for-in-parallel④④\">in parallel</a> run the <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#soft-update\" id=\"ref-for-soft-update⑨\">Soft Update</a> algorithm with <var>registration</var>.</p>"
+          "html": "<p>If <var>registration</var> is <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#service-worker-registration-stale\" id=\"ref-for-service-worker-registration-stale⑦\">stale</a>, then <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/infrastructure.html#in-parallel\" id=\"ref-for-in-parallel④⑤\">in parallel</a> run the <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#soft-update\" id=\"ref-for-soft-update⑨\">Soft Update</a> algorithm with <var>registration</var>.</p>"
         }
       ]
     },
     {
       "name": "Handle Service Worker Client Unload",
       "href": "https://w3c.github.io/ServiceWorker/#handle-service-worker-client-unload",
-      "html": "The user agent <em>must</em> run these steps as part of when a <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-service-worker-client\" id=\"ref-for-dfn-service-worker-client④④\">service worker client</a> unloads via <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/document-lifecycle.html#unloading-document-cleanup-steps\" id=\"ref-for-unloading-document-cleanup-steps\">unloading document cleanup steps</a> or <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#terminate-service-worker\" id=\"ref-for-terminate-service-worker⑥\">termination</a>.",
+      "html": "The user agent <em>must</em> run these steps as part of when a <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-service-worker-client\" id=\"ref-for-dfn-service-worker-client④⑤\">service worker client</a> unloads via <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/document-lifecycle.html#unloading-document-cleanup-steps\" id=\"ref-for-unloading-document-cleanup-steps\">unloading document cleanup steps</a> or <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#terminate-service-worker\" id=\"ref-for-terminate-service-worker⑥\">termination</a>.",
       "rationale": ".algorithm",
       "steps": [
         {
@@ -4807,7 +4885,7 @@
           "html": "<p>If <var>registration</var> is null, abort these steps.</p>"
         },
         {
-          "html": "<p>If any other <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-service-worker-client\" id=\"ref-for-dfn-service-worker-client④⑥\">service worker client</a> is <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-use\" id=\"ref-for-dfn-use⑥\">using</a> <var>registration</var>, abort these steps.</p>"
+          "html": "<p>If any other <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-service-worker-client\" id=\"ref-for-dfn-service-worker-client④⑦\">service worker client</a> is <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-use\" id=\"ref-for-dfn-use⑥\">using</a> <var>registration</var>, abort these steps.</p>"
         },
         {
           "html": "<p>If <var>registration</var> is <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-service-worker-registration-unregistered\" id=\"ref-for-dfn-service-worker-registration-unregistered③\">unregistered</a>, invoke <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#try-clear-registration\" id=\"ref-for-try-clear-registration①\">Try Clear Registration</a> with <var>registration</var>.</p>"
@@ -4839,7 +4917,7 @@
               ]
             },
             {
-              "html": "If <var>registration</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-waiting-worker\" id=\"ref-for-dfn-waiting-worker①④\">waiting worker</a> is not null, then <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/infrastructure.html#in-parallel\" id=\"ref-for-in-parallel④⑤\">in parallel</a>:",
+              "html": "If <var>registration</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-waiting-worker\" id=\"ref-for-dfn-waiting-worker①④\">waiting worker</a> is not null, then <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/infrastructure.html#in-parallel\" id=\"ref-for-in-parallel④⑥\">in parallel</a>:",
               "rationale": "invoke",
               "steps": [
                 {
@@ -4879,11 +4957,11 @@
       "rationale": ".algorithm",
       "steps": [
         {
-          "html": "If the <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-settings-object-origin\" id=\"ref-for-concept-settings-object-origin①⑧\">origin</a> of <var>job</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-job-scope-url\" id=\"ref-for-dfn-job-scope-url⑧\">scope url</a> is not <var>job</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-job-client\" id=\"ref-for-dfn-job-client②⓪\">client</a>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-settings-object-origin\" id=\"ref-for-concept-settings-object-origin①⑨\">origin</a>, then:",
+          "html": "If the <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-settings-object-origin\" id=\"ref-for-concept-settings-object-origin①⑦\">origin</a> of <var>job</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-job-scope-url\" id=\"ref-for-dfn-job-scope-url⑧\">scope url</a> is not <var>job</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-job-client\" id=\"ref-for-dfn-job-client②⓪\">client</a>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-settings-object-origin\" id=\"ref-for-concept-settings-object-origin①⑧\">origin</a>, then:",
           "rationale": "invoke",
           "steps": [
             {
-              "html": "<p>Invoke <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#reject-job-promise\" id=\"ref-for-reject-job-promise①⓪\">Reject Job Promise</a> with <var>job</var> and \"<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#securityerror\" id=\"ref-for-securityerror⑦\">SecurityError</a></code>\" <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#idl-DOMException\" id=\"ref-for-idl-DOMException②③\">DOMException</a></code>.</p>"
+              "html": "<p>Invoke <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#reject-job-promise\" id=\"ref-for-reject-job-promise①⓪\">Reject Job Promise</a> with <var>job</var> and \"<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#securityerror\" id=\"ref-for-securityerror⑦\">SecurityError</a></code>\" <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#idl-DOMException\" id=\"ref-for-idl-DOMException②②\">DOMException</a></code>.</p>"
             },
             {
               "html": "<p>Invoke <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#finish-job\" id=\"ref-for-finish-job①①\">Finish Job</a> with <var>job</var> and abort these steps.</p>"
@@ -4906,7 +4984,7 @@
           ]
         },
         {
-          "html": "<p><a data-link-type=\"dfn\" href=\"https://infra.spec.whatwg.org/#map-remove\" id=\"ref-for-map-remove⑥\">Remove</a> <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-scope-to-registration-map\" id=\"ref-for-dfn-scope-to-registration-map⑧\">registration map</a>[(<var>registration</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#service-worker-registration-storage-key\" id=\"ref-for-service-worker-registration-storage-key①④\">storage key</a>, <var>job</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-job-scope-url\" id=\"ref-for-dfn-job-scope-url①⓪\">scope url</a>)].</p>"
+          "html": "<p><a data-link-type=\"dfn\" href=\"https://infra.spec.whatwg.org/#map-remove\" id=\"ref-for-map-remove⑥\">Remove</a> <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-scope-to-registration-map\" id=\"ref-for-dfn-scope-to-registration-map⑧\">registration map</a>[(<var>registration</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#service-worker-registration-storage-key\" id=\"ref-for-service-worker-registration-storage-key①③\">storage key</a>, <var>job</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-job-scope-url\" id=\"ref-for-dfn-job-scope-url①⓪\">scope url</a>)].</p>"
         },
         {
           "html": "<p>Invoke <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#resolve-job-promise\" id=\"ref-for-resolve-job-promise④\">Resolve Job Promise</a> with <var>job</var> and true.</p>"
@@ -4931,7 +5009,7 @@
           "html": "<p>Let <var>scopeString</var> be <a data-link-type=\"dfn\" href=\"https://url.spec.whatwg.org/#concept-url-serializer\" id=\"ref-for-concept-url-serializer①③\">serialized</a> <var>scope</var> with the <em>exclude fragment flag</em> set.</p>"
         },
         {
-          "html": "<p>Let <var>registration</var> be a new <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-service-worker-registration\" id=\"ref-for-dfn-service-worker-registration⑥①\">service worker registration</a> whose <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#service-worker-registration-storage-key\" id=\"ref-for-service-worker-registration-storage-key①⑤\">storage key</a> is set to <var>storage key</var>, <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-scope-url\" id=\"ref-for-dfn-scope-url①⑧\">scope url</a> is set to <var>scope</var>, and <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-update-via-cache\" id=\"ref-for-dfn-update-via-cache⑨\">update via cache mode</a> is set to <var>updateViaCache</var>.</p>"
+          "html": "<p>Let <var>registration</var> be a new <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-service-worker-registration\" id=\"ref-for-dfn-service-worker-registration⑥①\">service worker registration</a> whose <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#service-worker-registration-storage-key\" id=\"ref-for-service-worker-registration-storage-key①④\">storage key</a> is set to <var>storage key</var>, <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-scope-url\" id=\"ref-for-dfn-scope-url①⑧\">scope url</a> is set to <var>scope</var>, and <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-update-via-cache\" id=\"ref-for-dfn-update-via-cache⑨\">update via cache mode</a> is set to <var>updateViaCache</var>.</p>"
         },
         {
           "html": "<p><a data-link-type=\"dfn\" href=\"https://infra.spec.whatwg.org/#map-set\" id=\"ref-for-map-set④\">Set</a> <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-scope-to-registration-map\" id=\"ref-for-dfn-scope-to-registration-map⑨\">registration map</a>[(<var>storage key</var>, <var>scopeString</var>)] to <var>registration</var>.</p>"
@@ -5002,7 +5080,7 @@
       "rationale": ".algorithm",
       "steps": [
         {
-          "html": "<p>Invoke <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#clear-registration\" id=\"ref-for-clear-registration③\">Clear Registration</a> with <var>registration</var> if no <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-service-worker-client\" id=\"ref-for-dfn-service-worker-client④⑦\">service worker client</a> is <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-use\" id=\"ref-for-dfn-use⑧\">using</a> <var>registration</var> and all of the following conditions are true:</p>\n       <ul>\n        <li data-md=\"\">\n         <p><var>registration</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-installing-worker\" id=\"ref-for-dfn-installing-worker①⑨\">installing worker</a> is null or the result of running <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#service-worker-has-no-pending-events\" id=\"ref-for-service-worker-has-no-pending-events②\">Service Worker Has No Pending Events</a> with <var>registration</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-installing-worker\" id=\"ref-for-dfn-installing-worker②⓪\">installing worker</a> is true.</p>\n        </li><li data-md=\"\">\n         <p><var>registration</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-waiting-worker\" id=\"ref-for-dfn-waiting-worker①⑧\">waiting worker</a> is null or the result of running <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#service-worker-has-no-pending-events\" id=\"ref-for-service-worker-has-no-pending-events③\">Service Worker Has No Pending Events</a> with <var>registration</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-waiting-worker\" id=\"ref-for-dfn-waiting-worker①⑨\">waiting worker</a> is true.</p>\n        </li><li data-md=\"\">\n         <p><var>registration</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-active-worker\" id=\"ref-for-dfn-active-worker⑤⓪\">active worker</a> is null or the result of running <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#service-worker-has-no-pending-events\" id=\"ref-for-service-worker-has-no-pending-events④\">Service Worker Has No Pending Events</a> with <var>registration</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-active-worker\" id=\"ref-for-dfn-active-worker⑤①\">active worker</a> is true.</p>\n       </li></ul>"
+          "html": "<p>Invoke <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#clear-registration\" id=\"ref-for-clear-registration③\">Clear Registration</a> with <var>registration</var> if no <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-service-worker-client\" id=\"ref-for-dfn-service-worker-client④⑧\">service worker client</a> is <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-use\" id=\"ref-for-dfn-use⑧\">using</a> <var>registration</var> and all of the following conditions are true:</p>\n       <ul>\n        <li data-md=\"\">\n         <p><var>registration</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-installing-worker\" id=\"ref-for-dfn-installing-worker①⑨\">installing worker</a> is null or the result of running <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#service-worker-has-no-pending-events\" id=\"ref-for-service-worker-has-no-pending-events②\">Service Worker Has No Pending Events</a> with <var>registration</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-installing-worker\" id=\"ref-for-dfn-installing-worker②⓪\">installing worker</a> is true.</p>\n        </li><li data-md=\"\">\n         <p><var>registration</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-waiting-worker\" id=\"ref-for-dfn-waiting-worker①⑧\">waiting worker</a> is null or the result of running <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#service-worker-has-no-pending-events\" id=\"ref-for-service-worker-has-no-pending-events③\">Service Worker Has No Pending Events</a> with <var>registration</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-waiting-worker\" id=\"ref-for-dfn-waiting-worker①⑨\">waiting worker</a> is true.</p>\n        </li><li data-md=\"\">\n         <p><var>registration</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-active-worker\" id=\"ref-for-dfn-active-worker⑤⓪\">active worker</a> is null or the result of running <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#service-worker-has-no-pending-events\" id=\"ref-for-service-worker-has-no-pending-events④\">Service Worker Has No Pending Events</a> with <var>registration</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-active-worker\" id=\"ref-for-dfn-active-worker⑤①\">active worker</a> is true.</p>\n       </li></ul>"
         }
       ]
     },
@@ -5026,7 +5104,7 @@
               "rationale": "queue",
               "steps": [
                 {
-                  "html": "<p><a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task\" id=\"ref-for-queue-a-task③⑦\">Queue a task</a> to set the <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/ServiceWorker/#dom-serviceworkerregistration-installing\" id=\"ref-for-dom-serviceworkerregistration-installing④\">installing</a></code> attribute of <var>registrationObject</var> to null if <var>registration</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-installing-worker\" id=\"ref-for-dfn-installing-worker②②\">installing worker</a> is null, or the result of <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#get-the-service-worker-object\" id=\"ref-for-get-the-service-worker-object⑦\">getting the service worker object</a> that represents <var>registration</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-installing-worker\" id=\"ref-for-dfn-installing-worker②③\">installing worker</a> in <var>registrationObject</var>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#relevant-settings-object\" id=\"ref-for-relevant-settings-object②⑨\">relevant settings object</a>.</p>"
+                  "html": "<p><a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task\" id=\"ref-for-queue-a-task③⑦\">Queue a task</a> to set the <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/ServiceWorker/#dom-serviceworkerregistration-installing\" id=\"ref-for-dom-serviceworkerregistration-installing④\">installing</a></code> attribute of <var>registrationObject</var> to null if <var>registration</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-installing-worker\" id=\"ref-for-dfn-installing-worker②②\">installing worker</a> is null, or the result of <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#get-the-service-worker-object\" id=\"ref-for-get-the-service-worker-object⑦\">getting the service worker object</a> that represents <var>registration</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-installing-worker\" id=\"ref-for-dfn-installing-worker②③\">installing worker</a> in <var>registrationObject</var>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#relevant-settings-object\" id=\"ref-for-relevant-settings-object③①\">relevant settings object</a>.</p>"
                 }
               ]
             }
@@ -5044,7 +5122,7 @@
               "rationale": "queue",
               "steps": [
                 {
-                  "html": "<p><a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task\" id=\"ref-for-queue-a-task③⑧\">Queue a task</a> to set the <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/ServiceWorker/#dom-serviceworkerregistration-waiting\" id=\"ref-for-dom-serviceworkerregistration-waiting④\">waiting</a></code> attribute of <var>registrationObject</var> to null if <var>registration</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-waiting-worker\" id=\"ref-for-dfn-waiting-worker②①\">waiting worker</a> is null, or the result of <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#get-the-service-worker-object\" id=\"ref-for-get-the-service-worker-object⑧\">getting the service worker object</a> that represents <var>registration</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-waiting-worker\" id=\"ref-for-dfn-waiting-worker②②\">waiting worker</a> in <var>registrationObject</var>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#relevant-settings-object\" id=\"ref-for-relevant-settings-object③⓪\">relevant settings object</a>.</p>"
+                  "html": "<p><a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task\" id=\"ref-for-queue-a-task③⑧\">Queue a task</a> to set the <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/ServiceWorker/#dom-serviceworkerregistration-waiting\" id=\"ref-for-dom-serviceworkerregistration-waiting④\">waiting</a></code> attribute of <var>registrationObject</var> to null if <var>registration</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-waiting-worker\" id=\"ref-for-dfn-waiting-worker②①\">waiting worker</a> is null, or the result of <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#get-the-service-worker-object\" id=\"ref-for-get-the-service-worker-object⑧\">getting the service worker object</a> that represents <var>registration</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-waiting-worker\" id=\"ref-for-dfn-waiting-worker②②\">waiting worker</a> in <var>registrationObject</var>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#relevant-settings-object\" id=\"ref-for-relevant-settings-object③②\">relevant settings object</a>.</p>"
                 }
               ]
             }
@@ -5062,7 +5140,7 @@
               "rationale": "queue",
               "steps": [
                 {
-                  "html": "<p><a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task\" id=\"ref-for-queue-a-task③⑨\">Queue a task</a> to set the <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/ServiceWorker/#dom-serviceworkerregistration-active\" id=\"ref-for-dom-serviceworkerregistration-active④\">active</a></code> attribute of <var>registrationObject</var> to null if <var>registration</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-active-worker\" id=\"ref-for-dfn-active-worker⑤③\">active worker</a> is null, or the result of <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#get-the-service-worker-object\" id=\"ref-for-get-the-service-worker-object⑨\">getting the service worker object</a> that represents <var>registration</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-active-worker\" id=\"ref-for-dfn-active-worker⑤④\">active worker</a> in <var>registrationObject</var>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#relevant-settings-object\" id=\"ref-for-relevant-settings-object③①\">relevant settings object</a>.</p>"
+                  "html": "<p><a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task\" id=\"ref-for-queue-a-task③⑨\">Queue a task</a> to set the <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/ServiceWorker/#dom-serviceworkerregistration-active\" id=\"ref-for-dom-serviceworkerregistration-active④\">active</a></code> attribute of <var>registrationObject</var> to null if <var>registration</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-active-worker\" id=\"ref-for-dfn-active-worker⑤③\">active worker</a> is null, or the result of <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#get-the-service-worker-object\" id=\"ref-for-get-the-service-worker-object⑨\">getting the service worker object</a> that represents <var>registration</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-active-worker\" id=\"ref-for-dfn-active-worker⑤④\">active worker</a> in <var>registrationObject</var>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#relevant-settings-object\" id=\"ref-for-relevant-settings-object③③\">relevant settings object</a>.</p>"
                 }
               ]
             }
@@ -5082,7 +5160,7 @@
           "html": "<p>Set <var>worker</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-state\" id=\"ref-for-dfn-state①⑦\">state</a> to <var>state</var>.</p>"
         },
         {
-          "html": "<p>Let <var>settingsObjects</var> be all <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#environment-settings-object\" id=\"ref-for-environment-settings-object②③\">environment settings objects</a> whose <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-settings-object-origin\" id=\"ref-for-concept-settings-object-origin②⓪\">origin</a> is <var>worker</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-script-url\" id=\"ref-for-dfn-script-url①①\">script url</a>’s <a data-link-type=\"dfn\" href=\"https://url.spec.whatwg.org/#concept-url-origin\" id=\"ref-for-concept-url-origin⑨\">origin</a>.</p>"
+          "html": "<p>Let <var>settingsObjects</var> be all <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#environment-settings-object\" id=\"ref-for-environment-settings-object②①\">environment settings objects</a> whose <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-settings-object-origin\" id=\"ref-for-concept-settings-object-origin①⑨\">origin</a> is <var>worker</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-script-url\" id=\"ref-for-dfn-script-url①①\">script url</a>’s <a data-link-type=\"dfn\" href=\"https://url.spec.whatwg.org/#concept-url-origin\" id=\"ref-for-concept-url-origin⑨\">origin</a>.</p>"
         },
         {
           "html": "For each <var>settingsObject</var> of <var>settingsObjects</var>, <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task\" id=\"ref-for-queue-a-task④⓪\">queue a task</a> on <var>settingsObject</var>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#responsible-event-loop\" id=\"ref-for-responsible-event-loop①⑨\">responsible event loop</a> in the <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#dom-manipulation-task-source\" id=\"ref-for-dom-manipulation-task-source②⑤\">DOM manipulation task source</a> to run the following steps:",
@@ -5116,7 +5194,7 @@
           "html": "<p class=\"assertion\">Assert: <var>client</var> is not null.</p>"
         },
         {
-          "html": "<p>If <var>client</var> is an <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#environment-settings-object\" id=\"ref-for-environment-settings-object②④\">environment settings object</a>, <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task\" id=\"ref-for-queue-a-task④①\">queue a task</a> to <a data-link-type=\"dfn\" href=\"https://dom.spec.whatwg.org/#concept-event-fire\" id=\"ref-for-concept-event-fire③\">fire an event</a> named <code>controllerchange</code> at the <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/ServiceWorker/#serviceworkercontainer\" id=\"ref-for-serviceworkercontainer①⑥\">ServiceWorkerContainer</a></code> object that <var>client</var> is <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#serviceworkercontainer-service-worker-client\" id=\"ref-for-serviceworkercontainer-service-worker-client⑨\">associated</a> with.</p>"
+          "html": "<p>If <var>client</var> is an <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#environment-settings-object\" id=\"ref-for-environment-settings-object②②\">environment settings object</a>, <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task\" id=\"ref-for-queue-a-task④①\">queue a task</a> to <a data-link-type=\"dfn\" href=\"https://dom.spec.whatwg.org/#concept-event-fire\" id=\"ref-for-concept-event-fire③\">fire an event</a> named <code>controllerchange</code> at the <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/ServiceWorker/#serviceworkercontainer\" id=\"ref-for-serviceworkercontainer①⑥\">ServiceWorkerContainer</a></code> object that <var>client</var> is <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#serviceworkercontainer-service-worker-client\" id=\"ref-for-serviceworkercontainer-service-worker-client⑨\">associated</a> with.</p>"
         }
       ]
     },
@@ -5307,11 +5385,11 @@
       "rationale": ".algorithm",
       "steps": [
         {
-          "html": "If <var>client</var> is an <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#environment-settings-object\" id=\"ref-for-environment-settings-object②⑤\">environment settings object</a>, then:",
+          "html": "If <var>client</var> is an <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#environment-settings-object\" id=\"ref-for-environment-settings-object②③\">environment settings object</a>, then:",
           "rationale": "if",
           "steps": [
             {
-              "html": "<p>If <var>client</var> is not a <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#secure-context\" id=\"ref-for-secure-context⑤\">secure context</a>, <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task\" id=\"ref-for-queue-a-task④②\">queue a task</a> to reject <var>promise</var> with a \"<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#securityerror\" id=\"ref-for-securityerror⑧\">SecurityError</a></code>\" <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#idl-DOMException\" id=\"ref-for-idl-DOMException②④\">DOMException</a></code>, on <var>promise</var>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#relevant-settings-object\" id=\"ref-for-relevant-settings-object③③\">relevant settings object</a>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#responsible-event-loop\" id=\"ref-for-responsible-event-loop②①\">responsible event loop</a> using the <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#dom-manipulation-task-source\" id=\"ref-for-dom-manipulation-task-source②⑦\">DOM manipulation task source</a>, and abort these steps.</p>"
+              "html": "<p>If <var>client</var> is not a <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#secure-context\" id=\"ref-for-secure-context⑤\">secure context</a>, <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task\" id=\"ref-for-queue-a-task④②\">queue a task</a> to reject <var>promise</var> with a \"<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#securityerror\" id=\"ref-for-securityerror⑧\">SecurityError</a></code>\" <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#idl-DOMException\" id=\"ref-for-idl-DOMException②③\">DOMException</a></code>, on <var>promise</var>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#relevant-settings-object\" id=\"ref-for-relevant-settings-object③⑤\">relevant settings object</a>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#responsible-event-loop\" id=\"ref-for-responsible-event-loop②①\">responsible event loop</a> using the <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#dom-manipulation-task-source\" id=\"ref-for-dom-manipulation-task-source②⑦\">DOM manipulation task source</a>, and abort these steps.</p>"
             }
           ]
         },
@@ -5320,19 +5398,19 @@
           "rationale": "if",
           "steps": [
             {
-              "html": "<p>If <var>client</var>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-environment-creation-url\" id=\"ref-for-concept-environment-creation-url⑨\">creation URL</a> is not a <a data-link-type=\"dfn\" href=\"https://w3c.github.io/webappsec-secure-contexts/#potentially-trustworthy-url\" id=\"ref-for-potentially-trustworthy-url①\">potentially trustworthy URL</a>, <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task\" id=\"ref-for-queue-a-task④③\">queue a task</a> to reject <var>promise</var> with a \"<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#securityerror\" id=\"ref-for-securityerror⑨\">SecurityError</a></code>\" <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#idl-DOMException\" id=\"ref-for-idl-DOMException②⑤\">DOMException</a></code>, on <var>promise</var>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#relevant-settings-object\" id=\"ref-for-relevant-settings-object③④\">relevant settings object</a>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#responsible-event-loop\" id=\"ref-for-responsible-event-loop②②\">responsible event loop</a> using the <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#dom-manipulation-task-source\" id=\"ref-for-dom-manipulation-task-source②⑧\">DOM manipulation task source</a>, and abort these steps.</p>"
+              "html": "<p>If <var>client</var>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-environment-creation-url\" id=\"ref-for-concept-environment-creation-url⑨\">creation URL</a> is not a <a data-link-type=\"dfn\" href=\"https://w3c.github.io/webappsec-secure-contexts/#potentially-trustworthy-url\" id=\"ref-for-potentially-trustworthy-url①\">potentially trustworthy URL</a>, <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task\" id=\"ref-for-queue-a-task④③\">queue a task</a> to reject <var>promise</var> with a \"<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#securityerror\" id=\"ref-for-securityerror⑨\">SecurityError</a></code>\" <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#idl-DOMException\" id=\"ref-for-idl-DOMException②④\">DOMException</a></code>, on <var>promise</var>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#relevant-settings-object\" id=\"ref-for-relevant-settings-object③⑥\">relevant settings object</a>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#responsible-event-loop\" id=\"ref-for-responsible-event-loop②②\">responsible event loop</a> using the <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#dom-manipulation-task-source\" id=\"ref-for-dom-manipulation-task-source②⑧\">DOM manipulation task source</a>, and abort these steps.</p>"
             }
           ]
         },
         {
-          "html": "If <var>client</var> is an <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#environment-settings-object\" id=\"ref-for-environment-settings-object②⑥\">environment settings object</a> and is not a <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-window-client\" id=\"ref-for-dfn-window-client①③\">window client</a>, then:",
+          "html": "If <var>client</var> is an <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#environment-settings-object\" id=\"ref-for-environment-settings-object②④\">environment settings object</a> and is not a <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-window-client\" id=\"ref-for-dfn-window-client①③\">window client</a>, then:",
           "rationale": "let",
           "steps": [
             {
               "html": "<p>Let <var>clientObject</var> be the result of running <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#create-client\" id=\"ref-for-create-client①\">Create Client</a> algorithm with <var>client</var> as the argument.</p>"
             },
             {
-              "html": "<p><a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task\" id=\"ref-for-queue-a-task④④\">Queue a task</a> to resolve <var>promise</var> with <var>clientObject</var>, on <var>promise</var>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#relevant-settings-object\" id=\"ref-for-relevant-settings-object③⑤\">relevant settings object</a>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#responsible-event-loop\" id=\"ref-for-responsible-event-loop②③\">responsible event loop</a> using the <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#dom-manipulation-task-source\" id=\"ref-for-dom-manipulation-task-source②⑨\">DOM manipulation task source</a>, and abort these steps.</p>"
+              "html": "<p><a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task\" id=\"ref-for-queue-a-task④④\">Queue a task</a> to resolve <var>promise</var> with <var>clientObject</var>, on <var>promise</var>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#relevant-settings-object\" id=\"ref-for-relevant-settings-object③⑦\">relevant settings object</a>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#responsible-event-loop\" id=\"ref-for-responsible-event-loop②③\">responsible event loop</a> using the <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#dom-manipulation-task-source\" id=\"ref-for-dom-manipulation-task-source②⑨\">DOM manipulation task source</a>, and abort these steps.</p>"
             }
           ]
         },
@@ -5344,7 +5422,7 @@
               "html": "<p>Let <var>browsingContext</var> be null.</p>"
             },
             {
-              "html": "<p>If <var>client</var> is an <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#environment-settings-object\" id=\"ref-for-environment-settings-object②⑦\">environment settings object</a>, set <var>browsingContext</var> to <var>client</var>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-settings-object-global\" id=\"ref-for-concept-settings-object-global①①\">global object</a>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/document-sequences.html#browsing-context\" id=\"ref-for-browsing-context⑦\">browsing context</a>.</p>"
+              "html": "<p>If <var>client</var> is an <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#environment-settings-object\" id=\"ref-for-environment-settings-object②⑤\">environment settings object</a>, set <var>browsingContext</var> to <var>client</var>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-settings-object-global\" id=\"ref-for-concept-settings-object-global①①\">global object</a>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/document-sequences.html#browsing-context\" id=\"ref-for-browsing-context⑦\">browsing context</a>.</p>"
             },
             {
               "html": "<p>Else, set <var>browsingContext</var> to <var>client</var>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-environment-target-browsing-context\" id=\"ref-for-concept-environment-target-browsing-context②\">target browsing context</a>.</p>"
@@ -5372,7 +5450,7 @@
                   "html": "<p>If <var>client</var> is a <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-window-client\" id=\"ref-for-dfn-window-client①④\">window client</a>, set <var>ancestorOriginsList</var> to <var>browsingContext</var>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/document-sequences.html#nav-document\" id=\"ref-for-nav-document①⑥\">active document</a>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-relevant-global\" id=\"ref-for-concept-relevant-global⑨\">relevant global object</a>’s <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://html.spec.whatwg.org/multipage/nav-history-apis.html#location\" id=\"ref-for-location④\">Location</a></code> object’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/nav-history-apis.html#concept-location-ancestor-origins-list\" id=\"ref-for-concept-location-ancestor-origins-list④\">ancestor origins list</a>’s associated list.</p>"
                 },
                 {
-                  "html": "<a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task\" id=\"ref-for-queue-a-task④⑥\">Queue a task</a> to run the following steps on <var>promise</var>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#relevant-settings-object\" id=\"ref-for-relevant-settings-object③⑥\">relevant settings object</a>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#responsible-event-loop\" id=\"ref-for-responsible-event-loop②④\">responsible event loop</a> using the <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#dom-manipulation-task-source\" id=\"ref-for-dom-manipulation-task-source③⓪\">DOM manipulation task source</a>:",
+                  "html": "<a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task\" id=\"ref-for-queue-a-task④⑥\">Queue a task</a> to run the following steps on <var>promise</var>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#relevant-settings-object\" id=\"ref-for-relevant-settings-object③⑧\">relevant settings object</a>’s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#responsible-event-loop\" id=\"ref-for-responsible-event-loop②④\">responsible event loop</a> using the <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#dom-manipulation-task-source\" id=\"ref-for-dom-manipulation-task-source③⓪\">DOM manipulation task source</a>:",
                   "rationale": "if",
                   "steps": [
                     {
@@ -5522,7 +5600,7 @@
                   "html": "<p>If <var>operation</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-cache-batch-operation-type\" id=\"ref-for-dfn-cache-batch-operation-type④\">type</a> matches \"<code>delete</code>\" and <var>operation</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-cache-batch-operation-response\" id=\"ref-for-dfn-cache-batch-operation-response②\">response</a> is not null, <a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#dfn-throw\" id=\"ref-for-dfn-throw①⑤\">throw</a> a <code>TypeError</code>.</p>"
                 },
                 {
-                  "html": "<p>If the result of running <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#query-cache\" id=\"ref-for-query-cache③\">Query Cache</a> with <var>operation</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-cache-batch-operation-request\" id=\"ref-for-dfn-cache-batch-operation-request③\">request</a>, <var>operation</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-cache-batch-operation-options\" id=\"ref-for-dfn-cache-batch-operation-options①\">options</a>, and <var>addedItems</var> <a data-link-type=\"dfn\" href=\"https://infra.spec.whatwg.org/#list-is-empty\" id=\"ref-for-list-is-empty④\">is not empty</a>, <a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#dfn-throw\" id=\"ref-for-dfn-throw①⑥\">throw</a> an \"<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#invalidstateerror\" id=\"ref-for-invalidstateerror①⓪\">InvalidStateError</a></code>\" <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#idl-DOMException\" id=\"ref-for-idl-DOMException②⑥\">DOMException</a></code>.</p>"
+                  "html": "<p>If the result of running <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#query-cache\" id=\"ref-for-query-cache③\">Query Cache</a> with <var>operation</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-cache-batch-operation-request\" id=\"ref-for-dfn-cache-batch-operation-request③\">request</a>, <var>operation</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-cache-batch-operation-options\" id=\"ref-for-dfn-cache-batch-operation-options①\">options</a>, and <var>addedItems</var> <a data-link-type=\"dfn\" href=\"https://infra.spec.whatwg.org/#list-is-empty\" id=\"ref-for-list-is-empty④\">is not empty</a>, <a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#dfn-throw\" id=\"ref-for-dfn-throw①⑥\">throw</a> an \"<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#invalidstateerror\" id=\"ref-for-invalidstateerror①⓪\">InvalidStateError</a></code>\" <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#idl-DOMException\" id=\"ref-for-idl-DOMException②⑤\">DOMException</a></code>.</p>"
                 },
                 {
                   "html": "<p>Let <var>requestResponses</var> be an empty <a data-link-type=\"dfn\" href=\"https://infra.spec.whatwg.org/#list\" id=\"ref-for-list②⑨\">list</a>.</p>"
@@ -5580,7 +5658,7 @@
                       "html": "<p><a data-link-type=\"dfn\" href=\"https://infra.spec.whatwg.org/#list-append\" id=\"ref-for-list-append⑨\">Append</a> <var>operation</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-cache-batch-operation-request\" id=\"ref-for-dfn-cache-batch-operation-request⑦\">request</a>/<var>operation</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-cache-batch-operation-response\" id=\"ref-for-dfn-cache-batch-operation-response④\">response</a> to <var>cache</var>.</p>"
                     },
                     {
-                      "html": "<p>If the cache write operation in the previous two steps failed due to exceeding the granted quota limit, <a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#dfn-throw\" id=\"ref-for-dfn-throw②①\">throw</a> a \"<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#quotaexceedederror\" id=\"ref-for-quotaexceedederror①\">QuotaExceededError</a></code>\" <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#idl-DOMException\" id=\"ref-for-idl-DOMException②⑦\">DOMException</a></code>.</p>"
+                      "html": "<p>If the cache write operation in the previous two steps failed due to exceeding the granted quota limit, <a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#dfn-throw\" id=\"ref-for-dfn-throw②①\">throw</a> a <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#quotaexceedederror\" id=\"ref-for-quotaexceedederror①\">QuotaExceededError</a></code>.</p>"
                     },
                     {
                       "html": "<p><a data-link-type=\"dfn\" href=\"https://infra.spec.whatwg.org/#list-append\" id=\"ref-for-list-append①⓪\">Append</a> <var>operation</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-cache-batch-operation-request\" id=\"ref-for-dfn-cache-batch-operation-request⑧\">request</a>/<var>operation</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#dfn-cache-batch-operation-response\" id=\"ref-for-dfn-cache-batch-operation-response⑤\">response</a> to <var>addedItems</var>.</p>"
@@ -5696,14 +5774,14 @@
           "html": "<p>Let <var>registration</var> be null.</p>"
         },
         {
-          "html": "If <var>request</var> is a <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#non-subresource-request\" id=\"ref-for-non-subresource-request④\">non-subresource request</a>, then:",
+          "html": "If <var>request</var> is a <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#non-subresource-request\" id=\"ref-for-non-subresource-request⑤\">non-subresource request</a>, then:",
           "rationale": "if",
           "steps": [
             {
               "html": "<p>If <var>request</var>’s <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#concept-request-reserved-client\" id=\"ref-for-concept-request-reserved-client②\">reserved client</a> is null, return null.</p>"
             },
             {
-              "html": "<p>Let <var>storage key</var> be the result of running <a data-link-type=\"dfn\" href=\"https://storage.spec.whatwg.org/#obtain-a-storage-key\" id=\"ref-for-obtain-a-storage-key①①\">obtain a storage key</a> given <var>request</var>’s <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#concept-request-reserved-client\" id=\"ref-for-concept-request-reserved-client③\">reserved client</a>.</p>"
+              "html": "<p>Let <var>storage key</var> be the result of running <a data-link-type=\"dfn\" href=\"https://storage.spec.whatwg.org/#obtain-a-storage-key\" id=\"ref-for-obtain-a-storage-key①⓪\">obtain a storage key</a> given <var>request</var>’s <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#concept-request-reserved-client\" id=\"ref-for-concept-request-reserved-client③\">reserved client</a>.</p>"
             },
             {
               "html": "<p>Set <var>registration</var> to the result of running <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#match-service-worker-registration\" id=\"ref-for-match-service-worker-registration⑧\">Match Service Worker Registration</a> given <var>storage key</var> and <var>request</var>’s <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#concept-request-url\" id=\"ref-for-concept-request-url①④\">url</a>.</p>"
@@ -5745,10 +5823,10 @@
               "html": "<p><a data-link-type=\"dfn\" href=\"https://infra.spec.whatwg.org/#map-remove\" id=\"ref-for-map-remove⑦\">Remove</a> <var>map</var>[<var>request</var>].</p>"
             },
             {
-              "html": "<p>Wait until <var>entry</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#race-response-value\" id=\"ref-for-race-response-value⑧\">value</a> is not \"<code>pending</code>\"</p>"
+              "html": "<p>Wait until <var>entry</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#race-response-value\" id=\"ref-for-race-response-value①①\">value</a> is not \"<code>pending</code>\"</p>"
             },
             {
-              "html": "<p>If <var>entry</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#race-response-value\" id=\"ref-for-race-response-value⑨\">value</a> is <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#concept-response\" id=\"ref-for-concept-response①⑦\">response</a>, return <var>entry</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#race-response-value\" id=\"ref-for-race-response-value①⓪\">value</a>.</p>"
+              "html": "<p>If <var>entry</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#race-response-value\" id=\"ref-for-race-response-value①②\">value</a> is <a data-link-type=\"dfn\" href=\"https://fetch.spec.whatwg.org/#concept-response\" id=\"ref-for-concept-response①⑧\">response</a>, return <var>entry</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/ServiceWorker/#race-response-value\" id=\"ref-for-race-response-value①③\">value</a>.</p>"
             }
           ]
         },

@@ -6,7 +6,7 @@
       "title": "Web Neural Network API",
       "url": "https://www.w3.org/TR/webnn/"
     },
-    "fragment": "[SecureContext, Exposed=(Window, Worker)]\ninterface MLGraphBuilder {\n  // Construct the graph builder from the context.\n  constructor(MLContext context);\n\n  // Create an operand for a graph input.\n  MLOperand input(USVString name, MLOperandDescriptor descriptor);\n\n  // Create an operand for a graph constant.\n  MLOperand constant(MLOperandDescriptor descriptor,\n                     AllowSharedBufferSource buffer);\n\n  // Create a scalar operand from the specified number of the specified type.\n  MLOperand constant(MLOperandDataType type, MLNumber value);\n\n  // Create an operand from a specified constant tensor.\n  MLOperand constant(MLTensor tensor);\n\n  // Compile the graph up to the specified output operands asynchronously.\n  Promise<MLGraph> build(MLNamedOperands outputs);\n};",
+    "fragment": "[SecureContext, Exposed=(Window, Worker)]\ninterface MLGraphBuilder {\n  // Construct the graph builder from the context.\n  constructor(MLContext context);\n\n  // Create an operand for a graph input.\n  MLOperand input(USVString name, MLOperandDescriptor descriptor);\n\n  // Create an operand for a graph constant.\n  MLOperand constant(MLOperandDescriptor descriptor,\n                     AllowSharedBufferSource buffer);\n\n  // Create a scalar operand from the specified number of the specified type.\n  MLOperand constant(MLOperandDataType dataType, MLNumber value);\n\n  // Create an operand from a specified constant tensor.\n  MLOperand constant(MLTensor tensor);\n\n  // Compile the graph up to the specified output operands asynchronously.\n  Promise<MLGraph> build(MLNamedOperands outputs);\n};",
     "href": "https://webmachinelearning.github.io/webnn/#mlgraphbuilder"
   },
   "extended": [
@@ -29,7 +29,7 @@
         "title": "Web Neural Network API",
         "url": "https://www.w3.org/TR/webnn/"
       },
-      "fragment": "partial interface MLGraphBuilder {\n  MLOperand cast(MLOperand input,\n                 MLOperandDataType type,\n                 optional MLOperatorOptions options = {});\n};"
+      "fragment": "partial interface MLGraphBuilder {\n  MLOperand cast(MLOperand input,\n                 MLOperandDataType dataType,\n                 optional MLOperatorOptions options = {});\n};"
     },
     {
       "spec": {
@@ -78,14 +78,14 @@
         "title": "Web Neural Network API",
         "url": "https://www.w3.org/TR/webnn/"
       },
-      "fragment": "partial interface MLGraphBuilder {\n  MLOperand equal(MLOperand a,\n                  MLOperand b,\n                  optional MLOperatorOptions options = {});\n  MLOperand notEqual(MLOperand a,\n                     MLOperand b,\n                     optional MLOperatorOptions options = {});\n  MLOperand greater(MLOperand a,\n                    MLOperand b,\n                    optional MLOperatorOptions options = {});\n  MLOperand greaterOrEqual(MLOperand a,\n                           MLOperand b,\n                           optional MLOperatorOptions options = {});\n  MLOperand lesser(MLOperand a,\n                   MLOperand b,\n                   optional MLOperatorOptions options = {});\n  MLOperand lesserOrEqual(MLOperand a,\n                          MLOperand b,\n                          optional MLOperatorOptions options = {});\n  MLOperand logicalNot(MLOperand a, optional MLOperatorOptions options = {});\n  MLOperand logicalAnd(MLOperand a,\n                       MLOperand b,\n                       optional MLOperatorOptions options = {});\n  MLOperand logicalOr(MLOperand a,\n                      MLOperand b,\n                      optional MLOperatorOptions options = {});\n  MLOperand logicalXor(MLOperand a,\n                       MLOperand b,\n                       optional MLOperatorOptions options = {});\n};"
+      "fragment": "partial interface MLGraphBuilder {\n  MLOperand equal(MLOperand a,\n                  MLOperand b,\n                  optional MLOperatorOptions options = {});\n  MLOperand notEqual(MLOperand a,\n                     MLOperand b,\n                     optional MLOperatorOptions options = {});\n  MLOperand greater(MLOperand a,\n                    MLOperand b,\n                    optional MLOperatorOptions options = {});\n  MLOperand greaterOrEqual(MLOperand a,\n                           MLOperand b,\n                           optional MLOperatorOptions options = {});\n  MLOperand lesser(MLOperand a,\n                   MLOperand b,\n                   optional MLOperatorOptions options = {});\n  MLOperand lesserOrEqual(MLOperand a,\n                          MLOperand b,\n                          optional MLOperatorOptions options = {});\n  MLOperand logicalNot(MLOperand a, optional MLOperatorOptions options = {});\n  MLOperand logicalAnd(MLOperand a,\n                       MLOperand b,\n                       optional MLOperatorOptions options = {});\n  MLOperand logicalOr(MLOperand a,\n                      MLOperand b,\n                      optional MLOperatorOptions options = {});\n  MLOperand logicalXor(MLOperand a,\n                       MLOperand b,\n                       optional MLOperatorOptions options = {});\n  MLOperand isNaN(MLOperand a, optional MLOperatorOptions options = {});\n  MLOperand isInfinite(MLOperand a, optional MLOperatorOptions options = {});\n};"
     },
     {
       "spec": {
         "title": "Web Neural Network API",
         "url": "https://www.w3.org/TR/webnn/"
       },
-      "fragment": "partial interface MLGraphBuilder {\n  MLOperand abs(MLOperand input, optional MLOperatorOptions options = {});\n  MLOperand ceil(MLOperand input, optional MLOperatorOptions options = {});\n  MLOperand cos(MLOperand input, optional MLOperatorOptions options = {});\n  MLOperand erf(MLOperand input, optional MLOperatorOptions options = {});\n  MLOperand exp(MLOperand input, optional MLOperatorOptions options = {});\n  MLOperand floor(MLOperand input, optional MLOperatorOptions options = {});\n  MLOperand identity(MLOperand input, optional MLOperatorOptions options = {});\n  MLOperand log(MLOperand input, optional MLOperatorOptions options = {});\n  MLOperand neg(MLOperand input, optional MLOperatorOptions options = {});\n  MLOperand reciprocal(MLOperand input, optional MLOperatorOptions options = {});\n  MLOperand sin(MLOperand input, optional MLOperatorOptions options = {});\n  MLOperand sign(MLOperand input, optional MLOperatorOptions options = {});\n  MLOperand sqrt(MLOperand input, optional MLOperatorOptions options = {});\n  MLOperand tan(MLOperand input, optional MLOperatorOptions options = {});\n};"
+      "fragment": "partial interface MLGraphBuilder {\n  MLOperand abs(MLOperand input, optional MLOperatorOptions options = {});\n  MLOperand ceil(MLOperand input, optional MLOperatorOptions options = {});\n  MLOperand cos(MLOperand input, optional MLOperatorOptions options = {});\n  MLOperand erf(MLOperand input, optional MLOperatorOptions options = {});\n  MLOperand exp(MLOperand input, optional MLOperatorOptions options = {});\n  MLOperand floor(MLOperand input, optional MLOperatorOptions options = {});\n  MLOperand identity(MLOperand input, optional MLOperatorOptions options = {});\n  MLOperand log(MLOperand input, optional MLOperatorOptions options = {});\n  MLOperand neg(MLOperand input, optional MLOperatorOptions options = {});\n  MLOperand reciprocal(MLOperand input, optional MLOperatorOptions options = {});\n  MLOperand roundEven(MLOperand input, optional MLOperatorOptions options = {});\n  MLOperand sin(MLOperand input, optional MLOperatorOptions options = {});\n  MLOperand sign(MLOperand input, optional MLOperatorOptions options = {});\n  MLOperand sqrt(MLOperand input, optional MLOperatorOptions options = {});\n  MLOperand tan(MLOperand input, optional MLOperatorOptions options = {});\n};"
     },
     {
       "spec": {
@@ -183,7 +183,7 @@
         "title": "Web Neural Network API",
         "url": "https://www.w3.org/TR/webnn/"
       },
-      "fragment": "partial interface MLGraphBuilder {\n  MLOperand instanceNormalization(MLOperand input,\n                                  optional MLInstanceNormalizationOptions options = {});\n};"
+      "fragment": "partial interface MLGraphBuilder {\n  MLOperand instanceNormalization(\n    MLOperand input,\n    optional MLInstanceNormalizationOptions options = {});\n};"
     },
     {
       "spec": {

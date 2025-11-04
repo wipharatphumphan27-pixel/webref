@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "CSS Spatial Navigation Level 1",
+    "title": "CSS Spatial Navigation Module Level 1",
     "url": "https://drafts.csswg.org/css-nav-1/"
   },
   "links": {
@@ -95,7 +95,7 @@
           "animation-type"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {}
+      "https://www.w3.org/policies/process/20250818/": {}
     },
     "autolinks": {
       "https://dom.spec.whatwg.org/": {

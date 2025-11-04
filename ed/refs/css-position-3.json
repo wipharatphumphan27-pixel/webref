@@ -35,7 +35,7 @@
       },
       {
         "name": "CSS-FLEXBOX-1",
-        "url": "https://drafts.csswg.org/css-flexbox-1/"
+        "url": "https://drafts.csswg.org/css-flexbox/"
       },
       {
         "name": "CSS-GRID-1",
@@ -124,16 +124,8 @@
     ],
     "informative": [
       {
-        "name": "CSS-BREAK-3",
-        "url": "https://drafts.csswg.org/css-break/"
-      },
-      {
         "name": "CSS-CONTAIN-2",
         "url": "https://drafts.csswg.org/css-contain-2/"
-      },
-      {
-        "name": "CSS-DISPLAY-3",
-        "url": "https://drafts.csswg.org/css-display/"
       },
       {
         "name": "CSS-WILL-CHANGE-1",

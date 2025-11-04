@@ -88,11 +88,39 @@
       "number": "8"
     },
     {
-      "id": "sec-speculation-tags-header",
-      "href": "https://wicg.github.io/nav-speculation/prefetch.html#sec-speculation-tags-header",
+      "id": "automated-testing",
+      "href": "https://wicg.github.io/nav-speculation/prefetch.html#automated-testing",
       "level": 2,
-      "title": "The Sec-Speculation-Tags HTTP request header",
+      "title": "Automated testing",
       "number": "9"
+    },
+    {
+      "id": "speculation-module",
+      "href": "https://wicg.github.io/nav-speculation/prefetch.html#speculation-module",
+      "level": 3,
+      "title": "The speculation module",
+      "number": "9.1"
+    },
+    {
+      "id": "speculation-module-definitions",
+      "href": "https://wicg.github.io/nav-speculation/prefetch.html#speculation-module-definitions",
+      "level": 4,
+      "title": "Definitions",
+      "number": "9.1.1"
+    },
+    {
+      "id": "speculation-module-events",
+      "href": "https://wicg.github.io/nav-speculation/prefetch.html#speculation-module-events",
+      "level": 4,
+      "title": "Events",
+      "number": "9.1.2"
+    },
+    {
+      "id": "speculation-prefetchstatusupdated-event",
+      "href": "https://wicg.github.io/nav-speculation/prefetch.html#speculation-prefetchstatusupdated-event",
+      "level": 5,
+      "title": "The speculation.prefetchStatusUpdated Event",
+      "number": "9.1.2.1"
     },
     {
       "id": "security-considerations",
@@ -141,6 +169,12 @@
       "href": "https://wicg.github.io/nav-speculation/prefetch.html#informative",
       "level": 3,
       "title": "Informative References"
+    },
+    {
+      "id": "cddl-index",
+      "href": "https://wicg.github.io/nav-speculation/prefetch.html#cddl-index",
+      "level": 2,
+      "title": "CDDL Index"
     },
     {
       "id": "issues-index",

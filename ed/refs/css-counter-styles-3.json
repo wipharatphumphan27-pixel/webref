@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "CSS Counter Styles Level 3",
+    "title": "CSS Counter Styles Module Level 3",
     "url": "https://drafts.csswg.org/css-counter-styles-3/"
   },
   "refs": {
@@ -71,10 +71,6 @@
       }
     ],
     "informative": [
-      {
-        "name": "CSS-ANCHOR-POSITION-1",
-        "url": "https://drafts.csswg.org/css-anchor-position-1/"
-      },
       {
         "name": "CSS-CONTENT-3",
         "url": "https://drafts.csswg.org/css-content-3/"

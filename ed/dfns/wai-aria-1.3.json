@@ -51,8 +51,8 @@
       "links": []
     },
     {
-      "id": "dfn-assistive-technologies",
-      "href": "https://w3c.github.io/aria/#dfn-assistive-technologies",
+      "id": "assistive-technology",
+      "href": "https://w3c.github.io/aria/#assistive-technology",
       "linkingText": [
         "Assistive Technologies"
       ],
@@ -77,9 +77,7 @@
       "id": "dfn-deprecated",
       "href": "https://w3c.github.io/aria/#dfn-deprecated",
       "linkingText": [
-        "Deprecated",
-        "deprecate",
-        "deprecation"
+        "Deprecated"
       ],
       "localLinkingText": [
         "deprecate",
@@ -128,8 +126,7 @@
       "id": "dfn-desktop-focus-event",
       "href": "https://w3c.github.io/aria/#dfn-desktop-focus-event",
       "linkingText": [
-        "Desktop focus event",
-        "desktop focus"
+        "Desktop focus event"
       ],
       "localLinkingText": [
         "desktop focus"
@@ -178,6 +175,29 @@
       "href": "https://w3c.github.io/aria/#dfn-expose",
       "linkingText": [
         "Expose"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": true,
+      "heading": {
+        "id": "terms",
+        "href": "https://w3c.github.io/aria/#terms",
+        "title": "Important Terms",
+        "alternateIds": [
+          "x2-important-terms"
+        ],
+        "number": "2"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-focusable",
+      "href": "https://w3c.github.io/aria/#dfn-focusable",
+      "linkingText": [
+        "Focusable"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -598,8 +618,7 @@
       "id": "dfn-semantics",
       "href": "https://w3c.github.io/aria/#dfn-semantics",
       "linkingText": [
-        "Semantics",
-        "semantically"
+        "Semantics"
       ],
       "localLinkingText": [
         "semantically"
@@ -879,6 +898,29 @@
           "x7-3-relationships-in-the-accessibility-tree"
         ],
         "number": "7.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-host-language",
+      "href": "https://w3c.github.io/aria/#dfn-host-language",
+      "linkingText": [
+        "host language"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "host_languages",
+        "href": "https://w3c.github.io/aria/#host_languages",
+        "title": "Implementation in Host Languages",
+        "alternateIds": [
+          "x8-implementation-in-host-languages"
+        ],
+        "number": "8"
       },
       "definedIn": "prose",
       "links": []

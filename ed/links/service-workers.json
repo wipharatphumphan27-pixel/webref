@@ -198,7 +198,7 @@
           "sec-Disclosure"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {}
+      "https://www.w3.org/policies/process/20250818/": {}
     },
     "autolinks": {
       "https://datatracker.ietf.org/doc/html/rfc7230": {
@@ -472,6 +472,7 @@
           "creating-a-new-javascript-realm",
           "realm-execution-context",
           "concept-settings-object-module-map",
+          "concept-settings-object-has-cross-site-ancestor",
           "concept-settings-object-policy-container",
           "concept-settings-object-time-origin",
           "concept-environment-top-level-creation-url",
@@ -557,7 +558,8 @@
         "anchors": [
           "storage-key",
           "obtain-a-storage-key",
-          "storage-key-equal"
+          "storage-key-equal",
+          "obtain-a-local-storage-bottle-map"
         ]
       },
       "https://streams.spec.whatwg.org/": {

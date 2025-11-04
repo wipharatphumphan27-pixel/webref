@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "CSS Cascading and Inheritance Level 4",
+    "title": "CSS Cascading and Inheritance Module Level 4",
     "url": "https://drafts.csswg.org/css-cascade-4/"
   },
   "links": {
@@ -53,7 +53,7 @@
       "https://drafts.csswg.org/css-conditional-3/": {},
       "https://drafts.csswg.org/css-conditional-5/": {},
       "https://drafts.csswg.org/css-display/": {},
-      "https://drafts.csswg.org/css-flexbox-1/": {},
+      "https://drafts.csswg.org/css-flexbox/": {},
       "https://drafts.csswg.org/css-fonts-4/": {},
       "https://drafts.csswg.org/css-fonts-5/": {},
       "https://drafts.csswg.org/css-inline-3/": {},
@@ -191,7 +191,7 @@
           "animation-type"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {}
+      "https://www.w3.org/policies/process/20250818/": {}
     },
     "autolinks": {
       "https://dom.spec.whatwg.org/": {
@@ -248,12 +248,12 @@
         "anchors": [
           "typedef-supports-condition",
           "at-ruledef-media",
-          "at-ruledef-supports",
-          "typedef-supports-decl"
+          "at-ruledef-supports"
         ]
       },
       "https://drafts.csswg.org/css-conditional-5/": {
         "anchors": [
+          "typedef-supports-decl",
           "funcdef-supports"
         ]
       },

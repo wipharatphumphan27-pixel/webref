@@ -1066,6 +1066,26 @@
       "links": []
     },
     {
+      "id": "is-offline",
+      "href": "https://fetch.spec.whatwg.org/#is-offline",
+      "linkingText": [
+        "is offline"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "infrastructure",
+        "href": "https://fetch.spec.whatwg.org/#infrastructure",
+        "title": "Infrastructure",
+        "number": "2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
       "id": "serialize-an-integer",
       "href": "https://fetch.spec.whatwg.org/#serialize-an-integer",
       "linkingText": [
@@ -2102,6 +2122,26 @@
       "links": []
     },
     {
+      "id": "environment-default-user-agent-value",
+      "href": "https://fetch.spec.whatwg.org/#environment-default-user-agent-value",
+      "linkingText": [
+        "environment default `User-Agent` value"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "terminology-headers",
+        "href": "https://fetch.spec.whatwg.org/#terminology-headers",
+        "title": "Headers",
+        "number": "2.2.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
       "id": "document-accept-header-value",
       "href": "https://fetch.spec.whatwg.org/#document-accept-header-value",
       "linkingText": [
@@ -2936,6 +2976,28 @@
       "links": []
     },
     {
+      "id": "request-top-level-navigation-initiator-origin",
+      "href": "https://fetch.spec.whatwg.org/#request-top-level-navigation-initiator-origin",
+      "linkingText": [
+        "top-level navigation initiator origin"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "request"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "requests",
+        "href": "https://fetch.spec.whatwg.org/#requests",
+        "title": "Requests",
+        "number": "2.2.5"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
       "id": "concept-request-policy-container",
       "href": "https://fetch.spec.whatwg.org/#concept-request-policy-container",
       "linkingText": [
@@ -3505,7 +3567,7 @@
       "id": "concept-request-tainted-origin",
       "href": "https://fetch.spec.whatwg.org/#concept-request-tainted-origin",
       "linkingText": [
-        "redirect-tainted origin"
+        "redirect-taint"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -3998,10 +4060,10 @@
       "links": []
     },
     {
-      "id": "response-has-cross-origin-redirects",
-      "href": "https://fetch.spec.whatwg.org/#response-has-cross-origin-redirects",
+      "id": "response-redirect-taint",
+      "href": "https://fetch.spec.whatwg.org/#response-redirect-taint",
       "linkingText": [
-        "has-cross-origin-redirects"
+        "redirect taint"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -4388,6 +4450,28 @@
       "links": []
     },
     {
+      "id": "environment-settings-object-fetch-group",
+      "href": "https://fetch.spec.whatwg.org/#environment-settings-object-fetch-group",
+      "linkingText": [
+        "fetch group"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "environment settings object"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "fetch-groups",
+        "href": "https://fetch.spec.whatwg.org/#fetch-groups",
+        "title": "Fetch groups",
+        "number": "2.4"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
       "id": "concept-fetch-group",
       "href": "https://fetch.spec.whatwg.org/#concept-fetch-group",
       "linkingText": [
@@ -4395,10 +4479,8 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [
-        "fetch"
-      ],
-      "access": "public",
+      "for": [],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "fetch-groups",
@@ -4413,13 +4495,55 @@
       "id": "concept-fetch-record",
       "href": "https://fetch.spec.whatwg.org/#concept-fetch-record",
       "linkingText": [
-        "fetch record"
+        "fetch records"
       ],
       "localLinkingText": [],
       "type": "dfn",
       "for": [
         "fetch group"
       ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "fetch-groups",
+        "href": "https://fetch.spec.whatwg.org/#fetch-groups",
+        "title": "Fetch groups",
+        "number": "2.4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "fetch-group-deferred-fetch-records",
+      "href": "https://fetch.spec.whatwg.org/#fetch-group-deferred-fetch-records",
+      "linkingText": [
+        "deferred fetch records"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fetch group"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "fetch-groups",
+        "href": "https://fetch.spec.whatwg.org/#fetch-groups",
+        "title": "Fetch groups",
+        "number": "2.4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "fetch-record",
+      "href": "https://fetch.spec.whatwg.org/#fetch-record",
+      "linkingText": [
+        "fetch record"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
       "access": "public",
       "informative": false,
       "heading": {
@@ -4450,7 +4574,7 @@
         "title": "Fetch groups",
         "number": "2.4"
       },
-      "definedIn": "prose",
+      "definedIn": "dt",
       "links": []
     },
     {
@@ -4472,7 +4596,93 @@
         "title": "Fetch groups",
         "number": "2.4"
       },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "deferred-fetch-record",
+      "href": "https://fetch.spec.whatwg.org/#deferred-fetch-record",
+      "linkingText": [
+        "deferred fetch record"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "fetch-groups",
+        "href": "https://fetch.spec.whatwg.org/#fetch-groups",
+        "title": "Fetch groups",
+        "number": "2.4"
+      },
       "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "deferred-fetch-record-request",
+      "href": "https://fetch.spec.whatwg.org/#deferred-fetch-record-request",
+      "linkingText": [
+        "request"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "deferred fetch record"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "fetch-groups",
+        "href": "https://fetch.spec.whatwg.org/#fetch-groups",
+        "title": "Fetch groups",
+        "number": "2.4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "deferred-fetch-record-notify-invoked",
+      "href": "https://fetch.spec.whatwg.org/#deferred-fetch-record-notify-invoked",
+      "linkingText": [
+        "notify invoked"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "deferred fetch record"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "fetch-groups",
+        "href": "https://fetch.spec.whatwg.org/#fetch-groups",
+        "title": "Fetch groups",
+        "number": "2.4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "deferred-fetch-record-invoke-state",
+      "href": "https://fetch.spec.whatwg.org/#deferred-fetch-record-invoke-state",
+      "linkingText": [
+        "invoke state"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "deferred fetch record"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "fetch-groups",
+        "href": "https://fetch.spec.whatwg.org/#fetch-groups",
+        "title": "Fetch groups",
+        "number": "2.4"
+      },
+      "definedIn": "dt",
       "links": []
     },
     {
@@ -5062,6 +5272,86 @@
       "links": []
     },
     {
+      "id": "append-a-request-cookie-header",
+      "href": "https://fetch.spec.whatwg.org/#append-a-request-cookie-header",
+      "linkingText": [
+        "append a request `Cookie` header"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "cookie-header",
+        "href": "https://fetch.spec.whatwg.org/#cookie-header",
+        "title": "`Cookie` header",
+        "number": "3.1.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "parse-and-store-response-set-cookie-headers",
+      "href": "https://fetch.spec.whatwg.org/#parse-and-store-response-set-cookie-headers",
+      "linkingText": [
+        "parse and store response `Set-Cookie` headers"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "set-cookie-header",
+        "href": "https://fetch.spec.whatwg.org/#set-cookie-header",
+        "title": "`Set-Cookie` header",
+        "number": "3.1.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "determine-the-same-site-mode",
+      "href": "https://fetch.spec.whatwg.org/#determine-the-same-site-mode",
+      "linkingText": [
+        "determine the same-site mode"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "cookie-infrastructure",
+        "href": "https://fetch.spec.whatwg.org/#cookie-infrastructure",
+        "title": "Cookie infrastructure",
+        "number": "3.1.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "serialized-cookie-default-path",
+      "href": "https://fetch.spec.whatwg.org/#serialized-cookie-default-path",
+      "linkingText": [
+        "serialized cookie default path"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "cookie-infrastructure",
+        "href": "https://fetch.spec.whatwg.org/#cookie-infrastructure",
+        "title": "Cookie infrastructure",
+        "number": "3.1.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
       "id": "http-origin",
       "href": "https://fetch.spec.whatwg.org/#http-origin",
       "linkingText": [
@@ -5076,7 +5366,7 @@
         "id": "origin-header",
         "href": "https://fetch.spec.whatwg.org/#origin-header",
         "title": "`Origin` header",
-        "number": "3.1"
+        "number": "3.2"
       },
       "definedIn": "prose",
       "links": []
@@ -5096,7 +5386,7 @@
         "id": "origin-header",
         "href": "https://fetch.spec.whatwg.org/#origin-header",
         "title": "`Origin` header",
-        "number": "3.1"
+        "number": "3.2"
       },
       "definedIn": "prose",
       "links": []
@@ -5116,7 +5406,7 @@
         "id": "http-cors-protocol",
         "href": "https://fetch.spec.whatwg.org/#http-cors-protocol",
         "title": "CORS protocol",
-        "number": "3.2"
+        "number": "3.3"
       },
       "definedIn": "prose",
       "links": []
@@ -5136,7 +5426,7 @@
         "id": "http-requests",
         "href": "https://fetch.spec.whatwg.org/#http-requests",
         "title": "HTTP requests",
-        "number": "3.2.2"
+        "number": "3.3.2"
       },
       "definedIn": "prose",
       "links": []
@@ -5156,7 +5446,7 @@
         "id": "http-requests",
         "href": "https://fetch.spec.whatwg.org/#http-requests",
         "title": "HTTP requests",
-        "number": "3.2.2"
+        "number": "3.3.2"
       },
       "definedIn": "prose",
       "links": []
@@ -5176,7 +5466,7 @@
         "id": "http-requests",
         "href": "https://fetch.spec.whatwg.org/#http-requests",
         "title": "HTTP requests",
-        "number": "3.2.2"
+        "number": "3.3.2"
       },
       "definedIn": "dt",
       "links": []
@@ -5196,7 +5486,7 @@
         "id": "http-requests",
         "href": "https://fetch.spec.whatwg.org/#http-requests",
         "title": "HTTP requests",
-        "number": "3.2.2"
+        "number": "3.3.2"
       },
       "definedIn": "dt",
       "links": []
@@ -5216,7 +5506,7 @@
         "id": "http-responses",
         "href": "https://fetch.spec.whatwg.org/#http-responses",
         "title": "HTTP responses",
-        "number": "3.2.3"
+        "number": "3.3.3"
       },
       "definedIn": "dt",
       "links": []
@@ -5236,7 +5526,7 @@
         "id": "http-responses",
         "href": "https://fetch.spec.whatwg.org/#http-responses",
         "title": "HTTP responses",
-        "number": "3.2.3"
+        "number": "3.3.3"
       },
       "definedIn": "dt",
       "links": []
@@ -5256,7 +5546,7 @@
         "id": "http-responses",
         "href": "https://fetch.spec.whatwg.org/#http-responses",
         "title": "HTTP responses",
-        "number": "3.2.3"
+        "number": "3.3.3"
       },
       "definedIn": "dt",
       "links": []
@@ -5276,7 +5566,7 @@
         "id": "http-responses",
         "href": "https://fetch.spec.whatwg.org/#http-responses",
         "title": "HTTP responses",
-        "number": "3.2.3"
+        "number": "3.3.3"
       },
       "definedIn": "dt",
       "links": []
@@ -5296,7 +5586,7 @@
         "id": "http-responses",
         "href": "https://fetch.spec.whatwg.org/#http-responses",
         "title": "HTTP responses",
-        "number": "3.2.3"
+        "number": "3.3.3"
       },
       "definedIn": "dt",
       "links": []
@@ -5316,7 +5606,7 @@
         "id": "http-responses",
         "href": "https://fetch.spec.whatwg.org/#http-responses",
         "title": "HTTP responses",
-        "number": "3.2.3"
+        "number": "3.3.3"
       },
       "definedIn": "dt",
       "links": []
@@ -5339,7 +5629,7 @@
         "id": "content-length-header",
         "href": "https://fetch.spec.whatwg.org/#content-length-header",
         "title": "`Content-Length` header",
-        "number": "3.3"
+        "number": "3.4"
       },
       "definedIn": "prose",
       "links": []
@@ -5362,7 +5652,7 @@
         "id": "content-type-header",
         "href": "https://fetch.spec.whatwg.org/#content-type-header",
         "title": "`Content-Type` header",
-        "number": "3.4"
+        "number": "3.5"
       },
       "definedIn": "prose",
       "links": []
@@ -5382,7 +5672,7 @@
         "id": "content-type-header",
         "href": "https://fetch.spec.whatwg.org/#content-type-header",
         "title": "`Content-Type` header",
-        "number": "3.4"
+        "number": "3.5"
       },
       "definedIn": "prose",
       "links": []
@@ -5402,7 +5692,7 @@
         "id": "x-content-type-options-header",
         "href": "https://fetch.spec.whatwg.org/#x-content-type-options-header",
         "title": "`X-Content-Type-Options` header",
-        "number": "3.5"
+        "number": "3.6"
       },
       "definedIn": "prose",
       "links": []
@@ -5422,7 +5712,7 @@
         "id": "x-content-type-options-header",
         "href": "https://fetch.spec.whatwg.org/#x-content-type-options-header",
         "title": "`X-Content-Type-Options` header",
-        "number": "3.5"
+        "number": "3.6"
       },
       "definedIn": "prose",
       "links": []
@@ -5442,7 +5732,7 @@
         "id": "should-response-to-request-be-blocked-due-to-nosniff?",
         "href": "https://fetch.spec.whatwg.org/#should-response-to-request-be-blocked-due-to-nosniff%3F",
         "title": "Should response to request be blocked due to nosniff?",
-        "number": "3.5.1"
+        "number": "3.6.1"
       },
       "definedIn": "heading",
       "links": []
@@ -5462,7 +5752,7 @@
         "id": "cross-origin-resource-policy-header",
         "href": "https://fetch.spec.whatwg.org/#cross-origin-resource-policy-header",
         "title": "`Cross-Origin-Resource-Policy` header",
-        "number": "3.6"
+        "number": "3.7"
       },
       "definedIn": "prose",
       "links": []
@@ -5482,7 +5772,7 @@
         "id": "cross-origin-resource-policy-header",
         "href": "https://fetch.spec.whatwg.org/#cross-origin-resource-policy-header",
         "title": "`Cross-Origin-Resource-Policy` header",
-        "number": "3.6"
+        "number": "3.7"
       },
       "definedIn": "prose",
       "links": []
@@ -5502,7 +5792,7 @@
         "id": "cross-origin-resource-policy-header",
         "href": "https://fetch.spec.whatwg.org/#cross-origin-resource-policy-header",
         "title": "`Cross-Origin-Resource-Policy` header",
-        "number": "3.6"
+        "number": "3.7"
       },
       "definedIn": "prose",
       "links": []
@@ -5522,7 +5812,7 @@
         "id": "cross-origin-resource-policy-header",
         "href": "https://fetch.spec.whatwg.org/#cross-origin-resource-policy-header",
         "title": "`Cross-Origin-Resource-Policy` header",
-        "number": "3.6"
+        "number": "3.7"
       },
       "definedIn": "prose",
       "links": []
@@ -5542,7 +5832,7 @@
         "id": "sec-purpose-header",
         "href": "https://fetch.spec.whatwg.org/#sec-purpose-header",
         "title": "`Sec-Purpose` header",
-        "number": "3.7"
+        "number": "3.8"
       },
       "definedIn": "prose",
       "links": []
@@ -5826,6 +6116,46 @@
       "links": []
     },
     {
+      "id": "concept-override-fetch",
+      "href": "https://fetch.spec.whatwg.org/#concept-override-fetch",
+      "linkingText": [
+        "override fetch"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "override-fetch",
+        "href": "https://fetch.spec.whatwg.org/#override-fetch",
+        "title": "Override fetch",
+        "number": "4.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "potentially-override-response-for-a-request",
+      "href": "https://fetch.spec.whatwg.org/#potentially-override-response-for-a-request",
+      "linkingText": [
+        "potentially override response for a request"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "override-fetch",
+        "href": "https://fetch.spec.whatwg.org/#override-fetch",
+        "title": "Override fetch",
+        "number": "4.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
       "id": "concept-scheme-fetch",
       "href": "https://fetch.spec.whatwg.org/#concept-scheme-fetch",
       "linkingText": [
@@ -5840,7 +6170,7 @@
         "id": "scheme-fetch",
         "href": "https://fetch.spec.whatwg.org/#scheme-fetch",
         "title": "Scheme fetch",
-        "number": "4.2"
+        "number": "4.3"
       },
       "definedIn": "prose",
       "links": []
@@ -5862,7 +6192,7 @@
         "id": "scheme-fetch",
         "href": "https://fetch.spec.whatwg.org/#scheme-fetch",
         "title": "Scheme fetch",
-        "number": "4.2"
+        "number": "4.3"
       },
       "definedIn": "prose",
       "links": []
@@ -5882,7 +6212,7 @@
         "id": "http-fetch",
         "href": "https://fetch.spec.whatwg.org/#http-fetch",
         "title": "HTTP fetch",
-        "number": "4.3"
+        "number": "4.4"
       },
       "definedIn": "prose",
       "links": []
@@ -5902,7 +6232,7 @@
         "id": "http-redirect-fetch",
         "href": "https://fetch.spec.whatwg.org/#http-redirect-fetch",
         "title": "HTTP-redirect fetch",
-        "number": "4.4"
+        "number": "4.5"
       },
       "definedIn": "prose",
       "links": []
@@ -5922,7 +6252,7 @@
         "id": "http-network-or-cache-fetch",
         "href": "https://fetch.spec.whatwg.org/#http-network-or-cache-fetch",
         "title": "HTTP-network-or-cache fetch",
-        "number": "4.5"
+        "number": "4.6"
       },
       "definedIn": "prose",
       "links": []
@@ -5942,7 +6272,7 @@
         "id": "http-network-fetch",
         "href": "https://fetch.spec.whatwg.org/#http-network-fetch",
         "title": "HTTP-network fetch",
-        "number": "4.6"
+        "number": "4.7"
       },
       "definedIn": "prose",
       "links": []
@@ -5962,7 +6292,7 @@
         "id": "cors-preflight-fetch",
         "href": "https://fetch.spec.whatwg.org/#cors-preflight-fetch",
         "title": "CORS-preflight fetch",
-        "number": "4.7"
+        "number": "4.8"
       },
       "definedIn": "prose",
       "links": []
@@ -5982,7 +6312,7 @@
         "id": "cors-preflight-cache",
         "href": "https://fetch.spec.whatwg.org/#cors-preflight-cache",
         "title": "CORS-preflight cache",
-        "number": "4.8"
+        "number": "4.9"
       },
       "definedIn": "prose",
       "links": []
@@ -6002,7 +6332,7 @@
         "id": "cors-preflight-cache",
         "href": "https://fetch.spec.whatwg.org/#cors-preflight-cache",
         "title": "CORS-preflight cache",
-        "number": "4.8"
+        "number": "4.9"
       },
       "definedIn": "prose",
       "links": []
@@ -6024,7 +6354,7 @@
         "id": "cors-preflight-cache",
         "href": "https://fetch.spec.whatwg.org/#cors-preflight-cache",
         "title": "CORS-preflight cache",
-        "number": "4.8"
+        "number": "4.9"
       },
       "definedIn": "prose",
       "links": []
@@ -6046,7 +6376,7 @@
         "id": "cors-preflight-cache",
         "href": "https://fetch.spec.whatwg.org/#cors-preflight-cache",
         "title": "CORS-preflight cache",
-        "number": "4.8"
+        "number": "4.9"
       },
       "definedIn": "prose",
       "links": []
@@ -6068,7 +6398,7 @@
         "id": "cors-preflight-cache",
         "href": "https://fetch.spec.whatwg.org/#cors-preflight-cache",
         "title": "CORS-preflight cache",
-        "number": "4.8"
+        "number": "4.9"
       },
       "definedIn": "prose",
       "links": []
@@ -6090,7 +6420,7 @@
         "id": "cors-preflight-cache",
         "href": "https://fetch.spec.whatwg.org/#cors-preflight-cache",
         "title": "CORS-preflight cache",
-        "number": "4.8"
+        "number": "4.9"
       },
       "definedIn": "prose",
       "links": []
@@ -6112,7 +6442,7 @@
         "id": "cors-preflight-cache",
         "href": "https://fetch.spec.whatwg.org/#cors-preflight-cache",
         "title": "CORS-preflight cache",
-        "number": "4.8"
+        "number": "4.9"
       },
       "definedIn": "prose",
       "links": []
@@ -6134,7 +6464,7 @@
         "id": "cors-preflight-cache",
         "href": "https://fetch.spec.whatwg.org/#cors-preflight-cache",
         "title": "CORS-preflight cache",
-        "number": "4.8"
+        "number": "4.9"
       },
       "definedIn": "prose",
       "links": []
@@ -6156,7 +6486,7 @@
         "id": "cors-preflight-cache",
         "href": "https://fetch.spec.whatwg.org/#cors-preflight-cache",
         "title": "CORS-preflight cache",
-        "number": "4.8"
+        "number": "4.9"
       },
       "definedIn": "prose",
       "links": []
@@ -6176,7 +6506,7 @@
         "id": "cors-preflight-cache",
         "href": "https://fetch.spec.whatwg.org/#cors-preflight-cache",
         "title": "CORS-preflight cache",
-        "number": "4.8"
+        "number": "4.9"
       },
       "definedIn": "prose",
       "links": []
@@ -6196,7 +6526,7 @@
         "id": "cors-preflight-cache",
         "href": "https://fetch.spec.whatwg.org/#cors-preflight-cache",
         "title": "CORS-preflight cache",
-        "number": "4.8"
+        "number": "4.9"
       },
       "definedIn": "prose",
       "links": []
@@ -6216,7 +6546,7 @@
         "id": "cors-preflight-cache",
         "href": "https://fetch.spec.whatwg.org/#cors-preflight-cache",
         "title": "CORS-preflight cache",
-        "number": "4.8"
+        "number": "4.9"
       },
       "definedIn": "prose",
       "links": []
@@ -6236,7 +6566,7 @@
         "id": "cors-preflight-cache",
         "href": "https://fetch.spec.whatwg.org/#cors-preflight-cache",
         "title": "CORS-preflight cache",
-        "number": "4.8"
+        "number": "4.9"
       },
       "definedIn": "prose",
       "links": []
@@ -6256,7 +6586,7 @@
         "id": "cors-preflight-cache",
         "href": "https://fetch.spec.whatwg.org/#cors-preflight-cache",
         "title": "CORS-preflight cache",
-        "number": "4.8"
+        "number": "4.9"
       },
       "definedIn": "prose",
       "links": []
@@ -6276,7 +6606,7 @@
         "id": "cors-check",
         "href": "https://fetch.spec.whatwg.org/#cors-check",
         "title": "CORS check",
-        "number": "4.9"
+        "number": "4.10"
       },
       "definedIn": "prose",
       "links": []
@@ -6296,7 +6626,315 @@
         "id": "tao-check",
         "href": "https://fetch.spec.whatwg.org/#tao-check",
         "title": "TAO check",
-        "number": "4.10"
+        "number": "4.11"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "deferred-fetch-task-source",
+      "href": "https://fetch.spec.whatwg.org/#deferred-fetch-task-source",
+      "linkingText": [
+        "deferred fetch task source"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "deferred-fetch",
+        "href": "https://fetch.spec.whatwg.org/#deferred-fetch",
+        "title": "Deferred fetching",
+        "number": "4.12"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "queue-a-deferred-fetch",
+      "href": "https://fetch.spec.whatwg.org/#queue-a-deferred-fetch",
+      "linkingText": [
+        "queue a deferred fetch"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "deferred-fetch",
+        "href": "https://fetch.spec.whatwg.org/#deferred-fetch",
+        "title": "Deferred fetching",
+        "number": "4.12"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "total-request-length",
+      "href": "https://fetch.spec.whatwg.org/#total-request-length",
+      "linkingText": [
+        "total request length"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "deferred-fetch",
+        "href": "https://fetch.spec.whatwg.org/#deferred-fetch",
+        "title": "Deferred fetching",
+        "number": "4.12"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "process-deferred-fetches",
+      "href": "https://fetch.spec.whatwg.org/#process-deferred-fetches",
+      "linkingText": [
+        "process deferred fetches"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "deferred-fetch",
+        "href": "https://fetch.spec.whatwg.org/#deferred-fetch",
+        "title": "Deferred fetching",
+        "number": "4.12"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "process-a-deferred-fetch",
+      "href": "https://fetch.spec.whatwg.org/#process-a-deferred-fetch",
+      "linkingText": [
+        "process a deferred fetch"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "deferred-fetch",
+        "href": "https://fetch.spec.whatwg.org/#deferred-fetch",
+        "title": "Deferred fetching",
+        "number": "4.12"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dom-permissionspolicy-deferred-fetch",
+      "href": "https://fetch.spec.whatwg.org/#dom-permissionspolicy-deferred-fetch",
+      "linkingText": [
+        "deferred-fetch"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "PermissionsPolicy"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "deferred-fetch-quota",
+        "href": "https://fetch.spec.whatwg.org/#deferred-fetch-quota",
+        "title": "Deferred fetching quota",
+        "number": "4.12.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dom-permissionspolicy-deferred-fetch-minimal",
+      "href": "https://fetch.spec.whatwg.org/#dom-permissionspolicy-deferred-fetch-minimal",
+      "linkingText": [
+        "deferred-fetch-minimal"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "PermissionsPolicy"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "deferred-fetch-quota",
+        "href": "https://fetch.spec.whatwg.org/#deferred-fetch-quota",
+        "title": "Deferred fetching quota",
+        "number": "4.12.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "quota-reserved-for-deferred-fetch-minimal",
+      "href": "https://fetch.spec.whatwg.org/#quota-reserved-for-deferred-fetch-minimal",
+      "linkingText": [
+        "quota reserved for deferred-fetch-minimal"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "deferred-fetch-quota",
+        "href": "https://fetch.spec.whatwg.org/#deferred-fetch-quota",
+        "title": "Deferred fetching quota",
+        "number": "4.12.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "reserved-deferred-fetch-quota",
+      "href": "https://fetch.spec.whatwg.org/#reserved-deferred-fetch-quota",
+      "linkingText": [
+        "reserved deferred-fetch quota"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "deferred-fetch-quota",
+        "href": "https://fetch.spec.whatwg.org/#deferred-fetch-quota",
+        "title": "Deferred fetching quota",
+        "number": "4.12.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "reserved-deferred-fetch-quota-minimal-quota",
+      "href": "https://fetch.spec.whatwg.org/#reserved-deferred-fetch-quota-minimal-quota",
+      "linkingText": [
+        "minimal quota"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "reserved deferred-fetch quota"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "deferred-fetch-quota",
+        "href": "https://fetch.spec.whatwg.org/#deferred-fetch-quota",
+        "title": "Deferred fetching quota",
+        "number": "4.12.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "reserved-deferred-fetch-quota-normal-quota",
+      "href": "https://fetch.spec.whatwg.org/#reserved-deferred-fetch-quota-normal-quota",
+      "linkingText": [
+        "normal quota"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "reserved deferred-fetch quota"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "deferred-fetch-quota",
+        "href": "https://fetch.spec.whatwg.org/#deferred-fetch-quota",
+        "title": "Deferred fetching quota",
+        "number": "4.12.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "available-deferred-fetch-quota",
+      "href": "https://fetch.spec.whatwg.org/#available-deferred-fetch-quota",
+      "linkingText": [
+        "available deferred-fetch quota"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "deferred-fetch-quota",
+        "href": "https://fetch.spec.whatwg.org/#deferred-fetch-quota",
+        "title": "Deferred fetching quota",
+        "number": "4.12.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "reserve-deferred-fetch-quota",
+      "href": "https://fetch.spec.whatwg.org/#reserve-deferred-fetch-quota",
+      "linkingText": [
+        "reserve deferred-fetch quota"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "deferred-fetch-quota",
+        "href": "https://fetch.spec.whatwg.org/#deferred-fetch-quota",
+        "title": "Deferred fetching quota",
+        "number": "4.12.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "potentially-free-deferred-fetch-quota",
+      "href": "https://fetch.spec.whatwg.org/#potentially-free-deferred-fetch-quota",
+      "linkingText": [
+        "potentially free deferred-fetch quota"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "deferred-fetch-quota",
+        "href": "https://fetch.spec.whatwg.org/#deferred-fetch-quota",
+        "title": "Deferred fetching quota",
+        "number": "4.12.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "deferred-fetch-control-document",
+      "href": "https://fetch.spec.whatwg.org/#deferred-fetch-control-document",
+      "linkingText": [
+        "deferred-fetch control document"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "deferred-fetch-quota",
+        "href": "https://fetch.spec.whatwg.org/#deferred-fetch-quota",
+        "title": "Deferred fetching quota",
+        "number": "4.12.1"
       },
       "definedIn": "prose",
       "links": []
@@ -10785,7 +11423,7 @@
       "heading": {
         "id": "fetch-method",
         "href": "https://fetch.spec.whatwg.org/#fetch-method",
-        "title": "Fetch method",
+        "title": "Fetch methods",
         "number": "5.6"
       },
       "definedIn": "pre",
@@ -10808,7 +11446,115 @@
       "heading": {
         "id": "fetch-method",
         "href": "https://fetch.spec.whatwg.org/#fetch-method",
-        "title": "Fetch method",
+        "title": "Fetch methods",
+        "number": "5.6"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dictdef-deferredrequestinit",
+      "href": "https://fetch.spec.whatwg.org/#dictdef-deferredrequestinit",
+      "linkingText": [
+        "DeferredRequestInit"
+      ],
+      "localLinkingText": [],
+      "type": "dictionary",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fetch-method",
+        "href": "https://fetch.spec.whatwg.org/#fetch-method",
+        "title": "Fetch methods",
+        "number": "5.6"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-deferredrequestinit-activateafter",
+      "href": "https://fetch.spec.whatwg.org/#dom-deferredrequestinit-activateafter",
+      "linkingText": [
+        "activateAfter"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "DeferredRequestInit"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fetch-method",
+        "href": "https://fetch.spec.whatwg.org/#fetch-method",
+        "title": "Fetch methods",
+        "number": "5.6"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "fetchlaterresult",
+      "href": "https://fetch.spec.whatwg.org/#fetchlaterresult",
+      "linkingText": [
+        "FetchLaterResult"
+      ],
+      "localLinkingText": [],
+      "type": "interface",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fetch-method",
+        "href": "https://fetch.spec.whatwg.org/#fetch-method",
+        "title": "Fetch methods",
+        "number": "5.6"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-window-fetchlater-input-init-input",
+      "href": "https://fetch.spec.whatwg.org/#dom-window-fetchlater-input-init-input",
+      "linkingText": [
+        "input"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "Window/fetchLater(input, init)",
+        "Window/fetchLater(input)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fetch-method",
+        "href": "https://fetch.spec.whatwg.org/#fetch-method",
+        "title": "Fetch methods",
+        "number": "5.6"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-window-fetchlater-input-init-init",
+      "href": "https://fetch.spec.whatwg.org/#dom-window-fetchlater-input-init-init",
+      "linkingText": [
+        "init"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "Window/fetchLater(input, init)",
+        "Window/fetchLater(input)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fetch-method",
+        "href": "https://fetch.spec.whatwg.org/#fetch-method",
+        "title": "Fetch methods",
         "number": "5.6"
       },
       "definedIn": "pre",
@@ -10831,7 +11577,7 @@
       "heading": {
         "id": "fetch-method",
         "href": "https://fetch.spec.whatwg.org/#fetch-method",
-        "title": "Fetch method",
+        "title": "Fetch methods",
         "number": "5.6"
       },
       "definedIn": "prose",
@@ -10851,7 +11597,74 @@
       "heading": {
         "id": "fetch-method",
         "href": "https://fetch.spec.whatwg.org/#fetch-method",
-        "title": "Fetch method",
+        "title": "Fetch methods",
+        "number": "5.6"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "fetchlaterresult-activated-getter-steps",
+      "href": "https://fetch.spec.whatwg.org/#fetchlaterresult-activated-getter-steps",
+      "linkingText": [
+        "activated getter steps"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "FetchLaterResult"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "fetch-method",
+        "href": "https://fetch.spec.whatwg.org/#fetch-method",
+        "title": "Fetch methods",
+        "number": "5.6"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dom-fetchlaterresult-activated",
+      "href": "https://fetch.spec.whatwg.org/#dom-fetchlaterresult-activated",
+      "linkingText": [
+        "activated"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "FetchLaterResult"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fetch-method",
+        "href": "https://fetch.spec.whatwg.org/#fetch-method",
+        "title": "Fetch methods",
+        "number": "5.6"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dom-window-fetchlater",
+      "href": "https://fetch.spec.whatwg.org/#dom-window-fetchlater",
+      "linkingText": [
+        "fetchLater(input, init)",
+        "fetchLater(input)"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "Window"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fetch-method",
+        "href": "https://fetch.spec.whatwg.org/#fetch-method",
+        "title": "Fetch methods",
         "number": "5.6"
       },
       "definedIn": "prose",

@@ -69,7 +69,6 @@
       "https://github.com/webmachinelearning/webnn/issues/529": {},
       "https://github.com/webmachinelearning/webnn/issues/623": {},
       "https://github.com/webmachinelearning/webnn/issues/778": {},
-      "https://github.com/webmachinelearning/webnn/issues/817": {},
       "https://github.com/webmachinelearning/webnn/issues/85": {},
       "https://github.com/whatwg/infra/issues/664": {},
       "https://github.com/whatwg/webidl/issues/1388": {},
@@ -104,6 +103,7 @@
       "https://tc39.es/process-document/": {},
       "https://w3c.github.io/hr-time/": {},
       "https://w3c.github.io/security-questionnaire/": {},
+      "https://w3c.github.io/wcag/guidelines/22/": {},
       "https://w3c.github.io/webappsec-permissions-policy/": {},
       "https://w3c.github.io/webappsec-secure-contexts/": {},
       "https://webassembly.github.io/spec/js-api/": {},
@@ -135,7 +135,7 @@
           "sec-Disclosure"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {},
+      "https://www.w3.org/policies/process/20250818/": {},
       "https://www.w3.org/standards/types": {
         "anchors": [
           "PR"
@@ -253,6 +253,7 @@
           "ArrayBufferView",
           "SecureContext",
           "SameObject",
+          "idl-boolean",
           "Exposed",
           "a-new-promise",
           "this",
@@ -279,9 +280,8 @@
           "arraybuffer-write",
           "EnforceRange",
           "idl-unsigned-long-long",
-          "idl-sequence",
           "idl-unsigned-long",
-          "idl-boolean",
+          "idl-sequence",
           "idl-long",
           "idl-frozen-array",
           "idl-bigint",

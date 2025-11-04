@@ -352,7 +352,7 @@
           "animation-type"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {}
+      "https://www.w3.org/policies/process/20250818/": {}
     },
     "autolinks": {
       "https://dom.spec.whatwg.org/": {
@@ -424,6 +424,7 @@
           "computed-value",
           "specified-value",
           "used-value",
+          "valdef-all-revert-rule",
           "inherited-value",
           "valdef-all-inherit",
           "shorthand-property",
@@ -560,6 +561,7 @@
           "component-value",
           "parse-a-list-of-component-values",
           "typedef-ident-token",
+          "typedef-number-token",
           "typedef-percentage-token"
         ]
       },
@@ -728,6 +730,7 @@
           "list-iterate",
           "iteration-continue",
           "ascii-case-insensitive",
+          "strip-leading-and-trailing-ascii-whitespace",
           "tuple",
           "stack"
         ]

@@ -159,7 +159,7 @@
       "id": "order-property",
       "href": "https://drafts.csswg.org/css-flexbox-1/#order-property",
       "level": 3,
-      "title": "Item Reordering: the order property",
+      "title": "Reordering and Accessibility: the order property",
       "number": "5.4"
     },
     {
@@ -412,6 +412,12 @@
       "title": "Changes"
     },
     {
+      "id": "changes-20251014",
+      "href": "https://drafts.csswg.org/css-flexbox-1/#changes-20251014",
+      "level": 3,
+      "title": "Changes since the 14 October 2025 CRD"
+    },
+    {
       "id": "changes-20181119",
       "href": "https://drafts.csswg.org/css-flexbox-1/#changes-20181119",
       "level": 3,
@@ -532,10 +538,16 @@
       "title": "Clarifications"
     },
     {
-      "id": "priv-sec",
-      "href": "https://drafts.csswg.org/css-flexbox-1/#priv-sec",
+      "id": "privacy",
+      "href": "https://drafts.csswg.org/css-flexbox-1/#privacy",
       "level": 2,
-      "title": "11. Privacy and Security Considerations"
+      "title": "Privacy Considerations"
+    },
+    {
+      "id": "security",
+      "href": "https://drafts.csswg.org/css-flexbox-1/#security",
+      "level": 2,
+      "title": "Security Considerations"
     },
     {
       "id": "w3c-conformance",

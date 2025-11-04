@@ -19,12 +19,14 @@
       "https://github.com/w3c/epub-specs/issues/2412": {},
       "https://github.com/w3c/epub-specs/issues/2687": {},
       "https://github.com/w3c/epub-specs/issues/2732": {},
+      "https://github.com/w3c/epub-specs/issues/2762": {},
       "https://github.com/w3c/epub-specs/issues?q=is%3Aissue%20is%3Aclosed%20label%3ASpec-ReadingSystems%20closed%3A2025-02-11%20..2027-02-11": {},
       "https://github.com/w3c/epub-specs/pull/2735": {
         "anchors": [
           "issuecomment-2944066035"
         ]
       },
+      "https://github.com/w3c/epub-specs/pull/2771": {},
       "https://html.spec.whatwg.org/multipage/": {
         "anchors": [
           "origin",
@@ -51,6 +53,7 @@
         ]
       },
       "https://medium.com/mrcomics/what-is-webtoon-4926929b20d8": {},
+      "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf": {},
       "https://pkware.cachefly.net/webdocs/casestudies/APPNOTE.TXT": {},
       "https://url.spec.whatwg.org/": {
         "anchors": [
@@ -62,6 +65,7 @@
       "https://w3c.github.io/epub-tests/index.html": {
         "anchors": [
           "cnt-xhtml-support",
+          "pub-cmt-avif",
           "pub-cmt-gif",
           "pub-cmt-jpg",
           "pub-cmt-png",
@@ -239,7 +243,7 @@
       "https://www.rfc-editor.org/rfc/rfc7034": {},
       "https://www.rfc-editor.org/rfc/rfc8089": {},
       "https://www.rfc-editor.org/rfc/rfc8174": {},
-      "https://www.unicode.org/reports/tr9/tr9-50.html": {
+      "https://www.unicode.org/reports/tr9/tr9-51.html": {
         "anchors": [
           "Higher-Level_Protocols",
           "P2"
@@ -314,6 +318,12 @@
           "font-face-rule"
         ]
       },
+      "https://www.w3.org/TR/epub-33/": {
+        "anchors": [
+          "sec-font-obfuscation",
+          "sec-css-prefixed"
+        ]
+      },
       "https://www.w3.org/TR/epub-34/": {
         "anchors": [
           "sec-terminology",
@@ -334,7 +344,6 @@
           "sec-container-metainf-manifest.xml",
           "sec-container-metainf-signatures.xml",
           "sec-container-metainf-files",
-          "sec-font-obfuscation",
           "sec-package-doc",
           "dfn-value",
           "identifier-type",
@@ -343,6 +352,7 @@
           "sec-item-resource-properties",
           "sec-manifest-fallbacks",
           "attrdef-item-properties",
+          "preferred-fallback-chain",
           "attrdef-itemref-linear",
           "attrdef-spine-page-progression-direction",
           "attrdef-properties",
@@ -357,7 +367,6 @@
           "sec-xhtml",
           "sec-svg",
           "sec-css",
-          "sec-css-prefixed",
           "sec-scripted-content",
           "sec-scripted-container-constrained",
           "sec-scripted-spine",
@@ -395,12 +404,12 @@
           "sec-mo-nav-doc",
           "duration",
           "sec-escapability",
-          "app-structural-semantics",
+          "sec-structural-semantics",
           "sec-epub-type-attribute",
           "sec-vocab-assoc",
-          "sec-property-datatype",
-          "property.ebnf.prefix",
-          "property.ebnf.reference",
+          "sec-compact-url-datatype",
+          "compact-url.ebnf.prefix",
+          "compact-url.ebnf.reference",
           "sec-reserved-prefixes",
           "confreq-nav-a-title",
           "sec-security-privacy",
@@ -442,7 +451,7 @@
         ]
       },
       "https://www.w3.org/policies/process/": {},
-      "https://www.w3.org/policies/process/20231103/": {
+      "https://www.w3.org/policies/process/20250818/": {
         "anchors": [
           "allow-new-features"
         ]
@@ -463,11 +472,6 @@
       "https://html.spec.whatwg.org/multipage/document-sequences.html": {
         "anchors": [
           "top-level-browsing-context"
-        ]
-      },
-      "https://html.spec.whatwg.org/multipage/dom.html": {
-        "anchors": [
-          "attr-style"
         ]
       },
       "https://html.spec.whatwg.org/multipage/forms.html": {
@@ -529,7 +533,6 @@
           "dfn-itemref",
           "dfn-package-document",
           "dfn-fixed-layout-document",
-          "dfn-epub-creator",
           "dfn-foreign-resource",
           "dfn-remote-resource",
           "dfn-top-level-content-document",

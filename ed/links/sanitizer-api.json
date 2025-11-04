@@ -28,6 +28,11 @@
       "https://www.w3.org/community/wicg/": {}
     },
     "autolinks": {
+      "https://console.spec.whatwg.org/": {
+        "anchors": [
+          "report-a-warning-to-the-console"
+        ]
+      },
       "https://dom.spec.whatwg.org/": {
         "anchors": [
           "element",
@@ -37,6 +42,7 @@
           "element-shadow-host",
           "concept-document-content-type",
           "document-allow-declarative-shadow-roots",
+          "concept-attribute",
           "documentfragment",
           "concept-element-local-name",
           "concept-element-namespace",
@@ -67,6 +73,12 @@
           "cereactions"
         ]
       },
+      "https://html.spec.whatwg.org/multipage/dom.html": {
+        "anchors": [
+          "custom-data-attribute",
+          "global-attributes"
+        ]
+      },
       "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html": {
         "anchors": [
           "dom-element-innerhtml",
@@ -83,6 +95,7 @@
       "https://html.spec.whatwg.org/multipage/webappapis.html": {
         "anchors": [
           "concept-relevant-global",
+          "current-global-object",
           "event-handler-content-attributes"
         ]
       },
@@ -91,23 +104,37 @@
           "string",
           "assert",
           "string-is",
+          "map-exists",
+          "list-iterate",
+          "list-sort-in-ascending-order",
+          "set-difference",
+          "list-remove",
+          "set-intersection",
+          "map-with-default",
+          "map-remove",
+          "list-append",
+          "list-empty",
+          "list-contain",
+          "map-set",
+          "map-key",
+          "set-subset",
           "boolean",
           "html-namespace",
           "svg-namespace",
-          "list-iterate",
-          "list-append",
-          "map-exists",
           "iteration-continue",
-          "list-empty",
-          "list-contain",
           "code-unit-prefix",
           "mathml-namespace",
           "xlink-namespace",
-          "list-size",
+          "map-getting-the-keys",
           "ordered-map",
-          "list-remove",
+          "list",
+          "code-unit-less-than",
           "ordered-set",
           "set-superset",
+          "map-value",
+          "tuple",
+          "map-entry",
+          "set-append",
           "user-agent"
         ]
       },
@@ -120,8 +147,7 @@
       },
       "https://w3c.github.io/trusted-types/dist/spec/": {
         "anchors": [
-          "trustedhtml",
-          "abstract-opdef-get-trusted-type-compliant-string"
+          "trustedhtml"
         ]
       },
       "https://webidl.spec.whatwg.org/": {

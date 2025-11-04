@@ -500,10 +500,10 @@
       "number": "2.4.2"
     },
     {
-      "id": "dynamic-changes-to-base-urls",
-      "href": "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#dynamic-changes-to-base-urls",
+      "id": "document-base-urls",
+      "href": "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#document-base-urls",
       "level": 4,
-      "title": "Dynamic changes to base URLs",
+      "title": "Document base URLs",
       "number": "2.4.3"
     },
     {
@@ -591,53 +591,60 @@
       "number": "2.6.1"
     },
     {
+      "id": "using-reflect-via-idl-extended-attributes",
+      "href": "https://html.spec.whatwg.org/multipage/common-dom-interfaces.html#using-reflect-via-idl-extended-attributes",
+      "level": 4,
+      "title": "Using reflect via IDL extended attributes",
+      "number": "2.6.2"
+    },
+    {
       "id": "using-reflect-in-specifications",
       "href": "https://html.spec.whatwg.org/multipage/common-dom-interfaces.html#using-reflect-in-specifications",
       "level": 4,
       "title": "Using reflect in specifications",
-      "number": "2.6.2"
+      "number": "2.6.3"
     },
     {
       "id": "collections",
       "href": "https://html.spec.whatwg.org/multipage/common-dom-interfaces.html#collections",
       "level": 4,
       "title": "Collections",
-      "number": "2.6.3"
+      "number": "2.6.4"
     },
     {
       "id": "the-htmlallcollection-interface",
       "href": "https://html.spec.whatwg.org/multipage/common-dom-interfaces.html#the-htmlallcollection-interface",
       "level": 5,
       "title": "The HTMLAllCollection interface",
-      "number": "2.6.3.1"
+      "number": "2.6.4.1"
     },
     {
       "id": "HTMLAllCollection-call",
       "href": "https://html.spec.whatwg.org/multipage/common-dom-interfaces.html#HTMLAllCollection-call",
       "level": 6,
       "title": "[[Call]] ( thisArgument, argumentsList )",
-      "number": "2.6.3.1.1"
+      "number": "2.6.4.1.1"
     },
     {
       "id": "the-htmlformcontrolscollection-interface",
       "href": "https://html.spec.whatwg.org/multipage/common-dom-interfaces.html#the-htmlformcontrolscollection-interface",
       "level": 5,
       "title": "The HTMLFormControlsCollection interface",
-      "number": "2.6.3.2"
+      "number": "2.6.4.2"
     },
     {
       "id": "the-htmloptionscollection-interface",
       "href": "https://html.spec.whatwg.org/multipage/common-dom-interfaces.html#the-htmloptionscollection-interface",
       "level": 5,
       "title": "The HTMLOptionsCollection interface",
-      "number": "2.6.3.3"
+      "number": "2.6.4.3"
     },
     {
       "id": "the-domstringlist-interface",
       "href": "https://html.spec.whatwg.org/multipage/common-dom-interfaces.html#the-domstringlist-interface",
       "level": 4,
       "title": "The DOMStringList interface",
-      "number": "2.6.4"
+      "number": "2.6.5"
     },
     {
       "id": "safe-passing-of-structured-data",
@@ -897,6 +904,27 @@
       "level": 6,
       "title": "Script-supporting elements",
       "number": "3.2.5.2.9"
+    },
+    {
+      "id": "select-element-inner-content-elements",
+      "href": "https://html.spec.whatwg.org/multipage/dom.html#select-element-inner-content-elements",
+      "level": 6,
+      "title": "select element inner content elements",
+      "number": "3.2.5.2.10"
+    },
+    {
+      "id": "optgroup-element-inner-content-elements",
+      "href": "https://html.spec.whatwg.org/multipage/dom.html#optgroup-element-inner-content-elements",
+      "level": 6,
+      "title": "optgroup element inner content elements",
+      "number": "3.2.5.2.11"
+    },
+    {
+      "id": "option-element-inner-content-elements",
+      "href": "https://html.spec.whatwg.org/multipage/dom.html#option-element-inner-content-elements",
+      "level": 6,
+      "title": "option element inner content elements",
+      "number": "3.2.5.2.12"
     },
     {
       "id": "transparent-content-models",
@@ -1228,18 +1256,25 @@
       "number": "4.3.11"
     },
     {
+      "id": "heading-levels-&-offsets",
+      "href": "https://html.spec.whatwg.org/multipage/sections.html#heading-levels-%26-offsets",
+      "level": 5,
+      "title": "Heading levels & offsets",
+      "number": "4.3.11.1"
+    },
+    {
       "id": "sample-outlines",
       "href": "https://html.spec.whatwg.org/multipage/sections.html#sample-outlines",
       "level": 5,
       "title": "Sample outlines",
-      "number": "4.3.11.1"
+      "number": "4.3.11.2"
     },
     {
       "id": "exposing-outlines-to-users",
       "href": "https://html.spec.whatwg.org/multipage/sections.html#exposing-outlines-to-users",
       "level": 5,
       "title": "Exposing outlines to users",
-      "number": "4.3.11.2"
+      "number": "4.3.11.3"
     },
     {
       "id": "usage-summary-2",
@@ -3034,235 +3069,242 @@
       "number": "4.10.16"
     },
     {
+      "id": "the-selectedcontent-element",
+      "href": "https://html.spec.whatwg.org/multipage/form-elements.html#the-selectedcontent-element",
+      "level": 4,
+      "title": "The selectedcontent element",
+      "number": "4.10.17"
+    },
+    {
       "id": "form-control-infrastructure",
       "href": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#form-control-infrastructure",
       "level": 4,
       "title": "Form control infrastructure",
-      "number": "4.10.17"
+      "number": "4.10.18"
     },
     {
       "id": "a-form-control's-value",
       "href": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#a-form-control's-value",
       "level": 5,
       "title": "A form control's value",
-      "number": "4.10.17.1"
+      "number": "4.10.18.1"
     },
     {
       "id": "mutability",
       "href": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#mutability",
       "level": 5,
       "title": "Mutability",
-      "number": "4.10.17.2"
+      "number": "4.10.18.2"
     },
     {
       "id": "association-of-controls-and-forms",
       "href": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#association-of-controls-and-forms",
       "level": 5,
       "title": "Association of controls and forms",
-      "number": "4.10.17.3"
+      "number": "4.10.18.3"
     },
     {
       "id": "attributes-common-to-form-controls",
       "href": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attributes-common-to-form-controls",
       "level": 4,
       "title": "Attributes common to form controls",
-      "number": "4.10.18"
+      "number": "4.10.19"
     },
     {
       "id": "naming-form-controls:-the-name-attribute",
       "href": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#naming-form-controls%3A-the-name-attribute",
       "level": 5,
       "title": "Naming form controls: the name attribute",
-      "number": "4.10.18.1"
+      "number": "4.10.19.1"
     },
     {
       "id": "submitting-element-directionality:-the-dirname-attribute",
       "href": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#submitting-element-directionality%3A-the-dirname-attribute",
       "level": 5,
       "title": "Submitting element directionality: the dirname attribute",
-      "number": "4.10.18.2"
+      "number": "4.10.19.2"
     },
     {
       "id": "limiting-user-input-length:-the-maxlength-attribute",
       "href": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#limiting-user-input-length%3A-the-maxlength-attribute",
       "level": 5,
       "title": "Limiting user input length: the maxlength attribute",
-      "number": "4.10.18.3"
+      "number": "4.10.19.3"
     },
     {
       "id": "setting-minimum-input-length-requirements:-the-minlength-attribute",
       "href": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#setting-minimum-input-length-requirements%3A-the-minlength-attribute",
       "level": 5,
       "title": "Setting minimum input length requirements: the minlength attribute",
-      "number": "4.10.18.4"
+      "number": "4.10.19.4"
     },
     {
       "id": "enabling-and-disabling-form-controls:-the-disabled-attribute",
       "href": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#enabling-and-disabling-form-controls%3A-the-disabled-attribute",
       "level": 5,
       "title": "Enabling and disabling form controls: the disabled attribute",
-      "number": "4.10.18.5"
+      "number": "4.10.19.5"
     },
     {
       "id": "form-submission-attributes",
       "href": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#form-submission-attributes",
       "level": 5,
       "title": "Form submission attributes",
-      "number": "4.10.18.6"
+      "number": "4.10.19.6"
     },
     {
       "id": "autofill",
       "href": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#autofill",
       "level": 5,
       "title": "Autofill",
-      "number": "4.10.18.7"
+      "number": "4.10.19.7"
     },
     {
       "id": "autofilling-form-controls:-the-autocomplete-attribute",
       "href": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#autofilling-form-controls%3A-the-autocomplete-attribute",
       "level": 6,
       "title": "Autofilling form controls: the autocomplete attribute",
-      "number": "4.10.18.7.1"
+      "number": "4.10.19.7.1"
     },
     {
       "id": "autofill-processing-model",
       "href": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#autofill-processing-model",
       "level": 6,
       "title": "Processing model",
-      "number": "4.10.18.7.2"
+      "number": "4.10.19.7.2"
     },
     {
       "id": "textFieldSelection",
       "href": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#textFieldSelection",
       "level": 4,
       "title": "APIs for the text control selections",
-      "number": "4.10.19"
+      "number": "4.10.20"
     },
     {
       "id": "constraints",
       "href": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#constraints",
       "level": 4,
       "title": "Constraints",
-      "number": "4.10.20"
+      "number": "4.10.21"
     },
     {
       "id": "definitions",
       "href": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#definitions",
       "level": 5,
       "title": "Definitions",
-      "number": "4.10.20.1"
+      "number": "4.10.21.1"
     },
     {
       "id": "constraint-validation",
       "href": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#constraint-validation",
       "level": 5,
       "title": "Constraint validation",
-      "number": "4.10.20.2"
+      "number": "4.10.21.2"
     },
     {
       "id": "the-constraint-validation-api",
       "href": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#the-constraint-validation-api",
       "level": 5,
       "title": "The constraint validation API",
-      "number": "4.10.20.3"
+      "number": "4.10.21.3"
     },
     {
       "id": "security-forms",
       "href": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#security-forms",
       "level": 5,
       "title": "Security",
-      "number": "4.10.20.4"
+      "number": "4.10.21.4"
     },
     {
       "id": "form-submission-2",
       "href": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#form-submission-2",
       "level": 4,
       "title": "Form submission",
-      "number": "4.10.21"
+      "number": "4.10.22"
     },
     {
       "id": "introduction-5",
       "href": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#introduction-5",
       "level": 5,
       "title": "Introduction",
-      "number": "4.10.21.1"
+      "number": "4.10.22.1"
     },
     {
       "id": "implicit-submission",
       "href": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#implicit-submission",
       "level": 5,
       "title": "Implicit submission",
-      "number": "4.10.21.2"
+      "number": "4.10.22.2"
     },
     {
       "id": "form-submission-algorithm",
       "href": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#form-submission-algorithm",
       "level": 5,
       "title": "Form submission algorithm",
-      "number": "4.10.21.3"
+      "number": "4.10.22.3"
     },
     {
       "id": "constructing-form-data-set",
       "href": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#constructing-form-data-set",
       "level": 5,
       "title": "Constructing the entry list",
-      "number": "4.10.21.4"
+      "number": "4.10.22.4"
     },
     {
       "id": "selecting-a-form-submission-encoding",
       "href": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#selecting-a-form-submission-encoding",
       "level": 5,
       "title": "Selecting a form submission encoding",
-      "number": "4.10.21.5"
+      "number": "4.10.22.5"
     },
     {
       "id": "converting-an-entry-list-to-a-list-of-name-value-pairs",
       "href": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#converting-an-entry-list-to-a-list-of-name-value-pairs",
       "level": 5,
       "title": "Converting an entry list to a list of name-value pairs",
-      "number": "4.10.21.6"
+      "number": "4.10.22.6"
     },
     {
       "id": "url-encoded-form-data",
       "href": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#url-encoded-form-data",
       "level": 5,
       "title": "URL-encoded form data",
-      "number": "4.10.21.7"
+      "number": "4.10.22.7"
     },
     {
       "id": "multipart-form-data",
       "href": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#multipart-form-data",
       "level": 5,
       "title": "Multipart form data",
-      "number": "4.10.21.8"
+      "number": "4.10.22.8"
     },
     {
       "id": "plain-text-form-data",
       "href": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#plain-text-form-data",
       "level": 5,
       "title": "Plain text form data",
-      "number": "4.10.21.9"
+      "number": "4.10.22.9"
     },
     {
       "id": "the-submitevent-interface",
       "href": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#the-submitevent-interface",
       "level": 5,
       "title": "The SubmitEvent interface",
-      "number": "4.10.21.10"
+      "number": "4.10.22.10"
     },
     {
       "id": "the-formdataevent-interface",
       "href": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#the-formdataevent-interface",
       "level": 5,
       "title": "The FormDataEvent interface",
-      "number": "4.10.21.11"
+      "number": "4.10.22.11"
     },
     {
       "id": "resetting-a-form",
       "href": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#resetting-a-form",
       "level": 4,
       "title": "Resetting a form",
-      "number": "4.10.22"
+      "number": "4.10.23"
     },
     {
       "id": "interactive-elements",
@@ -3734,11 +3776,18 @@
       "number": "4.13.1.6"
     },
     {
+      "id": "scoped-custom-element-registries",
+      "href": "https://html.spec.whatwg.org/multipage/custom-elements.html#scoped-custom-element-registries",
+      "level": 5,
+      "title": "Scoped custom element registries",
+      "number": "4.13.1.7"
+    },
+    {
       "id": "exposing-custom-element-states",
       "href": "https://html.spec.whatwg.org/multipage/custom-elements.html#exposing-custom-element-states",
       "level": 5,
       "title": "Exposing custom element states",
-      "number": "4.13.1.7"
+      "number": "4.13.1.8"
     },
     {
       "id": "custom-element-conformance",
@@ -4980,25 +5029,32 @@
       "number": "7.2.6.10.1"
     },
     {
+      "id": "the-navigationprecommitcontroller-interface",
+      "href": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#the-navigationprecommitcontroller-interface",
+      "level": 6,
+      "title": "The NavigationPrecommitController interface",
+      "number": "7.2.6.10.2"
+    },
+    {
       "id": "the-navigationdestination-interface",
       "href": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#the-navigationdestination-interface",
       "level": 6,
       "title": "The NavigationDestination interface",
-      "number": "7.2.6.10.2"
+      "number": "7.2.6.10.3"
     },
     {
       "id": "navigate-event-firing",
       "href": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#navigate-event-firing",
       "level": 6,
       "title": "Firing the event",
-      "number": "7.2.6.10.3"
+      "number": "7.2.6.10.4"
     },
     {
       "id": "navigate-event-scroll-focus",
       "href": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#navigate-event-scroll-focus",
       "level": 6,
       "title": "Scroll and focus behavior",
-      "number": "7.2.6.10.4"
+      "number": "7.2.6.10.5"
     },
     {
       "id": "nav-traversal-event-interfaces",
@@ -5421,25 +5477,137 @@
       "number": "7.5.11"
     },
     {
-      "id": "the-x-frame-options-header",
-      "href": "https://html.spec.whatwg.org/multipage/document-lifecycle.html#the-x-frame-options-header",
+      "id": "speculative-loading",
+      "href": "https://html.spec.whatwg.org/multipage/speculative-loading.html#speculative-loading",
       "level": 3,
-      "title": "The `X-Frame-Options` header",
+      "title": "Speculative loading",
       "number": "7.6"
     },
     {
-      "id": "the-refresh-header",
-      "href": "https://html.spec.whatwg.org/multipage/document-lifecycle.html#the-refresh-header",
+      "id": "speculation-rules",
+      "href": "https://html.spec.whatwg.org/multipage/speculative-loading.html#speculation-rules",
+      "level": 4,
+      "title": "Speculation rules",
+      "number": "7.6.1"
+    },
+    {
+      "id": "speculation-rules-data-model",
+      "href": "https://html.spec.whatwg.org/multipage/speculative-loading.html#speculation-rules-data-model",
+      "level": 5,
+      "title": "Data model",
+      "number": "7.6.1.1"
+    },
+    {
+      "id": "speculation-rules-parsing",
+      "href": "https://html.spec.whatwg.org/multipage/speculative-loading.html#speculation-rules-parsing",
+      "level": 5,
+      "title": "Parsing",
+      "number": "7.6.1.2"
+    },
+    {
+      "id": "speculation-rules-processing-model",
+      "href": "https://html.spec.whatwg.org/multipage/speculative-loading.html#speculation-rules-processing-model",
+      "level": 5,
+      "title": "Processing model",
+      "number": "7.6.1.3"
+    },
+    {
+      "id": "navigational-prefetching",
+      "href": "https://html.spec.whatwg.org/multipage/speculative-loading.html#navigational-prefetching",
+      "level": 4,
+      "title": "Navigational prefetching",
+      "number": "7.6.2"
+    },
+    {
+      "id": "the-speculation-rules-header",
+      "href": "https://html.spec.whatwg.org/multipage/speculative-loading.html#the-speculation-rules-header",
+      "level": 4,
+      "title": "The `Speculation-Rules` header",
+      "number": "7.6.3"
+    },
+    {
+      "id": "the-sec-speculation-tags-header",
+      "href": "https://html.spec.whatwg.org/multipage/speculative-loading.html#the-sec-speculation-tags-header",
+      "level": 4,
+      "title": "The `Sec-Speculation-Tags` header",
+      "number": "7.6.4"
+    },
+    {
+      "id": "speculative-loading-security",
+      "href": "https://html.spec.whatwg.org/multipage/speculative-loading.html#speculative-loading-security",
+      "level": 4,
+      "title": "Security considerations",
+      "number": "7.6.5"
+    },
+    {
+      "id": "speculative-loading-cross-site-requests",
+      "href": "https://html.spec.whatwg.org/multipage/speculative-loading.html#speculative-loading-cross-site-requests",
+      "level": 5,
+      "title": "Cross-site requests",
+      "number": "7.6.5.1"
+    },
+    {
+      "id": "speculative-loading-injected-content",
+      "href": "https://html.spec.whatwg.org/multipage/speculative-loading.html#speculative-loading-injected-content",
+      "level": 5,
+      "title": "Injected content",
+      "number": "7.6.5.2"
+    },
+    {
+      "id": "speculative-loading-ip-anonymization",
+      "href": "https://html.spec.whatwg.org/multipage/speculative-loading.html#speculative-loading-ip-anonymization",
+      "level": 5,
+      "title": "IP anonymization",
+      "number": "7.6.5.3"
+    },
+    {
+      "id": "speculative-loading-privacy",
+      "href": "https://html.spec.whatwg.org/multipage/speculative-loading.html#speculative-loading-privacy",
+      "level": 4,
+      "title": "Privacy considerations",
+      "number": "7.6.6"
+    },
+    {
+      "id": "speculative-loading-heuristics",
+      "href": "https://html.spec.whatwg.org/multipage/speculative-loading.html#speculative-loading-heuristics",
+      "level": 5,
+      "title": "Heuristics and optionality",
+      "number": "7.6.6.1"
+    },
+    {
+      "id": "speculative-loading-state-partitioning",
+      "href": "https://html.spec.whatwg.org/multipage/speculative-loading.html#speculative-loading-state-partitioning",
+      "level": 5,
+      "title": "State partitioning",
+      "number": "7.6.6.2"
+    },
+    {
+      "id": "speculative-loading-identity-joining",
+      "href": "https://html.spec.whatwg.org/multipage/speculative-loading.html#speculative-loading-identity-joining",
+      "level": 5,
+      "title": "Identity joining",
+      "number": "7.6.6.3"
+    },
+    {
+      "id": "the-x-frame-options-header",
+      "href": "https://html.spec.whatwg.org/multipage/speculative-loading.html#the-x-frame-options-header",
       "level": 3,
-      "title": "The `Refresh` header",
+      "title": "The `X-Frame-Options` header",
       "number": "7.7"
     },
     {
+      "id": "the-refresh-header",
+      "href": "https://html.spec.whatwg.org/multipage/speculative-loading.html#the-refresh-header",
+      "level": 3,
+      "title": "The `Refresh` header",
+      "number": "7.8"
+    },
+    {
       "id": "nav-traversal-ui",
-      "href": "https://html.spec.whatwg.org/multipage/document-lifecycle.html#nav-traversal-ui",
+      "href": "https://html.spec.whatwg.org/multipage/speculative-loading.html#nav-traversal-ui",
       "level": 3,
       "title": "Browser user interface considerations",
-      "number": "7.8"
+      "number": "7.9"
     },
     {
       "id": "webappapis",
@@ -5615,6 +5783,13 @@
       "level": 5,
       "title": "Import map parse results",
       "number": "8.1.4.8"
+    },
+    {
+      "id": "speculation-rules-parse-results",
+      "href": "https://html.spec.whatwg.org/multipage/webappapis.html#speculation-rules-parse-results",
+      "level": 5,
+      "title": "Speculation rules parse results",
+      "number": "8.1.4.9"
     },
     {
       "id": "module-specifier-resolution",
@@ -7636,60 +7811,46 @@
       "number": "13.2.6.4.15"
     },
     {
-      "id": "parsing-main-inselect",
-      "href": "https://html.spec.whatwg.org/multipage/parsing.html#parsing-main-inselect",
-      "level": 6,
-      "title": "The \"in select\" insertion mode",
-      "number": "13.2.6.4.16"
-    },
-    {
-      "id": "parsing-main-inselectintable",
-      "href": "https://html.spec.whatwg.org/multipage/parsing.html#parsing-main-inselectintable",
-      "level": 6,
-      "title": "The \"in select in table\" insertion mode",
-      "number": "13.2.6.4.17"
-    },
-    {
       "id": "parsing-main-intemplate",
       "href": "https://html.spec.whatwg.org/multipage/parsing.html#parsing-main-intemplate",
       "level": 6,
       "title": "The \"in template\" insertion mode",
-      "number": "13.2.6.4.18"
+      "number": "13.2.6.4.16"
     },
     {
       "id": "parsing-main-afterbody",
       "href": "https://html.spec.whatwg.org/multipage/parsing.html#parsing-main-afterbody",
       "level": 6,
       "title": "The \"after body\" insertion mode",
-      "number": "13.2.6.4.19"
+      "number": "13.2.6.4.17"
     },
     {
       "id": "parsing-main-inframeset",
       "href": "https://html.spec.whatwg.org/multipage/parsing.html#parsing-main-inframeset",
       "level": 6,
       "title": "The \"in frameset\" insertion mode",
-      "number": "13.2.6.4.20"
+      "number": "13.2.6.4.18"
     },
     {
       "id": "parsing-main-afterframeset",
       "href": "https://html.spec.whatwg.org/multipage/parsing.html#parsing-main-afterframeset",
       "level": 6,
       "title": "The \"after frameset\" insertion mode",
-      "number": "13.2.6.4.21"
+      "number": "13.2.6.4.19"
     },
     {
       "id": "the-after-after-body-insertion-mode",
       "href": "https://html.spec.whatwg.org/multipage/parsing.html#the-after-after-body-insertion-mode",
       "level": 6,
       "title": "The \"after after body\" insertion mode",
-      "number": "13.2.6.4.22"
+      "number": "13.2.6.4.20"
     },
     {
       "id": "the-after-after-frameset-insertion-mode",
       "href": "https://html.spec.whatwg.org/multipage/parsing.html#the-after-after-frameset-insertion-mode",
       "level": 6,
       "title": "The \"after after frameset\" insertion mode",
-      "number": "13.2.6.4.23"
+      "number": "13.2.6.4.21"
     },
     {
       "id": "parsing-main-inforeign",
@@ -8248,18 +8409,25 @@
       "number": "17.5"
     },
     {
+      "id": "application/speculationrules+json",
+      "href": "https://html.spec.whatwg.org/multipage/iana.html#application%2Fspeculationrules%2Bjson",
+      "level": 3,
+      "title": "application/speculationrules+json",
+      "number": "17.6"
+    },
+    {
       "id": "text/event-stream",
       "href": "https://html.spec.whatwg.org/multipage/iana.html#text%2Fevent-stream",
       "level": 3,
       "title": "text/event-stream",
-      "number": "17.6"
+      "number": "17.7"
     },
     {
       "id": "web+-scheme-prefix",
       "href": "https://html.spec.whatwg.org/multipage/iana.html#web%2B-scheme-prefix",
       "level": 3,
       "title": "web+ scheme prefix",
-      "number": "17.7"
+      "number": "17.8"
     },
     {
       "id": "index",

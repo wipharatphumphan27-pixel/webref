@@ -12,6 +12,7 @@
       "http://wpt.live/css/css-images/conic-gradient-center.html": {},
       "http://wpt.live/css/css-images/cross-fade-basic.html": {},
       "http://wpt.live/css/css-images/cross-fade-computed-value.html": {},
+      "http://wpt.live/css/css-images/cross-fade-legacy-2-crash.html": {},
       "http://wpt.live/css/css-images/cross-fade-legacy-crash.html": {},
       "http://wpt.live/css/css-images/cross-fade-natural-size.html": {},
       "http://wpt.live/css/css-images/cross-fade-premultiplied-alpha.html": {},
@@ -28,8 +29,17 @@
       "http://wpt.live/css/css-images/gradient-move-stops.html": {},
       "http://wpt.live/css/css-images/gradient-nan-crash.html": {},
       "http://wpt.live/css/css-images/gradient-refcrash.html": {},
+      "http://wpt.live/css/css-images/gradient/color-scheme-dependent-color-stops.html": {},
       "http://wpt.live/css/css-images/gradient/color-stops-parsing.html": {},
+      "http://wpt.live/css/css-images/gradient/conic-gradient-001.html": {},
       "http://wpt.live/css/css-images/gradient/css-color-4-colors-default-to-oklab-gradient.html": {},
+      "http://wpt.live/css/css-images/gradient/display-p3-linear-gradient.html": {},
+      "http://wpt.live/css/css-images/gradient/gradient-analogous-missing-components-001.html": {},
+      "http://wpt.live/css/css-images/gradient/gradient-analogous-missing-components-002.html": {},
+      "http://wpt.live/css/css-images/gradient/gradient-analogous-missing-components-003.html": {},
+      "http://wpt.live/css/css-images/gradient/gradient-analogous-missing-components-004.html": {},
+      "http://wpt.live/css/css-images/gradient/gradient-decreasing-hue-hsl.html": {},
+      "http://wpt.live/css/css-images/gradient/gradient-decreasing-hue-lch.html": {},
       "http://wpt.live/css/css-images/gradient/gradient-eval-001.html": {},
       "http://wpt.live/css/css-images/gradient/gradient-eval-002.html": {},
       "http://wpt.live/css/css-images/gradient/gradient-eval-003.html": {},
@@ -39,9 +49,60 @@
       "http://wpt.live/css/css-images/gradient/gradient-eval-007.html": {},
       "http://wpt.live/css/css-images/gradient/gradient-eval-008.html": {},
       "http://wpt.live/css/css-images/gradient/gradient-eval-009.html": {},
+      "http://wpt.live/css/css-images/gradient/gradient-eval-predefined-color-spaces.html": {},
+      "http://wpt.live/css/css-images/gradient/gradient-hue-direction.html": {},
+      "http://wpt.live/css/css-images/gradient/gradient-increasing-hue-hsl.html": {},
+      "http://wpt.live/css/css-images/gradient/gradient-increasing-hue-lch.html": {},
+      "http://wpt.live/css/css-images/gradient/gradient-infinity-001.html": {},
+      "http://wpt.live/css/css-images/gradient/gradient-infinity-002.html": {},
+      "http://wpt.live/css/css-images/gradient/gradient-infinity-003.html": {},
+      "http://wpt.live/css/css-images/gradient/gradient-longer-hue-hsl-001.html": {},
+      "http://wpt.live/css/css-images/gradient/gradient-longer-hue-hsl-002.html": {},
+      "http://wpt.live/css/css-images/gradient/gradient-longer-hue-hsl-003.html": {},
+      "http://wpt.live/css/css-images/gradient/gradient-longer-hue-hsl-004.html": {},
+      "http://wpt.live/css/css-images/gradient/gradient-longer-hue-hsl-005.html": {},
+      "http://wpt.live/css/css-images/gradient/gradient-longer-hue-hsl-006.html": {},
+      "http://wpt.live/css/css-images/gradient/gradient-longer-hue-hsl-007.html": {},
+      "http://wpt.live/css/css-images/gradient/gradient-longer-hue-hsl-008.html": {},
+      "http://wpt.live/css/css-images/gradient/gradient-longer-hue-hsl-009.html": {},
+      "http://wpt.live/css/css-images/gradient/gradient-longer-hue-hsl-010.html": {},
+      "http://wpt.live/css/css-images/gradient/gradient-longer-hue-hsl-011.html": {},
+      "http://wpt.live/css/css-images/gradient/gradient-longer-hue-hsl-012.html": {},
+      "http://wpt.live/css/css-images/gradient/gradient-longer-hue-hsl-013.html": {},
+      "http://wpt.live/css/css-images/gradient/gradient-longer-hue-lch-001.html": {},
+      "http://wpt.live/css/css-images/gradient/gradient-longer-hue-lch-002.html": {},
+      "http://wpt.live/css/css-images/gradient/gradient-longer-hue-lch-003.html": {},
+      "http://wpt.live/css/css-images/gradient/gradient-longer-hue-lch-004.html": {},
+      "http://wpt.live/css/css-images/gradient/gradient-longer-hue-lch-005.html": {},
+      "http://wpt.live/css/css-images/gradient/gradient-longer-hue-lch-006.html": {},
+      "http://wpt.live/css/css-images/gradient/gradient-longer-hue-lch-007.html": {},
+      "http://wpt.live/css/css-images/gradient/gradient-longer-hue-lch-008.html": {},
+      "http://wpt.live/css/css-images/gradient/gradient-longer-hue-lch-009.html": {},
+      "http://wpt.live/css/css-images/gradient/gradient-longer-hue-lch-010.html": {},
+      "http://wpt.live/css/css-images/gradient/gradient-longer-hue-lch-011.html": {},
+      "http://wpt.live/css/css-images/gradient/gradient-longer-hue-lch-012.html": {},
       "http://wpt.live/css/css-images/gradient/gradient-none-interpolation.html": {},
+      "http://wpt.live/css/css-images/gradient/gradient-powerless-hue-hsl.html": {},
+      "http://wpt.live/css/css-images/gradient/gradient-powerless-hue-hwb.html": {},
+      "http://wpt.live/css/css-images/gradient/gradient-powerless-hue-lch.html": {},
+      "http://wpt.live/css/css-images/gradient/gradient-powerless-hue-oklch.html": {},
+      "http://wpt.live/css/css-images/gradient/gradient-single-stop-001.html": {},
+      "http://wpt.live/css/css-images/gradient/gradient-single-stop-002.html": {},
+      "http://wpt.live/css/css-images/gradient/gradient-single-stop-003.html": {},
+      "http://wpt.live/css/css-images/gradient/gradient-single-stop-004.html": {},
+      "http://wpt.live/css/css-images/gradient/gradient-single-stop-005.html": {},
+      "http://wpt.live/css/css-images/gradient/gradient-single-stop-006.html": {},
+      "http://wpt.live/css/css-images/gradient/gradient-single-stop-007.html": {},
+      "http://wpt.live/css/css-images/gradient/gradient-single-stop-008.html": {},
+      "http://wpt.live/css/css-images/gradient/gradient-single-stop-longer-hue-hsl-002.html": {},
+      "http://wpt.live/css/css-images/gradient/gradient-single-stop-longer-hue-hsl.html": {},
+      "http://wpt.live/css/css-images/gradient/gradient-single-stop-longer-hue-oklch.html": {},
+      "http://wpt.live/css/css-images/gradient/gradient-single-stop-none-interpolation.html": {},
+      "http://wpt.live/css/css-images/gradient/gradient-to-transparent.html": {},
       "http://wpt.live/css/css-images/gradient/legacy-color-gradient.html": {},
+      "http://wpt.live/css/css-images/gradient/linear-gradient-relative-currentcolor-stop.html": {},
       "http://wpt.live/css/css-images/gradient/oklab-gradient.html": {},
+      "http://wpt.live/css/css-images/gradient/repeating-gradient-hsl-and-oklch.html": {},
       "http://wpt.live/css/css-images/gradient/srgb-gradient.html": {},
       "http://wpt.live/css/css-images/gradient/srgb-linear-gradient.html": {},
       "http://wpt.live/css/css-images/gradient/xyz-gradient.html": {},
@@ -91,6 +152,10 @@
       "http://wpt.live/css/css-images/inheritance.html": {},
       "http://wpt.live/css/css-images/linear-gradient-1.html": {},
       "http://wpt.live/css/css-images/linear-gradient-2.html": {},
+      "http://wpt.live/css/css-images/linear-gradient-body-sibling-index.html": {},
+      "http://wpt.live/css/css-images/linear-gradient-calc-em-units.html": {},
+      "http://wpt.live/css/css-images/linear-gradient-non-square.html": {},
+      "http://wpt.live/css/css-images/linear-gradient-sibling-index.html": {},
       "http://wpt.live/css/css-images/multiple-position-color-stop-conic-2.html": {},
       "http://wpt.live/css/css-images/multiple-position-color-stop-conic.html": {},
       "http://wpt.live/css/css-images/multiple-position-color-stop-linear-2.html": {},
@@ -284,11 +349,16 @@
       "http://wpt.live/css/css-images/parsing/gradient-interpolation-method-computed.html": {},
       "http://wpt.live/css/css-images/parsing/gradient-interpolation-method-invalid.html": {},
       "http://wpt.live/css/css-images/parsing/gradient-interpolation-method-valid.html": {},
+      "http://wpt.live/css/css-images/parsing/gradient-position-computed.html": {},
       "http://wpt.live/css/css-images/parsing/gradient-position-invalid.html": {},
       "http://wpt.live/css/css-images/parsing/gradient-position-valid.html": {},
       "http://wpt.live/css/css-images/parsing/object-fit-computed.html": {},
       "http://wpt.live/css/css-images/parsing/object-fit-invalid.html": {},
       "http://wpt.live/css/css-images/parsing/object-fit-valid.html": {},
+      "http://wpt.live/css/css-images/radial-gradient-container-relative-units-001.html": {},
+      "http://wpt.live/css/css-images/radial-gradient-container-relative-units-002.html": {},
+      "http://wpt.live/css/css-images/radial-gradient-container-relative-units-003.html": {},
+      "http://wpt.live/css/css-images/radial-gradient-container-relative-units-004.html": {},
       "http://wpt.live/css/css-images/radial-gradient-transition-hint-crash.html": {},
       "http://wpt.live/css/css-images/repeating-conic-gradient.html": {},
       "http://wpt.live/css/css-images/tiled-conic-gradients.html": {},
@@ -318,12 +388,59 @@
         ]
       },
       "https://datatracker.ietf.org/doc/html/rfc2119": {},
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/cross-fade": {},
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/element": {},
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/element()": {},
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/gradient": {},
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/conic-gradient": {},
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient": {},
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/repeating-conic-gradient": {},
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/image-set()": {},
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/image/image": {},
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/image/image-set": {},
+      "https://drafts.csswg.org/css-backgrounds/": {},
+      "https://drafts.csswg.org/css-cascade-5/": {},
+      "https://drafts.csswg.org/css-color-4/": {
+        "anchors": [
+          "interpolation",
+          "interpolation-missing",
+          "hue-interpolation",
+          "interpolation-alpha"
+        ]
+      },
+      "https://drafts.csswg.org/css-color-5/": {},
+      "https://drafts.csswg.org/css-flexbox/": {},
+      "https://drafts.csswg.org/css-grid-2/": {},
+      "https://drafts.csswg.org/css-images-3/": {
+        "anchors": [
+          "url-metadata"
+        ]
+      },
       "https://drafts.csswg.org/css-images-5/": {},
+      "https://drafts.csswg.org/css-lists-3/": {},
+      "https://drafts.csswg.org/css-shapes/": {},
+      "https://drafts.csswg.org/css-sizing-3/": {},
+      "https://drafts.csswg.org/css-transforms/": {},
+      "https://drafts.csswg.org/css-ui-4/": {},
+      "https://drafts.csswg.org/css-values-3/": {},
+      "https://drafts.csswg.org/css-values-4/": {},
+      "https://drafts.csswg.org/css-values-5/": {},
+      "https://drafts.csswg.org/css2/": {},
+      "https://drafts.csswg.org/cssom/": {},
+      "https://drafts.csswg.org/selectors-3/": {},
+      "https://drafts.csswg.org/selectors/": {},
       "https://fetch.spec.whatwg.org/": {},
       "https://github.com/w3c/csswg-drafts/commit/ab20b4cbccf41db8e61850f58b2f1c1afc6ec66a": {},
       "https://github.com/w3c/csswg-drafts/commit/edb0b3090bdd73abb765023475e58afe52c701b9": {},
       "https://github.com/w3c/csswg-drafts/issues": {},
+      "https://github.com/w3c/csswg-drafts/issues/10092": {},
+      "https://github.com/w3c/csswg-drafts/issues/11381": {},
+      "https://github.com/w3c/csswg-drafts/issues/11530": {},
       "https://github.com/w3c/csswg-drafts/issues/1162": {},
+      "https://github.com/w3c/csswg-drafts/issues/12065": {},
+      "https://github.com/w3c/csswg-drafts/issues/12068": {},
+      "https://github.com/w3c/csswg-drafts/issues/12086": {},
+      "https://github.com/w3c/csswg-drafts/issues/12147": {},
       "https://github.com/w3c/csswg-drafts/issues/1334": {},
       "https://github.com/w3c/csswg-drafts/issues/1578": {},
       "https://github.com/w3c/csswg-drafts/issues/1984": {},
@@ -331,6 +448,7 @@
       "https://github.com/w3c/csswg-drafts/issues/2852": {},
       "https://github.com/w3c/csswg-drafts/issues/4042": {},
       "https://github.com/w3c/csswg-drafts/issues/4793": {},
+      "https://github.com/w3c/csswg-drafts/issues/4928": {},
       "https://github.com/w3c/csswg-drafts/issues/4929": {},
       "https://github.com/w3c/csswg-drafts/issues/4961": {},
       "https://github.com/w3c/csswg-drafts/issues/5170": {},
@@ -340,15 +458,26 @@
       "https://github.com/w3c/csswg-drafts/issues/656": {},
       "https://github.com/w3c/csswg-drafts/issues/6667": {},
       "https://github.com/w3c/csswg-drafts/issues/7058": {},
+      "https://github.com/w3c/csswg-drafts/issues/7948": {},
       "https://github.com/w3c/csswg-drafts/issues/824": {},
+      "https://github.com/w3c/csswg-drafts/issues/8266": {},
+      "https://github.com/w3c/csswg-drafts/issues/9405": {},
       "https://github.com/w3c/csswg-drafts/pull/437": {},
       "https://github.com/w3c/csswg-drafts/pull/6715": {},
+      "https://github.com/w3c/csswg-drafts/pull/8021": {},
+      "https://github.com/w3c/csswg-drafts/pull/8222": {},
+      "https://github.com/w3c/csswg-drafts/pull/8614": {},
+      "https://github.com/w3c/csswg-drafts/pull/8775": {},
+      "https://github.com/w3c/csswg-drafts/pull/8797": {},
+      "https://github.com/w3c/csswg-drafts/pull/9147": {},
+      "https://github.com/w3c/csswg-drafts/pull/9749": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/color-stop-currentcolor.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/conic-gradient-angle-negative.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/conic-gradient-angle.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/conic-gradient-center.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/cross-fade-basic.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/cross-fade-computed-value.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/cross-fade-legacy-2-crash.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/cross-fade-legacy-crash.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/cross-fade-natural-size.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/cross-fade-premultiplied-alpha.html": {},
@@ -365,8 +494,17 @@
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient-move-stops.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient-nan-crash.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient-refcrash.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/color-scheme-dependent-color-stops.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/color-stops-parsing.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/conic-gradient-001.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/css-color-4-colors-default-to-oklab-gradient.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/display-p3-linear-gradient.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-analogous-missing-components-001.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-analogous-missing-components-002.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-analogous-missing-components-003.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-analogous-missing-components-004.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-decreasing-hue-hsl.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-decreasing-hue-lch.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-eval-001.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-eval-002.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-eval-003.html": {},
@@ -376,9 +514,61 @@
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-eval-007.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-eval-008.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-eval-009.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-eval-010.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-eval-predefined-color-spaces.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-hue-direction.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-increasing-hue-hsl.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-increasing-hue-lch.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-infinity-001.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-infinity-002.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-infinity-003.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-longer-hue-hsl-001.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-longer-hue-hsl-002.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-longer-hue-hsl-003.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-longer-hue-hsl-004.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-longer-hue-hsl-005.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-longer-hue-hsl-006.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-longer-hue-hsl-007.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-longer-hue-hsl-008.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-longer-hue-hsl-009.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-longer-hue-hsl-010.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-longer-hue-hsl-011.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-longer-hue-hsl-012.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-longer-hue-hsl-013.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-longer-hue-lch-001.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-longer-hue-lch-002.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-longer-hue-lch-003.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-longer-hue-lch-004.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-longer-hue-lch-005.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-longer-hue-lch-006.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-longer-hue-lch-007.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-longer-hue-lch-008.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-longer-hue-lch-009.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-longer-hue-lch-010.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-longer-hue-lch-011.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-longer-hue-lch-012.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-none-interpolation.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-powerless-hue-hsl.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-powerless-hue-hwb.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-powerless-hue-lch.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-powerless-hue-oklch.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-single-stop-001.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-single-stop-002.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-single-stop-003.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-single-stop-004.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-single-stop-005.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-single-stop-006.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-single-stop-007.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-single-stop-008.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-single-stop-longer-hue-hsl-002.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-single-stop-longer-hue-hsl.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-single-stop-longer-hue-oklch.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-single-stop-none-interpolation.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-to-transparent.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/legacy-color-gradient.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/linear-gradient-relative-currentcolor-stop.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/oklab-gradient.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/repeating-gradient-hsl-and-oklch.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/srgb-gradient.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/srgb-linear-gradient.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/xyz-gradient.html": {},
@@ -428,6 +618,10 @@
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/inheritance.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/linear-gradient-1.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/linear-gradient-2.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/linear-gradient-body-sibling-index.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/linear-gradient-calc-em-units.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/linear-gradient-non-square.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/linear-gradient-sibling-index.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/multiple-position-color-stop-conic-2.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/multiple-position-color-stop-conic.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/multiple-position-color-stop-linear-2.html": {},
@@ -621,11 +815,16 @@
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/parsing/gradient-interpolation-method-computed.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/parsing/gradient-interpolation-method-invalid.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/parsing/gradient-interpolation-method-valid.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/parsing/gradient-position-computed.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/parsing/gradient-position-invalid.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/parsing/gradient-position-valid.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/parsing/object-fit-computed.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/parsing/object-fit-invalid.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/parsing/object-fit-valid.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/radial-gradient-container-relative-units-001.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/radial-gradient-container-relative-units-002.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/radial-gradient-container-relative-units-003.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/radial-gradient-container-relative-units-004.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/radial-gradient-transition-hint-crash.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/repeating-conic-gradient.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/tiled-conic-gradients.html": {},
@@ -637,6 +836,8 @@
       "https://lists.w3.org/Archives/Public/www-style/": {},
       "https://lists.w3.org/Archives/Public/www-style/2018Jul/0024.html": {},
       "https://mimesniff.spec.whatwg.org/": {},
+      "https://svgwg.org/specs/integration/": {},
+      "https://w3c.github.io/png/": {},
       "https://webidl.spec.whatwg.org/": {},
       "https://wpt.fyi/results/css/css-images/color-stop-currentcolor.html": {},
       "https://wpt.fyi/results/css/css-images/conic-gradient-angle-negative.html": {},
@@ -644,6 +845,7 @@
       "https://wpt.fyi/results/css/css-images/conic-gradient-center.html": {},
       "https://wpt.fyi/results/css/css-images/cross-fade-basic.html": {},
       "https://wpt.fyi/results/css/css-images/cross-fade-computed-value.html": {},
+      "https://wpt.fyi/results/css/css-images/cross-fade-legacy-2-crash.html": {},
       "https://wpt.fyi/results/css/css-images/cross-fade-legacy-crash.html": {},
       "https://wpt.fyi/results/css/css-images/cross-fade-natural-size.html": {},
       "https://wpt.fyi/results/css/css-images/cross-fade-premultiplied-alpha.html": {},
@@ -660,8 +862,17 @@
       "https://wpt.fyi/results/css/css-images/gradient-move-stops.html": {},
       "https://wpt.fyi/results/css/css-images/gradient-nan-crash.html": {},
       "https://wpt.fyi/results/css/css-images/gradient-refcrash.html": {},
+      "https://wpt.fyi/results/css/css-images/gradient/color-scheme-dependent-color-stops.html": {},
       "https://wpt.fyi/results/css/css-images/gradient/color-stops-parsing.html": {},
+      "https://wpt.fyi/results/css/css-images/gradient/conic-gradient-001.html": {},
       "https://wpt.fyi/results/css/css-images/gradient/css-color-4-colors-default-to-oklab-gradient.html": {},
+      "https://wpt.fyi/results/css/css-images/gradient/display-p3-linear-gradient.html": {},
+      "https://wpt.fyi/results/css/css-images/gradient/gradient-analogous-missing-components-001.html": {},
+      "https://wpt.fyi/results/css/css-images/gradient/gradient-analogous-missing-components-002.html": {},
+      "https://wpt.fyi/results/css/css-images/gradient/gradient-analogous-missing-components-003.html": {},
+      "https://wpt.fyi/results/css/css-images/gradient/gradient-analogous-missing-components-004.html": {},
+      "https://wpt.fyi/results/css/css-images/gradient/gradient-decreasing-hue-hsl.html": {},
+      "https://wpt.fyi/results/css/css-images/gradient/gradient-decreasing-hue-lch.html": {},
       "https://wpt.fyi/results/css/css-images/gradient/gradient-eval-001.html": {},
       "https://wpt.fyi/results/css/css-images/gradient/gradient-eval-002.html": {},
       "https://wpt.fyi/results/css/css-images/gradient/gradient-eval-003.html": {},
@@ -671,9 +882,60 @@
       "https://wpt.fyi/results/css/css-images/gradient/gradient-eval-007.html": {},
       "https://wpt.fyi/results/css/css-images/gradient/gradient-eval-008.html": {},
       "https://wpt.fyi/results/css/css-images/gradient/gradient-eval-009.html": {},
+      "https://wpt.fyi/results/css/css-images/gradient/gradient-eval-predefined-color-spaces.html": {},
+      "https://wpt.fyi/results/css/css-images/gradient/gradient-hue-direction.html": {},
+      "https://wpt.fyi/results/css/css-images/gradient/gradient-increasing-hue-hsl.html": {},
+      "https://wpt.fyi/results/css/css-images/gradient/gradient-increasing-hue-lch.html": {},
+      "https://wpt.fyi/results/css/css-images/gradient/gradient-infinity-001.html": {},
+      "https://wpt.fyi/results/css/css-images/gradient/gradient-infinity-002.html": {},
+      "https://wpt.fyi/results/css/css-images/gradient/gradient-infinity-003.html": {},
+      "https://wpt.fyi/results/css/css-images/gradient/gradient-longer-hue-hsl-001.html": {},
+      "https://wpt.fyi/results/css/css-images/gradient/gradient-longer-hue-hsl-002.html": {},
+      "https://wpt.fyi/results/css/css-images/gradient/gradient-longer-hue-hsl-003.html": {},
+      "https://wpt.fyi/results/css/css-images/gradient/gradient-longer-hue-hsl-004.html": {},
+      "https://wpt.fyi/results/css/css-images/gradient/gradient-longer-hue-hsl-005.html": {},
+      "https://wpt.fyi/results/css/css-images/gradient/gradient-longer-hue-hsl-006.html": {},
+      "https://wpt.fyi/results/css/css-images/gradient/gradient-longer-hue-hsl-007.html": {},
+      "https://wpt.fyi/results/css/css-images/gradient/gradient-longer-hue-hsl-008.html": {},
+      "https://wpt.fyi/results/css/css-images/gradient/gradient-longer-hue-hsl-009.html": {},
+      "https://wpt.fyi/results/css/css-images/gradient/gradient-longer-hue-hsl-010.html": {},
+      "https://wpt.fyi/results/css/css-images/gradient/gradient-longer-hue-hsl-011.html": {},
+      "https://wpt.fyi/results/css/css-images/gradient/gradient-longer-hue-hsl-012.html": {},
+      "https://wpt.fyi/results/css/css-images/gradient/gradient-longer-hue-hsl-013.html": {},
+      "https://wpt.fyi/results/css/css-images/gradient/gradient-longer-hue-lch-001.html": {},
+      "https://wpt.fyi/results/css/css-images/gradient/gradient-longer-hue-lch-002.html": {},
+      "https://wpt.fyi/results/css/css-images/gradient/gradient-longer-hue-lch-003.html": {},
+      "https://wpt.fyi/results/css/css-images/gradient/gradient-longer-hue-lch-004.html": {},
+      "https://wpt.fyi/results/css/css-images/gradient/gradient-longer-hue-lch-005.html": {},
+      "https://wpt.fyi/results/css/css-images/gradient/gradient-longer-hue-lch-006.html": {},
+      "https://wpt.fyi/results/css/css-images/gradient/gradient-longer-hue-lch-007.html": {},
+      "https://wpt.fyi/results/css/css-images/gradient/gradient-longer-hue-lch-008.html": {},
+      "https://wpt.fyi/results/css/css-images/gradient/gradient-longer-hue-lch-009.html": {},
+      "https://wpt.fyi/results/css/css-images/gradient/gradient-longer-hue-lch-010.html": {},
+      "https://wpt.fyi/results/css/css-images/gradient/gradient-longer-hue-lch-011.html": {},
+      "https://wpt.fyi/results/css/css-images/gradient/gradient-longer-hue-lch-012.html": {},
       "https://wpt.fyi/results/css/css-images/gradient/gradient-none-interpolation.html": {},
+      "https://wpt.fyi/results/css/css-images/gradient/gradient-powerless-hue-hsl.html": {},
+      "https://wpt.fyi/results/css/css-images/gradient/gradient-powerless-hue-hwb.html": {},
+      "https://wpt.fyi/results/css/css-images/gradient/gradient-powerless-hue-lch.html": {},
+      "https://wpt.fyi/results/css/css-images/gradient/gradient-powerless-hue-oklch.html": {},
+      "https://wpt.fyi/results/css/css-images/gradient/gradient-single-stop-001.html": {},
+      "https://wpt.fyi/results/css/css-images/gradient/gradient-single-stop-002.html": {},
+      "https://wpt.fyi/results/css/css-images/gradient/gradient-single-stop-003.html": {},
+      "https://wpt.fyi/results/css/css-images/gradient/gradient-single-stop-004.html": {},
+      "https://wpt.fyi/results/css/css-images/gradient/gradient-single-stop-005.html": {},
+      "https://wpt.fyi/results/css/css-images/gradient/gradient-single-stop-006.html": {},
+      "https://wpt.fyi/results/css/css-images/gradient/gradient-single-stop-007.html": {},
+      "https://wpt.fyi/results/css/css-images/gradient/gradient-single-stop-008.html": {},
+      "https://wpt.fyi/results/css/css-images/gradient/gradient-single-stop-longer-hue-hsl-002.html": {},
+      "https://wpt.fyi/results/css/css-images/gradient/gradient-single-stop-longer-hue-hsl.html": {},
+      "https://wpt.fyi/results/css/css-images/gradient/gradient-single-stop-longer-hue-oklch.html": {},
+      "https://wpt.fyi/results/css/css-images/gradient/gradient-single-stop-none-interpolation.html": {},
+      "https://wpt.fyi/results/css/css-images/gradient/gradient-to-transparent.html": {},
       "https://wpt.fyi/results/css/css-images/gradient/legacy-color-gradient.html": {},
+      "https://wpt.fyi/results/css/css-images/gradient/linear-gradient-relative-currentcolor-stop.html": {},
       "https://wpt.fyi/results/css/css-images/gradient/oklab-gradient.html": {},
+      "https://wpt.fyi/results/css/css-images/gradient/repeating-gradient-hsl-and-oklch.html": {},
       "https://wpt.fyi/results/css/css-images/gradient/srgb-gradient.html": {},
       "https://wpt.fyi/results/css/css-images/gradient/srgb-linear-gradient.html": {},
       "https://wpt.fyi/results/css/css-images/gradient/xyz-gradient.html": {},
@@ -723,6 +985,10 @@
       "https://wpt.fyi/results/css/css-images/inheritance.html": {},
       "https://wpt.fyi/results/css/css-images/linear-gradient-1.html": {},
       "https://wpt.fyi/results/css/css-images/linear-gradient-2.html": {},
+      "https://wpt.fyi/results/css/css-images/linear-gradient-body-sibling-index.html": {},
+      "https://wpt.fyi/results/css/css-images/linear-gradient-calc-em-units.html": {},
+      "https://wpt.fyi/results/css/css-images/linear-gradient-non-square.html": {},
+      "https://wpt.fyi/results/css/css-images/linear-gradient-sibling-index.html": {},
       "https://wpt.fyi/results/css/css-images/multiple-position-color-stop-conic-2.html": {},
       "https://wpt.fyi/results/css/css-images/multiple-position-color-stop-conic.html": {},
       "https://wpt.fyi/results/css/css-images/multiple-position-color-stop-linear-2.html": {},
@@ -916,17 +1182,21 @@
       "https://wpt.fyi/results/css/css-images/parsing/gradient-interpolation-method-computed.html": {},
       "https://wpt.fyi/results/css/css-images/parsing/gradient-interpolation-method-invalid.html": {},
       "https://wpt.fyi/results/css/css-images/parsing/gradient-interpolation-method-valid.html": {},
+      "https://wpt.fyi/results/css/css-images/parsing/gradient-position-computed.html": {},
       "https://wpt.fyi/results/css/css-images/parsing/gradient-position-invalid.html": {},
       "https://wpt.fyi/results/css/css-images/parsing/gradient-position-valid.html": {},
       "https://wpt.fyi/results/css/css-images/parsing/object-fit-computed.html": {},
       "https://wpt.fyi/results/css/css-images/parsing/object-fit-invalid.html": {},
       "https://wpt.fyi/results/css/css-images/parsing/object-fit-valid.html": {},
+      "https://wpt.fyi/results/css/css-images/radial-gradient-container-relative-units-001.html": {},
+      "https://wpt.fyi/results/css/css-images/radial-gradient-container-relative-units-002.html": {},
+      "https://wpt.fyi/results/css/css-images/radial-gradient-container-relative-units-003.html": {},
+      "https://wpt.fyi/results/css/css-images/radial-gradient-container-relative-units-004.html": {},
       "https://wpt.fyi/results/css/css-images/radial-gradient-transition-hint-crash.html": {},
       "https://wpt.fyi/results/css/css-images/repeating-conic-gradient.html": {},
       "https://wpt.fyi/results/css/css-images/tiled-conic-gradients.html": {},
       "https://wpt.fyi/results/css/css-images/tiled-gradients.html": {},
       "https://wpt.fyi/results/css/css-images/tiled-radial-gradients.html": {},
-      "https://www.w3.org/TR/": {},
       "https://www.w3.org/TR/1998/REC-smil-19980615/": {},
       "https://www.w3.org/TR/2011/CR-css3-background-20110215/": {
         "anchors": [
@@ -936,8 +1206,8 @@
       "https://www.w3.org/TR/2012/WD-css4-images-20120911/": {},
       "https://www.w3.org/TR/2017/WD-css-images-4-20170413/": {},
       "https://www.w3.org/TR/2023/WD-css-images-4-20230217/": {},
+      "https://www.w3.org/TR/2025/WD-css-images-4-20250930/": {},
       "https://www.w3.org/TR/CSS/": {},
-      "https://www.w3.org/TR/CSS2/": {},
       "https://www.w3.org/TR/CSS2/about.html": {
         "anchors": [
           "property-defs"
@@ -965,8 +1235,6 @@
           "TermDecoratedBoundingBox"
         ]
       },
-      "https://www.w3.org/TR/css-backgrounds-3/": {},
-      "https://www.w3.org/TR/css-cascade-5/": {},
       "https://www.w3.org/TR/css-cascade/": {
         "anchors": [
           "initial-values",
@@ -975,47 +1243,22 @@
           "computed"
         ]
       },
-      "https://www.w3.org/TR/css-color-4/": {
-        "anchors": [
-          "interpolation",
-          "interpolation-missing",
-          "hue-interpolation",
-          "interpolation-alpha"
-        ]
-      },
-      "https://www.w3.org/TR/css-color-5/": {},
-      "https://www.w3.org/TR/css-flexbox-1/": {},
-      "https://www.w3.org/TR/css-grid-2/": {},
-      "https://www.w3.org/TR/css-images-3/": {
-        "anchors": [
-          "url-metadata"
-        ]
-      },
-      "https://www.w3.org/TR/css-images-4/": {},
-      "https://www.w3.org/TR/css-lists-3/": {},
       "https://www.w3.org/TR/css-pseudo/": {
         "anchors": [
           "generated-content"
         ]
       },
-      "https://www.w3.org/TR/css-shapes-1/": {},
-      "https://www.w3.org/TR/css-sizing-3/": {},
-      "https://www.w3.org/TR/css-transforms-1/": {},
-      "https://www.w3.org/TR/css-ui-4/": {},
       "https://www.w3.org/TR/css-values-3/": {
         "anchors": [
           "value-defs"
         ]
       },
-      "https://www.w3.org/TR/css-values-4/": {},
-      "https://www.w3.org/TR/css-values-5/": {},
       "https://www.w3.org/TR/css-values/": {
         "anchors": [
           "value-defs",
           "percentages"
         ]
       },
-      "https://www.w3.org/TR/cssom-1/": {},
       "https://www.w3.org/TR/cssom/": {
         "anchors": [
           "serializing-css-values"
@@ -1026,9 +1269,6 @@
           "naming-space"
         ]
       },
-      "https://www.w3.org/TR/png-3/": {},
-      "https://www.w3.org/TR/selectors-3/": {},
-      "https://www.w3.org/TR/selectors-4/": {},
       "https://www.w3.org/TR/svg-integration/": {
         "anchors": [
           "secure-static-mode",
@@ -1040,29 +1280,148 @@
           "animation-type"
         ]
       },
-      "https://www.w3.org/groups/wg/css": {},
-      "https://www.w3.org/groups/wg/css/ipr": {},
-      "https://www.w3.org/policies/patent-policy/20200915/": {
-        "anchors": [
-          "def-essential",
-          "sec-Disclosure"
-        ]
-      },
-      "https://www.w3.org/policies/process/20231103/": {
-        "anchors": [
-          "recs-and-notes"
-        ]
-      }
+      "https://www.w3.org/policies/process/20250818/": {}
     },
     "autolinks": {
+      "https://drafts.csswg.org/css-backgrounds-3/": {
+        "anchors": [
+          "propdef-background-image",
+          "propdef-background-color",
+          "propdef-background-size",
+          "propdef-background-position",
+          "valdef-background-position-center"
+        ]
+      },
+      "https://drafts.csswg.org/css-cascade-5/": {
+        "anchors": [
+          "computed-value",
+          "specified-value",
+          "used-value"
+        ]
+      },
+      "https://drafts.csswg.org/css-color-4/": {
+        "anchors": [
+          "valdef-color-transparent",
+          "color-interpolation-method",
+          "transparent-black",
+          "computed-color"
+        ]
+      },
+      "https://drafts.csswg.org/css-color-5/": {
+        "anchors": [
+          "typedef-color"
+        ]
+      },
+      "https://drafts.csswg.org/css-flexbox-1/": {
+        "anchors": [
+          "flex-layout"
+        ]
+      },
+      "https://drafts.csswg.org/css-grid-2/": {
+        "anchors": [
+          "typedef-flex"
+        ]
+      },
+      "https://drafts.csswg.org/css-images-3/": {
+        "anchors": [
+          "natural-dimensions",
+          "funcdef-linear-gradient",
+          "object-size-negotiation",
+          "concrete-object-size",
+          "natural-width",
+          "natural-height",
+          "natural-size",
+          "funcdef-radial-gradient",
+          "default-object-size",
+          "typedef-radial-shape",
+          "typedef-radial-size",
+          "typedef-radial-extent",
+          "default-sizing-algorithm",
+          "contain-constraint",
+          "natural-aspect-ratio",
+          "cover-constraint",
+          "propdef-object-position",
+          "valdef-radial-shape-circle",
+          "valdef-radial-shape-ellipse"
+        ]
+      },
       "https://drafts.csswg.org/css-images-5/": {
         "anchors": [
           "propdef-object-view-box"
         ]
       },
+      "https://drafts.csswg.org/css-lists-3/": {
+        "anchors": [
+          "propdef-list-style-image",
+          "valdef-list-style-type-none",
+          "propdef-list-style-type"
+        ]
+      },
+      "https://drafts.csswg.org/css-shapes-1/": {
+        "anchors": [
+          "funcdef-basic-shape-circle",
+          "funcdef-basic-shape-ellipse",
+          "typedef-basic-shape"
+        ]
+      },
+      "https://drafts.csswg.org/css-sizing-3/": {
+        "anchors": [
+          "intrinsic-size"
+        ]
+      },
+      "https://drafts.csswg.org/css-ui-4/": {
+        "anchors": [
+          "propdef-cursor"
+        ]
+      },
+      "https://drafts.csswg.org/css-values-4/": {
+        "anchors": [
+          "css-wide-keywords",
+          "url-value",
+          "comb-one",
+          "length-value",
+          "funcdef-url",
+          "fetch-a-style-resource",
+          "mult-comma",
+          "string-value",
+          "resolution-value",
+          "comb-any",
+          "mult-opt",
+          "comb-comma",
+          "mult-req",
+          "comb-all",
+          "percentage-value",
+          "px",
+          "identifier-value",
+          "angle-value",
+          "zero-value",
+          "mult-num-range",
+          "typedef-length-percentage",
+          "typedef-angle-percentage",
+          "functional-notation",
+          "css-bracketed-range-notation"
+        ]
+      },
       "https://drafts.csswg.org/css-values-5/": {
         "anchors": [
-          "normalize-mix-percentages"
+          "normalize-mix-percentages",
+          "typedef-position"
+        ]
+      },
+      "https://drafts.csswg.org/css2/": {
+        "anchors": [
+          "stacking-context"
+        ]
+      },
+      "https://drafts.csswg.org/cssom-1/": {
+        "anchors": [
+          "css-declaration-block",
+          "namespacedef-css"
+        ]
+      },
+      "https://drafts.csswg.org/selectors-4/": {
+        "anchors": [
+          "typedef-id-selector"
         ]
       },
       "https://fetch.spec.whatwg.org/": {
@@ -1107,144 +1466,6 @@
         "anchors": [
           "SameObject",
           "idl-any"
-        ]
-      },
-      "https://www.w3.org/TR/CSS2/visuren.html": {
-        "anchors": [
-          "x43"
-        ]
-      },
-      "https://www.w3.org/TR/css-backgrounds-3/": {
-        "anchors": [
-          "propdef-background-image",
-          "propdef-background-color",
-          "propdef-background-size",
-          "propdef-background-position",
-          "valdef-background-position-center"
-        ]
-      },
-      "https://www.w3.org/TR/css-cascade-5/": {
-        "anchors": [
-          "computed-value",
-          "specified-value",
-          "used-value"
-        ]
-      },
-      "https://www.w3.org/TR/css-color-4/": {
-        "anchors": [
-          "valdef-color-transparent",
-          "color-interpolation-method",
-          "transparent-black",
-          "computed-color"
-        ]
-      },
-      "https://www.w3.org/TR/css-color-5/": {
-        "anchors": [
-          "typedef-color"
-        ]
-      },
-      "https://www.w3.org/TR/css-flexbox-1/": {
-        "anchors": [
-          "flex-layout"
-        ]
-      },
-      "https://www.w3.org/TR/css-grid-2/": {
-        "anchors": [
-          "typedef-flex"
-        ]
-      },
-      "https://www.w3.org/TR/css-images-3/": {
-        "anchors": [
-          "natural-dimensions",
-          "object-size-negotiation",
-          "concrete-object-size",
-          "natural-width",
-          "natural-height",
-          "natural-size",
-          "default-object-size",
-          "typedef-radial-shape",
-          "typedef-radial-size",
-          "typedef-radial-extent",
-          "default-sizing-algorithm",
-          "contain-constraint",
-          "natural-aspect-ratio",
-          "cover-constraint",
-          "propdef-object-position",
-          "valdef-radial-shape-circle",
-          "valdef-radial-shape-ellipse"
-        ]
-      },
-      "https://www.w3.org/TR/css-images-4/": {
-        "anchors": [
-          "funcdef-linear-gradient",
-          "funcdef-radial-gradient"
-        ]
-      },
-      "https://www.w3.org/TR/css-lists-3/": {
-        "anchors": [
-          "propdef-list-style-image",
-          "valdef-list-style-type-none",
-          "propdef-list-style-type"
-        ]
-      },
-      "https://www.w3.org/TR/css-shapes-1/": {
-        "anchors": [
-          "funcdef-basic-shape-circle",
-          "funcdef-basic-shape-ellipse",
-          "typedef-basic-shape"
-        ]
-      },
-      "https://www.w3.org/TR/css-sizing-3/": {
-        "anchors": [
-          "intrinsic-size"
-        ]
-      },
-      "https://www.w3.org/TR/css-ui-4/": {
-        "anchors": [
-          "propdef-cursor"
-        ]
-      },
-      "https://www.w3.org/TR/css-values-4/": {
-        "anchors": [
-          "css-wide-keywords",
-          "url-value",
-          "comb-one",
-          "length-value",
-          "funcdef-url",
-          "fetch-a-style-resource",
-          "mult-comma",
-          "string-value",
-          "resolution-value",
-          "comb-any",
-          "mult-opt",
-          "comb-comma",
-          "mult-req",
-          "comb-all",
-          "percentage-value",
-          "px",
-          "identifier-value",
-          "angle-value",
-          "zero-value",
-          "mult-num-range",
-          "typedef-length-percentage",
-          "typedef-angle-percentage",
-          "functional-notation",
-          "css-bracketed-range-notation"
-        ]
-      },
-      "https://www.w3.org/TR/css-values-5/": {
-        "anchors": [
-          "typedef-position"
-        ]
-      },
-      "https://www.w3.org/TR/cssom-1/": {
-        "anchors": [
-          "namespacedef-css"
-        ]
-      },
-      "https://www.w3.org/TR/selectors-4/": {
-        "anchors": [
-          "typedef-id-selector"
         ]
       }
     }

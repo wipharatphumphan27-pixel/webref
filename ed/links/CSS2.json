@@ -40,7 +40,7 @@
       "https://developer.mozilla.org/en-US/docs/Web/CSS/table-layout": {},
       "https://developer.mozilla.org/en-US/docs/Web/CSS/vertical-align": {},
       "https://developer.mozilla.org/en-US/docs/Web/CSS/z-index": {},
-      "https://drafts.csswg.org/css-2023/": {},
+      "https://drafts.csswg.org/css-2025/": {},
       "https://drafts.csswg.org/css-color-3/": {},
       "https://drafts.csswg.org/css-color-5/": {},
       "https://drafts.csswg.org/css-display/": {},
@@ -68,7 +68,7 @@
       "https://www.rfc-editor.org/rfc/rfc2318": {},
       "https://www.rfc-editor.org/rfc/rfc3986": {},
       "https://www.rfc-editor.org/rfc/rfc5646": {},
-      "https://www.unicode.org/reports/tr9/tr9-50.html": {},
+      "https://www.unicode.org/reports/tr9/tr9-51.html": {},
       "https://www.unicode.org/versions/latest/": {},
       "https://www.w3.org/International/questions/qa-lang-2or3": {},
       "https://www.w3.org/TR/1998/REC-CSS2-19980512/": {},
@@ -143,7 +143,7 @@
       "https://www.w3.org/TR/xml-id/": {},
       "https://www.w3.org/TR/xml-names/": {},
       "https://www.w3.org/TR/xml/": {},
-      "https://www.w3.org/policies/process/20231103/": {}
+      "https://www.w3.org/policies/process/20250818/": {}
     },
     "autolinks": {
       "https://drafts.csswg.org/css-color-5/": {

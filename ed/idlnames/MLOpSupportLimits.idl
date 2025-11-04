@@ -2,9 +2,9 @@
 dictionary MLOpSupportLimits {
   MLInputOperandLayout preferredInputLayout;
   [EnforceRange] unsigned long long maxTensorByteLength;
-  MLDataTypeLimits input;
-  MLDataTypeLimits constant;
-  MLDataTypeLimits output;
+  MLTensorLimits input;
+  MLTensorLimits constant;
+  MLTensorLimits output;
 };
 
 // Source: Web Neural Network API (https://www.w3.org/TR/webnn/)
@@ -71,6 +71,8 @@ partial dictionary MLOpSupportLimits {
   MLBinarySupportLimits logicalAnd;
   MLBinarySupportLimits logicalOr;
   MLBinarySupportLimits logicalXor;
+  MLLogicalNotSupportLimits isNaN;
+  MLLogicalNotSupportLimits isInfinite;
 };
 
 // Source: Web Neural Network API (https://www.w3.org/TR/webnn/)
@@ -85,6 +87,7 @@ partial dictionary MLOpSupportLimits {
   MLSingleInputSupportLimits log;
   MLSingleInputSupportLimits neg;
   MLSingleInputSupportLimits reciprocal;
+  MLSingleInputSupportLimits roundEven;
   MLSingleInputSupportLimits sin;
   MLSingleInputSupportLimits sign;
   MLSingleInputSupportLimits sqrt;

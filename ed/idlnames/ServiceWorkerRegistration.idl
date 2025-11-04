@@ -16,6 +16,12 @@ interface ServiceWorkerRegistration : EventTarget {
   attribute EventHandler onupdatefound;
 };
 
+// Source: Cookie Store API Standard (https://cookiestore.spec.whatwg.org/)
+[Exposed=(ServiceWorker,Window)]
+partial interface ServiceWorkerRegistration {
+  [SameObject] readonly attribute CookieStoreManager cookies;
+};
+
 // Source: Notifications API Standard (https://notifications.spec.whatwg.org/)
 partial interface ServiceWorkerRegistration {
   Promise<undefined> showNotification(DOMString title, optional NotificationOptions options = {});
@@ -37,12 +43,6 @@ partial interface ServiceWorkerRegistration {
   [SameObject] readonly attribute ContentIndex index;
 };
 
-// Source: Cookie Store API (https://wicg.github.io/cookie-store/)
-[Exposed=(ServiceWorker,Window)]
-partial interface ServiceWorkerRegistration {
-  [SameObject] readonly attribute CookieStoreManager cookies;
-};
-
 // Source: Web Periodic Background Synchronization (https://wicg.github.io/periodic-background-sync/)
 [Exposed=(Window,Worker)]
 partial interface ServiceWorkerRegistration {
@@ -55,7 +55,4 @@ partial interface ServiceWorkerRegistration {
 };
 
 // Source: Push API (https://www.w3.org/TR/push-api/)
-[SecureContext]
-partial interface ServiceWorkerRegistration {
-  readonly attribute PushManager pushManager;
-};
+ServiceWorkerRegistration includes PushManagerAttribute;

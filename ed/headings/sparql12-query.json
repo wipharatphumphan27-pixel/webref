@@ -1129,12 +1129,12 @@
       "number": "17.1"
     },
     {
-      "id": "evaluation",
-      "href": "https://w3c.github.io/sparql-query/spec/#evaluation",
+      "id": "expression-evaluation",
+      "href": "https://w3c.github.io/sparql-query/spec/#expression-evaluation",
       "level": 3,
-      "title": "Filter Evaluation",
+      "title": "Expression Evaluation",
       "alternateIds": [
-        "x17-2-filter-evaluation"
+        "x17-2-expression-evaluation"
       ],
       "number": "17.2"
     },
@@ -1149,14 +1149,24 @@
       "number": "17.2.1"
     },
     {
+      "id": "sparql-error",
+      "href": "https://w3c.github.io/sparql-query/spec/#sparql-error",
+      "level": 4,
+      "title": "Evaluation errors",
+      "alternateIds": [
+        "x17-2-2-evaluation-errors"
+      ],
+      "number": "17.2.2"
+    },
+    {
       "id": "ebv",
       "href": "https://w3c.github.io/sparql-query/spec/#ebv",
       "level": 4,
       "title": "Effective Boolean Value (EBV)",
       "alternateIds": [
-        "x17-2-2-effective-boolean-value-ebv"
+        "x17-2-3-effective-boolean-value-ebv"
       ],
-      "number": "17.2.2"
+      "number": "17.2.3"
     },
     {
       "id": "OperatorMapping",
@@ -1259,14 +1269,24 @@
       "number": "17.4.1.6"
     },
     {
+      "id": "func-logical-not",
+      "href": "https://w3c.github.io/sparql-query/spec/#func-logical-not",
+      "level": 5,
+      "title": "logical-not",
+      "alternateIds": [
+        "x17-4-1-7-logical-not"
+      ],
+      "number": "17.4.1.7"
+    },
+    {
       "id": "func-in",
       "href": "https://w3c.github.io/sparql-query/spec/#func-in",
       "level": 5,
       "title": "IN",
       "alternateIds": [
-        "x17-4-1-7-in"
+        "x17-4-1-8-in"
       ],
-      "number": "17.4.1.7"
+      "number": "17.4.1.8"
     },
     {
       "id": "func-not-in",
@@ -1274,9 +1294,9 @@
       "level": 5,
       "title": "NOT IN",
       "alternateIds": [
-        "x17-4-1-8-not-in"
+        "x17-4-1-9-not-in"
       ],
-      "number": "17.4.1.8"
+      "number": "17.4.1.9"
     },
     {
       "id": "func-rdfTerms",
@@ -2038,12 +2058,12 @@
       "number": "18.2"
     },
     {
-      "id": "sparqlQuery",
-      "href": "https://w3c.github.io/sparql-query/spec/#sparqlQuery",
+      "id": "translation",
+      "href": "https://w3c.github.io/sparql-query/spec/#translation",
       "level": 3,
-      "title": "Translation to the SPARQL Algebra",
+      "title": "Translation to the Algebraic Syntax",
       "alternateIds": [
-        "x18-3-translation-to-the-sparql-algebra"
+        "x18-3-translation-to-the-algebraic-syntax"
       ],
       "number": "18.3"
     },
@@ -2271,9 +2291,9 @@
       "id": "sparqlAlgebraOutcome",
       "href": "https://w3c.github.io/sparql-query/spec/#sparqlAlgebraOutcome",
       "level": 5,
-      "title": "Final Algebra Expression",
+      "title": "Final Algebraic Query Expression",
       "alternateIds": [
-        "x18-3-5-6-final-algebra-expression"
+        "x18-3-5-6-final-algebraic-query-expression"
       ],
       "number": "18.3.5.6"
     },

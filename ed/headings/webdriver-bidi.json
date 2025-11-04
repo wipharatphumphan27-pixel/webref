@@ -382,6 +382,13 @@
       "number": "7.2.4.6"
     },
     {
+      "id": "command-browser-setDownloadBehavior",
+      "href": "https://w3c.github.io/webdriver-bidi/#command-browser-setDownloadBehavior",
+      "level": 5,
+      "title": "The browser.setDownloadBehavior Command",
+      "number": "7.2.4.7"
+    },
+    {
       "id": "module-browsingContext",
       "href": "https://w3c.github.io/webdriver-bidi/#module-browsingContext",
       "level": 3,
@@ -599,8 +606,8 @@
       "number": "7.3.4.7"
     },
     {
-      "id": "event-browsingContext-downoadWillBegin",
-      "href": "https://w3c.github.io/webdriver-bidi/#event-browsingContext-downoadWillBegin",
+      "id": "event-browsingContext-downloadWillBegin",
+      "href": "https://w3c.github.io/webdriver-bidi/#event-browsingContext-downloadWillBegin",
       "level": 5,
       "title": "The browsingContext.downloadWillBegin Event",
       "number": "7.3.4.8"
@@ -669,32 +676,60 @@
       "number": "7.4.2"
     },
     {
+      "id": "command-emulation-setForcedColorsModeThemeOverride",
+      "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setForcedColorsModeThemeOverride",
+      "level": 5,
+      "title": "The emulation.setForcedColorsModeThemeOverride Command",
+      "number": "7.4.2.1"
+    },
+    {
       "id": "command-emulation-setGeolocationOverride",
       "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setGeolocationOverride",
       "level": 5,
       "title": "The emulation.setGeolocationOverride Command",
-      "number": "7.4.2.1"
+      "number": "7.4.2.2"
     },
     {
       "id": "command-emulation-setLocaleOverride",
       "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setLocaleOverride",
       "level": 5,
       "title": "The emulation.setLocaleOverride Command",
-      "number": "7.4.2.2"
+      "number": "7.4.2.3"
+    },
+    {
+      "id": "command-emulation-setNetworkConditions",
+      "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setNetworkConditions",
+      "level": 5,
+      "title": "The emulation.setNetworkConditions Command",
+      "number": "7.4.2.4"
     },
     {
       "id": "command-emulation-setScreenOrientationOverride",
       "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setScreenOrientationOverride",
       "level": 5,
       "title": "The emulation.setScreenOrientationOverride Command",
-      "number": "7.4.2.3"
+      "number": "7.4.2.5"
+    },
+    {
+      "id": "command-emulation-setUserAgentOverride",
+      "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setUserAgentOverride",
+      "level": 5,
+      "title": "The emulation.setUserAgentOverride Command",
+      "number": "7.4.2.6"
+    },
+    {
+      "id": "command-emulation-setScriptingEnabled",
+      "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setScriptingEnabled",
+      "level": 5,
+      "title": "The emulation.setScriptingEnabled Command",
+      "number": "7.4.2.7"
     },
     {
       "id": "command-emulation-setTimezoneOverride",
       "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setTimezoneOverride",
       "level": 5,
       "title": "The emulation.setTimezoneOverride Command",
-      "number": "7.4.2.4"
+      "number": "7.4.2.8"
     },
     {
       "id": "module-network",
@@ -954,6 +989,13 @@
       "level": 5,
       "title": "The network.setCacheBehavior Command",
       "number": "7.5.5.12"
+    },
+    {
+      "id": "command-network-setExtraHeaders",
+      "href": "https://w3c.github.io/webdriver-bidi/#command-network-setExtraHeaders",
+      "level": 5,
+      "title": "The network.setExtraHeaders Command",
+      "number": "7.5.5.13"
     },
     {
       "id": "module-network-event",

@@ -117,6 +117,10 @@
         "url": "https://drafts.csswg.org/css-fonts/"
       },
       {
+        "name": "CSSFORMS",
+        "url": "https://w3c.github.io/csswg-drafts/css-forms/"
+      },
+      {
         "name": "CSSFLEXBOX",
         "url": "https://drafts.csswg.org/css-flexbox/"
       },
@@ -390,6 +394,10 @@
         "url": "https://w3c.github.io/navigation-timing/"
       },
       {
+        "name": "NOVARYSEARCH",
+        "url": "https://httpwg.org/http-extensions/draft-ietf-httpbis-no-vary-search.html"
+      },
+      {
         "name": "OGGSKELETONHEADERS",
         "url": "https://wiki.xiph.org/SkeletonHeaders"
       },
@@ -428,6 +436,10 @@
       {
         "name": "POINTERLOCK",
         "url": "https://w3c.github.io/pointerlock/"
+      },
+      {
+        "name": "PREFETCH",
+        "url": "https://wicg.github.io/nav-speculation/prefetch.html"
       },
       {
         "name": "PRESENTATION",
@@ -574,6 +586,10 @@
         "url": "https://url.spec.whatwg.org/"
       },
       {
+        "name": "URLPATTERN",
+        "url": "https://urlpattern.spec.whatwg.org/"
+      },
+      {
         "name": "URN",
         "url": "https://www.rfc-editor.org/rfc/rfc2141"
       },
@@ -715,6 +731,10 @@
         "url": "https://w3c.github.io/compute-pressure/"
       },
       {
+        "name": "COOKIESTORE",
+        "url": "https://cookiestore.spec.whatwg.org/"
+      },
+      {
         "name": "CSSPAINT",
         "url": "https://drafts.css-houdini.org/css-paint-api/"
       },
@@ -783,6 +803,10 @@
       {
         "name": "PPUTF8",
         "url": "https://www.sw.it.aoyama.ac.jp/2012/pub/IUC11-UTF-8.pdf"
+      },
+      {
+        "name": "PRERENDERING-REVAMPED",
+        "url": "https://wicg.github.io/nav-speculation/prerendering.html"
       },
       {
         "name": "RFC4337",

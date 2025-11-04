@@ -85,9 +85,6 @@
       "http://wpt.live/css/css-gaps/parsing/rule-outset-computed.html": {},
       "http://wpt.live/css/css-gaps/parsing/rule-outset-invalid.html": {},
       "http://wpt.live/css/css-gaps/parsing/rule-outset-valid.html": {},
-      "http://wpt.live/css/css-gaps/parsing/rule-paint-order-computed.html": {},
-      "http://wpt.live/css/css-gaps/parsing/rule-paint-order-invalid.html": {},
-      "http://wpt.live/css/css-gaps/parsing/rule-paint-order-valid.html": {},
       "http://www.w3.org/Style/CSS/Test/": {},
       "http://www.w3.org/TR/CSS/": {
         "anchors": [
@@ -113,7 +110,8 @@
       "https://drafts.csswg.org/css-align/": {},
       "https://drafts.csswg.org/css-backgrounds/": {},
       "https://drafts.csswg.org/css-color-5/": {},
-      "https://drafts.csswg.org/css-flexbox-1/": {},
+      "https://drafts.csswg.org/css-flexbox/": {},
+      "https://drafts.csswg.org/css-gaps-1/": {},
       "https://drafts.csswg.org/css-grid-1/": {
         "anchors": [
           "repeat-notation"
@@ -132,8 +130,13 @@
       "https://drafts.csswg.org/css-values-3/": {},
       "https://drafts.csswg.org/css-values-4/": {},
       "https://drafts.csswg.org/css2/": {},
+      "https://drafts.csswg.org/web-animations-1/": {},
       "https://github.com/w3c/csswg-drafts/issues": {},
       "https://github.com/w3c/csswg-drafts/issues/11814": {},
+      "https://github.com/w3c/csswg-drafts/issues/12084": {},
+      "https://github.com/w3c/csswg-drafts/issues/12431": {},
+      "https://github.com/w3c/csswg-drafts/issues/12527": {},
+      "https://github.com/w3c/csswg-drafts/issues/12540": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-gaps/flex/flex-gap-decorations-001.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-gaps/flex/flex-gap-decorations-002.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-gaps/flex/flex-gap-decorations-003.html": {},
@@ -213,9 +216,6 @@
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-gaps/parsing/rule-outset-computed.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-gaps/parsing/rule-outset-invalid.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-gaps/parsing/rule-outset-valid.html": {},
-      "https://github.com/web-platform-tests/wpt/blob/master/css/css-gaps/parsing/rule-paint-order-computed.html": {},
-      "https://github.com/web-platform-tests/wpt/blob/master/css/css-gaps/parsing/rule-paint-order-invalid.html": {},
-      "https://github.com/web-platform-tests/wpt/blob/master/css/css-gaps/parsing/rule-paint-order-valid.html": {},
       "https://lists.w3.org/Archives/Public/public-css-archive/": {},
       "https://lists.w3.org/Archives/Public/www-style/": {},
       "https://wpt.fyi/results/css/css-gaps/flex/flex-gap-decorations-001.html": {},
@@ -297,9 +297,6 @@
       "https://wpt.fyi/results/css/css-gaps/parsing/rule-outset-computed.html": {},
       "https://wpt.fyi/results/css/css-gaps/parsing/rule-outset-invalid.html": {},
       "https://wpt.fyi/results/css/css-gaps/parsing/rule-outset-valid.html": {},
-      "https://wpt.fyi/results/css/css-gaps/parsing/rule-paint-order-computed.html": {},
-      "https://wpt.fyi/results/css/css-gaps/parsing/rule-paint-order-invalid.html": {},
-      "https://wpt.fyi/results/css/css-gaps/parsing/rule-paint-order-valid.html": {},
       "https://www.w3.org/TR/2025/WD-css-gaps-1-20250417/": {},
       "https://www.w3.org/TR/CSS/": {},
       "https://www.w3.org/TR/CSS2/about.html": {
@@ -342,7 +339,7 @@
           "animation-type"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {}
+      "https://www.w3.org/policies/process/20250818/": {}
     },
     "autolinks": {
       "https://drafts.csswg.org/css-align-3/": {
@@ -400,6 +397,17 @@
           "mult-comma",
           "mult-opt",
           "comb-any"
+        ]
+      },
+      "https://drafts.csswg.org/web-animations-1/": {
+        "anchors": [
+          "repeatable-list",
+          "discrete"
+        ]
+      },
+      "https://www.w3.org/TR/css-gaps-1/": {
+        "anchors": [
+          "propdef-rule-paint-order"
         ]
       }
     }

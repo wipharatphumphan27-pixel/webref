@@ -10,7 +10,7 @@ interface Window : EventTarget {
   attribute DOMString name;
   [PutForwards=href, LegacyUnforgeable] readonly attribute Location location;
   readonly attribute History history;
-  readonly attribute Navigation navigation;
+  [Replaceable] readonly attribute Navigation navigation;
   readonly attribute CustomElementRegistry customElements;
   [Replaceable] readonly attribute BarProp locationbar;
   [Replaceable] readonly attribute BarProp menubar;
@@ -63,9 +63,20 @@ partial interface Window {
     attribute EventHandler onorientationchange;
 };
 
+// Source: Cookie Store API Standard (https://cookiestore.spec.whatwg.org/)
+[SecureContext]
+partial interface Window {
+  [SameObject] readonly attribute CookieStore cookieStore;
+};
+
 // Source: DOM Standard (https://dom.spec.whatwg.org/)
 partial interface Window {
   [Replaceable] readonly attribute (Event or undefined) event; // legacy
+};
+
+// Source: Fetch Standard (https://fetch.spec.whatwg.org/)
+partial interface Window {
+  [NewObject, SecureContext] FetchLaterResult fetchLater(RequestInfo input, optional DeferredRequestInit init = {});
 };
 
 // Source: HTML Standard (https://html.spec.whatwg.org/multipage/)
@@ -102,12 +113,6 @@ partial interface Window {
 // Source: Iframe credentialless (https://wicg.github.io/anonymous-iframe/)
 partial interface Window {
   readonly attribute boolean credentialless;
-};
-
-// Source: Cookie Store API (https://wicg.github.io/cookie-store/)
-[SecureContext]
-partial interface Window {
-  [SameObject] readonly attribute CookieStore cookieStore;
 };
 
 // Source: Digital Goods API (https://wicg.github.io/digital-goods/)
@@ -164,7 +169,7 @@ partial interface Window {
   readonly attribute LaunchQueue launchQueue;
 };
 
-// Source: CSS Spatial Navigation Level 1 (https://www.w3.org/TR/css-nav-1/)
+// Source: CSS Spatial Navigation Module Level 1 (https://www.w3.org/TR/css-nav-1/)
 partial interface Window {
     undefined navigate(SpatialNavigationDirection dir);
 };
@@ -174,12 +179,12 @@ partial interface Window {
 [SameObject, Replaceable] readonly attribute Viewport viewport;
 };
 
-// Source: CSS Object Model (CSSOM) (https://www.w3.org/TR/cssom-1/)
+// Source: CSS Object Model (CSSOM) Module Level 1 (https://www.w3.org/TR/cssom-1/)
 partial interface Window {
   [NewObject] CSSStyleProperties getComputedStyle(Element elt, optional CSSOMString? pseudoElt);
 };
 
-// Source: CSSOM View Module (https://www.w3.org/TR/cssom-view-1/)
+// Source: CSSOM View Module Level 1 (https://www.w3.org/TR/cssom-view-1/)
 partial interface Window {
     [NewObject] MediaQueryList matchMedia(CSSOMString query);
     [SameObject, Replaceable] readonly attribute Screen screen;
@@ -200,12 +205,12 @@ partial interface Window {
     [Replaceable] readonly attribute double pageXOffset;
     [Replaceable] readonly attribute double scrollY;
     [Replaceable] readonly attribute double pageYOffset;
-    undefined scroll(optional ScrollToOptions options = {});
-    undefined scroll(unrestricted double x, unrestricted double y);
-    undefined scrollTo(optional ScrollToOptions options = {});
-    undefined scrollTo(unrestricted double x, unrestricted double y);
-    undefined scrollBy(optional ScrollToOptions options = {});
-    undefined scrollBy(unrestricted double x, unrestricted double y);
+    Promise<undefined> scroll(optional ScrollToOptions options = {});
+    Promise<undefined> scroll(unrestricted double x, unrestricted double y);
+    Promise<undefined> scrollTo(optional ScrollToOptions options = {});
+    Promise<undefined> scrollTo(unrestricted double x, unrestricted double y);
+    Promise<undefined> scrollBy(optional ScrollToOptions options = {});
+    Promise<undefined> scrollBy(unrestricted double x, unrestricted double y);
 
     // client
     [Replaceable] readonly attribute long screenX;
@@ -231,6 +236,9 @@ partial interface Window {
 partial interface Window {
     [SecureContext] attribute EventHandler ondevicemotion;
 };
+
+// Source: Push API (https://www.w3.org/TR/push-api/)
+Window includes PushManagerAttribute;
 
 // Source: requestIdleCallback() (https://www.w3.org/TR/requestidlecallback/)
 partial interface Window {

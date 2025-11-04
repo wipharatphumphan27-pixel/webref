@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "CSS Transitions Level 2",
+    "title": "CSS Transitions Module Level 2",
     "url": "https://drafts.csswg.org/css-transitions-2/"
   },
   "links": {
@@ -90,7 +90,7 @@
           "animation-type"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {}
+      "https://www.w3.org/policies/process/20250818/": {}
     },
     "autolinks": {
       "https://dom.spec.whatwg.org/": {

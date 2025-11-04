@@ -21,8 +21,7 @@
       "https://github.com/WebOfTrustInfo/rwot2-id2020/blob/master/final-documents/requirements-for-dids.pdf": {},
       "https://github.com/WebOfTrustInfo/rwot3-sf/blob/master/final-documents/did-implementer-draft-10.pdf": {},
       "https://github.com/web-payments/minutes/tree/master/2014-05-07": {},
-      "https://httpwg.org/specs/rfc7230.html": {},
-      "https://httpwg.org/specs/rfc7231.html": {
+      "https://httpwg.org/specs/rfc9110.html": {
         "anchors": [
           "status.415"
         ]
@@ -46,6 +45,7 @@
       "https://tools.ietf.org/html/rfc8141": {},
       "https://url.spec.whatwg.org/": {},
       "https://w3c-ccg.github.io/": {},
+      "https://w3c.github.io/did-test-suite/": {},
       "https://www.iana.org/assignments/uri-schemes/uri-schemes.xhtml": {},
       "https://www.rfc-editor.org/info/bcp14": {},
       "https://www.rfc-editor.org/rfc/rfc2119": {},
@@ -83,6 +83,7 @@
       "https://www.w3.org/TR/2019/WD-did-core-20191107/": {},
       "https://www.w3.org/TR/2021/CR-did-core-20210318/": {},
       "https://www.w3.org/TR/2021/CR-did-core-20210615/": {},
+      "https://www.w3.org/TR/2022/REC-did-core-20220719/": {},
       "https://www.w3.org/TR/cid-1.0/": {
         "anchors": [
           "also-known-as",
@@ -126,7 +127,7 @@
           "iana-considerations"
         ]
       },
-      "https://www.w3.org/TR/vc-data-model/": {},
+      "https://www.w3.org/TR/vc-data-model-2.0/": {},
       "https://www.w3.org/TR/xmlschema11-2/": {
         "anchors": [
           "dateTime",
@@ -138,11 +139,17 @@
       "https://www.w3.org/groups/wg/did/ipr": {},
       "https://www.w3.org/policies/patent-policy/": {
         "anchors": [
+          "sec-Requirements",
           "def-essential",
           "sec-Disclosure"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {},
+      "https://www.w3.org/policies/process/20250818/": {
+        "anchors": [
+          "recs-and-notes",
+          "dfn-wide-review"
+        ]
+      },
       "https://www.weboftrust.info/": {}
     },
     "autolinks": {
@@ -161,7 +168,7 @@
           "dfn-verification-relationship"
         ]
       },
-      "https://www.w3.org/TR/vc-data-model/": {
+      "https://www.w3.org/TR/vc-data-model-2.0/": {
         "anchors": [
           "dfn-verifiable-credential"
         ]

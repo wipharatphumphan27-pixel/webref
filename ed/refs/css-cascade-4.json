@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "CSS Cascading and Inheritance Level 4",
+    "title": "CSS Cascading and Inheritance Module Level 4",
     "url": "https://drafts.csswg.org/css-cascade-4/"
   },
   "refs": {
@@ -133,7 +133,7 @@
       },
       {
         "name": "CSS-FLEXBOX-1",
-        "url": "https://drafts.csswg.org/css-flexbox-1/"
+        "url": "https://drafts.csswg.org/css-flexbox/"
       },
       {
         "name": "CSS-FONTS-5",

@@ -6,6 +6,10 @@
   "refs": {
     "normative": [
       {
+        "name": "BCP47",
+        "url": "https://www.rfc-editor.org/rfc/rfc5646"
+      },
+      {
         "name": "EBNF-NOTATION",
         "url": "https://www.w3.org/TR/xml/#sec-notation"
       },
@@ -34,6 +38,14 @@
         "url": "https://www.rfc-editor.org/rfc/rfc3629"
       },
       {
+        "name": "RFC3986",
+        "url": "https://www.rfc-editor.org/rfc/rfc3986"
+      },
+      {
+        "name": "RFC3987",
+        "url": "https://www.rfc-editor.org/rfc/rfc3987"
+      },
+      {
         "name": "RFC8174",
         "url": "https://www.rfc-editor.org/rfc/rfc8174"
       },
@@ -48,12 +60,16 @@
     ],
     "informative": [
       {
+        "name": "RDF12-INTEROP",
+        "url": "https://w3c.github.io/rdf-interop/spec/"
+      },
+      {
         "name": "RDF12-NEW",
         "url": "https://w3c.github.io/rdf-new/spec/"
       },
       {
         "name": "RDF12-PRIMER",
-        "url": "https://w3c.github.io/rdf-primer/spec/"
+        "url": "https://www.w3.org/TR/rdf12-primer/"
       },
       {
         "name": "RDF12-SCHEMA",
@@ -74,14 +90,6 @@
       {
         "name": "RFC3023",
         "url": "https://www.rfc-editor.org/rfc/rfc3023"
-      },
-      {
-        "name": "RFC3986",
-        "url": "https://www.rfc-editor.org/rfc/rfc3986"
-      },
-      {
-        "name": "RFC3987",
-        "url": "https://www.rfc-editor.org/rfc/rfc3987"
       },
       {
         "name": "SPARQL12-CONCEPTS",

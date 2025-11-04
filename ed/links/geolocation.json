@@ -30,13 +30,13 @@
       "https://github.com/w3c/geolocation/commit/09b48e6": {},
       "https://github.com/w3c/geolocation/commit/0c378d9": {},
       "https://github.com/w3c/geolocation/commit/0cc35fa": {},
+      "https://github.com/w3c/geolocation/commit/229574b": {},
       "https://github.com/w3c/geolocation/commit/22ed7a4": {},
       "https://github.com/w3c/geolocation/commit/2a116d7": {},
       "https://github.com/w3c/geolocation/commit/2c0c516": {},
       "https://github.com/w3c/geolocation/commit/41d7945": {},
       "https://github.com/w3c/geolocation/commit/514f15b": {},
       "https://github.com/w3c/geolocation/commit/69cc724": {},
-      "https://github.com/w3c/geolocation/commit/7082b4e": {},
       "https://github.com/w3c/geolocation/commit/74b1dd0": {},
       "https://github.com/w3c/geolocation/commit/9d5829e": {},
       "https://github.com/w3c/geolocation/commit/a1531cb": {},
@@ -44,20 +44,18 @@
       "https://github.com/w3c/geolocation/commit/c2fdd74": {},
       "https://github.com/w3c/geolocation/commit/de05002": {},
       "https://github.com/w3c/geolocation/commit/f4605e5": {},
-      "https://github.com/w3c/geolocation/commit/f8b930f": {},
-      "https://github.com/w3c/geolocation/commits/gh-pages": {},
+      "https://github.com/w3c/geolocation/commits/main": {},
       "https://github.com/w3c/geolocation/pull/100": {},
       "https://github.com/w3c/geolocation/pull/104": {},
       "https://github.com/w3c/geolocation/pull/108": {},
       "https://github.com/w3c/geolocation/pull/109": {},
       "https://github.com/w3c/geolocation/pull/118": {},
-      "https://github.com/w3c/geolocation/pull/133": {},
-      "https://github.com/w3c/geolocation/pull/144": {},
       "https://github.com/w3c/geolocation/pull/157": {},
       "https://github.com/w3c/geolocation/pull/162": {},
       "https://github.com/w3c/geolocation/pull/173": {},
       "https://github.com/w3c/geolocation/pull/183": {},
       "https://github.com/w3c/geolocation/pull/187": {},
+      "https://github.com/w3c/geolocation/pull/208": {},
       "https://github.com/w3c/geolocation/pull/87": {},
       "https://github.com/w3c/geolocation/pull/90": {},
       "https://github.com/w3c/geolocation/pull/97": {},
@@ -85,7 +83,7 @@
           "sec-Disclosure"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {
+      "https://www.w3.org/policies/process/20250818/": {
         "anchors": [
           "allow-new-features"
         ]

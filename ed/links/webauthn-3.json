@@ -162,17 +162,15 @@
       "https://www.w3.org/TR/": {},
       "https://www.w3.org/TR/2021/REC-webauthn-2-20210408/": {
         "anchors": [
-          "clientdatajson-serialization"
+          "clientdatajson-serialization",
+          "sctn-strings-langdir"
         ]
       },
       "https://www.w3.org/TR/2025/WD-webauthn-3-20250127/": {
         "anchors": [
-          "sctn-test-vectors",
           "sctn-isUserVerifyingPlatformAuthenticatorAvailable",
           "sctn-getClientCapabilities",
-          "sctn-sample-registration",
-          "dom-authenticationextensionsprfoutputs-enabled",
-          "test-vectors-extensions-prf-ctap"
+          "sctn-sample-registration"
         ]
       },
       "https://www.w3.org/TR/WCAG21/": {
@@ -187,7 +185,7 @@
       },
       "https://www.w3.org/Webauthn/": {},
       "https://www.w3.org/groups/wg/webauthn": {},
-      "https://www.w3.org/policies/process/20231103/": {}
+      "https://www.w3.org/policies/process/20250818/": {}
     },
     "autolinks": {
       "https://dom.spec.whatwg.org/": {
@@ -421,8 +419,7 @@
       },
       "https://w3c.github.io/i18n-glossary/": {
         "anchors": [
-          "dfn-grapheme-cluster",
-          "dfn-language-tag"
+          "dfn-grapheme-cluster"
         ]
       },
       "https://w3c.github.io/webappsec-credential-management/": {

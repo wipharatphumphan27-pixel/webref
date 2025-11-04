@@ -1,7 +1,7 @@
 {
   "spec": {
     "title": "Attribution Level 1",
-    "url": "https://w3c.github.io/ppa/"
+    "url": "https://w3c.github.io/attribution/"
   },
   "links": {
     "rawlinks": {
@@ -38,7 +38,7 @@
       "https://doi.org/10.1561/0400000042": {},
       "https://fetch.spec.whatwg.org/": {},
       "https://github.com/w3c/attribution/issues": {},
-      "https://github.com/w3c/ppa/issues/130": {},
+      "https://github.com/w3c/attribution/issues/130": {},
       "https://hpkewg.github.io/hpke/draft-ietf-hpke-hpke.html": {
         "anchors": [
           "section-6.1"
@@ -79,7 +79,7 @@
           "clear-response"
         ]
       },
-      "https://www.w3.org/TR/css-2024/": {},
+      "https://www.w3.org/TR/css-2025/": {},
       "https://www.w3.org/TR/css-values-4/": {},
       "https://www.w3.org/TR/fedcm-1/": {},
       "https://www.w3.org/TR/hr-time-3/": {},
@@ -92,7 +92,7 @@
           "sec-Disclosure"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {
+      "https://www.w3.org/policies/process/20250818/": {
         "anchors": [
           "recs-and-notes"
         ]
@@ -169,8 +169,8 @@
       "https://infra.spec.whatwg.org/": {
         "anchors": [
           "user-agent",
-          "implementation-defined",
           "sets",
+          "list",
           "list-contain",
           "list-iterate",
           "list-remove",
@@ -183,20 +183,25 @@
           "map-exists",
           "map-set",
           "map-get",
+          "boolean",
+          "assert",
+          "list-is-empty",
+          "the-range",
+          "list-empty",
+          "map-clear",
+          "map-getting-the-keys",
+          "map-remove",
+          "implementation-defined",
           "struct",
           "map-entry",
           "map-key",
-          "list",
-          "list-is-empty",
           "list-item",
           "set-create",
           "set-extend",
           "set-append",
           "list-append",
           "list-get-the-indices",
-          "iteration-break",
-          "assert",
-          "list-sort-in-ascending-order",
+          "list-sort-in-descending-order",
           "map-with-default",
           "byte-sequence",
           "isomorphic-encode",
@@ -253,7 +258,7 @@
           "http-headerdef-clear-site-data"
         ]
       },
-      "https://www.w3.org/TR/css-2024/": {
+      "https://www.w3.org/TR/css-2025/": {
         "anchors": [
           "user"
         ]

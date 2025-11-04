@@ -10,8 +10,8 @@
       "https://github.com/w3c/rdf-n-triples/issues/?q=is%3Aissue+is%3Aopen+label%3A%22spec%3Asubstantive%22": {},
       "https://oag.ca.gov/privacy/ccpa": {},
       "https://termly.io/resources/infographics/privacy-laws-around-the-world/": {},
+      "https://w3c.github.io/rdf-interop/spec/": {},
       "https://w3c.github.io/rdf-new/spec/": {},
-      "https://w3c.github.io/rdf-primer/spec/": {},
       "https://w3c.github.io/rdf-tests/rdf/rdf11/rdf-n-triples/index.html": {
         "anchors": [
           "nt-syntax-file-02",
@@ -51,6 +51,16 @@
           "literal_with_extra_whitespace"
         ]
       },
+      "https://w3c.github.io/rdf-tests/rdf/rdf12/rdf-n-triples/syntax/index.html": {
+        "anchors": [
+          "ntriples12-bad-iri-1",
+          "ntriples-langdir-bad-1",
+          "ntriples-langdir-bad-2",
+          "ntriples-langdir-bad-3",
+          "ntriples-langdir-bad-4",
+          "ntriples-langdir-bad-5"
+        ]
+      },
       "https://w3c.github.io/sparql-concepts/spec/": {},
       "https://w3c.github.io/sparql-new/spec/": {},
       "https://www.rfc-editor.org/info/bcp14": {},
@@ -59,7 +69,8 @@
       "https://www.rfc-editor.org/rfc/rfc3629": {},
       "https://www.rfc-editor.org/rfc/rfc3986": {
         "anchors": [
-          "section-5"
+          "section-5",
+          "section-3.3"
         ]
       },
       "https://www.rfc-editor.org/rfc/rfc3987": {
@@ -96,7 +107,7 @@
           "dfn-predicate",
           "dfn-base-direction",
           "dfn-iri",
-          "dfn-literal",
+          "dfn-rdf-literal",
           "dfn-language-tag",
           "dfn-datatype-iri",
           "dfn-lexical-form",
@@ -109,6 +120,7 @@
         ]
       },
       "https://www.w3.org/TR/rdf12-n-quads/": {},
+      "https://www.w3.org/TR/rdf12-primer/": {},
       "https://www.w3.org/TR/rdf12-schema/": {},
       "https://www.w3.org/TR/rdf12-semantics/": {},
       "https://www.w3.org/TR/rdf12-trig/": {},
@@ -149,7 +161,7 @@
           "sec-Disclosure"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {
+      "https://www.w3.org/policies/process/20250818/": {
         "anchors": [
           "allow-new-features"
         ]

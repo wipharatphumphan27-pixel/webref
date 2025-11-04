@@ -1,7 +1,7 @@
 {
   "spec": {
     "title": "Attribution Level 1",
-    "url": "https://w3c.github.io/ppa/"
+    "url": "https://w3c.github.io/attribution/"
   },
   "refs": {
     "normative": [
@@ -10,8 +10,8 @@
         "url": "https://www.w3.org/TR/clear-site-data/"
       },
       {
-        "name": "CSS-2024",
-        "url": "https://www.w3.org/TR/css-2024/"
+        "name": "CSS-2025",
+        "url": "https://www.w3.org/TR/css-2025/"
       },
       {
         "name": "CSS-VALUES-4",

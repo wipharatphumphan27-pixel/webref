@@ -34,7 +34,7 @@
         "url": "https://www.w3.org/TR/hr-time-3/"
       },
       {
-        "name": "html",
+        "name": "HTML",
         "url": "https://html.spec.whatwg.org/multipage/"
       },
       {
@@ -84,6 +84,10 @@
       {
         "name": "SERVICE-WORKERS",
         "url": "https://www.w3.org/TR/service-workers/"
+      },
+      {
+        "name": "url",
+        "url": "https://url.spec.whatwg.org/"
       },
       {
         "name": "WEBIDL",

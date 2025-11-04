@@ -15,7 +15,7 @@
       },
       {
         "name": "COOKIES",
-        "url": "https://httpwg.org/specs/rfc6265.html"
+        "url": "https://httpwg.org/http-extensions/draft-ietf-httpbis-layered-cookies.html"
       },
       {
         "name": "CSP",
@@ -94,6 +94,10 @@
         "url": "https://w3c.github.io/webappsec-mixed-content/"
       },
       {
+        "name": "PERMISSIONS-POLICY-1",
+        "url": "https://w3c.github.io/webappsec-permissions-policy/"
+      },
+      {
         "name": "REFERRER",
         "url": "https://w3c.github.io/webappsec-referrer-policy/"
       },
@@ -120,6 +124,10 @@
       {
         "name": "RFC9651",
         "url": "https://www.rfc-editor.org/rfc/rfc9651"
+      },
+      {
+        "name": "SECURE-CONTEXTS",
+        "url": "https://w3c.github.io/webappsec-secure-contexts/"
       },
       {
         "name": "SRI",
@@ -156,6 +164,10 @@
       {
         "name": "URL",
         "url": "https://url.spec.whatwg.org/"
+      },
+      {
+        "name": "WEBDRIVER-BIDI",
+        "url": "https://w3c.github.io/webdriver-bidi/"
       },
       {
         "name": "WEBIDL",

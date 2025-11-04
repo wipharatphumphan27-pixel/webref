@@ -32,6 +32,11 @@
           "report-a-warning-to-the-console"
         ]
       },
+      "https://cookiestore.spec.whatwg.org/": {
+        "anchors": [
+          "intro"
+        ]
+      },
       "https://creativecommons.org/licenses/by-sa/3.0/": {},
       "https://creativecommons.org/licenses/by/2.0/": {},
       "https://creativecommons.org/licenses/by/3.0/": {},
@@ -1298,12 +1303,14 @@
           "concept-tree-child",
           "concept-tree-root",
           "concept-tree-inclusive-ancestor",
+          "concept-tree-ancestor",
           "concept-tree-descendant",
           "concept-shadow-including-ancestor",
           "concept-shadow-including-descendant",
           "concept-shadow-including-inclusive-descendant",
           "concept-shadow-including-inclusive-ancestor",
           "concept-tree-first-child",
+          "concept-tree-last-child",
           "concept-tree-next-sibling",
           "concept-tree-previous-sibling",
           "concept-tree-parent",
@@ -1600,6 +1607,13 @@
           "valdef-font-stretch-ultra-expanded"
         ]
       },
+      "https://drafts.csswg.org/css-forms/": {
+        "anchors": [
+          "the-picker-pseudo-element",
+          "selectordef-checkmark",
+          "picker-opener-icon-the-picker-icon-pseudo-element"
+        ]
+      },
       "https://drafts.csswg.org/css-grid/": {
         "anchors": [
           "propdef-grid-auto-columns",
@@ -1815,6 +1829,7 @@
           "widget",
           "native-appearance",
           "primitive-appearance",
+          "base-appearance",
           "element-with-default-preferred-size",
           "non-devolvable",
           "devolvable",
@@ -1968,12 +1983,17 @@
       },
       "https://drafts.csswg.org/selectors/": {
         "anchors": [
+          "typedef-selector-list",
+          "parse-a-selector",
+          "selector",
           "type-selector",
           "attribute-selector",
           "pseudo-class",
           "the-focus-visible-pseudo",
           "indicate-focus",
-          "pseudo-element"
+          "pseudo-element",
+          "match-a-selector-against-an-element",
+          "scoping-root"
         ]
       },
       "https://drafts.csswg.org/web-animations-1/": {
@@ -2056,12 +2076,13 @@
         "anchors": [
           "http-origin",
           "abnf",
+          "sec-purpose-header",
           "http-scheme",
           "is-local",
           "local-scheme",
           "fetch-scheme",
           "http-cors-protocol",
-          "default-user-agent-value",
+          "environment-default-user-agent-value",
           "concept-header-extract-mime-type",
           "legacy-extract-an-encoding",
           "concept-fetch",
@@ -2097,6 +2118,9 @@
           "byte-sequence-as-a-body",
           "response-body-info",
           "resolve-an-origin",
+          "credentials",
+          "reserve-deferred-fetch-quota",
+          "is-offline",
           "concept-response",
           "concept-response-type",
           "concept-response-url",
@@ -2149,7 +2173,9 @@
           "request-initiator-type",
           "request-service-workers-mode",
           "concept-request-window",
+          "request-top-level-navigation-initiator-origin",
           "concept-request-add-range-header",
+          "destination-type",
           "fetch-timing-info",
           "fetch-timing-info-start-time",
           "fetch-timing-info-end-time"
@@ -2170,6 +2196,8 @@
       "https://github.com/WICG/close-watcher": {},
       "https://github.com/WICG/import-maps": {},
       "https://github.com/WICG/import-maps/issues/235": {},
+      "https://github.com/WICG/nav-speculation": {},
+      "https://github.com/WICG/nav-speculation/issues/348": {},
       "https://github.com/WICG/navigation-api": {},
       "https://github.com/annevk/orb": {},
       "https://github.com/dewitt/opensearch/blob/master/opensearch-1-1-draft-6.md": {
@@ -2206,6 +2234,7 @@
       "https://github.com/whatwg/html/issues/10848": {},
       "https://github.com/whatwg/html/issues/10849": {},
       "https://github.com/whatwg/html/issues/10850": {},
+      "https://github.com/whatwg/html/issues/11123": {},
       "https://github.com/whatwg/html/issues/1142": {},
       "https://github.com/whatwg/html/issues/1430": {},
       "https://github.com/whatwg/html/issues/1431": {},
@@ -2248,6 +2277,15 @@
         ]
       },
       "https://graphviz.org/doc/info/lang.html": {},
+      "https://httpwg.org/http-extensions/draft-ietf-httpbis-no-vary-search.html": {
+        "anchors": [
+          "name-http-header-field-definitio",
+          "parse-a-url-search-variance",
+          "name-data-model",
+          "name-comparing",
+          "section-6"
+        ]
+      },
       "https://httpwg.org/specs/rfc6265.html": {
         "anchors": [
           "sane-cookie-syntax",
@@ -2301,8 +2339,10 @@
       "https://httpwg.org/specs/rfc8941.html": {
         "anchors": [
           "boolean",
-          "token",
-          "param"
+          "list",
+          "param",
+          "string",
+          "token"
         ]
       },
       "https://immersive-web.github.io/webxr/": {
@@ -2458,6 +2498,7 @@
       "https://spec.whatwg.org/": {},
       "https://storage.spec.whatwg.org/": {
         "anchors": [
+          "storage-key",
           "obtain-a-local-storage-bottle-map",
           "obtain-a-session-storage-bottle-map",
           "obtain-a-storage-key-for-non-storage-purposes",
@@ -2713,6 +2754,15 @@
           "warning-avoid-psl"
         ]
       },
+      "https://urlpattern.spec.whatwg.org/": {
+        "anchors": [
+          "url-pattern",
+          "url-pattern-match",
+          "build-a-url-pattern-from-an-infra-value",
+          "parse-a-constructor-string",
+          "dictdef-urlpatterninit"
+        ]
+      },
       "https://w3c.github.io/DOM-Parsing/": {
         "anchors": [
           "dfn-xml-serialization"
@@ -2774,6 +2824,7 @@
           "aria-describedby",
           "aria-disabled",
           "aria-label",
+          "aria-level",
           "dfn-role",
           "dfn-accessible-name",
           "ARIAMixin",
@@ -2798,6 +2849,7 @@
         ]
       },
       "https://w3c.github.io/compute-pressure/": {},
+      "https://w3c.github.io/csswg-drafts/css-forms/": {},
       "https://w3c.github.io/device-posture/": {},
       "https://w3c.github.io/editing/docs/execCommand/": {
         "anchors": [
@@ -2955,6 +3007,7 @@
           "el-meter",
           "el-fieldset",
           "el-legend",
+          "el-selectedcontent",
           "el-details",
           "el-summary",
           "el-dialog",
@@ -3093,6 +3146,7 @@
           "el-meter",
           "el-fieldset",
           "el-legend",
+          "el-selectedcontent",
           "el-details",
           "el-summary",
           "el-dialog",
@@ -3264,6 +3318,7 @@
         "anchors": [
           "mouseevent",
           "dom-mouseevent-relatedtarget",
+          "dom-mouseevent-button",
           "dictdef-mouseeventinit",
           "focusevent",
           "dom-focusevent-relatedtarget",
@@ -3410,11 +3465,15 @@
           "navigation-status-complete",
           "navigation-status-url",
           "navigation-status-suggested-filename",
+          "download-behavior-struct-allowed",
+          "download-behavior-struct-destination-folder",
+          "navigation-status-downloaded-filepath",
           "webdriver-bidi-navigation-aborted",
           "webdriver-bidi-navigation-committed",
           "webdriver-bidi-navigation-failed",
           "webdriver-bidi-navigation-started",
-          "webdriver-bidi-download-started",
+          "webdriver-bidi-download-end",
+          "webdriver-bidi-download-will-begin",
           "webdriver-bidi-fragment-navigated",
           "webdriver-bidi-dom-content-loaded",
           "webdriver-bidi-load-complete",
@@ -3556,6 +3615,7 @@
           "idl-unsigned-long",
           "idl-USVString",
           "VoidFunction",
+          "quotaexceedederror",
           "dfn-throw",
           "dfn-DOMException",
           "indexsizeerror",
@@ -3570,7 +3630,6 @@
           "securityerror",
           "networkerror",
           "aborterror",
-          "quotaexceedederror",
           "datacloneerror",
           "encodingerror",
           "notallowederror"
@@ -3608,6 +3667,23 @@
           "dom-keyboard-lock"
         ]
       },
+      "https://wicg.github.io/nav-speculation/prefetch.html": {
+        "anchors": [
+          "start-a-referrer-initiated-navigational-prefetch",
+          "document-prefetch-records",
+          "prefetch-record-source",
+          "prefetch-record-state",
+          "prefetch-record-still-being-speculated",
+          "prefetch-record-cancel-and-discard",
+          "prefetch-record",
+          "prefetch-record-url",
+          "prefetch-record-no-vary-search-hint",
+          "prefetch-record-referrer-policy",
+          "prefetch-record-anonymization-policy",
+          "prefetch-record-tags"
+        ]
+      },
+      "https://wicg.github.io/nav-speculation/prerendering.html": {},
       "https://wicg.github.io/periodic-background-sync/": {
         "anchors": [
           "periodicsyncmanager",
@@ -3635,6 +3711,7 @@
           "requestdevice-method"
         ]
       },
+      "https://wicg.io/": {},
       "https://wiki.mozilla.org/APNG_Specification": {},
       "https://wiki.whatwg.org/": {},
       "https://wiki.whatwg.org/wiki/DOM_XSLTProcessor": {},
@@ -3813,6 +3890,7 @@
           "wf-entities"
         ]
       },
+      "https://www.w3.org/WAI/ARIA/apg/patterns/combobox/examples/combobox-select-only/": {},
       "https://www.w3.org/WebPlatform/WG/": {},
       "https://www.w3.org/blog/news/archives/7753": {},
       "https://www.w3.org/community/respimg/": {},

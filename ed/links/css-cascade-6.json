@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "CSS Cascading and Inheritance Level 6",
+    "title": "CSS Cascading and Inheritance Module Level 6",
     "url": "https://drafts.csswg.org/css-cascade-6/"
   },
   "links": {
@@ -86,6 +86,7 @@
       "https://github.com/w3c/csswg-drafts/issues/8628": {},
       "https://github.com/w3c/csswg-drafts/issues/9025": {},
       "https://github.com/w3c/csswg-drafts/issues/9178": {},
+      "https://github.com/w3c/csswg-drafts/issues/9740": {},
       "https://html.spec.whatwg.org/multipage/": {},
       "https://html.spec.whatwg.org/multipage/urls-and-fetching.html": {
         "anchors": [
@@ -112,7 +113,7 @@
           "specificity"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {}
+      "https://www.w3.org/policies/process/20250818/": {}
     },
     "autolinks": {
       "https://dom.spec.whatwg.org/": {
@@ -162,7 +163,7 @@
       "https://drafts.csswg.org/css-nesting-1/": {
         "anchors": [
           "selectordef-",
-          "nested-declarations-rule%E2%91%A0",
+          "nested-declarations-rule",
           "contain-the-nesting-selector"
         ]
       },

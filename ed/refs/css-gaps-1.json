@@ -19,7 +19,7 @@
       },
       {
         "name": "CSS-FLEXBOX-1",
-        "url": "https://drafts.csswg.org/css-flexbox-1/"
+        "url": "https://drafts.csswg.org/css-flexbox/"
       },
       {
         "name": "CSS-GRID-1",
@@ -56,8 +56,17 @@
       {
         "name": "RFC2119",
         "url": "https://datatracker.ietf.org/doc/html/rfc2119"
+      },
+      {
+        "name": "WEB-ANIMATIONS-1",
+        "url": "https://drafts.csswg.org/web-animations-1/"
       }
     ],
-    "informative": []
+    "informative": [
+      {
+        "name": "CSS-GAPS-1",
+        "url": "https://drafts.csswg.org/css-gaps-1/"
+      }
+    ]
   }
 }

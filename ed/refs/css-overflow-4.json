@@ -103,13 +103,13 @@
       },
       {
         "name": "UAX29",
-        "url": "https://www.unicode.org/reports/tr29/tr29-45.html"
+        "url": "https://www.unicode.org/reports/tr29/tr29-47.html"
       }
     ],
     "informative": [
       {
         "name": "CSS-FLEXBOX-1",
-        "url": "https://drafts.csswg.org/css-flexbox-1/"
+        "url": "https://drafts.csswg.org/css-flexbox/"
       },
       {
         "name": "CSS-OVERFLOW-4",
@@ -126,6 +126,10 @@
       {
         "name": "CSS-UI-4",
         "url": "https://drafts.csswg.org/css-ui-4/"
+      },
+      {
+        "name": "W3C-PROCESS",
+        "url": "https://www.w3.org/policies/process/"
       }
     ]
   }

@@ -393,10 +393,10 @@
       "links": []
     },
     {
-      "id": "valdef-block-ellipsis-none",
-      "href": "https://drafts.csswg.org/css-overflow-4/#valdef-block-ellipsis-none",
+      "id": "valdef-block-ellipsis-no-ellipsis",
+      "href": "https://drafts.csswg.org/css-overflow-4/#valdef-block-ellipsis-no-ellipsis",
       "linkingText": [
-        "none"
+        "no-ellipsis"
       ],
       "localLinkingText": [],
       "type": "value",
@@ -620,7 +620,7 @@
       "heading": {
         "id": "continue",
         "href": "https://drafts.csswg.org/css-overflow-4/#continue",
-        "title": "Fragmentation of Overflow: the continue property",
+        "title": "Handling of Excess Content: the continue property",
         "number": "5.3"
       },
       "definedIn": "table",
@@ -642,29 +642,7 @@
       "heading": {
         "id": "continue",
         "href": "https://drafts.csswg.org/css-overflow-4/#continue",
-        "title": "Fragmentation of Overflow: the continue property",
-        "number": "5.3"
-      },
-      "definedIn": "dt",
-      "links": []
-    },
-    {
-      "id": "valdef-continue-discard",
-      "href": "https://drafts.csswg.org/css-overflow-4/#valdef-continue-discard",
-      "linkingText": [
-        "discard"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "continue"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "continue",
-        "href": "https://drafts.csswg.org/css-overflow-4/#continue",
-        "title": "Fragmentation of Overflow: the continue property",
+        "title": "Handling of Excess Content: the continue property",
         "number": "5.3"
       },
       "definedIn": "dt",
@@ -686,7 +664,29 @@
       "heading": {
         "id": "continue",
         "href": "https://drafts.csswg.org/css-overflow-4/#continue",
-        "title": "Fragmentation of Overflow: the continue property",
+        "title": "Handling of Excess Content: the continue property",
+        "number": "5.3"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "valdef-continue-discard",
+      "href": "https://drafts.csswg.org/css-overflow-4/#valdef-continue-discard",
+      "linkingText": [
+        "discard"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "continue"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "continue",
+        "href": "https://drafts.csswg.org/css-overflow-4/#continue",
+        "title": "Handling of Excess Content: the continue property",
         "number": "5.3"
       },
       "definedIn": "dt",
@@ -717,6 +717,46 @@
       "href": "https://drafts.csswg.org/css-overflow-4/#clamp-point",
       "linkingText": [
         "clamp point"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "line-clamp-containers",
+        "href": "https://drafts.csswg.org/css-overflow-4/#line-clamp-containers",
+        "title": "Line-clamp containers",
+        "number": "5.3.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "auto-clamp-point",
+      "href": "https://drafts.csswg.org/css-overflow-4/#auto-clamp-point",
+      "linkingText": [
+        "auto clamp point"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "line-clamp-containers",
+        "href": "https://drafts.csswg.org/css-overflow-4/#line-clamp-containers",
+        "title": "Line-clamp containers",
+        "number": "5.3.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "line-based-clamp-point",
+      "href": "https://drafts.csswg.org/css-overflow-4/#line-based-clamp-point",
+      "linkingText": [
+        "line-based clamp point"
       ],
       "localLinkingText": [],
       "type": "dfn",

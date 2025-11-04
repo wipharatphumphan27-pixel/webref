@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "CSS Writing Modes Level 3",
+    "title": "CSS Writing Modes Module Level 3",
     "url": "https://drafts.csswg.org/css-writing-modes-3/"
   },
   "links": {
@@ -56,7 +56,7 @@
       },
       "https://drafts.csswg.org/css-contain-2/": {},
       "https://drafts.csswg.org/css-display/": {},
-      "https://drafts.csswg.org/css-flexbox-1/": {},
+      "https://drafts.csswg.org/css-flexbox/": {},
       "https://drafts.csswg.org/css-fonts-3/": {},
       "https://drafts.csswg.org/css-fonts-4/": {},
       "https://drafts.csswg.org/css-images-3/": {},
@@ -102,10 +102,10 @@
       "https://lists.w3.org/Archives/Public/www-style/": {},
       "https://unicode.org/notes/tn22/": {},
       "https://www.rfc-editor.org/rfc/rfc6919": {},
-      "https://www.unicode.org/reports/tr11/tr11-43.html": {},
-      "https://www.unicode.org/reports/tr24/tr24-38.html": {},
-      "https://www.unicode.org/reports/tr50/tr50-31.html": {},
-      "https://www.unicode.org/reports/tr9/tr9-50.html": {},
+      "https://www.unicode.org/reports/tr11/tr11-44.html": {},
+      "https://www.unicode.org/reports/tr24/tr24-39.html": {},
+      "https://www.unicode.org/reports/tr50/tr50-33.html": {},
+      "https://www.unicode.org/reports/tr9/tr9-51.html": {},
       "https://www.unicode.org/versions/latest/": {},
       "https://www.w3.org/Consortium/Process/": {
         "anchors": [
@@ -193,7 +193,7 @@
           "animation-type"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {}
+      "https://www.w3.org/policies/process/20250818/": {}
     },
     "autolinks": {
       "https://drafts.csswg.org/css-backgrounds-3/": {

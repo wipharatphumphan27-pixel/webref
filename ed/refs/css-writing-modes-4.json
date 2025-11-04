@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "CSS Writing Modes Level 4",
+    "title": "CSS Writing Modes Module Level 4",
     "url": "https://drafts.csswg.org/css-writing-modes-4/"
   },
   "refs": {
@@ -119,11 +119,11 @@
       },
       {
         "name": "UAX50",
-        "url": "https://www.unicode.org/reports/tr50/tr50-31.html"
+        "url": "https://www.unicode.org/reports/tr50/tr50-33.html"
       },
       {
         "name": "UAX9",
-        "url": "https://www.unicode.org/reports/tr9/tr9-50.html"
+        "url": "https://www.unicode.org/reports/tr9/tr9-51.html"
       }
     ],
     "informative": [
@@ -137,7 +137,7 @@
       },
       {
         "name": "CSS-FLEXBOX-1",
-        "url": "https://drafts.csswg.org/css-flexbox-1/"
+        "url": "https://drafts.csswg.org/css-flexbox/"
       },
       {
         "name": "CSS-FONTS-4",

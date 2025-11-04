@@ -86,6 +86,7 @@
       "https://github.com/webmachinelearning/webnn/issues/272": {},
       "https://github.com/whatwg/html/issues/505": {},
       "https://github.com/whatwg/webidl/issues/new": {},
+      "https://har.fyi/guides/getting-started/": {},
       "https://html.spec.whatwg.org/": {
         "anchors": [
           "tracking-user-activation",
@@ -121,6 +122,7 @@
       "https://html.spec.whatwg.org/multipage/webappapis.html": {
         "anchors": [
           "queuing-tasks",
+          "generic-task-sources",
           "microtask"
         ]
       },
@@ -134,6 +136,7 @@
           "window"
         ]
       },
+      "https://httpwg.org/admin/editors/style-guide": {},
       "https://httpwg.org/specs/rfc9110.html": {},
       "https://httpwg.org/specs/rfc9205.html": {
         "anchors": [
@@ -223,6 +226,7 @@
       "https://w3c.github.io/webrtc-pc/": {},
       "https://w3c.github.io/webtransport/": {},
       "https://w3ctag.github.io/bfcache-guide/": {},
+      "https://w3ctag.github.io/ethical-web-principles/": {},
       "https://w3ctag.github.io/privacy-principles/": {
         "anchors": [
           "sensitive-information"
@@ -243,17 +247,6 @@
       "https://wiki.csswg.org/spec/computed-values": {},
       "https://www.rfc-editor.org/rfc/rfc8890": {},
       "https://www.rfc-editor.org/rfc/rfc9000": {},
-      "https://www.w3.org/2001/tag/doc/ethical-web-principles/": {
-        "anchors": [
-          "allpeople",
-          "noharm",
-          "control",
-          "privacy",
-          "verify",
-          "render",
-          "expression"
-        ]
-      },
       "https://www.w3.org/2001/tag/doc/leastPower": {},
       "https://www.w3.org/2001/tag/doc/polyfills/": {},
       "https://www.w3.org/2001/tag/doc/private-browsing-modes/": {},
@@ -262,6 +255,7 @@
           "one-time-events"
         ]
       },
+      "https://www.w3.org/2001/tag/doc/the-web-is-unversioned/": {},
       "https://www.w3.org/Bugs/Public/show_bug.cgi?id=22824": {},
       "https://www.w3.org/Bugs/Public/show_bug.cgi?id=27114": {},
       "https://www.w3.org/TR/": {},
@@ -308,9 +302,15 @@
       },
       "https://www.w3.org/TR/ethical-web-principles/": {
         "anchors": [
+          "allpeople",
+          "noharm",
           "control",
+          "privacy",
+          "verify",
           "multi",
-          "transparent"
+          "render",
+          "transparent",
+          "expression"
         ]
       },
       "https://www.w3.org/TR/fingerprinting-guidance/": {},
@@ -369,7 +369,7 @@
       "https://www.w3.org/community/web-bluetooth/": {},
       "https://www.w3.org/groups/other/tag/": {},
       "https://www.w3.org/policies/patent-policy/": {},
-      "https://www.w3.org/policies/process/20231103/": {},
+      "https://www.w3.org/policies/process/20250818/": {},
       "https://xhr.spec.whatwg.org/": {}
     },
     "autolinks": {
@@ -554,6 +554,7 @@
           "the-option-element",
           "the-datalist-element",
           "attr-option-selected",
+          "dom-option-defaultselected",
           "the-textarea-element"
         ]
       },
@@ -594,7 +595,10 @@
           "attr-input-list",
           "attr-input-value",
           "attr-input-checked",
-          "attr-input-type"
+          "dom-input-defaultvalue",
+          "dom-input-defaultchecked",
+          "attr-input-type",
+          "dom-input-value"
         ]
       },
       "https://html.spec.whatwg.org/multipage/interaction.html": {
@@ -679,6 +683,14 @@
         "anchors": [
           "update-the-rendering",
           "microtask",
+          "task-source",
+          "concept-task",
+          "event-loop",
+          "dom-manipulation-task-source",
+          "user-interaction-task-source",
+          "networking-task-source",
+          "queue-a-global-task",
+          "queue-an-element-task",
           "event-handler-idl-attributes",
           "eventhandler",
           "globaleventhandlers",
@@ -822,7 +834,9 @@
       "https://w3c.github.io/uievents/": {
         "anchors": [
           "keyboardevent",
-          "mouseevent"
+          "mouseevent",
+          "inputevent",
+          "dom-inputevent-inputtype"
         ]
       },
       "https://w3c.github.io/web-locks/": {

@@ -12,7 +12,7 @@ interface MLGraphBuilder {
                      AllowSharedBufferSource buffer);
 
   // Create a scalar operand from the specified number of the specified type.
-  MLOperand constant(MLOperandDataType type, MLNumber value);
+  MLOperand constant(MLOperandDataType dataType, MLNumber value);
 
   // Create an operand from a specified constant tensor.
   MLOperand constant(MLTensor tensor);
@@ -38,7 +38,7 @@ partial interface MLGraphBuilder {
 // Source: Web Neural Network API (https://www.w3.org/TR/webnn/)
 partial interface MLGraphBuilder {
   MLOperand cast(MLOperand input,
-                 MLOperandDataType type,
+                 MLOperandDataType dataType,
                  optional MLOperatorOptions options = {});
 };
 
@@ -115,6 +115,8 @@ partial interface MLGraphBuilder {
   MLOperand logicalXor(MLOperand a,
                        MLOperand b,
                        optional MLOperatorOptions options = {});
+  MLOperand isNaN(MLOperand a, optional MLOperatorOptions options = {});
+  MLOperand isInfinite(MLOperand a, optional MLOperatorOptions options = {});
 };
 
 // Source: Web Neural Network API (https://www.w3.org/TR/webnn/)
@@ -129,6 +131,7 @@ partial interface MLGraphBuilder {
   MLOperand log(MLOperand input, optional MLOperatorOptions options = {});
   MLOperand neg(MLOperand input, optional MLOperatorOptions options = {});
   MLOperand reciprocal(MLOperand input, optional MLOperatorOptions options = {});
+  MLOperand roundEven(MLOperand input, optional MLOperatorOptions options = {});
   MLOperand sin(MLOperand input, optional MLOperatorOptions options = {});
   MLOperand sign(MLOperand input, optional MLOperatorOptions options = {});
   MLOperand sqrt(MLOperand input, optional MLOperatorOptions options = {});
@@ -226,8 +229,9 @@ partial interface MLGraphBuilder {
 
 // Source: Web Neural Network API (https://www.w3.org/TR/webnn/)
 partial interface MLGraphBuilder {
-  MLOperand instanceNormalization(MLOperand input,
-                                  optional MLInstanceNormalizationOptions options = {});
+  MLOperand instanceNormalization(
+    MLOperand input,
+    optional MLInstanceNormalizationOptions options = {});
 };
 
 // Source: Web Neural Network API (https://www.w3.org/TR/webnn/)

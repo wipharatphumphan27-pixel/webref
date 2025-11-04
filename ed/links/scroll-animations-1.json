@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "Scroll-driven Animations",
+    "title": "Scroll-driven Animations Module Level 1",
     "url": "https://drafts.csswg.org/scroll-animations-1/"
   },
   "links": {
@@ -159,7 +159,7 @@
           "animation-type"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {}
+      "https://www.w3.org/policies/process/20250818/": {}
     },
     "autolinks": {
       "https://dom.spec.whatwg.org/": {

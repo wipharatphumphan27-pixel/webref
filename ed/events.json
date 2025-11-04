@@ -1712,9 +1712,9 @@
   {
     "src": {
       "format": "fire an event phrasing",
-      "href": "https://wicg.github.io/cookie-store/#ref-for-fire-functional-event"
+      "href": "https://cookiestore.spec.whatwg.org/#ref-for-fire-functional-event"
     },
-    "href": "https://wicg.github.io/cookie-store/#ref-for-fire-functional-event",
+    "href": "https://cookiestore.spec.whatwg.org/#ref-for-fire-functional-event",
     "type": "cookiechange",
     "targets": [
       {
@@ -2977,11 +2977,17 @@
       "format": "fire an event phrasing",
       "href": "https://w3c.github.io/webrtc-encoded-transform/#ref-for-concept-event-fire"
     },
-    "href": "https://w3c.github.io/webrtc-encoded-transform/#dom-sframetransform-onerror",
+    "href": "https://w3c.github.io/webrtc-encoded-transform/#dom-sframekeymanagement-onerror",
     "type": "error",
     "targets": [
       {
         "target": "SFrameTransform"
+      },
+      {
+        "target": "SFrameEncrypterStream"
+      },
+      {
+        "target": "SFrameDecrypterStream"
       }
     ],
     "interface": "SFrameTransformErrorEvent"
@@ -5701,7 +5707,7 @@
   {
     "src": {
       "format": "fire an event phrasing",
-      "href": "https://immersive-web.github.io/webxr/#ref-for-concept-event-fire%E2%91%A0%E2%91%A2"
+      "href": "https://immersive-web.github.io/webxr/#ref-for-concept-event-fire%E2%91%A0%E2%91%A3"
     },
     "href": "https://immersive-web.github.io/webxr/#eventdef-xrreferencespace-reset",
     "type": "reset",
@@ -5868,15 +5874,23 @@
       },
       {
         "target": "Element",
-        "bubbles": true,
-        "bubblingPath": [
-          "Node",
-          "Document",
-          "Window"
-        ]
+        "bubbles": false
       }
     ],
     "interface": "Event"
+  },
+  {
+    "type": "scroll",
+    "interface": "Event",
+    "targets": [
+      {
+        "target": "Document",
+        "bubbles": true,
+        "bubblingPath": [
+          "Window"
+        ]
+      }
+    ]
   },
   {
     "href": "https://drafts.csswg.org/cssom-view-1/#eventdef-document-scrollend",
@@ -5891,15 +5905,23 @@
       },
       {
         "target": "Element",
-        "bubbles": true,
-        "bubblingPath": [
-          "Node",
-          "Document",
-          "Window"
-        ]
+        "bubbles": false
       }
     ],
     "interface": "Event"
+  },
+  {
+    "type": "scrollend",
+    "interface": "Event",
+    "targets": [
+      {
+        "target": "Document",
+        "bubbles": true,
+        "bubblingPath": [
+          "Window"
+        ]
+      }
+    ]
   },
   {
     "src": {
@@ -7269,6 +7291,20 @@
       }
     ],
     "interface": "XRSessionEvent"
+  },
+  {
+    "src": {
+      "format": "fire an event phrasing",
+      "href": "https://immersive-web.github.io/webxr/#ref-for-concept-event-fire%E2%91%A0%E2%91%A2"
+    },
+    "href": "https://immersive-web.github.io/webxr/#eventdef-xrsession-visibilitymaskchange",
+    "type": "visibilitymaskchange",
+    "targets": [
+      {
+        "target": "XRSession"
+      }
+    ],
+    "interface": "XRVisibilityMaskChangeEvent"
   },
   {
     "type": "voiceschanged",

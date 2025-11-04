@@ -19,12 +19,20 @@
         "url": "https://www.w3.org/DesignIssues/RDFnot.html"
       },
       {
+        "name": "RDF-PLAIN-LITERAL",
+        "url": "https://www.w3.org/TR/rdf-plain-literal/"
+      },
+      {
         "name": "RDF11-SCHEMA",
         "url": "https://www.w3.org/TR/rdf-schema/"
       },
       {
         "name": "RDF12-CONCEPTS",
         "url": "https://www.w3.org/TR/rdf12-concepts/"
+      },
+      {
+        "name": "RDF12-INTEROP",
+        "url": "https://w3c.github.io/rdf-interop/spec/"
       },
       {
         "name": "RDF12-N-QUADS",
@@ -40,7 +48,7 @@
       },
       {
         "name": "RDF12-PRIMER",
-        "url": "https://w3c.github.io/rdf-primer/spec/"
+        "url": "https://www.w3.org/TR/rdf12-primer/"
       },
       {
         "name": "RDF12-SEMANTICS",
@@ -105,6 +113,14 @@
       {
         "name": "SPARQL12-UPDATE",
         "url": "https://www.w3.org/TR/sparql12-update/"
+      },
+      {
+        "name": "W3C-PROCESS",
+        "url": "https://www.w3.org/policies/process/"
+      },
+      {
+        "name": "XMLSCHEMA11-2",
+        "url": "https://www.w3.org/TR/xmlschema11-2/"
       }
     ]
   }

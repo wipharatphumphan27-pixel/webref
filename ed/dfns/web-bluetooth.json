@@ -3437,6 +3437,116 @@
       "links": []
     },
     {
+      "id": "dom-bluetoothremotegattcharacteristic-automatedcharacteristicreadresponse-slot",
+      "href": "https://webbluetoothcg.github.io/web-bluetooth/#dom-bluetoothremotegattcharacteristic-automatedcharacteristicreadresponse-slot",
+      "linkingText": [
+        "[[automatedCharacteristicReadResponse]]"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "BluetoothRemoteGATTCharacteristic"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "bluetoothgattcharacteristic-interface",
+        "href": "https://webbluetoothcg.github.io/web-bluetooth/#bluetoothgattcharacteristic-interface",
+        "title": "BluetoothRemoteGATTCharacteristic",
+        "number": "6.4"
+      },
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "dom-bluetoothremotegattcharacteristic-automatedcharacteristicreadresponsedata-slot",
+      "href": "https://webbluetoothcg.github.io/web-bluetooth/#dom-bluetoothremotegattcharacteristic-automatedcharacteristicreadresponsedata-slot",
+      "linkingText": [
+        "[[automatedCharacteristicReadResponseData]]"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "BluetoothRemoteGATTCharacteristic"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "bluetoothgattcharacteristic-interface",
+        "href": "https://webbluetoothcg.github.io/web-bluetooth/#bluetoothgattcharacteristic-interface",
+        "title": "BluetoothRemoteGATTCharacteristic",
+        "number": "6.4"
+      },
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "dom-bluetoothremotegattcharacteristic-automatedcharacteristicwriteresponse-slot",
+      "href": "https://webbluetoothcg.github.io/web-bluetooth/#dom-bluetoothremotegattcharacteristic-automatedcharacteristicwriteresponse-slot",
+      "linkingText": [
+        "[[automatedCharacteristicWriteResponse]]"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "BluetoothRemoteGATTCharacteristic"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "bluetoothgattcharacteristic-interface",
+        "href": "https://webbluetoothcg.github.io/web-bluetooth/#bluetoothgattcharacteristic-interface",
+        "title": "BluetoothRemoteGATTCharacteristic",
+        "number": "6.4"
+      },
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "dom-bluetoothremotegattcharacteristic-automatedcharacteristicsubscribetonotificationsresponse-slot",
+      "href": "https://webbluetoothcg.github.io/web-bluetooth/#dom-bluetoothremotegattcharacteristic-automatedcharacteristicsubscribetonotificationsresponse-slot",
+      "linkingText": [
+        "[[automatedCharacteristicSubscribeToNotificationsResponse]]"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "BluetoothRemoteGATTCharacteristic"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "bluetoothgattcharacteristic-interface",
+        "href": "https://webbluetoothcg.github.io/web-bluetooth/#bluetoothgattcharacteristic-interface",
+        "title": "BluetoothRemoteGATTCharacteristic",
+        "number": "6.4"
+      },
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "dom-bluetoothremotegattcharacteristic-automatedcharacteristicunsubscribefromnotificationsresponse-slot",
+      "href": "https://webbluetoothcg.github.io/web-bluetooth/#dom-bluetoothremotegattcharacteristic-automatedcharacteristicunsubscribefromnotificationsresponse-slot",
+      "linkingText": [
+        "[[automatedCharacteristicUnsubscribeFromNotificationsResponse]]"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "BluetoothRemoteGATTCharacteristic"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "bluetoothgattcharacteristic-interface",
+        "href": "https://webbluetoothcg.github.io/web-bluetooth/#bluetoothgattcharacteristic-interface",
+        "title": "BluetoothRemoteGATTCharacteristic",
+        "number": "6.4"
+      },
+      "definedIn": "table",
+      "links": []
+    },
+    {
       "id": "create-a-bluetoothremotegattcharacteristic-representing",
       "href": "https://webbluetoothcg.github.io/web-bluetooth/#create-a-bluetoothremotegattcharacteristic-representing",
       "linkingText": [
@@ -4024,6 +4134,72 @@
       "href": "https://webbluetoothcg.github.io/web-bluetooth/#dom-bluetoothremotegattdescriptor-representeddescriptor-slot",
       "linkingText": [
         "[[representedDescriptor]]"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "BluetoothRemoteGATTDescriptor"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "bluetoothgattdescriptor-interface",
+        "href": "https://webbluetoothcg.github.io/web-bluetooth/#bluetoothgattdescriptor-interface",
+        "title": "BluetoothRemoteGATTDescriptor",
+        "number": "6.5"
+      },
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "dom-bluetoothremotegattdescriptor-automateddescriptorreadresponse-slot",
+      "href": "https://webbluetoothcg.github.io/web-bluetooth/#dom-bluetoothremotegattdescriptor-automateddescriptorreadresponse-slot",
+      "linkingText": [
+        "[[automatedDescriptorReadResponse]]"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "BluetoothRemoteGATTDescriptor"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "bluetoothgattdescriptor-interface",
+        "href": "https://webbluetoothcg.github.io/web-bluetooth/#bluetoothgattdescriptor-interface",
+        "title": "BluetoothRemoteGATTDescriptor",
+        "number": "6.5"
+      },
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "dom-bluetoothremotegattdescriptor-automateddescriptorreadresponsedata-slot",
+      "href": "https://webbluetoothcg.github.io/web-bluetooth/#dom-bluetoothremotegattdescriptor-automateddescriptorreadresponsedata-slot",
+      "linkingText": [
+        "[[automatedDescriptorReadResponseData]]"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "BluetoothRemoteGATTDescriptor"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "bluetoothgattdescriptor-interface",
+        "href": "https://webbluetoothcg.github.io/web-bluetooth/#bluetoothgattdescriptor-interface",
+        "title": "BluetoothRemoteGATTDescriptor",
+        "number": "6.5"
+      },
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "dom-bluetoothremotegattdescriptor-automateddescriptorwriteresponse-slot",
+      "href": "https://webbluetoothcg.github.io/web-bluetooth/#dom-bluetoothremotegattdescriptor-automateddescriptorwriteresponse-slot",
+      "linkingText": [
+        "[[automatedDescriptorWriteResponse]]"
       ],
       "localLinkingText": [],
       "type": "attribute",
@@ -5348,6 +5524,63 @@
       "href": "https://webbluetoothcg.github.io/web-bluetooth/#simulated-gatt-characteristic",
       "linkingText": [
         "simulated GATT characteristic"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "automated-testing",
+        "href": "https://webbluetoothcg.github.io/web-bluetooth/#automated-testing",
+        "title": "12. Automated testing"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "simulated-gatt-descriptor-mapping",
+      "href": "https://webbluetoothcg.github.io/web-bluetooth/#simulated-gatt-descriptor-mapping",
+      "linkingText": [
+        "simulated GATT descriptor mapping"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "automated-testing",
+        "href": "https://webbluetoothcg.github.io/web-bluetooth/#automated-testing",
+        "title": "12. Automated testing"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "simulated-gatt-characteristic-properties",
+      "href": "https://webbluetoothcg.github.io/web-bluetooth/#simulated-gatt-characteristic-properties",
+      "linkingText": [
+        "Simulated GATT characteristic properties"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "automated-testing",
+        "href": "https://webbluetoothcg.github.io/web-bluetooth/#automated-testing",
+        "title": "12. Automated testing"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "simulated-gatt-descriptor",
+      "href": "https://webbluetoothcg.github.io/web-bluetooth/#simulated-gatt-descriptor",
+      "linkingText": [
+        "simulated GATT descriptor"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -9824,6 +10057,26 @@
       "links": []
     },
     {
+      "id": "trigger-a-simulated-characteristic-event",
+      "href": "https://webbluetoothcg.github.io/web-bluetooth/#trigger-a-simulated-characteristic-event",
+      "linkingText": [
+        "trigger a simulated characteristic event"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "bluetooth-characteristiceventgenerated-event",
+        "href": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-characteristiceventgenerated-event",
+        "title": "The bluetooth.characteristicEventGenerated Event",
+        "number": "12.2.4.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
       "id": "cddl-type-bluetoothdescriptoreventgenerated",
       "href": "https://webbluetoothcg.github.io/web-bluetooth/#cddl-type-bluetoothdescriptoreventgenerated",
       "linkingText": [
@@ -10137,6 +10390,26 @@
         "number": "12.2.4.4"
       },
       "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "trigger-a-simulated-descriptor-event",
+      "href": "https://webbluetoothcg.github.io/web-bluetooth/#trigger-a-simulated-descriptor-event",
+      "linkingText": [
+        "trigger a simulated descriptor event"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "bluetooth-descriptoreventgenerated-event",
+        "href": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-descriptoreventgenerated-event",
+        "title": "The bluetooth.descriptorEventGenerated Event",
+        "number": "12.2.4.4"
+      },
+      "definedIn": "prose",
       "links": []
     },
     {

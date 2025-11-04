@@ -658,7 +658,7 @@
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "url-processing",
@@ -3639,6 +3639,26 @@
         "number": "10.7.1"
       },
       "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "implementation-defined-limit-for-values-approaching-infinity",
+      "href": "https://drafts.csswg.org/css-values-4/#implementation-defined-limit-for-values-approaching-infinity",
+      "linkingText": [
+        "implementation-defined limit for values approaching infinity"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "calc-error-constants",
+        "href": "https://drafts.csswg.org/css-values-4/#calc-error-constants",
+        "title": "Degenerate Numeric Constants: infinity, -infinity, NaN",
+        "number": "10.7.2"
+      },
+      "definedIn": "prose",
       "links": []
     },
     {

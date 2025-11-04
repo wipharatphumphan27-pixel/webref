@@ -5,7 +5,6 @@
   },
   "links": {
     "rawlinks": {
-      "http://www.rfc-editor.org/rfc/rfc2119.txt": {},
       "https://github.com/boggydigital": {},
       "https://github.com/cookiecrook": {},
       "https://github.com/daniel-montalvo": {},
@@ -50,10 +49,9 @@
       "https://www.w3.org/TR/html52/": {},
       "https://www.w3.org/TR/svg-aam-1.0/": {},
       "https://www.w3.org/TR/wai-aria-1.1/": {},
-      "https://www.w3.org/TR/wai-aria-practices-1.1/": {},
-      "https://www.w3.org/TR/wai-aria-practices/": {},
       "https://www.w3.org/TR/wai-aria/": {},
       "https://www.w3.org/WAI/ARIA/": {},
+      "https://www.w3.org/WAI/ARIA/apg/": {},
       "https://www.w3.org/WAI/PF/svg-a11y-tf/": {},
       "https://www.w3.org/WAI/intro/aria.php": {},
       "https://www.w3.org/groups/wg/aria": {},
@@ -64,7 +62,7 @@
           "sec-Disclosure"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {}
+      "https://www.w3.org/policies/process/20250818/": {}
     },
     "autolinks": {
       "https://infra.spec.whatwg.org/": {
@@ -75,7 +73,7 @@
       "https://www.w3.org/TR/wai-aria/": {
         "anchors": [
           "dfn-accessibility-api",
-          "dfn-assistive-technologies",
+          "assistive-technology",
           "dfn-role",
           "dfn-state",
           "dfn-property"

@@ -3237,6 +3237,136 @@
       "links": []
     },
     {
+      "id": "emulated-network-conditions-struct",
+      "href": "https://w3c.github.io/webdriver-bidi/#emulated-network-conditions-struct",
+      "linkingText": [
+        "emulated network conditions struct"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "user-contexts",
+        "href": "https://w3c.github.io/webdriver-bidi/#user-contexts",
+        "title": "User Contexts",
+        "number": "6"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "emulated-network-conditions-struct-offline",
+      "href": "https://w3c.github.io/webdriver-bidi/#emulated-network-conditions-struct-offline",
+      "linkingText": [
+        "offline"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "emulated-network-conditions-struct"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "user-contexts",
+        "href": "https://w3c.github.io/webdriver-bidi/#user-contexts",
+        "title": "User Contexts",
+        "number": "6"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "session-emulated-network-conditions",
+      "href": "https://w3c.github.io/webdriver-bidi/#session-emulated-network-conditions",
+      "linkingText": [
+        "emulated network conditions"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "session"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "user-contexts",
+        "href": "https://w3c.github.io/webdriver-bidi/#user-contexts",
+        "title": "User Contexts",
+        "number": "6"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "emulated-network-conditions-default-network-conditions",
+      "href": "https://w3c.github.io/webdriver-bidi/#emulated-network-conditions-default-network-conditions",
+      "linkingText": [
+        "default network conditions"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "emulated network conditions"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "user-contexts",
+        "href": "https://w3c.github.io/webdriver-bidi/#user-contexts",
+        "title": "User Contexts",
+        "number": "6"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "emulated-network-conditions-user-context-network-conditions",
+      "href": "https://w3c.github.io/webdriver-bidi/#emulated-network-conditions-user-context-network-conditions",
+      "linkingText": [
+        "user context network conditions"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "emulated network conditions"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "user-contexts",
+        "href": "https://w3c.github.io/webdriver-bidi/#user-contexts",
+        "title": "User Contexts",
+        "number": "6"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "emulated-network-conditions-navigable-network-conditions",
+      "href": "https://w3c.github.io/webdriver-bidi/#emulated-network-conditions-navigable-network-conditions",
+      "linkingText": [
+        "navigable network conditions"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "emulated network conditions"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "user-contexts",
+        "href": "https://w3c.github.io/webdriver-bidi/#user-contexts",
+        "title": "User Contexts",
+        "number": "6"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
       "id": "remove-user-context-subscriptions",
       "href": "https://w3c.github.io/webdriver-bidi/#remove-user-context-subscriptions",
       "linkingText": [
@@ -4613,29 +4743,6 @@
       "links": []
     },
     {
-      "id": "cddl-key-sessionunsubscribebyattributesrequest-contexts",
-      "href": "https://w3c.github.io/webdriver-bidi/#cddl-key-sessionunsubscribebyattributesrequest-contexts",
-      "linkingText": [
-        "contexts",
-        "\"contexts\""
-      ],
-      "localLinkingText": [],
-      "type": "cddl-key",
-      "for": [
-        "session.UnsubscribeByAttributesRequest"
-      ],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "type-session-UnsubscribeByAttributesRequest",
-        "href": "https://w3c.github.io/webdriver-bidi/#type-session-UnsubscribeByAttributesRequest",
-        "title": "The session.UnsubscribeByAttributesRequest Type",
-        "number": "7.1.2.9"
-      },
-      "definedIn": "pre",
-      "links": []
-    },
-    {
       "id": "commands-sessionstatus",
       "href": "https://w3c.github.io/webdriver-bidi/#commands-sessionstatus",
       "linkingText": [
@@ -5351,6 +5458,26 @@
       "links": []
     },
     {
+      "id": "cddl-type-sessionendresult",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-type-sessionendresult",
+      "linkingText": [
+        "session.EndResult"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-session-end",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-session-end",
+        "title": "The session.end Command",
+        "number": "7.1.3.3"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
       "id": "commands-sessionsubscribe",
       "href": "https://w3c.github.io/webdriver-bidi/#commands-sessionsubscribe",
       "linkingText": [
@@ -5620,6 +5747,26 @@
       "href": "https://w3c.github.io/webdriver-bidi/#cddl-type-sessionunsubscribeparameters",
       "linkingText": [
         "session.UnsubscribeParameters"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-session-unsubscribe",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-session-unsubscribe",
+        "title": "The session.unsubscribe Command",
+        "number": "7.1.3.5"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-sessionunsubscriberesult",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-type-sessionunsubscriberesult",
+      "linkingText": [
+        "session.UnsubscribeResult"
       ],
       "localLinkingText": [],
       "type": "cddl-type",
@@ -6319,6 +6466,26 @@
       "links": []
     },
     {
+      "id": "browserusercontext",
+      "href": "https://w3c.github.io/webdriver-bidi/#browserusercontext",
+      "linkingText": [
+        "browser.UserContext"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "type-browser-UserContext",
+        "href": "https://w3c.github.io/webdriver-bidi/#type-browser-UserContext",
+        "title": "The browser.UserContext Type",
+        "number": "7.2.3.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
       "id": "cddl-type-browserusercontextinfo",
       "href": "https://w3c.github.io/webdriver-bidi/#cddl-type-browserusercontextinfo",
       "linkingText": [
@@ -6461,6 +6628,26 @@
       "for": [
         "browser.Close"
       ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-browser-close",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-browser-close",
+        "title": "The browser.close Command",
+        "number": "7.2.4.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-browsercloseresult",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-type-browsercloseresult",
+      "linkingText": [
+        "browser.CloseResult"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
       "access": "private",
       "informative": false,
       "heading": {
@@ -7155,6 +7342,26 @@
       "links": []
     },
     {
+      "id": "cddl-type-browserremoveusercontextresult",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-type-browserremoveusercontextresult",
+      "linkingText": [
+        "browser.RemoveUserContextResult"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-browser-removeUserContext",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-browser-removeUserContext",
+        "title": "The browser.removeUserContext Command",
+        "number": "7.2.4.5"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
       "id": "commands-browsersetclientwindowstate",
       "href": "https://w3c.github.io/webdriver-bidi/#commands-browsersetclientwindowstate",
       "linkingText": [
@@ -7576,6 +7783,524 @@
         "number": "7.2.4.6"
       },
       "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-browsersetclientwindowstateresult",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-type-browsersetclientwindowstateresult",
+      "linkingText": [
+        "browser.SetClientWindowStateResult"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-browser-setClientWindowState",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-browser-setClientWindowState",
+        "title": "The browser.setClientWindowState Command",
+        "number": "7.2.4.6"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "download-behavior-struct",
+      "href": "https://w3c.github.io/webdriver-bidi/#download-behavior-struct",
+      "linkingText": [
+        "download behavior struct"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-browser-setDownloadBehavior",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-browser-setDownloadBehavior",
+        "title": "The browser.setDownloadBehavior Command",
+        "number": "7.2.4.7"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "download-behavior-struct-allowed",
+      "href": "https://w3c.github.io/webdriver-bidi/#download-behavior-struct-allowed",
+      "linkingText": [
+        "allowed"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "download-behavior-struct"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-browser-setDownloadBehavior",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-browser-setDownloadBehavior",
+        "title": "The browser.setDownloadBehavior Command",
+        "number": "7.2.4.7"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "download-behavior-struct-destination-folder",
+      "href": "https://w3c.github.io/webdriver-bidi/#download-behavior-struct-destination-folder",
+      "linkingText": [
+        "destinationFolder"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "download-behavior-struct"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-browser-setDownloadBehavior",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-browser-setDownloadBehavior",
+        "title": "The browser.setDownloadBehavior Command",
+        "number": "7.2.4.7"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "download-behavior",
+      "href": "https://w3c.github.io/webdriver-bidi/#download-behavior",
+      "linkingText": [
+        "download behavior"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-browser-setDownloadBehavior",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-browser-setDownloadBehavior",
+        "title": "The browser.setDownloadBehavior Command",
+        "number": "7.2.4.7"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "download-behavior-default-download-behavior",
+      "href": "https://w3c.github.io/webdriver-bidi/#download-behavior-default-download-behavior",
+      "linkingText": [
+        "default download behavior"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "download behavior"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-browser-setDownloadBehavior",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-browser-setDownloadBehavior",
+        "title": "The browser.setDownloadBehavior Command",
+        "number": "7.2.4.7"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "download-behavior-user-context-download-behavior",
+      "href": "https://w3c.github.io/webdriver-bidi/#download-behavior-user-context-download-behavior",
+      "linkingText": [
+        "user context download behavior"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "download behavior"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-browser-setDownloadBehavior",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-browser-setDownloadBehavior",
+        "title": "The browser.setDownloadBehavior Command",
+        "number": "7.2.4.7"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "cddl-type-browsersetdownloadbehavior",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-type-browsersetdownloadbehavior",
+      "linkingText": [
+        "browser.SetDownloadBehavior"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-browser-setDownloadBehavior",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-browser-setDownloadBehavior",
+        "title": "The browser.setDownloadBehavior Command",
+        "number": "7.2.4.7"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-browsersetdownloadbehavior-method",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-key-browsersetdownloadbehavior-method",
+      "linkingText": [
+        "method",
+        "\"method\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "browser.SetDownloadBehavior"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-browser-setDownloadBehavior",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-browser-setDownloadBehavior",
+        "title": "The browser.setDownloadBehavior Command",
+        "number": "7.2.4.7"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-value-browsersetdownloadbehavior-method-browsersetdownloadbehavior",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-value-browsersetdownloadbehavior-method-browsersetdownloadbehavior",
+      "linkingText": [
+        "browser.setDownloadBehavior",
+        "\"browser.setDownloadBehavior\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-value",
+      "for": [
+        "browser.SetDownloadBehavior/method"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-browser-setDownloadBehavior",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-browser-setDownloadBehavior",
+        "title": "The browser.setDownloadBehavior Command",
+        "number": "7.2.4.7"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-browsersetdownloadbehavior-params",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-key-browsersetdownloadbehavior-params",
+      "linkingText": [
+        "params",
+        "\"params\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "browser.SetDownloadBehavior"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-browser-setDownloadBehavior",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-browser-setDownloadBehavior",
+        "title": "The browser.setDownloadBehavior Command",
+        "number": "7.2.4.7"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-browsersetdownloadbehaviorparameters",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-type-browsersetdownloadbehaviorparameters",
+      "linkingText": [
+        "browser.SetDownloadBehaviorParameters"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-browser-setDownloadBehavior",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-browser-setDownloadBehavior",
+        "title": "The browser.setDownloadBehavior Command",
+        "number": "7.2.4.7"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-browsersetdownloadbehaviorparameters-downloadbehavior",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-key-browsersetdownloadbehaviorparameters-downloadbehavior",
+      "linkingText": [
+        "downloadBehavior",
+        "\"downloadBehavior\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "browser.SetDownloadBehaviorParameters"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-browser-setDownloadBehavior",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-browser-setDownloadBehavior",
+        "title": "The browser.setDownloadBehavior Command",
+        "number": "7.2.4.7"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-browsersetdownloadbehaviorparameters-usercontexts",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-key-browsersetdownloadbehaviorparameters-usercontexts",
+      "linkingText": [
+        "userContexts",
+        "\"userContexts\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "browser.SetDownloadBehaviorParameters"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-browser-setDownloadBehavior",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-browser-setDownloadBehavior",
+        "title": "The browser.setDownloadBehavior Command",
+        "number": "7.2.4.7"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-browserdownloadbehavior",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-type-browserdownloadbehavior",
+      "linkingText": [
+        "browser.DownloadBehavior"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-browser-setDownloadBehavior",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-browser-setDownloadBehavior",
+        "title": "The browser.setDownloadBehavior Command",
+        "number": "7.2.4.7"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-browserdownloadbehaviorallowed",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-type-browserdownloadbehaviorallowed",
+      "linkingText": [
+        "browser.DownloadBehaviorAllowed"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-browser-setDownloadBehavior",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-browser-setDownloadBehavior",
+        "title": "The browser.setDownloadBehavior Command",
+        "number": "7.2.4.7"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-browserdownloadbehaviorallowed-type",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-key-browserdownloadbehaviorallowed-type",
+      "linkingText": [
+        "type",
+        "\"type\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "browser.DownloadBehaviorAllowed"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-browser-setDownloadBehavior",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-browser-setDownloadBehavior",
+        "title": "The browser.setDownloadBehavior Command",
+        "number": "7.2.4.7"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-value-browserdownloadbehaviorallowed-type-allowed",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-value-browserdownloadbehaviorallowed-type-allowed",
+      "linkingText": [
+        "allowed",
+        "\"allowed\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-value",
+      "for": [
+        "browser.DownloadBehaviorAllowed/type"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-browser-setDownloadBehavior",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-browser-setDownloadBehavior",
+        "title": "The browser.setDownloadBehavior Command",
+        "number": "7.2.4.7"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-browserdownloadbehaviorallowed-destinationfolder",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-key-browserdownloadbehaviorallowed-destinationfolder",
+      "linkingText": [
+        "destinationFolder",
+        "\"destinationFolder\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "browser.DownloadBehaviorAllowed"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-browser-setDownloadBehavior",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-browser-setDownloadBehavior",
+        "title": "The browser.setDownloadBehavior Command",
+        "number": "7.2.4.7"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-browserdownloadbehaviordenied",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-type-browserdownloadbehaviordenied",
+      "linkingText": [
+        "browser.DownloadBehaviorDenied"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-browser-setDownloadBehavior",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-browser-setDownloadBehavior",
+        "title": "The browser.setDownloadBehavior Command",
+        "number": "7.2.4.7"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-browserdownloadbehaviordenied-type",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-key-browserdownloadbehaviordenied-type",
+      "linkingText": [
+        "type",
+        "\"type\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "browser.DownloadBehaviorDenied"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-browser-setDownloadBehavior",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-browser-setDownloadBehavior",
+        "title": "The browser.setDownloadBehavior Command",
+        "number": "7.2.4.7"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-value-browserdownloadbehaviordenied-type-denied",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-value-browserdownloadbehaviordenied-type-denied",
+      "linkingText": [
+        "denied",
+        "\"denied\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-value",
+      "for": [
+        "browser.DownloadBehaviorDenied/type"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-browser-setDownloadBehavior",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-browser-setDownloadBehavior",
+        "title": "The browser.setDownloadBehavior Command",
+        "number": "7.2.4.7"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-browsersetdownloadbehaviorresult",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-type-browsersetdownloadbehaviorresult",
+      "linkingText": [
+        "browser.SetDownloadBehaviorResult"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-browser-setDownloadBehavior",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-browser-setDownloadBehavior",
+        "title": "The browser.setDownloadBehavior Command",
+        "number": "7.2.4.7"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "get-download-behavior",
+      "href": "https://w3c.github.io/webdriver-bidi/#get-download-behavior",
+      "linkingText": [
+        "get download behavior"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "command-browser-setDownloadBehavior",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-browser-setDownloadBehavior",
+        "title": "The browser.setDownloadBehavior Command",
+        "number": "7.2.4.7"
+      },
+      "definedIn": "prose",
       "links": []
     },
     {
@@ -8217,6 +8942,26 @@
       "href": "https://w3c.github.io/webdriver-bidi/#unhandled-prompt-behavior-overrides-map",
       "linkingText": [
         "unhandled prompt behavior overrides map"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "module-browsingContext-definition",
+        "href": "https://w3c.github.io/webdriver-bidi/#module-browsingContext-definition",
+        "title": "Definition",
+        "number": "7.3.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "scripting-enabled-overrides-map",
+      "href": "https://w3c.github.io/webdriver-bidi/#scripting-enabled-overrides-map",
+      "linkingText": [
+        "scripting enabled overrides map"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -9770,6 +10515,26 @@
       "links": []
     },
     {
+      "id": "cddl-type-browsingcontextactivateresult",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-type-browsingcontextactivateresult",
+      "linkingText": [
+        "browsingContext.ActivateResult"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-browsingContext-activate",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-browsingContext-activate",
+        "title": "The browsingContext.activate Command",
+        "number": "7.3.3.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
       "id": "activate-a-navigable",
       "href": "https://w3c.github.io/webdriver-bidi/#activate-a-navigable",
       "linkingText": [
@@ -10712,6 +11477,26 @@
       "links": []
     },
     {
+      "id": "cddl-type-browsingcontextcloseresult",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-type-browsingcontextcloseresult",
+      "linkingText": [
+        "browsingContext.CloseResult"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-browsingContext-close",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-browsingContext-close",
+        "title": "The browsingContext.close Command",
+        "number": "7.3.3.3"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
       "id": "commands-browsingcontextcreate",
       "href": "https://w3c.github.io/webdriver-bidi/#commands-browsingcontextcreate",
       "linkingText": [
@@ -11452,6 +12237,26 @@
       "for": [
         "browsingContext.HandleUserPromptParameters"
       ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-browsingContext-handleUserPrompt",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-browsingContext-handleUserPrompt",
+        "title": "The browsingContext.handleUserPrompt Command",
+        "number": "7.3.3.6"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-browsingcontexthandleuserpromptresult",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-type-browsingcontexthandleuserpromptresult",
+      "linkingText": [
+        "browsingContext.HandleUserPromptResult"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
       "access": "private",
       "informative": false,
       "heading": {
@@ -12921,6 +13726,26 @@
       "links": []
     },
     {
+      "id": "cddl-type-browsingcontextreloadresult",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-type-browsingcontextreloadresult",
+      "linkingText": [
+        "browsingContext.ReloadResult"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-browsingContext-reload",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-browsingContext-reload",
+        "title": "The browsingContext.reload Command",
+        "number": "7.3.3.10"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
       "id": "commands-browsingcontextsetviewport",
       "href": "https://w3c.github.io/webdriver-bidi/#commands-browsingcontextsetviewport",
       "linkingText": [
@@ -13198,6 +14023,26 @@
       "for": [
         "browsingContext.Viewport"
       ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-browsingContext-setViewport",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-browsingContext-setViewport",
+        "title": "The browsingContext.setViewport Command",
+        "number": "7.3.3.11"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-browsingcontextsetviewportresult",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-type-browsingcontextsetviewportresult",
+      "linkingText": [
+        "browsingContext.SetViewportResult"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
       "access": "private",
       "informative": false,
       "heading": {
@@ -14390,8 +15235,8 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "event-browsingContext-downoadWillBegin",
-        "href": "https://w3c.github.io/webdriver-bidi/#event-browsingContext-downoadWillBegin",
+        "id": "event-browsingContext-downloadWillBegin",
+        "href": "https://w3c.github.io/webdriver-bidi/#event-browsingContext-downloadWillBegin",
         "title": "The browsingContext.downloadWillBegin Event",
         "number": "7.3.4.8"
       },
@@ -14413,8 +15258,8 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "event-browsingContext-downoadWillBegin",
-        "href": "https://w3c.github.io/webdriver-bidi/#event-browsingContext-downoadWillBegin",
+        "id": "event-browsingContext-downloadWillBegin",
+        "href": "https://w3c.github.io/webdriver-bidi/#event-browsingContext-downloadWillBegin",
         "title": "The browsingContext.downloadWillBegin Event",
         "number": "7.3.4.8"
       },
@@ -14436,8 +15281,8 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "event-browsingContext-downoadWillBegin",
-        "href": "https://w3c.github.io/webdriver-bidi/#event-browsingContext-downoadWillBegin",
+        "id": "event-browsingContext-downloadWillBegin",
+        "href": "https://w3c.github.io/webdriver-bidi/#event-browsingContext-downloadWillBegin",
         "title": "The browsingContext.downloadWillBegin Event",
         "number": "7.3.4.8"
       },
@@ -14459,8 +15304,8 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "event-browsingContext-downoadWillBegin",
-        "href": "https://w3c.github.io/webdriver-bidi/#event-browsingContext-downoadWillBegin",
+        "id": "event-browsingContext-downloadWillBegin",
+        "href": "https://w3c.github.io/webdriver-bidi/#event-browsingContext-downloadWillBegin",
         "title": "The browsingContext.downloadWillBegin Event",
         "number": "7.3.4.8"
       },
@@ -14479,8 +15324,8 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "event-browsingContext-downoadWillBegin",
-        "href": "https://w3c.github.io/webdriver-bidi/#event-browsingContext-downoadWillBegin",
+        "id": "event-browsingContext-downloadWillBegin",
+        "href": "https://w3c.github.io/webdriver-bidi/#event-browsingContext-downloadWillBegin",
         "title": "The browsingContext.downloadWillBegin Event",
         "number": "7.3.4.8"
       },
@@ -14502,12 +15347,32 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "event-browsingContext-downoadWillBegin",
-        "href": "https://w3c.github.io/webdriver-bidi/#event-browsingContext-downoadWillBegin",
+        "id": "event-browsingContext-downloadWillBegin",
+        "href": "https://w3c.github.io/webdriver-bidi/#event-browsingContext-downloadWillBegin",
         "title": "The browsingContext.downloadWillBegin Event",
         "number": "7.3.4.8"
       },
       "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "webdriver-bidi-download-will-begin",
+      "href": "https://w3c.github.io/webdriver-bidi/#webdriver-bidi-download-will-begin",
+      "linkingText": [
+        "WebDriver BiDi download will begin"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "event-browsingContext-downloadWillBegin",
+        "href": "https://w3c.github.io/webdriver-bidi/#event-browsingContext-downloadWillBegin",
+        "title": "The browsingContext.downloadWillBegin Event",
+        "number": "7.3.4.8"
+      },
+      "definedIn": "prose",
       "links": []
     },
     {
@@ -14522,8 +15387,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "event-browsingContext-downoadWillBegin",
-        "href": "https://w3c.github.io/webdriver-bidi/#event-browsingContext-downoadWillBegin",
+        "id": "event-browsingContext-downloadWillBegin",
+        "href": "https://w3c.github.io/webdriver-bidi/#event-browsingContext-downloadWillBegin",
         "title": "The browsingContext.downloadWillBegin Event",
         "number": "7.3.4.8"
       },
@@ -15669,6 +16534,134 @@
       "links": []
     },
     {
+      "id": "cddl-type-emulationresult",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-type-emulationresult",
+      "linkingText": [
+        "EmulationResult"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "module-emulation-definition",
+        "href": "https://w3c.github.io/webdriver-bidi/#module-emulation-definition",
+        "title": "Definition",
+        "number": "7.4.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "session-emulated-user-agent",
+      "href": "https://w3c.github.io/webdriver-bidi/#session-emulated-user-agent",
+      "linkingText": [
+        "emulated user agent"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "session"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "module-emulation-definition",
+        "href": "https://w3c.github.io/webdriver-bidi/#module-emulation-definition",
+        "title": "Definition",
+        "number": "7.4.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "emulated-user-agent-default-user-agent",
+      "href": "https://w3c.github.io/webdriver-bidi/#emulated-user-agent-default-user-agent",
+      "linkingText": [
+        "default user agent"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "emulated user agent"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "module-emulation-definition",
+        "href": "https://w3c.github.io/webdriver-bidi/#module-emulation-definition",
+        "title": "Definition",
+        "number": "7.4.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "emulated-user-agent-user-context-user-agent",
+      "href": "https://w3c.github.io/webdriver-bidi/#emulated-user-agent-user-context-user-agent",
+      "linkingText": [
+        "user context user agent"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "emulated user agent"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "module-emulation-definition",
+        "href": "https://w3c.github.io/webdriver-bidi/#module-emulation-definition",
+        "title": "Definition",
+        "number": "7.4.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "emulated-user-agent-navigable-user-agent",
+      "href": "https://w3c.github.io/webdriver-bidi/#emulated-user-agent-navigable-user-agent",
+      "linkingText": [
+        "navigable user agent"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "emulated user agent"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "module-emulation-definition",
+        "href": "https://w3c.github.io/webdriver-bidi/#module-emulation-definition",
+        "title": "Definition",
+        "number": "7.4.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "forced-colors-mode-theme-overrides-map",
+      "href": "https://w3c.github.io/webdriver-bidi/#forced-colors-mode-theme-overrides-map",
+      "linkingText": [
+        "forced colors mode theme overrides map"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "module-emulation-definition",
+        "href": "https://w3c.github.io/webdriver-bidi/#module-emulation-definition",
+        "title": "Definition",
+        "number": "7.4.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
       "id": "geolocation-override",
       "href": "https://w3c.github.io/webdriver-bidi/#geolocation-override",
       "linkingText": [
@@ -15947,6 +16940,292 @@
       "links": []
     },
     {
+      "id": "commands-emulationsetforcedcolorsmodethemeoverride",
+      "href": "https://w3c.github.io/webdriver-bidi/#commands-emulationsetforcedcolorsmodethemeoverride",
+      "linkingText": [
+        "emulation.setForcedColorsModeThemeOverride"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "commands"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "command-emulation-setForcedColorsModeThemeOverride",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setForcedColorsModeThemeOverride",
+        "title": "The emulation.setForcedColorsModeThemeOverride Command",
+        "number": "7.4.2.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "cddl-type-emulationsetforcedcolorsmodethemeoverride",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-type-emulationsetforcedcolorsmodethemeoverride",
+      "linkingText": [
+        "emulation.SetForcedColorsModeThemeOverride"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-emulation-setForcedColorsModeThemeOverride",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setForcedColorsModeThemeOverride",
+        "title": "The emulation.setForcedColorsModeThemeOverride Command",
+        "number": "7.4.2.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-emulationsetforcedcolorsmodethemeoverride-method",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-key-emulationsetforcedcolorsmodethemeoverride-method",
+      "linkingText": [
+        "method",
+        "\"method\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "emulation.SetForcedColorsModeThemeOverride"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-emulation-setForcedColorsModeThemeOverride",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setForcedColorsModeThemeOverride",
+        "title": "The emulation.setForcedColorsModeThemeOverride Command",
+        "number": "7.4.2.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-value-emulationsetforcedcolorsmodethemeoverride-method-emulationsetforcedcolorsmodethemeoverride",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-value-emulationsetforcedcolorsmodethemeoverride-method-emulationsetforcedcolorsmodethemeoverride",
+      "linkingText": [
+        "emulation.setForcedColorsModeThemeOverride",
+        "\"emulation.setForcedColorsModeThemeOverride\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-value",
+      "for": [
+        "emulation.SetForcedColorsModeThemeOverride/method"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-emulation-setForcedColorsModeThemeOverride",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setForcedColorsModeThemeOverride",
+        "title": "The emulation.setForcedColorsModeThemeOverride Command",
+        "number": "7.4.2.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-emulationsetforcedcolorsmodethemeoverride-params",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-key-emulationsetforcedcolorsmodethemeoverride-params",
+      "linkingText": [
+        "params",
+        "\"params\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "emulation.SetForcedColorsModeThemeOverride"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-emulation-setForcedColorsModeThemeOverride",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setForcedColorsModeThemeOverride",
+        "title": "The emulation.setForcedColorsModeThemeOverride Command",
+        "number": "7.4.2.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-emulationsetforcedcolorsmodethemeoverrideparameters",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-type-emulationsetforcedcolorsmodethemeoverrideparameters",
+      "linkingText": [
+        "emulation.SetForcedColorsModeThemeOverrideParameters"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-emulation-setForcedColorsModeThemeOverride",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setForcedColorsModeThemeOverride",
+        "title": "The emulation.setForcedColorsModeThemeOverride Command",
+        "number": "7.4.2.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-emulationsetforcedcolorsmodethemeoverrideparameters-theme",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-key-emulationsetforcedcolorsmodethemeoverrideparameters-theme",
+      "linkingText": [
+        "theme",
+        "\"theme\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "emulation.SetForcedColorsModeThemeOverrideParameters"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-emulation-setForcedColorsModeThemeOverride",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setForcedColorsModeThemeOverride",
+        "title": "The emulation.setForcedColorsModeThemeOverride Command",
+        "number": "7.4.2.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-emulationsetforcedcolorsmodethemeoverrideparameters-contexts",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-key-emulationsetforcedcolorsmodethemeoverrideparameters-contexts",
+      "linkingText": [
+        "contexts",
+        "\"contexts\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "emulation.SetForcedColorsModeThemeOverrideParameters"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-emulation-setForcedColorsModeThemeOverride",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setForcedColorsModeThemeOverride",
+        "title": "The emulation.setForcedColorsModeThemeOverride Command",
+        "number": "7.4.2.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-emulationsetforcedcolorsmodethemeoverrideparameters-usercontexts",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-key-emulationsetforcedcolorsmodethemeoverrideparameters-usercontexts",
+      "linkingText": [
+        "userContexts",
+        "\"userContexts\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "emulation.SetForcedColorsModeThemeOverrideParameters"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-emulation-setForcedColorsModeThemeOverride",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setForcedColorsModeThemeOverride",
+        "title": "The emulation.setForcedColorsModeThemeOverride Command",
+        "number": "7.4.2.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-emulationforcedcolorsmodetheme",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-type-emulationforcedcolorsmodetheme",
+      "linkingText": [
+        "emulation.ForcedColorsModeTheme"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-emulation-setForcedColorsModeThemeOverride",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setForcedColorsModeThemeOverride",
+        "title": "The emulation.setForcedColorsModeThemeOverride Command",
+        "number": "7.4.2.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-value-emulationforcedcolorsmodetheme-light",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-value-emulationforcedcolorsmodetheme-light",
+      "linkingText": [
+        "light",
+        "\"light\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-value",
+      "for": [
+        "emulation.ForcedColorsModeTheme"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-emulation-setForcedColorsModeThemeOverride",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setForcedColorsModeThemeOverride",
+        "title": "The emulation.setForcedColorsModeThemeOverride Command",
+        "number": "7.4.2.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-value-emulationforcedcolorsmodetheme-dark",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-value-emulationforcedcolorsmodetheme-dark",
+      "linkingText": [
+        "dark",
+        "\"dark\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-value",
+      "for": [
+        "emulation.ForcedColorsModeTheme"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-emulation-setForcedColorsModeThemeOverride",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setForcedColorsModeThemeOverride",
+        "title": "The emulation.setForcedColorsModeThemeOverride Command",
+        "number": "7.4.2.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-emulationsetforcedcolorsmodethemeoverrideresult",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-type-emulationsetforcedcolorsmodethemeoverrideresult",
+      "linkingText": [
+        "emulation.SetForcedColorsModeThemeOverrideResult"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-emulation-setForcedColorsModeThemeOverride",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setForcedColorsModeThemeOverride",
+        "title": "The emulation.setForcedColorsModeThemeOverride Command",
+        "number": "7.4.2.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
       "id": "commands-emulationsetgeolocationoverride",
       "href": "https://w3c.github.io/webdriver-bidi/#commands-emulationsetgeolocationoverride",
       "linkingText": [
@@ -15963,7 +17242,7 @@
         "id": "command-emulation-setGeolocationOverride",
         "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setGeolocationOverride",
         "title": "The emulation.setGeolocationOverride Command",
-        "number": "7.4.2.1"
+        "number": "7.4.2.2"
       },
       "definedIn": "prose",
       "links": []
@@ -15983,7 +17262,7 @@
         "id": "command-emulation-setGeolocationOverride",
         "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setGeolocationOverride",
         "title": "The emulation.setGeolocationOverride Command",
-        "number": "7.4.2.1"
+        "number": "7.4.2.2"
       },
       "definedIn": "pre",
       "links": []
@@ -16006,7 +17285,7 @@
         "id": "command-emulation-setGeolocationOverride",
         "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setGeolocationOverride",
         "title": "The emulation.setGeolocationOverride Command",
-        "number": "7.4.2.1"
+        "number": "7.4.2.2"
       },
       "definedIn": "pre",
       "links": []
@@ -16029,7 +17308,7 @@
         "id": "command-emulation-setGeolocationOverride",
         "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setGeolocationOverride",
         "title": "The emulation.setGeolocationOverride Command",
-        "number": "7.4.2.1"
+        "number": "7.4.2.2"
       },
       "definedIn": "pre",
       "links": []
@@ -16052,7 +17331,7 @@
         "id": "command-emulation-setGeolocationOverride",
         "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setGeolocationOverride",
         "title": "The emulation.setGeolocationOverride Command",
-        "number": "7.4.2.1"
+        "number": "7.4.2.2"
       },
       "definedIn": "pre",
       "links": []
@@ -16072,7 +17351,7 @@
         "id": "command-emulation-setGeolocationOverride",
         "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setGeolocationOverride",
         "title": "The emulation.setGeolocationOverride Command",
-        "number": "7.4.2.1"
+        "number": "7.4.2.2"
       },
       "definedIn": "pre",
       "links": []
@@ -16095,7 +17374,7 @@
         "id": "command-emulation-setGeolocationOverride",
         "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setGeolocationOverride",
         "title": "The emulation.setGeolocationOverride Command",
-        "number": "7.4.2.1"
+        "number": "7.4.2.2"
       },
       "definedIn": "pre",
       "links": []
@@ -16118,7 +17397,7 @@
         "id": "command-emulation-setGeolocationOverride",
         "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setGeolocationOverride",
         "title": "The emulation.setGeolocationOverride Command",
-        "number": "7.4.2.1"
+        "number": "7.4.2.2"
       },
       "definedIn": "pre",
       "links": []
@@ -16141,7 +17420,7 @@
         "id": "command-emulation-setGeolocationOverride",
         "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setGeolocationOverride",
         "title": "The emulation.setGeolocationOverride Command",
-        "number": "7.4.2.1"
+        "number": "7.4.2.2"
       },
       "definedIn": "pre",
       "links": []
@@ -16164,7 +17443,7 @@
         "id": "command-emulation-setGeolocationOverride",
         "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setGeolocationOverride",
         "title": "The emulation.setGeolocationOverride Command",
-        "number": "7.4.2.1"
+        "number": "7.4.2.2"
       },
       "definedIn": "pre",
       "links": []
@@ -16184,7 +17463,7 @@
         "id": "command-emulation-setGeolocationOverride",
         "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setGeolocationOverride",
         "title": "The emulation.setGeolocationOverride Command",
-        "number": "7.4.2.1"
+        "number": "7.4.2.2"
       },
       "definedIn": "pre",
       "links": []
@@ -16207,7 +17486,7 @@
         "id": "command-emulation-setGeolocationOverride",
         "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setGeolocationOverride",
         "title": "The emulation.setGeolocationOverride Command",
-        "number": "7.4.2.1"
+        "number": "7.4.2.2"
       },
       "definedIn": "pre",
       "links": []
@@ -16230,7 +17509,7 @@
         "id": "command-emulation-setGeolocationOverride",
         "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setGeolocationOverride",
         "title": "The emulation.setGeolocationOverride Command",
-        "number": "7.4.2.1"
+        "number": "7.4.2.2"
       },
       "definedIn": "pre",
       "links": []
@@ -16253,7 +17532,7 @@
         "id": "command-emulation-setGeolocationOverride",
         "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setGeolocationOverride",
         "title": "The emulation.setGeolocationOverride Command",
-        "number": "7.4.2.1"
+        "number": "7.4.2.2"
       },
       "definedIn": "pre",
       "links": []
@@ -16276,7 +17555,7 @@
         "id": "command-emulation-setGeolocationOverride",
         "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setGeolocationOverride",
         "title": "The emulation.setGeolocationOverride Command",
-        "number": "7.4.2.1"
+        "number": "7.4.2.2"
       },
       "definedIn": "pre",
       "links": []
@@ -16299,7 +17578,7 @@
         "id": "command-emulation-setGeolocationOverride",
         "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setGeolocationOverride",
         "title": "The emulation.setGeolocationOverride Command",
-        "number": "7.4.2.1"
+        "number": "7.4.2.2"
       },
       "definedIn": "pre",
       "links": []
@@ -16322,7 +17601,7 @@
         "id": "command-emulation-setGeolocationOverride",
         "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setGeolocationOverride",
         "title": "The emulation.setGeolocationOverride Command",
-        "number": "7.4.2.1"
+        "number": "7.4.2.2"
       },
       "definedIn": "pre",
       "links": []
@@ -16345,7 +17624,7 @@
         "id": "command-emulation-setGeolocationOverride",
         "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setGeolocationOverride",
         "title": "The emulation.setGeolocationOverride Command",
-        "number": "7.4.2.1"
+        "number": "7.4.2.2"
       },
       "definedIn": "pre",
       "links": []
@@ -16365,7 +17644,7 @@
         "id": "command-emulation-setGeolocationOverride",
         "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setGeolocationOverride",
         "title": "The emulation.setGeolocationOverride Command",
-        "number": "7.4.2.1"
+        "number": "7.4.2.2"
       },
       "definedIn": "pre",
       "links": []
@@ -16388,7 +17667,7 @@
         "id": "command-emulation-setGeolocationOverride",
         "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setGeolocationOverride",
         "title": "The emulation.setGeolocationOverride Command",
-        "number": "7.4.2.1"
+        "number": "7.4.2.2"
       },
       "definedIn": "pre",
       "links": []
@@ -16411,7 +17690,27 @@
         "id": "command-emulation-setGeolocationOverride",
         "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setGeolocationOverride",
         "title": "The emulation.setGeolocationOverride Command",
-        "number": "7.4.2.1"
+        "number": "7.4.2.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-emulationsetgeolocationoverrideresult",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-type-emulationsetgeolocationoverrideresult",
+      "linkingText": [
+        "emulation.SetGeolocationOverrideResult"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-emulation-setGeolocationOverride",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setGeolocationOverride",
+        "title": "The emulation.setGeolocationOverride Command",
+        "number": "7.4.2.2"
       },
       "definedIn": "pre",
       "links": []
@@ -16433,7 +17732,7 @@
         "id": "command-emulation-setLocaleOverride",
         "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setLocaleOverride",
         "title": "The emulation.setLocaleOverride Command",
-        "number": "7.4.2.2"
+        "number": "7.4.2.3"
       },
       "definedIn": "prose",
       "links": []
@@ -16453,7 +17752,7 @@
         "id": "command-emulation-setLocaleOverride",
         "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setLocaleOverride",
         "title": "The emulation.setLocaleOverride Command",
-        "number": "7.4.2.2"
+        "number": "7.4.2.3"
       },
       "definedIn": "pre",
       "links": []
@@ -16476,7 +17775,7 @@
         "id": "command-emulation-setLocaleOverride",
         "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setLocaleOverride",
         "title": "The emulation.setLocaleOverride Command",
-        "number": "7.4.2.2"
+        "number": "7.4.2.3"
       },
       "definedIn": "pre",
       "links": []
@@ -16499,7 +17798,7 @@
         "id": "command-emulation-setLocaleOverride",
         "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setLocaleOverride",
         "title": "The emulation.setLocaleOverride Command",
-        "number": "7.4.2.2"
+        "number": "7.4.2.3"
       },
       "definedIn": "pre",
       "links": []
@@ -16522,7 +17821,7 @@
         "id": "command-emulation-setLocaleOverride",
         "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setLocaleOverride",
         "title": "The emulation.setLocaleOverride Command",
-        "number": "7.4.2.2"
+        "number": "7.4.2.3"
       },
       "definedIn": "pre",
       "links": []
@@ -16542,7 +17841,7 @@
         "id": "command-emulation-setLocaleOverride",
         "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setLocaleOverride",
         "title": "The emulation.setLocaleOverride Command",
-        "number": "7.4.2.2"
+        "number": "7.4.2.3"
       },
       "definedIn": "pre",
       "links": []
@@ -16565,7 +17864,7 @@
         "id": "command-emulation-setLocaleOverride",
         "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setLocaleOverride",
         "title": "The emulation.setLocaleOverride Command",
-        "number": "7.4.2.2"
+        "number": "7.4.2.3"
       },
       "definedIn": "pre",
       "links": []
@@ -16588,7 +17887,7 @@
         "id": "command-emulation-setLocaleOverride",
         "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setLocaleOverride",
         "title": "The emulation.setLocaleOverride Command",
-        "number": "7.4.2.2"
+        "number": "7.4.2.3"
       },
       "definedIn": "pre",
       "links": []
@@ -16611,9 +17910,355 @@
         "id": "command-emulation-setLocaleOverride",
         "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setLocaleOverride",
         "title": "The emulation.setLocaleOverride Command",
-        "number": "7.4.2.2"
+        "number": "7.4.2.3"
       },
       "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-emulationsetlocaleoverrideresult",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-type-emulationsetlocaleoverrideresult",
+      "linkingText": [
+        "emulation.SetLocaleOverrideResult"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-emulation-setLocaleOverride",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setLocaleOverride",
+        "title": "The emulation.setLocaleOverride Command",
+        "number": "7.4.2.3"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "webdriver-bidi-emulated-language",
+      "href": "https://w3c.github.io/webdriver-bidi/#webdriver-bidi-emulated-language",
+      "linkingText": [
+        "WebDriver BiDi emulated language"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "command-emulation-setLocaleOverride",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setLocaleOverride",
+        "title": "The emulation.setLocaleOverride Command",
+        "number": "7.4.2.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "commands-emulationsetnetworkconditions",
+      "href": "https://w3c.github.io/webdriver-bidi/#commands-emulationsetnetworkconditions",
+      "linkingText": [
+        "emulation.setNetworkConditions"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "commands"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "command-emulation-setNetworkConditions",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setNetworkConditions",
+        "title": "The emulation.setNetworkConditions Command",
+        "number": "7.4.2.4"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "cddl-type-emulationsetnetworkconditions",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-type-emulationsetnetworkconditions",
+      "linkingText": [
+        "emulation.SetNetworkConditions"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-emulation-setNetworkConditions",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setNetworkConditions",
+        "title": "The emulation.setNetworkConditions Command",
+        "number": "7.4.2.4"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-emulationsetnetworkconditions-method",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-key-emulationsetnetworkconditions-method",
+      "linkingText": [
+        "method",
+        "\"method\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "emulation.SetNetworkConditions"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-emulation-setNetworkConditions",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setNetworkConditions",
+        "title": "The emulation.setNetworkConditions Command",
+        "number": "7.4.2.4"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-value-emulationsetnetworkconditions-method-emulationsetnetworkconditions",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-value-emulationsetnetworkconditions-method-emulationsetnetworkconditions",
+      "linkingText": [
+        "emulation.setNetworkConditions",
+        "\"emulation.setNetworkConditions\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-value",
+      "for": [
+        "emulation.SetNetworkConditions/method"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-emulation-setNetworkConditions",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setNetworkConditions",
+        "title": "The emulation.setNetworkConditions Command",
+        "number": "7.4.2.4"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-emulationsetnetworkconditions-params",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-key-emulationsetnetworkconditions-params",
+      "linkingText": [
+        "params",
+        "\"params\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "emulation.SetNetworkConditions"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-emulation-setNetworkConditions",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setNetworkConditions",
+        "title": "The emulation.setNetworkConditions Command",
+        "number": "7.4.2.4"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-emulationsetnetworkconditionsparameters",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-type-emulationsetnetworkconditionsparameters",
+      "linkingText": [
+        "emulation.setNetworkConditionsParameters"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-emulation-setNetworkConditions",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setNetworkConditions",
+        "title": "The emulation.setNetworkConditions Command",
+        "number": "7.4.2.4"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-emulationsetnetworkconditionsparameters-networkconditions",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-key-emulationsetnetworkconditionsparameters-networkconditions",
+      "linkingText": [
+        "networkConditions",
+        "\"networkConditions\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "emulation.setNetworkConditionsParameters"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-emulation-setNetworkConditions",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setNetworkConditions",
+        "title": "The emulation.setNetworkConditions Command",
+        "number": "7.4.2.4"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-emulationsetnetworkconditionsparameters-contexts",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-key-emulationsetnetworkconditionsparameters-contexts",
+      "linkingText": [
+        "contexts",
+        "\"contexts\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "emulation.setNetworkConditionsParameters"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-emulation-setNetworkConditions",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setNetworkConditions",
+        "title": "The emulation.setNetworkConditions Command",
+        "number": "7.4.2.4"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-emulationsetnetworkconditionsparameters-usercontexts",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-key-emulationsetnetworkconditionsparameters-usercontexts",
+      "linkingText": [
+        "userContexts",
+        "\"userContexts\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "emulation.setNetworkConditionsParameters"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-emulation-setNetworkConditions",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setNetworkConditions",
+        "title": "The emulation.setNetworkConditions Command",
+        "number": "7.4.2.4"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-emulationnetworkconditions",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-type-emulationnetworkconditions",
+      "linkingText": [
+        "emulation.NetworkConditions"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-emulation-setNetworkConditions",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setNetworkConditions",
+        "title": "The emulation.setNetworkConditions Command",
+        "number": "7.4.2.4"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-emulationnetworkconditionsoffline",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-type-emulationnetworkconditionsoffline",
+      "linkingText": [
+        "emulation.NetworkConditionsOffline"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-emulation-setNetworkConditions",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setNetworkConditions",
+        "title": "The emulation.setNetworkConditions Command",
+        "number": "7.4.2.4"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-emulationnetworkconditionsoffline-type",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-key-emulationnetworkconditionsoffline-type",
+      "linkingText": [
+        "type",
+        "\"type\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "emulation.NetworkConditionsOffline"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-emulation-setNetworkConditions",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setNetworkConditions",
+        "title": "The emulation.setNetworkConditions Command",
+        "number": "7.4.2.4"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-value-emulationnetworkconditionsoffline-type-offline",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-value-emulationnetworkconditionsoffline-type-offline",
+      "linkingText": [
+        "offline",
+        "\"offline\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-value",
+      "for": [
+        "emulation.NetworkConditionsOffline/type"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-emulation-setNetworkConditions",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setNetworkConditions",
+        "title": "The emulation.setNetworkConditions Command",
+        "number": "7.4.2.4"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "apply-network-conditions",
+      "href": "https://w3c.github.io/webdriver-bidi/#apply-network-conditions",
+      "linkingText": [
+        "apply network conditions"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-emulation-setNetworkConditions",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setNetworkConditions",
+        "title": "The emulation.setNetworkConditions Command",
+        "number": "7.4.2.4"
+      },
+      "definedIn": "prose",
       "links": []
     },
     {
@@ -16633,7 +18278,7 @@
         "id": "command-emulation-setScreenOrientationOverride",
         "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setScreenOrientationOverride",
         "title": "The emulation.setScreenOrientationOverride Command",
-        "number": "7.4.2.3"
+        "number": "7.4.2.5"
       },
       "definedIn": "prose",
       "links": []
@@ -16653,7 +18298,7 @@
         "id": "command-emulation-setScreenOrientationOverride",
         "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setScreenOrientationOverride",
         "title": "The emulation.setScreenOrientationOverride Command",
-        "number": "7.4.2.3"
+        "number": "7.4.2.5"
       },
       "definedIn": "pre",
       "links": []
@@ -16676,7 +18321,7 @@
         "id": "command-emulation-setScreenOrientationOverride",
         "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setScreenOrientationOverride",
         "title": "The emulation.setScreenOrientationOverride Command",
-        "number": "7.4.2.3"
+        "number": "7.4.2.5"
       },
       "definedIn": "pre",
       "links": []
@@ -16699,7 +18344,7 @@
         "id": "command-emulation-setScreenOrientationOverride",
         "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setScreenOrientationOverride",
         "title": "The emulation.setScreenOrientationOverride Command",
-        "number": "7.4.2.3"
+        "number": "7.4.2.5"
       },
       "definedIn": "pre",
       "links": []
@@ -16722,7 +18367,7 @@
         "id": "command-emulation-setScreenOrientationOverride",
         "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setScreenOrientationOverride",
         "title": "The emulation.setScreenOrientationOverride Command",
-        "number": "7.4.2.3"
+        "number": "7.4.2.5"
       },
       "definedIn": "pre",
       "links": []
@@ -16742,7 +18387,7 @@
         "id": "command-emulation-setScreenOrientationOverride",
         "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setScreenOrientationOverride",
         "title": "The emulation.setScreenOrientationOverride Command",
-        "number": "7.4.2.3"
+        "number": "7.4.2.5"
       },
       "definedIn": "pre",
       "links": []
@@ -16765,7 +18410,7 @@
         "id": "command-emulation-setScreenOrientationOverride",
         "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setScreenOrientationOverride",
         "title": "The emulation.setScreenOrientationOverride Command",
-        "number": "7.4.2.3"
+        "number": "7.4.2.5"
       },
       "definedIn": "pre",
       "links": []
@@ -16788,7 +18433,7 @@
         "id": "command-emulation-setScreenOrientationOverride",
         "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setScreenOrientationOverride",
         "title": "The emulation.setScreenOrientationOverride Command",
-        "number": "7.4.2.3"
+        "number": "7.4.2.5"
       },
       "definedIn": "pre",
       "links": []
@@ -16808,7 +18453,7 @@
         "id": "command-emulation-setScreenOrientationOverride",
         "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setScreenOrientationOverride",
         "title": "The emulation.setScreenOrientationOverride Command",
-        "number": "7.4.2.3"
+        "number": "7.4.2.5"
       },
       "definedIn": "pre",
       "links": []
@@ -16831,7 +18476,7 @@
         "id": "command-emulation-setScreenOrientationOverride",
         "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setScreenOrientationOverride",
         "title": "The emulation.setScreenOrientationOverride Command",
-        "number": "7.4.2.3"
+        "number": "7.4.2.5"
       },
       "definedIn": "pre",
       "links": []
@@ -16854,7 +18499,7 @@
         "id": "command-emulation-setScreenOrientationOverride",
         "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setScreenOrientationOverride",
         "title": "The emulation.setScreenOrientationOverride Command",
-        "number": "7.4.2.3"
+        "number": "7.4.2.5"
       },
       "definedIn": "pre",
       "links": []
@@ -16877,7 +18522,7 @@
         "id": "command-emulation-setScreenOrientationOverride",
         "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setScreenOrientationOverride",
         "title": "The emulation.setScreenOrientationOverride Command",
-        "number": "7.4.2.3"
+        "number": "7.4.2.5"
       },
       "definedIn": "pre",
       "links": []
@@ -16900,7 +18545,7 @@
         "id": "command-emulation-setScreenOrientationOverride",
         "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setScreenOrientationOverride",
         "title": "The emulation.setScreenOrientationOverride Command",
-        "number": "7.4.2.3"
+        "number": "7.4.2.5"
       },
       "definedIn": "pre",
       "links": []
@@ -16920,7 +18565,7 @@
         "id": "command-emulation-setScreenOrientationOverride",
         "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setScreenOrientationOverride",
         "title": "The emulation.setScreenOrientationOverride Command",
-        "number": "7.4.2.3"
+        "number": "7.4.2.5"
       },
       "definedIn": "pre",
       "links": []
@@ -16943,7 +18588,7 @@
         "id": "command-emulation-setScreenOrientationOverride",
         "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setScreenOrientationOverride",
         "title": "The emulation.setScreenOrientationOverride Command",
-        "number": "7.4.2.3"
+        "number": "7.4.2.5"
       },
       "definedIn": "pre",
       "links": []
@@ -16966,7 +18611,7 @@
         "id": "command-emulation-setScreenOrientationOverride",
         "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setScreenOrientationOverride",
         "title": "The emulation.setScreenOrientationOverride Command",
-        "number": "7.4.2.3"
+        "number": "7.4.2.5"
       },
       "definedIn": "pre",
       "links": []
@@ -16986,7 +18631,7 @@
         "id": "command-emulation-setScreenOrientationOverride",
         "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setScreenOrientationOverride",
         "title": "The emulation.setScreenOrientationOverride Command",
-        "number": "7.4.2.3"
+        "number": "7.4.2.5"
       },
       "definedIn": "pre",
       "links": []
@@ -17009,7 +18654,7 @@
         "id": "command-emulation-setScreenOrientationOverride",
         "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setScreenOrientationOverride",
         "title": "The emulation.setScreenOrientationOverride Command",
-        "number": "7.4.2.3"
+        "number": "7.4.2.5"
       },
       "definedIn": "pre",
       "links": []
@@ -17032,7 +18677,7 @@
         "id": "command-emulation-setScreenOrientationOverride",
         "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setScreenOrientationOverride",
         "title": "The emulation.setScreenOrientationOverride Command",
-        "number": "7.4.2.3"
+        "number": "7.4.2.5"
       },
       "definedIn": "pre",
       "links": []
@@ -17055,7 +18700,27 @@
         "id": "command-emulation-setScreenOrientationOverride",
         "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setScreenOrientationOverride",
         "title": "The emulation.setScreenOrientationOverride Command",
-        "number": "7.4.2.3"
+        "number": "7.4.2.5"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-emulationsetscreenorientationoverrideresult",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-type-emulationsetscreenorientationoverrideresult",
+      "linkingText": [
+        "emulation.SetScreenOrientationOverrideResult"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-emulation-setScreenOrientationOverride",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setScreenOrientationOverride",
+        "title": "The emulation.setScreenOrientationOverride Command",
+        "number": "7.4.2.5"
       },
       "definedIn": "pre",
       "links": []
@@ -17075,7 +18740,487 @@
         "id": "command-emulation-setScreenOrientationOverride",
         "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setScreenOrientationOverride",
         "title": "The emulation.setScreenOrientationOverride Command",
-        "number": "7.4.2.3"
+        "number": "7.4.2.5"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "commands-emulationsetuseragentoverride",
+      "href": "https://w3c.github.io/webdriver-bidi/#commands-emulationsetuseragentoverride",
+      "linkingText": [
+        "emulation.setUserAgentOverride"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "commands"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "command-emulation-setUserAgentOverride",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setUserAgentOverride",
+        "title": "The emulation.setUserAgentOverride Command",
+        "number": "7.4.2.6"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "cddl-type-emulationsetuseragentoverride",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-type-emulationsetuseragentoverride",
+      "linkingText": [
+        "emulation.SetUserAgentOverride"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-emulation-setUserAgentOverride",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setUserAgentOverride",
+        "title": "The emulation.setUserAgentOverride Command",
+        "number": "7.4.2.6"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-emulationsetuseragentoverride-method",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-key-emulationsetuseragentoverride-method",
+      "linkingText": [
+        "method",
+        "\"method\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "emulation.SetUserAgentOverride"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-emulation-setUserAgentOverride",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setUserAgentOverride",
+        "title": "The emulation.setUserAgentOverride Command",
+        "number": "7.4.2.6"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-value-emulationsetuseragentoverride-method-emulationsetuseragentoverride",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-value-emulationsetuseragentoverride-method-emulationsetuseragentoverride",
+      "linkingText": [
+        "emulation.setUserAgentOverride",
+        "\"emulation.setUserAgentOverride\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-value",
+      "for": [
+        "emulation.SetUserAgentOverride/method"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-emulation-setUserAgentOverride",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setUserAgentOverride",
+        "title": "The emulation.setUserAgentOverride Command",
+        "number": "7.4.2.6"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-emulationsetuseragentoverride-params",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-key-emulationsetuseragentoverride-params",
+      "linkingText": [
+        "params",
+        "\"params\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "emulation.SetUserAgentOverride"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-emulation-setUserAgentOverride",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setUserAgentOverride",
+        "title": "The emulation.setUserAgentOverride Command",
+        "number": "7.4.2.6"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-emulationsetuseragentoverrideparameters",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-type-emulationsetuseragentoverrideparameters",
+      "linkingText": [
+        "emulation.SetUserAgentOverrideParameters"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-emulation-setUserAgentOverride",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setUserAgentOverride",
+        "title": "The emulation.setUserAgentOverride Command",
+        "number": "7.4.2.6"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-emulationsetuseragentoverrideparameters-useragent",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-key-emulationsetuseragentoverrideparameters-useragent",
+      "linkingText": [
+        "userAgent",
+        "\"userAgent\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "emulation.SetUserAgentOverrideParameters"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-emulation-setUserAgentOverride",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setUserAgentOverride",
+        "title": "The emulation.setUserAgentOverride Command",
+        "number": "7.4.2.6"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-emulationsetuseragentoverrideparameters-contexts",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-key-emulationsetuseragentoverrideparameters-contexts",
+      "linkingText": [
+        "contexts",
+        "\"contexts\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "emulation.SetUserAgentOverrideParameters"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-emulation-setUserAgentOverride",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setUserAgentOverride",
+        "title": "The emulation.setUserAgentOverride Command",
+        "number": "7.4.2.6"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-emulationsetuseragentoverrideparameters-usercontexts",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-key-emulationsetuseragentoverrideparameters-usercontexts",
+      "linkingText": [
+        "userContexts",
+        "\"userContexts\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "emulation.SetUserAgentOverrideParameters"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-emulation-setUserAgentOverride",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setUserAgentOverride",
+        "title": "The emulation.setUserAgentOverride Command",
+        "number": "7.4.2.6"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-emulationsetuseragentoverrideresult",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-type-emulationsetuseragentoverrideresult",
+      "linkingText": [
+        "emulation.SetUserAgentOverrideResult"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-emulation-setUserAgentOverride",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setUserAgentOverride",
+        "title": "The emulation.setUserAgentOverride Command",
+        "number": "7.4.2.6"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "webdriver-bidi-emulated-user-agent",
+      "href": "https://w3c.github.io/webdriver-bidi/#webdriver-bidi-emulated-user-agent",
+      "linkingText": [
+        "WebDriver BiDi emulated User-Agent"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "command-emulation-setUserAgentOverride",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setUserAgentOverride",
+        "title": "The emulation.setUserAgentOverride Command",
+        "number": "7.4.2.6"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "commands-emulationsetscriptingenabled",
+      "href": "https://w3c.github.io/webdriver-bidi/#commands-emulationsetscriptingenabled",
+      "linkingText": [
+        "emulation.setScriptingEnabled"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "commands"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "command-emulation-setScriptingEnabled",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setScriptingEnabled",
+        "title": "The emulation.setScriptingEnabled Command",
+        "number": "7.4.2.7"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "cddl-type-emulationsetscriptingenabled",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-type-emulationsetscriptingenabled",
+      "linkingText": [
+        "emulation.SetScriptingEnabled"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-emulation-setScriptingEnabled",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setScriptingEnabled",
+        "title": "The emulation.setScriptingEnabled Command",
+        "number": "7.4.2.7"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-emulationsetscriptingenabled-method",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-key-emulationsetscriptingenabled-method",
+      "linkingText": [
+        "method",
+        "\"method\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "emulation.SetScriptingEnabled"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-emulation-setScriptingEnabled",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setScriptingEnabled",
+        "title": "The emulation.setScriptingEnabled Command",
+        "number": "7.4.2.7"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-value-emulationsetscriptingenabled-method-emulationsetscriptingenabled",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-value-emulationsetscriptingenabled-method-emulationsetscriptingenabled",
+      "linkingText": [
+        "emulation.setScriptingEnabled",
+        "\"emulation.setScriptingEnabled\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-value",
+      "for": [
+        "emulation.SetScriptingEnabled/method"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-emulation-setScriptingEnabled",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setScriptingEnabled",
+        "title": "The emulation.setScriptingEnabled Command",
+        "number": "7.4.2.7"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-emulationsetscriptingenabled-params",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-key-emulationsetscriptingenabled-params",
+      "linkingText": [
+        "params",
+        "\"params\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "emulation.SetScriptingEnabled"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-emulation-setScriptingEnabled",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setScriptingEnabled",
+        "title": "The emulation.setScriptingEnabled Command",
+        "number": "7.4.2.7"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-emulationsetscriptingenabledparameters",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-type-emulationsetscriptingenabledparameters",
+      "linkingText": [
+        "emulation.SetScriptingEnabledParameters"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-emulation-setScriptingEnabled",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setScriptingEnabled",
+        "title": "The emulation.setScriptingEnabled Command",
+        "number": "7.4.2.7"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-emulationsetscriptingenabledparameters-enabled",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-key-emulationsetscriptingenabledparameters-enabled",
+      "linkingText": [
+        "enabled",
+        "\"enabled\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "emulation.SetScriptingEnabledParameters"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-emulation-setScriptingEnabled",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setScriptingEnabled",
+        "title": "The emulation.setScriptingEnabled Command",
+        "number": "7.4.2.7"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-emulationsetscriptingenabledparameters-contexts",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-key-emulationsetscriptingenabledparameters-contexts",
+      "linkingText": [
+        "contexts",
+        "\"contexts\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "emulation.SetScriptingEnabledParameters"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-emulation-setScriptingEnabled",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setScriptingEnabled",
+        "title": "The emulation.setScriptingEnabled Command",
+        "number": "7.4.2.7"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-emulationsetscriptingenabledparameters-usercontexts",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-key-emulationsetscriptingenabledparameters-usercontexts",
+      "linkingText": [
+        "userContexts",
+        "\"userContexts\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "emulation.SetScriptingEnabledParameters"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-emulation-setScriptingEnabled",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setScriptingEnabled",
+        "title": "The emulation.setScriptingEnabled Command",
+        "number": "7.4.2.7"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-emulationsetscriptingenabledresult",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-type-emulationsetscriptingenabledresult",
+      "linkingText": [
+        "emulation.SetScriptingEnabledResult"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-emulation-setScriptingEnabled",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setScriptingEnabled",
+        "title": "The emulation.setScriptingEnabled Command",
+        "number": "7.4.2.7"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "webdriver-bidi-scripting-is-enabled",
+      "href": "https://w3c.github.io/webdriver-bidi/#webdriver-bidi-scripting-is-enabled",
+      "linkingText": [
+        "WebDriver BiDi scripting is enabled"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "command-emulation-setScriptingEnabled",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setScriptingEnabled",
+        "title": "The emulation.setScriptingEnabled Command",
+        "number": "7.4.2.7"
       },
       "definedIn": "prose",
       "links": []
@@ -17097,7 +19242,7 @@
         "id": "command-emulation-setTimezoneOverride",
         "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setTimezoneOverride",
         "title": "The emulation.setTimezoneOverride Command",
-        "number": "7.4.2.4"
+        "number": "7.4.2.8"
       },
       "definedIn": "prose",
       "links": []
@@ -17117,7 +19262,7 @@
         "id": "command-emulation-setTimezoneOverride",
         "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setTimezoneOverride",
         "title": "The emulation.setTimezoneOverride Command",
-        "number": "7.4.2.4"
+        "number": "7.4.2.8"
       },
       "definedIn": "pre",
       "links": []
@@ -17140,7 +19285,7 @@
         "id": "command-emulation-setTimezoneOverride",
         "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setTimezoneOverride",
         "title": "The emulation.setTimezoneOverride Command",
-        "number": "7.4.2.4"
+        "number": "7.4.2.8"
       },
       "definedIn": "pre",
       "links": []
@@ -17163,7 +19308,7 @@
         "id": "command-emulation-setTimezoneOverride",
         "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setTimezoneOverride",
         "title": "The emulation.setTimezoneOverride Command",
-        "number": "7.4.2.4"
+        "number": "7.4.2.8"
       },
       "definedIn": "pre",
       "links": []
@@ -17186,7 +19331,7 @@
         "id": "command-emulation-setTimezoneOverride",
         "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setTimezoneOverride",
         "title": "The emulation.setTimezoneOverride Command",
-        "number": "7.4.2.4"
+        "number": "7.4.2.8"
       },
       "definedIn": "pre",
       "links": []
@@ -17206,7 +19351,7 @@
         "id": "command-emulation-setTimezoneOverride",
         "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setTimezoneOverride",
         "title": "The emulation.setTimezoneOverride Command",
-        "number": "7.4.2.4"
+        "number": "7.4.2.8"
       },
       "definedIn": "pre",
       "links": []
@@ -17229,7 +19374,7 @@
         "id": "command-emulation-setTimezoneOverride",
         "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setTimezoneOverride",
         "title": "The emulation.setTimezoneOverride Command",
-        "number": "7.4.2.4"
+        "number": "7.4.2.8"
       },
       "definedIn": "pre",
       "links": []
@@ -17252,7 +19397,7 @@
         "id": "command-emulation-setTimezoneOverride",
         "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setTimezoneOverride",
         "title": "The emulation.setTimezoneOverride Command",
-        "number": "7.4.2.4"
+        "number": "7.4.2.8"
       },
       "definedIn": "pre",
       "links": []
@@ -17275,7 +19420,27 @@
         "id": "command-emulation-setTimezoneOverride",
         "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setTimezoneOverride",
         "title": "The emulation.setTimezoneOverride Command",
-        "number": "7.4.2.4"
+        "number": "7.4.2.8"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-emulationsettimezoneoverrideresult",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-type-emulationsettimezoneoverrideresult",
+      "linkingText": [
+        "emulation.SetTimezoneOverrideResult"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-emulation-setTimezoneOverride",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setTimezoneOverride",
+        "title": "The emulation.setTimezoneOverride Command",
+        "number": "7.4.2.8"
       },
       "definedIn": "pre",
       "links": []
@@ -17423,15 +19588,255 @@
       "links": []
     },
     {
-      "id": "network-data",
-      "href": "https://w3c.github.io/webdriver-bidi/#network-data",
+      "id": "session-extra-headers",
+      "href": "https://w3c.github.io/webdriver-bidi/#session-extra-headers",
       "linkingText": [
-        "data"
+        "extra headers"
       ],
       "localLinkingText": [],
       "type": "dfn",
       "for": [
-        "network"
+        "session"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "module-network-definition",
+        "href": "https://w3c.github.io/webdriver-bidi/#module-network-definition",
+        "title": "Definition",
+        "number": "7.5.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "extra-headers-default-headers",
+      "href": "https://w3c.github.io/webdriver-bidi/#extra-headers-default-headers",
+      "linkingText": [
+        "default headers"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "extra headers"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "module-network-definition",
+        "href": "https://w3c.github.io/webdriver-bidi/#module-network-definition",
+        "title": "Definition",
+        "number": "7.5.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "extra-headers-user-context-headers",
+      "href": "https://w3c.github.io/webdriver-bidi/#extra-headers-user-context-headers",
+      "linkingText": [
+        "user context headers"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "extra headers"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "module-network-definition",
+        "href": "https://w3c.github.io/webdriver-bidi/#module-network-definition",
+        "title": "Definition",
+        "number": "7.5.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "extra-headers-navigable-headers",
+      "href": "https://w3c.github.io/webdriver-bidi/#extra-headers-navigable-headers",
+      "linkingText": [
+        "navigable headers"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "extra headers"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "module-network-definition",
+        "href": "https://w3c.github.io/webdriver-bidi/#module-network-definition",
+        "title": "Definition",
+        "number": "7.5.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "network-data",
+      "href": "https://w3c.github.io/webdriver-bidi/#network-data",
+      "linkingText": [
+        "network data"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "network-data-collection",
+        "href": "https://w3c.github.io/webdriver-bidi/#network-data-collection",
+        "title": "Network Data Collection",
+        "number": "7.5.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "network-data-bytes",
+      "href": "https://w3c.github.io/webdriver-bidi/#network-data-bytes",
+      "linkingText": [
+        "bytes"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "network-data"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "network-data-collection",
+        "href": "https://w3c.github.io/webdriver-bidi/#network-data-collection",
+        "title": "Network Data Collection",
+        "number": "7.5.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "network-data-cloned-body",
+      "href": "https://w3c.github.io/webdriver-bidi/#network-data-cloned-body",
+      "linkingText": [
+        "cloned body"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "network-data"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "network-data-collection",
+        "href": "https://w3c.github.io/webdriver-bidi/#network-data-collection",
+        "title": "Network Data Collection",
+        "number": "7.5.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "network-data-collectors",
+      "href": "https://w3c.github.io/webdriver-bidi/#network-data-collectors",
+      "linkingText": [
+        "collectors"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "network-data"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "network-data-collection",
+        "href": "https://w3c.github.io/webdriver-bidi/#network-data-collection",
+        "title": "Network Data Collection",
+        "number": "7.5.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "network-data-pending",
+      "href": "https://w3c.github.io/webdriver-bidi/#network-data-pending",
+      "linkingText": [
+        "pending"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "network-data"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "network-data-collection",
+        "href": "https://w3c.github.io/webdriver-bidi/#network-data-collection",
+        "title": "Network Data Collection",
+        "number": "7.5.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "network-data-request",
+      "href": "https://w3c.github.io/webdriver-bidi/#network-data-request",
+      "linkingText": [
+        "request"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "network-data"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "network-data-collection",
+        "href": "https://w3c.github.io/webdriver-bidi/#network-data-collection",
+        "title": "Network Data Collection",
+        "number": "7.5.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "network-data-size",
+      "href": "https://w3c.github.io/webdriver-bidi/#network-data-size",
+      "linkingText": [
+        "size"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "network-data"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "network-data-collection",
+        "href": "https://w3c.github.io/webdriver-bidi/#network-data-collection",
+        "title": "Network Data Collection",
+        "number": "7.5.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "network-data-type",
+      "href": "https://w3c.github.io/webdriver-bidi/#network-data-type",
+      "linkingText": [
+        "type"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "network-data"
       ],
       "access": "private",
       "informative": false,
@@ -17454,6 +19859,138 @@
       "type": "dfn",
       "for": [
         "network"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "network-data-collection",
+        "href": "https://w3c.github.io/webdriver-bidi/#network-data-collection",
+        "title": "Network Data Collection",
+        "number": "7.5.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "network-collector-max-encoded-item-size",
+      "href": "https://w3c.github.io/webdriver-bidi/#network-collector-max-encoded-item-size",
+      "linkingText": [
+        "max encoded item size"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "network-collector"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "network-data-collection",
+        "href": "https://w3c.github.io/webdriver-bidi/#network-data-collection",
+        "title": "Network Data Collection",
+        "number": "7.5.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "network-collector-contexts",
+      "href": "https://w3c.github.io/webdriver-bidi/#network-collector-contexts",
+      "linkingText": [
+        "contexts"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "network-collector"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "network-data-collection",
+        "href": "https://w3c.github.io/webdriver-bidi/#network-data-collection",
+        "title": "Network Data Collection",
+        "number": "7.5.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "network-collector-data-types",
+      "href": "https://w3c.github.io/webdriver-bidi/#network-collector-data-types",
+      "linkingText": [
+        "data types"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "network-collector"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "network-data-collection",
+        "href": "https://w3c.github.io/webdriver-bidi/#network-data-collection",
+        "title": "Network Data Collection",
+        "number": "7.5.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "network-collector-collector",
+      "href": "https://w3c.github.io/webdriver-bidi/#network-collector-collector",
+      "linkingText": [
+        "collector"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "network-collector"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "network-data-collection",
+        "href": "https://w3c.github.io/webdriver-bidi/#network-data-collection",
+        "title": "Network Data Collection",
+        "number": "7.5.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "network-collector-collector-type",
+      "href": "https://w3c.github.io/webdriver-bidi/#network-collector-collector-type",
+      "linkingText": [
+        "collector type"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "network-collector"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "network-data-collection",
+        "href": "https://w3c.github.io/webdriver-bidi/#network-data-collection",
+        "title": "Network Data Collection",
+        "number": "7.5.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "network-collector-user-contexts",
+      "href": "https://w3c.github.io/webdriver-bidi/#network-collector-user-contexts",
+      "linkingText": [
+        "user contexts"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "network-collector"
       ],
       "access": "private",
       "informative": false,
@@ -17507,10 +20044,10 @@
       "links": []
     },
     {
-      "id": "max-total-data-size",
-      "href": "https://w3c.github.io/webdriver-bidi/#max-total-data-size",
+      "id": "max-total-collected-size",
+      "href": "https://w3c.github.io/webdriver-bidi/#max-total-collected-size",
       "linkingText": [
-        "max total data size"
+        "max total collected size"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -17556,6 +20093,26 @@
       "type": "dfn",
       "for": [],
       "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "network-data-collection",
+        "href": "https://w3c.github.io/webdriver-bidi/#network-data-collection",
+        "title": "Network Data Collection",
+        "number": "7.5.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "clone-network-request-body",
+      "href": "https://w3c.github.io/webdriver-bidi/#clone-network-request-body",
+      "linkingText": [
+        "clone network request body"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "network-data-collection",
@@ -17627,10 +20184,50 @@
       "links": []
     },
     {
+      "id": "maybe-collect-network-request-body",
+      "href": "https://w3c.github.io/webdriver-bidi/#maybe-collect-network-request-body",
+      "linkingText": [
+        "maybe collect network request body"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "network-data-collection",
+        "href": "https://w3c.github.io/webdriver-bidi/#network-data-collection",
+        "title": "Network Data Collection",
+        "number": "7.5.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
       "id": "maybe-collect-network-response-body",
       "href": "https://w3c.github.io/webdriver-bidi/#maybe-collect-network-response-body",
       "linkingText": [
         "maybe collect network response body"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "network-data-collection",
+        "href": "https://w3c.github.io/webdriver-bidi/#network-data-collection",
+        "title": "Network Data Collection",
+        "number": "7.5.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "maybe-collect-network-data",
+      "href": "https://w3c.github.io/webdriver-bidi/#maybe-collect-network-data",
+      "linkingText": [
+        "maybe collect network data"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -18384,6 +20981,26 @@
       "links": []
     },
     {
+      "id": "networkbytesvalue",
+      "href": "https://w3c.github.io/webdriver-bidi/#networkbytesvalue",
+      "linkingText": [
+        "network.BytesValue"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "type-network-BytesValue",
+        "href": "https://w3c.github.io/webdriver-bidi/#type-network-BytesValue",
+        "title": "The network.BytesValue Type",
+        "number": "7.5.4.4"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
       "id": "deserialize-protocol-bytes",
       "href": "https://w3c.github.io/webdriver-bidi/#deserialize-protocol-bytes",
       "linkingText": [
@@ -18444,6 +21061,26 @@
       "links": []
     },
     {
+      "id": "networkcollector",
+      "href": "https://w3c.github.io/webdriver-bidi/#networkcollector",
+      "linkingText": [
+        "network.Collector"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "type-network-Collector",
+        "href": "https://w3c.github.io/webdriver-bidi/#type-network-Collector",
+        "title": "The network.Collector Type",
+        "number": "7.5.4.5"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
       "id": "cddl-type-networkcollectortype",
       "href": "https://w3c.github.io/webdriver-bidi/#cddl-type-networkcollectortype",
       "linkingText": [
@@ -18484,6 +21121,26 @@
         "number": "7.5.4.6"
       },
       "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "networkcollectortype",
+      "href": "https://w3c.github.io/webdriver-bidi/#networkcollectortype",
+      "linkingText": [
+        "network.CollectorType"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "type-network-CollectorType",
+        "href": "https://w3c.github.io/webdriver-bidi/#type-network-CollectorType",
+        "title": "The network.CollectorType Type",
+        "number": "7.5.4.6"
+      },
+      "definedIn": "prose",
       "links": []
     },
     {
@@ -18952,6 +21609,29 @@
       "links": []
     },
     {
+      "id": "cddl-value-networkdatatype-request",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-value-networkdatatype-request",
+      "linkingText": [
+        "request",
+        "\"request\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-value",
+      "for": [
+        "network.DataType"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "type-network-dataType",
+        "href": "https://w3c.github.io/webdriver-bidi/#type-network-dataType",
+        "title": "The network.DataType Type",
+        "number": "7.5.4.9"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
       "id": "cddl-value-networkdatatype-response",
       "href": "https://w3c.github.io/webdriver-bidi/#cddl-value-networkdatatype-response",
       "linkingText": [
@@ -18972,6 +21652,26 @@
         "number": "7.5.4.9"
       },
       "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "networkdatatype",
+      "href": "https://w3c.github.io/webdriver-bidi/#networkdatatype",
+      "linkingText": [
+        "network.DataType"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "type-network-dataType",
+        "href": "https://w3c.github.io/webdriver-bidi/#type-network-dataType",
+        "title": "The network.DataType Type",
+        "number": "7.5.4.9"
+      },
+      "definedIn": "prose",
       "links": []
     },
     {
@@ -19404,6 +22104,26 @@
       "href": "https://w3c.github.io/webdriver-bidi/#deserialize-header",
       "linkingText": [
         "deserialize header"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "type-network-Header",
+        "href": "https://w3c.github.io/webdriver-bidi/#type-network-Header",
+        "title": "The network.Header Type",
+        "number": "7.5.4.11"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "create-a-headers-list",
+      "href": "https://w3c.github.io/webdriver-bidi/#create-a-headers-list",
+      "linkingText": [
+        "create a headers list"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -21903,6 +24623,26 @@
       "links": []
     },
     {
+      "id": "cddl-type-networkcontinuerequestresult",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-type-networkcontinuerequestresult",
+      "linkingText": [
+        "network.ContinueRequestResult"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-network-continueRequest",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-network-continueRequest",
+        "title": "The network.continueRequest Command",
+        "number": "7.5.5.3"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
       "id": "commands-networkcontinueresponse",
       "href": "https://w3c.github.io/webdriver-bidi/#commands-networkcontinueresponse",
       "linkingText": [
@@ -22160,6 +24900,26 @@
       "for": [
         "network.ContinueResponseParameters"
       ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-network-continueResponse",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-network-continueResponse",
+        "title": "The network.continueResponse Command",
+        "number": "7.5.5.4"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-networkcontinueresponseresult",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-type-networkcontinueresponseresult",
+      "linkingText": [
+        "network.ContinueResponseResult"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
       "access": "private",
       "informative": false,
       "heading": {
@@ -22504,6 +25264,26 @@
       "links": []
     },
     {
+      "id": "cddl-type-networkcontinuewithauthresult",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-type-networkcontinuewithauthresult",
+      "linkingText": [
+        "network.ContinueWithAuthResult"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-network-continueWithAuth",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-network-continueWithAuth",
+        "title": "The network.continueWithAuth Command",
+        "number": "7.5.5.5"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
       "id": "commands-networkdisowndata",
       "href": "https://w3c.github.io/webdriver-bidi/#commands-networkdisowndata",
       "linkingText": [
@@ -22704,6 +25484,26 @@
       "links": []
     },
     {
+      "id": "cddl-type-networkdisowndataresult",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-type-networkdisowndataresult",
+      "linkingText": [
+        "network.DisownDataResult"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-network-disownData",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-network-disownData",
+        "title": "The network.disownData Command",
+        "number": "7.5.5.6"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
       "id": "commands-networkfailrequest",
       "href": "https://w3c.github.io/webdriver-bidi/#commands-networkfailrequest",
       "linkingText": [
@@ -22846,6 +25646,26 @@
       "for": [
         "network.FailRequestParameters"
       ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-network-failRequest",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-network-failRequest",
+        "title": "The network.failRequest Command",
+        "number": "7.5.5.7"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-networkfailrequestresult",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-type-networkfailrequestresult",
+      "linkingText": [
+        "network.FailRequestResult"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
       "access": "private",
       "informative": false,
       "heading": {
@@ -23393,6 +26213,26 @@
       "links": []
     },
     {
+      "id": "cddl-type-networkprovideresponseresult",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-type-networkprovideresponseresult",
+      "linkingText": [
+        "network.ProvideResponseResult"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-network-provideResponse",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-network-provideResponse",
+        "title": "The network.provideResponse Command",
+        "number": "7.5.5.9"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
       "id": "commands-networkremovedatacollector",
       "href": "https://w3c.github.io/webdriver-bidi/#commands-networkremovedatacollector",
       "linkingText": [
@@ -23547,6 +26387,26 @@
       "links": []
     },
     {
+      "id": "cddl-type-networkremovedatacollectorresult",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-type-networkremovedatacollectorresult",
+      "linkingText": [
+        "network.RemoveDataCollectorResult"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-network-removeDataCollector",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-network-removeDataCollector",
+        "title": "The network.removeDataCollector Command",
+        "number": "7.5.5.10"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
       "id": "commands-networkremoveintercept",
       "href": "https://w3c.github.io/webdriver-bidi/#commands-networkremoveintercept",
       "linkingText": [
@@ -23689,6 +26549,26 @@
       "for": [
         "network.RemoveInterceptParameters"
       ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-network-removeIntercept",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-network-removeIntercept",
+        "title": "The network.removeIntercept Command",
+        "number": "7.5.5.11"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-networkremoveinterceptresult",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-type-networkremoveinterceptresult",
+      "linkingText": [
+        "network.RemoveInterceptResult"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
       "access": "private",
       "informative": false,
       "heading": {
@@ -23924,6 +26804,26 @@
       "links": []
     },
     {
+      "id": "cddl-type-networksetcachebehaviorresult",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-type-networksetcachebehaviorresult",
+      "linkingText": [
+        "network.SetCacheBehaviorResult"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-network-setCacheBehavior",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-network-setCacheBehavior",
+        "title": "The network.setCacheBehavior Command",
+        "number": "7.5.5.12"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
       "id": "webdriver-bidi-cache-behavior",
       "href": "https://w3c.github.io/webdriver-bidi/#webdriver-bidi-cache-behavior",
       "linkingText": [
@@ -23959,6 +26859,266 @@
         "href": "https://w3c.github.io/webdriver-bidi/#command-network-setCacheBehavior",
         "title": "The network.setCacheBehavior Command",
         "number": "7.5.5.12"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "commands-networksetextraheaders",
+      "href": "https://w3c.github.io/webdriver-bidi/#commands-networksetextraheaders",
+      "linkingText": [
+        "network.setExtraHeaders"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "commands"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "command-network-setExtraHeaders",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-network-setExtraHeaders",
+        "title": "The network.setExtraHeaders Command",
+        "number": "7.5.5.13"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "cddl-type-networksetextraheaders",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-type-networksetextraheaders",
+      "linkingText": [
+        "network.SetExtraHeaders"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-network-setExtraHeaders",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-network-setExtraHeaders",
+        "title": "The network.setExtraHeaders Command",
+        "number": "7.5.5.13"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-networksetextraheaders-method",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-key-networksetextraheaders-method",
+      "linkingText": [
+        "method",
+        "\"method\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "network.SetExtraHeaders"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-network-setExtraHeaders",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-network-setExtraHeaders",
+        "title": "The network.setExtraHeaders Command",
+        "number": "7.5.5.13"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-value-networksetextraheaders-method-networksetextraheaders",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-value-networksetextraheaders-method-networksetextraheaders",
+      "linkingText": [
+        "network.setExtraHeaders",
+        "\"network.setExtraHeaders\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-value",
+      "for": [
+        "network.SetExtraHeaders/method"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-network-setExtraHeaders",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-network-setExtraHeaders",
+        "title": "The network.setExtraHeaders Command",
+        "number": "7.5.5.13"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-networksetextraheaders-params",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-key-networksetextraheaders-params",
+      "linkingText": [
+        "params",
+        "\"params\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "network.SetExtraHeaders"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-network-setExtraHeaders",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-network-setExtraHeaders",
+        "title": "The network.setExtraHeaders Command",
+        "number": "7.5.5.13"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-networksetextraheadersparameters",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-type-networksetextraheadersparameters",
+      "linkingText": [
+        "network.SetExtraHeadersParameters"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-network-setExtraHeaders",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-network-setExtraHeaders",
+        "title": "The network.setExtraHeaders Command",
+        "number": "7.5.5.13"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-networksetextraheadersparameters-headers",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-key-networksetextraheadersparameters-headers",
+      "linkingText": [
+        "headers",
+        "\"headers\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "network.SetExtraHeadersParameters"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-network-setExtraHeaders",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-network-setExtraHeaders",
+        "title": "The network.setExtraHeaders Command",
+        "number": "7.5.5.13"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-networksetextraheadersparameters-contexts",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-key-networksetextraheadersparameters-contexts",
+      "linkingText": [
+        "contexts",
+        "\"contexts\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "network.SetExtraHeadersParameters"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-network-setExtraHeaders",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-network-setExtraHeaders",
+        "title": "The network.setExtraHeaders Command",
+        "number": "7.5.5.13"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-networksetextraheadersparameters-usercontexts",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-key-networksetextraheadersparameters-usercontexts",
+      "linkingText": [
+        "userContexts",
+        "\"userContexts\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "network.SetExtraHeadersParameters"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-network-setExtraHeaders",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-network-setExtraHeaders",
+        "title": "The network.setExtraHeaders Command",
+        "number": "7.5.5.13"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-networksetextraheadersresult",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-type-networksetextraheadersresult",
+      "linkingText": [
+        "network.SetExtraHeadersResult"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-network-setExtraHeaders",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-network-setExtraHeaders",
+        "title": "The network.setExtraHeaders Command",
+        "number": "7.5.5.13"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "update-headers",
+      "href": "https://w3c.github.io/webdriver-bidi/#update-headers",
+      "linkingText": [
+        "update headers"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-network-setExtraHeaders",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-network-setExtraHeaders",
+        "title": "The network.setExtraHeaders Command",
+        "number": "7.5.5.13"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "update-request-headers",
+      "href": "https://w3c.github.io/webdriver-bidi/#update-request-headers",
+      "linkingText": [
+        "update request headers"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-network-setExtraHeaders",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-network-setExtraHeaders",
+        "title": "The network.setExtraHeaders Command",
+        "number": "7.5.5.13"
       },
       "definedIn": "prose",
       "links": []
@@ -24257,6 +27417,46 @@
       "type": "dfn",
       "for": [],
       "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "event-network-beforeSendRequest",
+        "href": "https://w3c.github.io/webdriver-bidi/#event-network-beforeSendRequest",
+        "title": "The network.beforeRequestSent Event",
+        "number": "7.5.6.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "get-emulated-network-conditions",
+      "href": "https://w3c.github.io/webdriver-bidi/#get-emulated-network-conditions",
+      "linkingText": [
+        "get emulated network conditions"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "event-network-beforeSendRequest",
+        "href": "https://w3c.github.io/webdriver-bidi/#event-network-beforeSendRequest",
+        "title": "The network.beforeRequestSent Event",
+        "number": "7.5.6.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "webdriver-bidi-network-is-offline",
+      "href": "https://w3c.github.io/webdriver-bidi/#webdriver-bidi-network-is-offline",
+      "linkingText": [
+        "WebDriver BiDi network is offline"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "event-network-beforeSendRequest",
@@ -32441,6 +35641,26 @@
       "links": []
     },
     {
+      "id": "cddl-type-scriptdisownresult",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-type-scriptdisownresult",
+      "linkingText": [
+        "script.DisownResult"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-script-disown",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-script-disown",
+        "title": "The script.disown Command",
+        "number": "7.6.4.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
       "id": "commands-scriptcallfunction",
       "href": "https://w3c.github.io/webdriver-bidi/#commands-scriptcallfunction",
       "linkingText": [
@@ -32744,6 +35964,26 @@
       "for": [
         "script.CallFunctionParameters"
       ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-script-callFunction",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-script-callFunction",
+        "title": "The script.callFunction Command",
+        "number": "7.6.4.3"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-scriptcallfunctionresult",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-type-scriptcallfunctionresult",
+      "linkingText": [
+        "script.CallFunctionResult"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
       "access": "private",
       "informative": false,
       "heading": {
@@ -33427,6 +36667,26 @@
       "for": [
         "script.RemovePreloadScriptParameters"
       ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-script-removePreloadScript",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-script-removePreloadScript",
+        "title": "The script.removePreloadScript Command",
+        "number": "7.6.4.6"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-scriptremovepreloadscriptresult",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-type-scriptremovepreloadscriptresult",
+      "linkingText": [
+        "script.RemovePreloadScriptResult"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
       "access": "private",
       "informative": false,
       "heading": {
@@ -36242,6 +39502,26 @@
       "links": []
     },
     {
+      "id": "cddl-type-inputresult",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-type-inputresult",
+      "linkingText": [
+        "InputResult"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "module-input-definition",
+        "href": "https://w3c.github.io/webdriver-bidi/#module-input-definition",
+        "title": "Definition",
+        "number": "7.9.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
       "id": "cddl-type-inputevent",
       "href": "https://w3c.github.io/webdriver-bidi/#cddl-type-inputevent",
       "linkingText": [
@@ -38325,6 +41605,26 @@
       "links": []
     },
     {
+      "id": "cddl-type-inputperformactionsresult",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-type-inputperformactionsresult",
+      "linkingText": [
+        "input.PerformActionsResult"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-input-performActions",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-input-performActions",
+        "title": "The input.performActions Command",
+        "number": "7.9.3.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
       "id": "commands-inputreleaseactions",
       "href": "https://w3c.github.io/webdriver-bidi/#commands-inputreleaseactions",
       "linkingText": [
@@ -38467,6 +41767,26 @@
       "for": [
         "input.ReleaseActionsParameters"
       ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-input-releaseActions",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-input-releaseActions",
+        "title": "The input.releaseActions Command",
+        "number": "7.9.3.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-inputreleaseactionsresult",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-type-inputreleaseactionsresult",
+      "linkingText": [
+        "input.ReleaseActionsResult"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
       "access": "private",
       "informative": false,
       "heading": {
@@ -38679,6 +41999,26 @@
       "links": []
     },
     {
+      "id": "cddl-type-inputsetfilesresult",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-type-inputsetfilesresult",
+      "linkingText": [
+        "input.SetFilesResult"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-input-setFiles",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-input-setFiles",
+        "title": "The input.setFiles Command",
+        "number": "7.9.3.3"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
       "id": "cddl-type-inputfiledialogopened",
       "href": "https://w3c.github.io/webdriver-bidi/#cddl-type-inputfiledialogopened",
       "linkingText": [
@@ -38854,6 +42194,48 @@
         "number": "7.9.4.1"
       },
       "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "webdriver-bidi-file-picker-options",
+      "href": "https://w3c.github.io/webdriver-bidi/#webdriver-bidi-file-picker-options",
+      "linkingText": [
+        "WebDriver BiDi file picker options"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "event-input-fileDialogOpened",
+        "href": "https://w3c.github.io/webdriver-bidi/#event-input-fileDialogOpened",
+        "title": "The input.fileDialogOpened Event",
+        "number": "7.9.4.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "webdriver-bidi-file-picker-options-multiple",
+      "href": "https://w3c.github.io/webdriver-bidi/#webdriver-bidi-file-picker-options-multiple",
+      "linkingText": [
+        "multiple"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "WebDriver BiDi file picker options"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "event-input-fileDialogOpened",
+        "href": "https://w3c.github.io/webdriver-bidi/#event-input-fileDialogOpened",
+        "title": "The input.fileDialogOpened Event",
+        "number": "7.9.4.1"
+      },
+      "definedIn": "prose",
       "links": []
     },
     {
@@ -39625,6 +43007,26 @@
       "for": [
         "webExtension.UninstallParameters"
       ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-webExtension-uninstall",
+        "href": "https://w3c.github.io/webdriver-bidi/#command-webExtension-uninstall",
+        "title": "The webExtension.uninstall Command",
+        "number": "7.10.3.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-webextensionuninstallresult",
+      "href": "https://w3c.github.io/webdriver-bidi/#cddl-type-webextensionuninstallresult",
+      "linkingText": [
+        "webExtension.UninstallResult"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
       "access": "private",
       "informative": false,
       "heading": {

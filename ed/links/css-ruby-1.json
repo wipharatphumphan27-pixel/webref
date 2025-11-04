@@ -34,7 +34,7 @@
         ]
       },
       "https://drafts.csswg.org/css-display/": {},
-      "https://drafts.csswg.org/css-flexbox-1/": {},
+      "https://drafts.csswg.org/css-flexbox/": {},
       "https://drafts.csswg.org/css-fonts-5/": {},
       "https://drafts.csswg.org/css-grid-2/": {},
       "https://drafts.csswg.org/css-inline-3/": {
@@ -170,7 +170,7 @@
           "animation-type"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {}
+      "https://www.w3.org/policies/process/20250818/": {}
     },
     "autolinks": {
       "https://drafts.csswg.org/css-box-4/": {
@@ -208,8 +208,8 @@
           "valdef-display-inline",
           "valdef-display-block",
           "inlinify",
-          "valdef-display-inline-block",
           "in-flow",
+          "valdef-display-inline-block",
           "propdef-visibility",
           "valdef-visibility-collapse",
           "atomic-inline",

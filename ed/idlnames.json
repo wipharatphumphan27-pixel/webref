@@ -104,6 +104,21 @@
     "parsed": "idlnamesparsed/AddressInit.json",
     "type": "dictionary"
   },
+  "AddressType": {
+    "fragment": "idlnames/AddressType.idl",
+    "parsed": "idlnamesparsed/AddressType.json",
+    "type": "enum"
+  },
+  "AddressValue": {
+    "fragment": "idlnames/AddressValue.idl",
+    "parsed": "idlnamesparsed/AddressValue.json",
+    "type": "typedef"
+  },
+  "AeadParams": {
+    "fragment": "idlnames/AeadParams.idl",
+    "parsed": "idlnamesparsed/AeadParams.json",
+    "type": "dictionary"
+  },
   "AesCbcParams": {
     "fragment": "idlnames/AesCbcParams.idl",
     "parsed": "idlnamesparsed/AesCbcParams.json",
@@ -284,6 +299,11 @@
     "parsed": "idlnamesparsed/AppendMode.json",
     "type": "enum"
   },
+  "Argon2Params": {
+    "fragment": "idlnames/Argon2Params.idl",
+    "parsed": "idlnamesparsed/Argon2Params.json",
+    "type": "dictionary"
+  },
   "ArrayBufferView": {
     "fragment": "idlnames/ArrayBufferView.idl",
     "parsed": "idlnamesparsed/ArrayBufferView.json",
@@ -342,16 +362,6 @@
   "AttributionImpressionResult": {
     "fragment": "idlnames/AttributionImpressionResult.idl",
     "parsed": "idlnamesparsed/AttributionImpressionResult.json",
-    "type": "dictionary"
-  },
-  "AttributionLogic": {
-    "fragment": "idlnames/AttributionLogic.idl",
-    "parsed": "idlnamesparsed/AttributionLogic.json",
-    "type": "enum"
-  },
-  "AttributionLogicOptions": {
-    "fragment": "idlnames/AttributionLogicOptions.idl",
-    "parsed": "idlnamesparsed/AttributionLogicOptions.json",
     "type": "dictionary"
   },
   "AttributionReportingRequestOptions": {
@@ -1304,6 +1314,11 @@
     "parsed": "idlnamesparsed/CSSCounterStyleRule.json",
     "type": "interface"
   },
+  "CSSCustomMediaRule": {
+    "fragment": "idlnames/CSSCustomMediaRule.idl",
+    "parsed": "idlnamesparsed/CSSCustomMediaRule.json",
+    "type": "interface"
+  },
   "CSSFontFaceDescriptors": {
     "fragment": "idlnames/CSSFontFaceDescriptors.idl",
     "parsed": "idlnamesparsed/CSSFontFaceDescriptors.json",
@@ -1684,6 +1699,11 @@
     "parsed": "idlnamesparsed/CSSStyleValue.json",
     "type": "interface"
   },
+  "CSSSupportsConditionRule": {
+    "fragment": "idlnames/CSSSupportsConditionRule.idl",
+    "parsed": "idlnamesparsed/CSSSupportsConditionRule.json",
+    "type": "interface"
+  },
   "CSSSupportsRule": {
     "fragment": "idlnames/CSSSupportsRule.idl",
     "parsed": "idlnamesparsed/CSSSupportsRule.json",
@@ -1738,6 +1758,11 @@
     "fragment": "idlnames/CSSViewTransitionRule.idl",
     "parsed": "idlnamesparsed/CSSViewTransitionRule.json",
     "type": "interface"
+  },
+  "CShakeParams": {
+    "fragment": "idlnames/CShakeParams.idl",
+    "parsed": "idlnamesparsed/CShakeParams.json",
+    "type": "dictionary"
   },
   "Cache": {
     "fragment": "idlnames/Cache.idl",
@@ -2404,6 +2429,11 @@
     "parsed": "idlnamesparsed/ContentVisibilityAutoStateChangeEventInit.json",
     "type": "dictionary"
   },
+  "ContextParams": {
+    "fragment": "idlnames/ContextParams.idl",
+    "parsed": "idlnamesparsed/ContextParams.json",
+    "type": "dictionary"
+  },
   "ConvertCoordinateOptions": {
     "fragment": "idlnames/ConvertCoordinateOptions.idl",
     "parsed": "idlnamesparsed/ConvertCoordinateOptions.json",
@@ -2599,6 +2629,11 @@
     "parsed": "idlnamesparsed/CustomEventInit.json",
     "type": "dictionary"
   },
+  "CustomMediaQuery": {
+    "fragment": "idlnames/CustomMediaQuery.idl",
+    "parsed": "idlnamesparsed/CustomMediaQuery.json",
+    "type": "typedef"
+  },
   "CustomStateSet": {
     "fragment": "idlnames/CustomStateSet.idl",
     "parsed": "idlnamesparsed/CustomStateSet.json",
@@ -2753,6 +2788,11 @@
     "fragment": "idlnames/DedicatedWorkerGlobalScope.idl",
     "parsed": "idlnamesparsed/DedicatedWorkerGlobalScope.json",
     "type": "interface"
+  },
+  "DeferredRequestInit": {
+    "fragment": "idlnames/DeferredRequestInit.idl",
+    "parsed": "idlnamesparsed/DeferredRequestInit.json",
+    "type": "dictionary"
   },
   "DelayNode": {
     "fragment": "idlnames/DelayNode.idl",
@@ -3164,6 +3204,16 @@
     "parsed": "idlnamesparsed/ElementInternals.json",
     "type": "interface"
   },
+  "EncapsulatedBits": {
+    "fragment": "idlnames/EncapsulatedBits.idl",
+    "parsed": "idlnamesparsed/EncapsulatedBits.json",
+    "type": "dictionary"
+  },
+  "EncapsulatedKey": {
+    "fragment": "idlnames/EncapsulatedKey.idl",
+    "parsed": "idlnamesparsed/EncapsulatedKey.json",
+    "type": "dictionary"
+  },
   "EncodedAudioChunk": {
     "fragment": "idlnames/EncodedAudioChunk.idl",
     "parsed": "idlnamesparsed/EncodedAudioChunk.json",
@@ -3304,6 +3354,16 @@
     "parsed": "idlnamesparsed/EventTarget.json",
     "type": "interface"
   },
+  "Exception": {
+    "fragment": "idlnames/Exception.idl",
+    "parsed": "idlnamesparsed/Exception.json",
+    "type": "interface"
+  },
+  "ExceptionOptions": {
+    "fragment": "idlnames/ExceptionOptions.idl",
+    "parsed": "idlnamesparsed/ExceptionOptions.json",
+    "type": "dictionary"
+  },
   "ExtendableCookieChangeEvent": {
     "fragment": "idlnames/ExtendableCookieChangeEvent.idl",
     "parsed": "idlnamesparsed/ExtendableCookieChangeEvent.json",
@@ -3398,6 +3458,11 @@
     "fragment": "idlnames/FetchEventInit.idl",
     "parsed": "idlnamesparsed/FetchEventInit.json",
     "type": "dictionary"
+  },
+  "FetchLaterResult": {
+    "fragment": "idlnames/FetchLaterResult.idl",
+    "parsed": "idlnamesparsed/FetchLaterResult.json",
+    "type": "interface"
   },
   "File": {
     "fragment": "idlnames/File.idl",
@@ -5289,6 +5354,11 @@
     "parsed": "idlnamesparsed/HTMLSelectElement.json",
     "type": "interface"
   },
+  "HTMLSelectedContentElement": {
+    "fragment": "idlnames/HTMLSelectedContentElement.idl",
+    "parsed": "idlnamesparsed/HTMLSelectedContentElement.json",
+    "type": "interface"
+  },
   "HTMLSharedStorageWritableElementUtils": {
     "fragment": "idlnames/HTMLSharedStorageWritableElementUtils.idl",
     "parsed": "idlnamesparsed/HTMLSharedStorageWritableElementUtils.json",
@@ -5574,6 +5644,11 @@
     "parsed": "idlnamesparsed/IDBFactory.json",
     "type": "interface"
   },
+  "IDBGetAllOptions": {
+    "fragment": "idlnames/IDBGetAllOptions.idl",
+    "parsed": "idlnamesparsed/IDBGetAllOptions.json",
+    "type": "dictionary"
+  },
   "IDBIndex": {
     "fragment": "idlnames/IDBIndex.idl",
     "parsed": "idlnamesparsed/IDBIndex.json",
@@ -5602,6 +5677,11 @@
   "IDBOpenDBRequest": {
     "fragment": "idlnames/IDBOpenDBRequest.idl",
     "parsed": "idlnamesparsed/IDBOpenDBRequest.json",
+    "type": "interface"
+  },
+  "IDBRecord": {
+    "fragment": "idlnames/IDBRecord.idl",
+    "parsed": "idlnamesparsed/IDBRecord.json",
     "type": "interface"
   },
   "IDBRequest": {
@@ -6179,6 +6259,26 @@
     "parsed": "idlnamesparsed/KeyframeEffectOptions.json",
     "type": "dictionary"
   },
+  "KmacImportParams": {
+    "fragment": "idlnames/KmacImportParams.idl",
+    "parsed": "idlnamesparsed/KmacImportParams.json",
+    "type": "dictionary"
+  },
+  "KmacKeyAlgorithm": {
+    "fragment": "idlnames/KmacKeyAlgorithm.idl",
+    "parsed": "idlnamesparsed/KmacKeyAlgorithm.json",
+    "type": "dictionary"
+  },
+  "KmacKeyGenParams": {
+    "fragment": "idlnames/KmacKeyGenParams.idl",
+    "parsed": "idlnamesparsed/KmacKeyGenParams.json",
+    "type": "dictionary"
+  },
+  "KmacParams": {
+    "fragment": "idlnames/KmacParams.idl",
+    "parsed": "idlnamesparsed/KmacParams.json",
+    "type": "dictionary"
+  },
   "Landmark": {
     "fragment": "idlnames/Landmark.idl",
     "parsed": "idlnamesparsed/Landmark.json",
@@ -6517,11 +6617,6 @@
   "MLCumulativeSumOptions": {
     "fragment": "idlnames/MLCumulativeSumOptions.idl",
     "parsed": "idlnamesparsed/MLCumulativeSumOptions.json",
-    "type": "dictionary"
-  },
-  "MLDataTypeLimits": {
-    "fragment": "idlnames/MLDataTypeLimits.idl",
-    "parsed": "idlnamesparsed/MLDataTypeLimits.json",
     "type": "dictionary"
   },
   "MLDataTypeList": {
@@ -7094,6 +7189,11 @@
     "parsed": "idlnamesparsed/MediaSessionActionHandler.json",
     "type": "callback"
   },
+  "MediaSessionEnterPictureInPictureReason": {
+    "fragment": "idlnames/MediaSessionEnterPictureInPictureReason.idl",
+    "parsed": "idlnamesparsed/MediaSessionEnterPictureInPictureReason.json",
+    "type": "enum"
+  },
   "MediaSessionPlaybackState": {
     "fragment": "idlnames/MediaSessionPlaybackState.idl",
     "parsed": "idlnamesparsed/MediaSessionPlaybackState.json",
@@ -7528,6 +7628,16 @@
     "fragment": "idlnames/NavigationOptions.idl",
     "parsed": "idlnamesparsed/NavigationOptions.json",
     "type": "dictionary"
+  },
+  "NavigationPrecommitController": {
+    "fragment": "idlnames/NavigationPrecommitController.idl",
+    "parsed": "idlnamesparsed/NavigationPrecommitController.json",
+    "type": "interface"
+  },
+  "NavigationPrecommitHandler": {
+    "fragment": "idlnames/NavigationPrecommitHandler.idl",
+    "parsed": "idlnamesparsed/NavigationPrecommitHandler.json",
+    "type": "callback"
   },
   "NavigationPreloadManager": {
     "fragment": "idlnames/NavigationPreloadManager.idl",
@@ -8559,9 +8669,9 @@
     "parsed": "idlnamesparsed/PopStateEventInit.json",
     "type": "dictionary"
   },
-  "PopoverInvokerElement": {
-    "fragment": "idlnames/PopoverInvokerElement.idl",
-    "parsed": "idlnamesparsed/PopoverInvokerElement.json",
+  "PopoverTargetAttributes": {
+    "fragment": "idlnames/PopoverTargetAttributes.idl",
+    "parsed": "idlnamesparsed/PopoverTargetAttributes.json",
     "type": "interface mixin"
   },
   "PortalActivateEvent": {
@@ -8738,11 +8848,6 @@
     "fragment": "idlnames/PrivateAggregation.idl",
     "parsed": "idlnamesparsed/PrivateAggregation.json",
     "type": "interface"
-  },
-  "PrivateNetworkAccessPermissionDescriptor": {
-    "fragment": "idlnames/PrivateNetworkAccessPermissionDescriptor.idl",
-    "parsed": "idlnamesparsed/PrivateNetworkAccessPermissionDescriptor.json",
-    "type": "dictionary"
   },
   "PrivateToken": {
     "fragment": "idlnames/PrivateToken.idl",
@@ -8944,6 +9049,11 @@
     "parsed": "idlnamesparsed/PushManager.json",
     "type": "interface"
   },
+  "PushManagerAttribute": {
+    "fragment": "idlnames/PushManagerAttribute.idl",
+    "parsed": "idlnamesparsed/PushManagerAttribute.json",
+    "type": "interface mixin"
+  },
   "PushMessageData": {
     "fragment": "idlnames/PushMessageData.idl",
     "parsed": "idlnamesparsed/PushMessageData.json",
@@ -9008,6 +9118,16 @@
     "fragment": "idlnames/QueuingStrategySize.idl",
     "parsed": "idlnamesparsed/QueuingStrategySize.json",
     "type": "callback"
+  },
+  "QuotaExceededError": {
+    "fragment": "idlnames/QuotaExceededError.idl",
+    "parsed": "idlnamesparsed/QuotaExceededError.json",
+    "type": "interface"
+  },
+  "QuotaExceededErrorOptions": {
+    "fragment": "idlnames/QuotaExceededErrorOptions.idl",
+    "parsed": "idlnamesparsed/QuotaExceededErrorOptions.json",
+    "type": "dictionary"
   },
   "RTCAnswerOptions": {
     "fragment": "idlnames/RTCAnswerOptions.idl",
@@ -10134,6 +10254,21 @@
     "parsed": "idlnamesparsed/SFrameCipherSuite.json",
     "type": "enum"
   },
+  "SFrameDecrypterStream": {
+    "fragment": "idlnames/SFrameDecrypterStream.idl",
+    "parsed": "idlnamesparsed/SFrameDecrypterStream.json",
+    "type": "interface"
+  },
+  "SFrameEncrypterStream": {
+    "fragment": "idlnames/SFrameEncrypterStream.idl",
+    "parsed": "idlnamesparsed/SFrameEncrypterStream.json",
+    "type": "interface"
+  },
+  "SFrameKeyManagement": {
+    "fragment": "idlnames/SFrameKeyManagement.idl",
+    "parsed": "idlnamesparsed/SFrameKeyManagement.json",
+    "type": "interface mixin"
+  },
   "SFrameTransform": {
     "fragment": "idlnames/SFrameTransform.idl",
     "parsed": "idlnamesparsed/SFrameTransform.json",
@@ -10158,11 +10293,6 @@
     "fragment": "idlnames/SFrameTransformOptions.idl",
     "parsed": "idlnamesparsed/SFrameTransformOptions.json",
     "type": "dictionary"
-  },
-  "SFrameTransformRole": {
-    "fragment": "idlnames/SFrameTransformRole.idl",
-    "parsed": "idlnamesparsed/SFrameTransformRole.json",
-    "type": "enum"
   },
   "SVGAElement": {
     "fragment": "idlnames/SVGAElement.idl",
@@ -10287,11 +10417,6 @@
   "SVGDescElement": {
     "fragment": "idlnames/SVGDescElement.idl",
     "parsed": "idlnamesparsed/SVGDescElement.json",
-    "type": "interface"
-  },
-  "SVGDiscardElement": {
-    "fragment": "idlnames/SVGDiscardElement.idl",
-    "parsed": "idlnamesparsed/SVGDiscardElement.json",
     "type": "interface"
   },
   "SVGElement": {
@@ -11539,6 +11664,16 @@
     "parsed": "idlnamesparsed/TableKind.json",
     "type": "enum"
   },
+  "Tag": {
+    "fragment": "idlnames/Tag.idl",
+    "parsed": "idlnamesparsed/Tag.json",
+    "type": "interface"
+  },
+  "TagType": {
+    "fragment": "idlnames/TagType.idl",
+    "parsed": "idlnamesparsed/TagType.json",
+    "type": "dictionary"
+  },
   "TaskAttributionTiming": {
     "fragment": "idlnames/TaskAttributionTiming.idl",
     "parsed": "idlnamesparsed/TaskAttributionTiming.json",
@@ -12619,6 +12754,11 @@
     "parsed": "idlnamesparsed/WebAssembly.json",
     "type": "namespace"
   },
+  "WebAssemblyCompileOptions": {
+    "fragment": "idlnames/WebAssemblyCompileOptions.idl",
+    "parsed": "idlnamesparsed/WebAssemblyCompileOptions.json",
+    "type": "dictionary"
+  },
   "WebAssemblyInstantiatedSource": {
     "fragment": "idlnames/WebAssemblyInstantiatedSource.idl",
     "parsed": "idlnamesparsed/WebAssemblyInstantiatedSource.json",
@@ -13139,6 +13279,21 @@
     "parsed": "idlnamesparsed/XRAnchorSet.json",
     "type": "interface"
   },
+  "XRBody": {
+    "fragment": "idlnames/XRBody.idl",
+    "parsed": "idlnamesparsed/XRBody.json",
+    "type": "interface"
+  },
+  "XRBodyJoint": {
+    "fragment": "idlnames/XRBodyJoint.idl",
+    "parsed": "idlnamesparsed/XRBodyJoint.json",
+    "type": "enum"
+  },
+  "XRBodySpace": {
+    "fragment": "idlnames/XRBodySpace.idl",
+    "parsed": "idlnamesparsed/XRBodySpace.json",
+    "type": "interface"
+  },
   "XRBoundedReferenceSpace": {
     "fragment": "idlnames/XRBoundedReferenceSpace.idl",
     "parsed": "idlnamesparsed/XRBoundedReferenceSpace.json",
@@ -13598,6 +13753,16 @@
     "fragment": "idlnames/XRViewport.idl",
     "parsed": "idlnamesparsed/XRViewport.json",
     "type": "interface"
+  },
+  "XRVisibilityMaskChangeEvent": {
+    "fragment": "idlnames/XRVisibilityMaskChangeEvent.idl",
+    "parsed": "idlnamesparsed/XRVisibilityMaskChangeEvent.json",
+    "type": "interface"
+  },
+  "XRVisibilityMaskChangeEventInit": {
+    "fragment": "idlnames/XRVisibilityMaskChangeEventInit.idl",
+    "parsed": "idlnamesparsed/XRVisibilityMaskChangeEventInit.json",
+    "type": "dictionary"
   },
   "XRVisibilityState": {
     "fragment": "idlnames/XRVisibilityState.idl",

@@ -81,10 +81,10 @@
       "number": "2.3"
     },
     {
-      "id": "paint-order",
-      "href": "https://drafts.csswg.org/css-gaps-1/#paint-order",
+      "id": "overlap",
+      "href": "https://drafts.csswg.org/css-gaps-1/#overlap",
       "level": 3,
-      "title": "Gap decoration paint order: The rule-paint-order property",
+      "title": "Gap decoration overlap: The rule-overlap property",
       "number": "2.4"
     },
     {
@@ -121,6 +121,20 @@
       "level": 3,
       "title": "Lists of values and the repeat() notation",
       "number": "3.4"
+    },
+    {
+      "id": "interpolation-behavior",
+      "href": "https://drafts.csswg.org/css-gaps-1/#interpolation-behavior",
+      "level": 4,
+      "title": "Interpolation behavior",
+      "number": "3.4.1"
+    },
+    {
+      "id": "auto-repeaters",
+      "href": "https://drafts.csswg.org/css-gaps-1/#auto-repeaters",
+      "level": 5,
+      "title": "Lists with Auto Repeaters",
+      "number": "3.4.1.1"
     },
     {
       "id": "gap-decoration-shorthands",
@@ -229,6 +243,12 @@
       "href": "https://drafts.csswg.org/css-gaps-1/#normative",
       "level": 3,
       "title": "Normative References"
+    },
+    {
+      "id": "informative",
+      "href": "https://drafts.csswg.org/css-gaps-1/#informative",
+      "level": 3,
+      "title": "Informative References"
     },
     {
       "id": "property-index",

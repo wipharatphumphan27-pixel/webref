@@ -7,6 +7,7 @@
     "rawlinks": {
       "https://datatracker.ietf.org/doc/html/rfc2119": {},
       "https://dom.spec.whatwg.org/": {},
+      "https://drafts.csswg.org/css-color-4/": {},
       "https://drafts.csswg.org/mediaqueries-5/": {},
       "https://en.wikipedia.org/wiki/Graphics_processing_unit": {},
       "https://en.wikipedia.org/wiki/IEEE_754": {},
@@ -81,7 +82,7 @@
           "sec-Disclosure"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {}
+      "https://www.w3.org/policies/process/20250818/": {}
     },
     "autolinks": {
       "https://dom.spec.whatwg.org/": {
@@ -94,9 +95,16 @@
           "dictdef-eventinit"
         ]
       },
+      "https://drafts.csswg.org/css-color-4/": {
+        "anchors": [
+          "valdef-color-srgb",
+          "valdef-color-srgb-linear"
+        ]
+      },
       "https://drafts.csswg.org/mediaqueries-5/": {
         "anchors": [
-          "descdef-media-dynamic-range"
+          "descdef-media-dynamic-range",
+          "valdef-media-dynamic-range-high"
         ]
       },
       "https://gpuweb.github.io/gpuweb/wgsl/": {
@@ -134,8 +142,8 @@
           "built-in-values-frag_depth",
           "built-in-values-clip_distances",
           "input-output-locations",
-          "built-in-values",
           "interpolation",
+          "built-in-values",
           "use-dual-source-blending",
           "scalar-types",
           "indeterminate-values",
@@ -162,7 +170,9 @@
           "extension-f16",
           "extension-clip_distances",
           "extension-dual_source_blending",
-          "extension-subgroups"
+          "extension-subgroups",
+          "built-in-values-primitive_index",
+          "extension-primitive_index"
         ]
       },
       "https://html.spec.whatwg.org/multipage/canvas.html": {
@@ -170,6 +180,8 @@
           "the-image-argument-is-not-origin-clean",
           "concept-canvas-origin-clean",
           "predefinedcolorspace",
+          "dom-predefinedcolorspace-srgb",
+          "dom-predefinedcolorspace-display-p3",
           "dom-canvasrenderingcontext2dsettings-colorspace",
           "check-the-usability-of-the-image-argument",
           "htmlcanvaselement",
@@ -181,7 +193,6 @@
           "dom-canvas-getcontext",
           "dom-offscreencanvas-getcontext",
           "dom-offscreencanvas-transfertoimagebitmap",
-          "dom-predefinedcolorspace-srgb",
           "offscreencanvas-placeholder",
           "dom-context-2d-drawimage",
           "dom-canvas-todataurl",
@@ -275,6 +286,7 @@
           "stack",
           "stack-push",
           "stack-pop",
+          "set-extend",
           "list-extend",
           "map-clear",
           "byte-sequence-length",

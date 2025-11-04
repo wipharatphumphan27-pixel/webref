@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "RDF 1.2 Concepts and Abstract Syntax",
+    "title": "RDF 1.2 Concepts and Abstract Data Model",
     "url": "https://w3c.github.io/rdf-concepts/spec/"
   },
   "dfns": [
@@ -9,8 +9,7 @@
       "href": "https://w3c.github.io/rdf-concepts/spec/#dfn-denote",
       "linkingText": [
         "denote",
-        "denotes",
-        "denoted"
+        "denotes"
       ],
       "localLinkingText": [
         "denoted"
@@ -59,8 +58,7 @@
       "id": "dfn-rdf-statement",
       "href": "https://w3c.github.io/rdf-concepts/spec/#dfn-rdf-statement",
       "linkingText": [
-        "RDF statement",
-        "statement"
+        "RDF statement"
       ],
       "localLinkingText": [
         "statement"
@@ -131,8 +129,7 @@
       "id": "dfn-rdf-vocabulary",
       "href": "https://w3c.github.io/rdf-concepts/spec/#dfn-rdf-vocabulary",
       "linkingText": [
-        "RDF vocabulary",
-        "vocabulary"
+        "RDF vocabulary"
       ],
       "localLinkingText": [
         "vocabulary"
@@ -223,29 +220,6 @@
       "links": []
     },
     {
-      "id": "dfn-transparent",
-      "href": "https://w3c.github.io/rdf-concepts/spec/#dfn-transparent",
-      "linkingText": [
-        "transparent"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": true,
-      "heading": {
-        "id": "section-triple-terms-reification",
-        "href": "https://w3c.github.io/rdf-concepts/spec/#section-triple-terms-reification",
-        "title": "Triple Terms and Reification",
-        "alternateIds": [
-          "x1-5-triple-terms-and-reification"
-        ],
-        "number": "1.5"
-      },
-      "definedIn": "prose",
-      "links": []
-    },
-    {
       "id": "dfn-reifying-triple",
       "href": "https://w3c.github.io/rdf-concepts/spec/#dfn-reifying-triple",
       "linkingText": [
@@ -296,6 +270,29 @@
       "href": "https://w3c.github.io/rdf-concepts/spec/#dfn-triple-annotation",
       "linkingText": [
         "triple annotation"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": true,
+      "heading": {
+        "id": "section-triple-terms-reification",
+        "href": "https://w3c.github.io/rdf-concepts/spec/#section-triple-terms-reification",
+        "title": "Triple Terms and Reification",
+        "alternateIds": [
+          "x1-5-triple-terms-and-reification"
+        ],
+        "number": "1.5"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-transparent",
+      "href": "https://w3c.github.io/rdf-concepts/spec/#dfn-transparent",
+      "linkingText": [
+        "transparent"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -387,8 +384,7 @@
       "id": "dfn-equivalence",
       "href": "https://w3c.github.io/rdf-concepts/spec/#dfn-equivalence",
       "linkingText": [
-        "Equivalence",
-        "equivalent"
+        "Equivalence"
       ],
       "localLinkingText": [
         "equivalent"
@@ -480,11 +476,33 @@
       "links": []
     },
     {
-      "id": "dfn-full-conformance",
-      "href": "https://w3c.github.io/rdf-concepts/spec/#dfn-full-conformance",
+      "id": "dfn-abstract-syntax",
+      "href": "https://w3c.github.io/rdf-concepts/spec/#dfn-abstract-syntax",
       "linkingText": [
-        "Full conformance",
-        "full"
+        "abstract syntax"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": true,
+      "heading": {
+        "id": "rdf-documents",
+        "href": "https://w3c.github.io/rdf-concepts/spec/#rdf-documents",
+        "title": "RDF Documents and Syntaxes",
+        "alternateIds": [
+          "x1-9-rdf-documents-and-syntaxes"
+        ],
+        "number": "1.9"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-full",
+      "href": "https://w3c.github.io/rdf-concepts/spec/#dfn-full",
+      "linkingText": [
+        "Full conformance"
       ],
       "localLinkingText": [
         "full"
@@ -506,11 +524,10 @@
       "links": []
     },
     {
-      "id": "dfn-basic-conformance",
-      "href": "https://w3c.github.io/rdf-concepts/spec/#dfn-basic-conformance",
+      "id": "dfn-basic",
+      "href": "https://w3c.github.io/rdf-concepts/spec/#dfn-basic",
       "linkingText": [
-        "Basic conformance",
-        "basic"
+        "Basic conformance"
       ],
       "localLinkingText": [
         "basic"
@@ -558,8 +575,7 @@
       "id": "dfn-rdf-string",
       "href": "https://w3c.github.io/rdf-concepts/spec/#dfn-rdf-string",
       "linkingText": [
-        "RDF string",
-        "string"
+        "RDF string"
       ],
       "localLinkingText": [
         "string"
@@ -632,8 +648,7 @@
       "id": "dfn-rdf-triple",
       "href": "https://w3c.github.io/rdf-concepts/spec/#dfn-rdf-triple",
       "linkingText": [
-        "RDF triple",
-        "triple"
+        "RDF triple"
       ],
       "localLinkingText": [
         "triple"
@@ -724,8 +739,8 @@
       "links": []
     },
     {
-      "id": "dfn-rdf-node",
-      "href": "https://w3c.github.io/rdf-concepts/spec/#dfn-rdf-node",
+      "id": "dfn-node",
+      "href": "https://w3c.github.io/rdf-concepts/spec/#dfn-node",
       "linkingText": [
         "RDF node",
         "nodes"
@@ -795,15 +810,16 @@
       "links": []
     },
     {
-      "id": "dfn-atomic",
-      "href": "https://w3c.github.io/rdf-concepts/spec/#dfn-atomic",
+      "id": "dfn-basic-rdf-term",
+      "href": "https://w3c.github.io/rdf-concepts/spec/#dfn-basic-rdf-term",
       "linkingText": [
-        "atomic"
+        "basic rdf term",
+        "basic RDF terms"
       ],
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "public",
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "section-terms",
@@ -982,6 +998,30 @@
       "links": []
     },
     {
+      "id": "dfn-rdf-reference",
+      "href": "https://w3c.github.io/rdf-concepts/spec/#dfn-rdf-reference",
+      "linkingText": [
+        "RDF reference",
+        "RDF Reference IRI"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": true,
+      "heading": {
+        "id": "reference-iris",
+        "href": "https://w3c.github.io/rdf-concepts/spec/#reference-iris",
+        "title": "RDF Reference IRIs",
+        "alternateIds": [
+          "x3-3-1-rdf-reference-iris"
+        ],
+        "number": "3.3.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
       "id": "dfn-relative-iri",
       "href": "https://w3c.github.io/rdf-concepts/spec/#dfn-relative-iri",
       "linkingText": [
@@ -994,15 +1034,15 @@
       "access": "private",
       "informative": true,
       "heading": {
-        "id": "section-IRIs",
-        "href": "https://w3c.github.io/rdf-concepts/spec/#section-IRIs",
-        "title": "IRIs",
+        "id": "reference-iris",
+        "href": "https://w3c.github.io/rdf-concepts/spec/#reference-iris",
+        "title": "RDF Reference IRIs",
         "alternateIds": [
-          "x3-3-iris"
+          "x3-3-1-rdf-reference-iris"
         ],
-        "number": "3.3"
+        "number": "3.3.1"
       },
-      "definedIn": "note",
+      "definedIn": "prose",
       "links": []
     },
     {
@@ -1017,20 +1057,20 @@
       "access": "public",
       "informative": true,
       "heading": {
-        "id": "section-IRIs",
-        "href": "https://w3c.github.io/rdf-concepts/spec/#section-IRIs",
-        "title": "IRIs",
+        "id": "reference-iris",
+        "href": "https://w3c.github.io/rdf-concepts/spec/#reference-iris",
+        "title": "RDF Reference IRIs",
         "alternateIds": [
-          "x3-3-iris"
+          "x3-3-1-rdf-reference-iris"
         ],
-        "number": "3.3"
+        "number": "3.3.1"
       },
-      "definedIn": "note",
+      "definedIn": "prose",
       "links": []
     },
     {
-      "id": "dfn-rdf-literal",
-      "href": "https://w3c.github.io/rdf-concepts/spec/#dfn-rdf-literal",
+      "id": "dfn-literal",
+      "href": "https://w3c.github.io/rdf-concepts/spec/#dfn-literal",
       "linkingText": [
         "RDF literal",
         "literal"
@@ -1194,8 +1234,7 @@
       "id": "dfn-literal-term-equality",
       "href": "https://w3c.github.io/rdf-concepts/spec/#dfn-literal-term-equality",
       "linkingText": [
-        "Literal term equality",
-        "term-equal"
+        "Literal term equality"
       ],
       "localLinkingText": [
         "term-equal"
@@ -1231,7 +1270,7 @@
       "heading": {
         "id": "representation-of-literals",
         "href": "https://w3c.github.io/rdf-concepts/spec/#representation-of-literals",
-        "title": "Representation of literals",
+        "title": "Representation of Literals",
         "alternateIds": [
           "x3-4-1-representation-of-literals"
         ],
@@ -1254,7 +1293,7 @@
       "heading": {
         "id": "literal-value",
         "href": "https://w3c.github.io/rdf-concepts/spec/#literal-value",
-        "title": "Literal value",
+        "title": "Literal Value",
         "alternateIds": [
           "x3-4-2-literal-value"
         ],
@@ -1277,7 +1316,7 @@
       "heading": {
         "id": "literal-value",
         "href": "https://w3c.github.io/rdf-concepts/spec/#literal-value",
-        "title": "Literal value",
+        "title": "Literal Value",
         "alternateIds": [
           "x3-4-2-literal-value"
         ],
@@ -1423,29 +1462,6 @@
           "x3-7-graph-comparison"
         ],
         "number": "3.7"
-      },
-      "definedIn": "prose",
-      "links": []
-    },
-    {
-      "id": "dfn-skolem-iri",
-      "href": "https://w3c.github.io/rdf-concepts/spec/#dfn-skolem-iri",
-      "linkingText": [
-        "Skolem IRI"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "section-skolemization",
-        "href": "https://w3c.github.io/rdf-concepts/spec/#section-skolemization",
-        "title": "Replacing Blank Nodes with IRIs",
-        "alternateIds": [
-          "x3-9-replacing-blank-nodes-with-iris"
-        ],
-        "number": "3.9"
       },
       "definedIn": "prose",
       "links": []
@@ -1932,6 +1948,29 @@
           "a-3-the-rdf-json-datatype"
         ],
         "number": "A.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-skolem-iri",
+      "href": "https://w3c.github.io/rdf-concepts/spec/#dfn-skolem-iri",
+      "linkingText": [
+        "Skolem IRI"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "section-skolemization",
+        "href": "https://w3c.github.io/rdf-concepts/spec/#section-skolemization",
+        "title": "Replacing Blank Nodes with IRIs",
+        "alternateIds": [
+          "b-replacing-blank-nodes-with-iris"
+        ],
+        "number": "B"
       },
       "definedIn": "prose",
       "links": []

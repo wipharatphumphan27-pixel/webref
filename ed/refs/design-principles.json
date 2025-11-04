@@ -156,8 +156,8 @@
         "url": "https://w3c.github.io/encrypted-media/"
       },
       {
-        "name": "ETHICAL-WEB",
-        "url": "https://www.w3.org/2001/tag/doc/ethical-web-principles/"
+        "name": "ETHICAL-WEB-PRINCIPLES",
+        "url": "https://w3ctag.github.io/ethical-web-principles/"
       },
       {
         "name": "FileAPI",
@@ -210,6 +210,10 @@
       {
         "name": "SCREEN-CAPTURE",
         "url": "https://w3c.github.io/mediacapture-screen-share/"
+      },
+      {
+        "name": "THE-WEB-IS-UNVERSIONED",
+        "url": "https://www.w3.org/2001/tag/doc/the-web-is-unversioned/"
       },
       {
         "name": "UIEVENTS",

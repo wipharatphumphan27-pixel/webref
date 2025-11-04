@@ -14,6 +14,10 @@
         "url": "https://www.w3.org/TR/did-core/"
       },
       {
+        "name": "DID-KEY",
+        "url": "https://w3c-ccg.github.io/did-method-key/"
+      },
+      {
         "name": "INFRA",
         "url": "https://infra.spec.whatwg.org/"
       },
@@ -34,12 +38,12 @@
         "url": "https://www.rfc-editor.org/rfc/rfc4122"
       },
       {
-        "name": "RFC7231",
-        "url": "https://httpwg.org/specs/rfc7231.html"
-      },
-      {
         "name": "RFC8174",
         "url": "https://www.rfc-editor.org/rfc/rfc8174"
+      },
+      {
+        "name": "RFC9110",
+        "url": "https://httpwg.org/specs/rfc9110.html"
       },
       {
         "name": "RFC9457",
@@ -47,7 +51,7 @@
       },
       {
         "name": "VC-DATA-MODEL",
-        "url": "https://www.w3.org/TR/vc-data-model/"
+        "url": "https://www.w3.org/TR/vc-data-model-2.0/"
       },
       {
         "name": "XMLSCHEMA11-2",
@@ -56,20 +60,12 @@
     ],
     "informative": [
       {
-        "name": "DATA-INTEGRITY",
-        "url": "https://www.w3.org/TR/vc-data-integrity/"
+        "name": "DID-EXTENSIONS-PROPERTIES",
+        "url": "https://www.w3.org/TR/did-extensions-properties/"
       },
       {
-        "name": "DID-KEY",
-        "url": "https://w3c-ccg.github.io/did-method-key/"
-      },
-      {
-        "name": "DID-PEER",
-        "url": "https://identity.foundation/peer-did-method-spec/"
-      },
-      {
-        "name": "DID-SPEC-REGISTRIES",
-        "url": "https://www.w3.org/TR/did-extensions/"
+        "name": "DID-EXTENSIONS-RESOLUTION",
+        "url": "https://www.w3.org/TR/did-extensions-resolution/"
       },
       {
         "name": "HASHLINK",
@@ -80,8 +76,16 @@
         "url": "https://arxiv.org/abs/1907.02143"
       },
       {
+        "name": "RFC1034",
+        "url": "https://www.rfc-editor.org/rfc/rfc1034"
+      },
+      {
         "name": "RFC3339",
         "url": "https://www.rfc-editor.org/rfc/rfc3339"
+      },
+      {
+        "name": "RFC7231",
+        "url": "https://httpwg.org/specs/rfc7231.html"
       }
     ]
   }

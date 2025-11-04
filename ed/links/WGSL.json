@@ -54,8 +54,8 @@
           "memory-model"
         ]
       },
-      "https://www.unicode.org/reports/tr14/tr14-53.html": {},
-      "https://www.unicode.org/reports/tr31/tr31-41.html": {},
+      "https://www.unicode.org/reports/tr14/tr14-55.html": {},
+      "https://www.unicode.org/reports/tr31/tr31-43.html": {},
       "https://www.w3.org/TR/": {},
       "https://www.w3.org/groups/wg/gpu": {},
       "https://www.w3.org/groups/wg/gpu/ipr/": {},
@@ -65,7 +65,7 @@
           "sec-Disclosure"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {}
+      "https://www.w3.org/policies/process/20250818/": {}
     },
     "autolinks": {
       "https://drafts.csswg.org/css-tables-3/": {
@@ -86,6 +86,7 @@
           "gpufeaturename",
           "gpudevice",
           "subgroups",
+          "dom-gpufeaturename-primitive-index",
           "gpuwgsllanguagefeatures",
           "gpu",
           "gpubuffer",
@@ -120,6 +121,7 @@
           "rasterizationpoint-depth",
           "rasterizationpoint-perspectivedivisor",
           "framebuffer",
+          "primitive-restart-value",
           "dom-gpumultisamplestate-count",
           "shader-output-mask",
           "abstract-opdef-validating-inter-stage-interfaces",

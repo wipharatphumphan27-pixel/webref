@@ -81,7 +81,7 @@
       "id": "unions_merges",
       "href": "https://w3c.github.io/rdf-semantics/spec/#unions_merges",
       "level": 3,
-      "title": "Shared blank nodes, unions and merges",
+      "title": "Shared blank nodes, unions, and merges",
       "alternateIds": [
         "x4-1-shared-blank-nodes-unions-and-merges"
       ],
@@ -286,64 +286,14 @@
       "number": "A"
     },
     {
-      "id": "finite_interpretations",
-      "href": "https://w3c.github.io/rdf-semantics/spec/#finite_interpretations",
-      "level": 2,
-      "title": "Finite interpretations",
-      "alternateIds": [
-        "b-finite-interpretations"
-      ],
-      "number": "B"
-    },
-    {
       "id": "proofs",
       "href": "https://w3c.github.io/rdf-semantics/spec/#proofs",
       "level": 2,
       "title": "Proofs of some results",
       "alternateIds": [
-        "c-proofs-of-some-results"
+        "b-proofs-of-some-results"
       ],
-      "number": "C"
-    },
-    {
-      "id": "whatnot",
-      "href": "https://w3c.github.io/rdf-semantics/spec/#whatnot",
-      "level": 2,
-      "title": "RDF reification, containers and collections",
-      "alternateIds": [
-        "non_semantics"
-      ],
-      "number": "D"
-    },
-    {
-      "id": "Reif",
-      "href": "https://w3c.github.io/rdf-semantics/spec/#Reif",
-      "level": 3,
-      "title": "Reification",
-      "alternateIds": [
-        "d-1-reification"
-      ],
-      "number": "D.1"
-    },
-    {
-      "id": "containers",
-      "href": "https://w3c.github.io/rdf-semantics/spec/#containers",
-      "level": 3,
-      "title": "RDF containers",
-      "alternateIds": [
-        "d-2-rdf-containers"
-      ],
-      "number": "D.2"
-    },
-    {
-      "id": "collections",
-      "href": "https://w3c.github.io/rdf-semantics/spec/#collections",
-      "level": 3,
-      "title": "RDF collections",
-      "alternateIds": [
-        "d-3-rdf-collections"
-      ],
-      "number": "D.3"
+      "number": "B"
     },
     {
       "id": "privacy",
@@ -351,9 +301,9 @@
       "level": 2,
       "title": "Privacy Considerations",
       "alternateIds": [
-        "e-privacy-considerations"
+        "c-privacy-considerations"
       ],
-      "number": "E"
+      "number": "C"
     },
     {
       "id": "security",
@@ -361,9 +311,9 @@
       "level": 2,
       "title": "Security Considerations",
       "alternateIds": [
-        "f-security-considerations"
+        "d-security-considerations"
       ],
-      "number": "F"
+      "number": "D"
     },
     {
       "id": "Acknowledgments",
@@ -371,9 +321,9 @@
       "level": 2,
       "title": "Acknowledgments",
       "alternateIds": [
-        "g-acknowledgments"
+        "e-acknowledgments"
       ],
-      "number": "G"
+      "number": "E"
     },
     {
       "id": "section-Changes",
@@ -381,9 +331,9 @@
       "level": 2,
       "title": "Substantive Changes",
       "alternateIds": [
-        "h-substantive-changes"
+        "f-substantive-changes"
       ],
-      "number": "H"
+      "number": "F"
     },
     {
       "id": "ChangeLog-11",
@@ -391,9 +341,9 @@
       "level": 3,
       "title": "Substantive changes between RDF 1.0 and RDF 1.1",
       "alternateIds": [
-        "h-1-substantive-changes-between-rdf-1-0-and-rdf-1-1"
+        "f-1-substantive-changes-between-rdf-1-0-and-rdf-1-1"
       ],
-      "number": "H.1"
+      "number": "F.1"
     },
     {
       "id": "ChangeLog-12",
@@ -401,9 +351,9 @@
       "level": 3,
       "title": "Substantive changes since RDF 1.1",
       "alternateIds": [
-        "h-2-substantive-changes-since-rdf-1-1"
+        "f-2-substantive-changes-since-rdf-1-1"
       ],
-      "number": "H.2"
+      "number": "F.2"
     },
     {
       "id": "index",
@@ -411,9 +361,9 @@
       "level": 2,
       "title": "Index",
       "alternateIds": [
-        "i-index"
+        "g-index"
       ],
-      "number": "I"
+      "number": "G"
     },
     {
       "id": "index-defined-here",
@@ -421,9 +371,9 @@
       "level": 3,
       "title": "Terms defined by this specification",
       "alternateIds": [
-        "i-1-terms-defined-by-this-specification"
+        "g-1-terms-defined-by-this-specification"
       ],
-      "number": "I.1"
+      "number": "G.1"
     },
     {
       "id": "index-defined-elsewhere",
@@ -431,9 +381,9 @@
       "level": 3,
       "title": "Terms defined by reference",
       "alternateIds": [
-        "i-2-terms-defined-by-reference"
+        "g-2-terms-defined-by-reference"
       ],
-      "number": "I.2"
+      "number": "G.2"
     },
     {
       "id": "references",
@@ -441,9 +391,9 @@
       "level": 2,
       "title": "References",
       "alternateIds": [
-        "j-references"
+        "h-references"
       ],
-      "number": "J"
+      "number": "H"
     },
     {
       "id": "normative-references",
@@ -451,9 +401,9 @@
       "level": 3,
       "title": "Normative references",
       "alternateIds": [
-        "j-1-normative-references"
+        "h-1-normative-references"
       ],
-      "number": "J.1"
+      "number": "H.1"
     },
     {
       "id": "informative-references",
@@ -461,9 +411,9 @@
       "level": 3,
       "title": "Informative references",
       "alternateIds": [
-        "j-2-informative-references"
+        "h-2-informative-references"
       ],
-      "number": "J.2"
+      "number": "H.2"
     }
   ]
 }

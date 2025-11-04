@@ -37,13 +37,8 @@
       "https://github.com/w3c/mathml": {},
       "https://github.com/w3c/mathml-docs": {},
       "https://github.com/w3c/mathml/issues/178": {},
-      "https://github.com/w3c/mathml/issues/180": {},
       "https://github.com/w3c/mathml/issues/247": {},
-      "https://github.com/w3c/mathml/issues/284": {},
-      "https://github.com/w3c/mathml/issues/304": {},
-      "https://github.com/w3c/mathml/issues/361": {},
       "https://github.com/w3c/mathml/issues/?q=is%3Aissue+is%3Aopen+label%3A%22MathML+4%22": {},
-      "https://github.com/w3c/mathml/issues/?q=is%3Aissue+is%3Aopen+label%3A%22compatibility%22": {},
       "https://github.com/w3c/mathml/issues/?q=is%3Aissue+is%3Aopen+label%3A%22css+%2F+html5%22": {},
       "https://github.com/w3c/mathml/issues/?q=is%3Aissue+is%3Aopen+label%3A%22need+specification+update%22": {},
       "https://html.spec.whatwg.org/multipage/": {},
@@ -429,7 +424,7 @@
       "https://www.rfc-editor.org/rfc/rfc3987": {},
       "https://www.rfc-editor.org/rfc/rfc7303": {},
       "https://www.rfc-editor.org/rfc/rfc8174": {},
-      "https://www.unicode.org/reports/tr9/tr9-50.html": {},
+      "https://www.unicode.org/reports/tr9/tr9-51.html": {},
       "https://www.unicode.org/versions/latest/": {},
       "https://www.w3.org/Math/": {},
       "https://www.w3.org/Math/RelaxNG/mathml4/mathml4-content.rnc": {},
@@ -501,7 +496,7 @@
           "sec-Disclosure"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {}
+      "https://www.w3.org/policies/process/20250818/": {}
     },
     "autolinks": {}
   }

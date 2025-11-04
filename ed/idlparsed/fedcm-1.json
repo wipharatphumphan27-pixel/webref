@@ -46,7 +46,7 @@
         "href": "https://w3c-fedid.github.io/FedCM/#dictdef-identitycredentialdisconnectoptions"
       },
       "IdentityCredential": {
-        "fragment": "[Exposed=Window, SecureContext]\ninterface IdentityCredential : Credential {\n  static Promise<undefined> disconnect(IdentityCredentialDisconnectOptions options);\n  readonly attribute USVString? token;\n  readonly attribute boolean isAutoSelected;\n  readonly attribute USVString configURL;\n};",
+        "fragment": "[Exposed=Window, SecureContext]\ninterface IdentityCredential : Credential {\n  static Promise<undefined> disconnect(IdentityCredentialDisconnectOptions options);\n  readonly attribute any token;\n  readonly attribute boolean isAutoSelected;\n  readonly attribute USVString configURL;\n};",
         "type": "interface",
         "name": "IdentityCredential",
         "inheritance": "Credential",
@@ -100,9 +100,9 @@
               "type": "attribute-type",
               "extAttrs": [],
               "generic": "",
-              "nullable": true,
+              "nullable": false,
               "union": false,
-              "idlType": "USVString"
+              "idlType": "any"
             },
             "extAttrs": [],
             "special": "",
@@ -501,27 +501,11 @@
         "href": "https://w3c-fedid.github.io/FedCM/#dictdef-identityproviderconfig"
       },
       "IdentityProviderRequestOptions": {
-        "fragment": "dictionary IdentityProviderRequestOptions : IdentityProviderConfig {\n  USVString nonce;\n  DOMString loginHint;\n  DOMString domainHint;\n  sequence<USVString> fields;\n  any params;\n};",
+        "fragment": "dictionary IdentityProviderRequestOptions : IdentityProviderConfig {\n  DOMString loginHint;\n  DOMString domainHint;\n  sequence<USVString> fields;\n  any params;\n};",
         "type": "dictionary",
         "name": "IdentityProviderRequestOptions",
         "inheritance": "IdentityProviderConfig",
         "members": [
-          {
-            "type": "field",
-            "name": "nonce",
-            "extAttrs": [],
-            "idlType": {
-              "type": "dictionary-type",
-              "extAttrs": [],
-              "generic": "",
-              "nullable": false,
-              "union": false,
-              "idlType": "USVString"
-            },
-            "default": null,
-            "required": false,
-            "href": "https://w3c-fedid.github.io/FedCM/#dom-identityproviderrequestoptions-nonce"
-          },
           {
             "type": "field",
             "name": "loginHint",
@@ -1197,7 +1181,7 @@
         "href": "https://w3c-fedid.github.io/FedCM/#dictdef-identityprovideraccountlist"
       },
       "IdentityAssertionResponse": {
-        "fragment": "dictionary IdentityAssertionResponse {\n  USVString token;\n  USVString continue_on;\n  IdentityCredentialErrorInit error;\n};",
+        "fragment": "dictionary IdentityAssertionResponse {\n  any token;\n  USVString continue_on;\n  IdentityCredentialErrorInit error;\n};",
         "type": "dictionary",
         "name": "IdentityAssertionResponse",
         "inheritance": null,
@@ -1212,7 +1196,7 @@
               "generic": "",
               "nullable": false,
               "union": false,
-              "idlType": "USVString"
+              "idlType": "any"
             },
             "default": null,
             "required": false,
@@ -1256,7 +1240,7 @@
         "href": "https://w3c-fedid.github.io/FedCM/#dictdef-identityassertionresponse"
       },
       "IdentityProviderClientMetadata": {
-        "fragment": "dictionary IdentityProviderClientMetadata {\n  USVString privacy_policy_url;\n  USVString terms_of_service_url;\n};",
+        "fragment": "dictionary IdentityProviderClientMetadata {\n  USVString privacy_policy_url;\n  USVString terms_of_service_url;\n  boolean client_is_third_party_to_top_frame_origin = false;\n};",
         "type": "dictionary",
         "name": "IdentityProviderClientMetadata",
         "inheritance": null,
@@ -1292,6 +1276,25 @@
             "default": null,
             "required": false,
             "href": "https://w3c-fedid.github.io/FedCM/#dom-identityproviderclientmetadata-terms_of_service_url"
+          },
+          {
+            "type": "field",
+            "name": "client_is_third_party_to_top_frame_origin",
+            "extAttrs": [],
+            "idlType": {
+              "type": "dictionary-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "boolean"
+            },
+            "default": {
+              "type": "boolean",
+              "value": false
+            },
+            "required": false,
+            "href": "https://w3c-fedid.github.io/FedCM/#dom-identityproviderclientmetadata-client_is_third_party_to_top_frame_origin"
           }
         ],
         "extAttrs": [],
@@ -1401,7 +1404,7 @@
         "href": "https://w3c-fedid.github.io/FedCM/#dictdef-identityresolveoptions"
       },
       "IdentityProvider": {
-        "fragment": "[Exposed=Window, SecureContext] interface IdentityProvider {\n    static undefined close();\n    static Promise<undefined> resolve(DOMString token, optional IdentityResolveOptions options = {});\n    static Promise<sequence<IdentityUserInfo>> getUserInfo(IdentityProviderConfig config);\n};",
+        "fragment": "[Exposed=Window, SecureContext] interface IdentityProvider {\n    static undefined close();\n    static Promise<undefined> resolve(any token, optional IdentityResolveOptions options = {});\n    static Promise<sequence<IdentityUserInfo>> getUserInfo(IdentityProviderConfig config);\n};",
         "type": "interface",
         "name": "IdentityProvider",
         "inheritance": null,
@@ -1453,7 +1456,7 @@
                   "generic": "",
                   "nullable": false,
                   "union": false,
-                  "idlType": "DOMString"
+                  "idlType": "any"
                 },
                 "default": null,
                 "optional": false,

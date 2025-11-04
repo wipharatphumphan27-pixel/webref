@@ -115,7 +115,11 @@
           "hl-intrusion"
         ]
       },
-      "https://webidl.spec.whatwg.org/": {},
+      "https://webidl.spec.whatwg.org/": {
+        "anchors": [
+          "idl-any"
+        ]
+      },
       "https://webkit.org/blog/10218/full-third-party-cookie-blocking-and-more/": {},
       "https://wiki.mozilla.org/Identity/Persona_AAR": {},
       "https://www.rfc-editor.org/rfc/rfc6973": {
@@ -137,7 +141,7 @@
           "sec-Disclosure"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {}
+      "https://www.w3.org/policies/process/20250818/": {}
     },
     "autolinks": {
       "https://datatracker.ietf.org/doc/html/rfc2119": {},
@@ -207,8 +211,10 @@
         "anchors": [
           "concept-origin",
           "same-origin",
+          "same-site",
           "concept-origin-opaque",
-          "concept-origin-scheme"
+          "concept-origin-scheme",
+          "ascii-serialisation-of-an-origin"
         ]
       },
       "https://html.spec.whatwg.org/multipage/document-sequences.html": {
@@ -279,6 +285,7 @@
           "map-getting-the-values",
           "list-extend",
           "serialize-a-javascript-value-to-a-json-string",
+          "string-concatenate",
           "string",
           "parse-json-bytes-to-a-javascript-value",
           "list-append",
@@ -300,11 +307,12 @@
           "concept-url-origin",
           "concept-url",
           "concept-urlencoded-serializer",
+          "host-registrable-domain",
           "concept-url-scheme",
           "concept-url-host",
-          "host-registrable-domain",
           "concept-url-path",
           "concept-url-equals",
+          "url-query-string",
           "concept-url-parser",
           "concept-url-query"
         ]
@@ -380,6 +388,7 @@
           "SecureContext",
           "idl-promise",
           "idl-undefined",
+          "idl-any",
           "idl-boolean",
           "notallowederror",
           "idl-DOMException",
@@ -394,7 +403,6 @@
           "dom-domexception-domexception",
           "this",
           "idl-sequence",
-          "idl-any",
           "idl-unsigned-long",
           "a-promise-rejected-with",
           "dfn-dictionary"
